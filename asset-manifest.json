@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/omkaWeb/static/css/main.2d786bc2.css",
-    "main.js": "/omkaWeb/static/js/main.7ab6430a.js",
+    "main.js": "/omkaWeb/static/js/main.ce3e0875.js",
     "static/js/787.cda612ba.chunk.js": "/omkaWeb/static/js/787.cda612ba.chunk.js",
     "static/media/Omkatech Portfolio.pdf": "/omkaWeb/static/media/Omkatech Portfolio.4f09f666fda69fe8b5d5.pdf",
     "static/media/a2.jpg": "/omkaWeb/static/media/a2.693da55eff484b804c30.jpg",
@@ -158,11 +158,11 @@
     "static/media/03.PNG": "/omkaWeb/static/media/03.5f8f6ba2656f447a0523.PNG",
     "static/media/04.PNG": "/omkaWeb/static/media/04.a426b9a13d0ffacc12a0.PNG",
     "main.2d786bc2.css.map": "/omkaWeb/static/css/main.2d786bc2.css.map",
-    "main.7ab6430a.js.map": "/omkaWeb/static/js/main.7ab6430a.js.map",
+    "main.ce3e0875.js.map": "/omkaWeb/static/js/main.ce3e0875.js.map",
     "787.cda612ba.chunk.js.map": "/omkaWeb/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2d786bc2.css",
-    "static/js/main.7ab6430a.js"
+    "static/js/main.ce3e0875.js"
   ]
 }
