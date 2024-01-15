@@ -1,0 +1,697 @@
+import React, { useState, useEffect } from "react";
+import Flogo from "../../../images/01 logo.png";
+import "../../css/style.css";
+import Helmet from "react-helmet";
+import Footer from "../Footer";
+import GetInTounch from "../GetInTounch";
+import b1 from "../../../images/blog/a1.png";
+import b2 from "../../../images/blog/a3.jpg";
+import axios from "axios";
+import b3 from "../../../images/blog/a2.jpg";
+// blogimg
+import blog1 from '../../../images/blog/TRANSFORMATION.png'
+import blog2 from '../../../images/blog/02 Outsourcing-01.jpg'
+import blog3 from '../../../images/blog/03 website design-01.jpg'
+import blog4 from '../../../images/blog/04 ecommerce-01.jpg'
+import blog5 from '../../../images/blog/b11.png';
+import $ from 'jquery'
+
+import { useNavigate } from "react-router-dom";
+const { REACT_APP_API_ENDPOINT } = process.env;
+
+const Blog4 = () => {
+    $(document).ready(function () {
+        $(window).scroll(function () {
+          if ($(window).scrollTop() > 56) {
+            $(".navbar").addClass("bg-dark1");
+            $(".navbar").addClass("text-whitee"); // Add text-white class
+          } else {
+            $(".navbar").removeClass("bg-dark1");
+            $(".navbar").removeClass("text-whitee"); // Remove text-white class
+          }
+        });
+    
+        $(".navbar-toggler").click(function () {
+          if (!$(".navbar-collapse").hasClass("show")) {
+            $(".navbar").addClass("bg-dark1");
+            $(".navbar").addClass("text-whitee"); // Add text-white class
+          } else {
+            if ($(window).scrollTop() < 56) {
+              $(".navbar").removeClass("bg-dark1");
+              $(".navbar").removeClass("text-whitee"); // Remove text-white class
+            }
+          }
+        });
+      });
+    
+    
+      // JavaScript to handle the scrolling effect
+    
+    let prevScrollPos = window.pageYOffset;
+    const topNavbar = document.getElementById("topNavbar");
+    const bottomNavbar = document.getElementById("bottomNavbar");
+    
+    window.onscroll = () => {
+        const currentScrollPos = window.pageYOffset;
+    
+        if (prevScrollPos > currentScrollPos) {
+            topNavbar.style.transform = "translateY(0)";
+            topNavbar.style.opacity = "1";
+        } else {
+            topNavbar.style.transform = "translateY(-100%)";
+            topNavbar.style.opacity = "0";
+        }
+    
+        prevScrollPos = currentScrollPos;
+    };
+    const [NameP, setNameP] = useState("");
+    const [PhoneP, setPhoneP] = useState("");
+    const [EmailP, setEmailP] = useState("");
+    const [Message, setMessage] = useState("");
+    const [message, setMess] = useState("");
+    const [emailError, setEmailError] = useState('');
+    const navigate = useNavigate("");
+    const submitNowP = (e) => {
+
+        const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+
+        if (!emailPattern.test(EmailP)) {
+            setEmailError('Invalid email address');
+        } else if (EmailP === "") {
+            setMess("Required *");
+        } else {
+            navigate("/thankyou");
+            const url = `${REACT_APP_API_ENDPOINT}/home.php`;
+            let formData = new FormData();
+            formData.append("Name", NameP);
+            formData.append("Email", EmailP);
+            formData.append("Phone", PhoneP);
+            formData.append("Message", Message);
+            axios.post(url, formData).then((res) => {
+
+            });
+            setNameP("");
+            setEmailP("");
+            setPhoneP("");
+            setMessage("");
+            e.preventDefault();
+        }
+    };
+    return (
+        <div>
+            <Helmet>
+                <script>{`{"gtag('event', 'conversion', {'send_to': 'AW-676251754/uHhwCNibqokYEOqQu8IC'});"}`}</script>
+
+            </Helmet>
+            <Helmet>
+                <title>
+                    Web Design & Development Company in Noida
+                </title>
+                <meta
+                    name="description" data-react-helmet="true"
+                    content="We’re a website development company in Noida. Omka Tech offers SEO-friendly, mobile-responsive websites with 24/7 support. Open your online store with us."
+                />
+                <meta
+                    name="keywords" data-react-helmet="true"
+                    content="Website Design, Web design, Web Development Company, Website Development Company"
+                />
+
+            </Helmet>
+            <nav
+        id="topNavbar"
+        class=""
+        data-wow-delay="0.1s"
+        style={{ height: "60px", backgroundColor: "white" }}
+      >
+        <div class="container" >
+        
+        <div class="flag-container">
+                            <img src='../india.png' class="flag-icon" alt ="india"></img><span style={{ color: "white" }}>|</span>&nbsp;&nbsp;
+                            <img src='../us.png' class="flag-icon" alt ="US"></img><span style={{ color: "white" }}>|</span>&nbsp;&nbsp;
+                            <img src='../canda.png' class="flag-icon" alt ="Canda"></img>
+                        </div>
+                    <div className="row" id="gsss" >
+
+                        <div className="col-5"></div>
+                        <div className="col-7">
+                            <a href="tel:+1 (786)648-29107"> <img src='../c.jpg' id="flag" alt="canda"></img>&nbsp;+1(786) 648-2910</a>&nbsp; |&nbsp;&nbsp;
+                            <a href="tel:+1 (437) 979-1504"><img src='../po.jpg' id="flag" alt="US"></img> &nbsp;+1 (437) 979-1504</a>&nbsp; |&nbsp;&nbsp;
+
+                            <a href="tel:+91 9717511913"><img src='../in.jpg' id="flag" alt="india" ></img>&nbsp; +91 9717511913</a>
+                        </div>
+
+                    </div>
+        </div>
+      </nav>
+            {/* navbar */}
+            <nav
+                class="navbar navbar-expand-md fixed-top navbar-dark py-lg-0 px-lg-5"
+                data-wow-delay="0.1s"id="bottomNavbar" style={{ backgroundColor: "#F2F2F2", height: "80px" }}
+            >
+                <a href="/" class="navbar-brand ms-3 d-lg-none" rel="noopener noreferrer">
+                    <img
+                        alt="Omka Tech logo"
+                        src={Flogo}
+
+                        id="hidelogo1"
+                        style={{ height: "40px", marginLeft: "-20px" }}
+                    ></img>
+                </a>
+                <button
+                    type="button"
+                    class="navbar-toggler me-3"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav me-auto p-3 p-lg-0" style={{ marginTop: "15px" }}>
+                        <a
+                            href="/"
+                            style={{
+                                height: "56px",
+                                // marginTop: "4px",
+                                backgroundColor: "transparent",
+                                border: "none",
+                            }}
+                            rel="noopener noreferrer"
+                        >
+                            <img
+                                src={Flogo}
+                                style={{
+                                    height: "55px",
+                                    marginTop: "10px",
+                                }}
+                                id="hidelogo"
+                                alt="Omka Tech logo"
+                            ></img>
+                        </a>
+                        <a href="/" class="nav-item nav-link" id="homeleft">
+                            Home
+                        </a>
+                        &nbsp;&nbsp;&nbsp;
+                        <div class="nav-item dropdown">
+                            <a
+                                rel="noopener noreferrer"
+                                href="#"
+                                class="nav-link dropdown-toggle"
+                                data-bs-toggle="dropdown"
+                            >
+                                About Us
+                            </a>
+                            <div
+                                class="dropdown-menu border-0 rounded-0 rounded-bottom m-0"
+                                style={{ marginTop: "-20px" }}
+                            >
+                                <a href="/about-us" class="dropdown-item" rel="noopener noreferrer">
+                                    Our Company
+                                </a>
+                                <a href="/Careers" class="dropdown-item" rel="noopener noreferrer">
+                                    Careers
+                                </a>
+                                {/* <a
+                  href="/Main"
+                  class="dropdown-item"
+                  rel="noopener noreferrer"
+                >
+                  CaseStudy
+                </a> */}
+                            </div>
+                        </div>
+                        &nbsp;&nbsp;&nbsp;
+                        <div class="nav-item dropdown">
+                            <a
+                                href="#"
+                                class="nav-link dropdown-toggle"
+                                data-bs-toggle="dropdown"
+                                rel="noopener noreferrer"
+                            >
+                                Services
+                            </a>
+                            <div
+                                class="dropdown-menu border-0 rounded-0 rounded-bottom m-0"
+                                style={{ marginTop: "-20px" }}
+                            >
+                                <a href="/services/website-development" class="dropdown-item" rel="noopener noreferrer">
+                                    Website Development
+                                </a>
+                                <a
+                                    href="/services/mobile-app-development"
+                                    class="dropdown-item" rel="noopener noreferrer"
+                                >
+                                    Mobile App Development
+                                </a>
+                                <a href="/services/designing" class="dropdown-item" rel="noopener noreferrer">
+                                    Graphics & UI/UX
+                                </a>
+                                <a
+                                    href="/services/social-media-marketing"
+                                    class="dropdown-item" rel="noopener noreferrer"
+                                >
+                                    Growth & Marketing
+                                </a>
+                                <a
+                                    href="/services/enterprise-software-solution"
+                                    class="dropdown-item"
+                                >
+                                    Enterprise Software Solution
+                                </a>
+                                <a href="/services/e-commerce-web-apps" class="dropdown-item" rel="noopener noreferrer">
+                                    E-Commerce Web & Apps
+                                </a>
+                                <a
+                                    href="/services/cms-design-development"
+                                    class="dropdown-item" rel="noopener noreferrer"
+                                >
+                                    CMS Design & Development
+                                </a>
+                                {/* <a href="/Services/ReadyMadeSolution" class="dropdown-item">
+                  Ready Made Solution
+                </a> */}
+                            </div>
+                        </div>
+                        &nbsp;&nbsp;&nbsp;
+                        <a href="/hire-resources" class="nav-item nav-link" rel="noopener noreferrer">
+                            Hire Resources
+                        </a>
+                        &nbsp;&nbsp;&nbsp;
+                        <a href="/blog" class="nav-item nav-link active" rel="noopener noreferrer">
+                            Blog
+                        </a>
+                        &nbsp;&nbsp;&nbsp;
+                        <a
+                            href="/contact-us"
+                            style={{
+                                textDecoration: "none",
+                                color: "White",
+                                marginTop: "25px",
+                            }}
+                            rel="noopener noreferrer"
+                        >
+                            <button
+                                type="button"
+                                class="btn btn-primary rounded-pill"
+                                id="quote"
+                                style={{ animation: "pulse 1.1s ease infinite", color: "white" }}
+                            >
+                                Get Quote
+                            </button>
+                        </a>
+                       
+                    </div>
+                </div>
+            </nav>
+            <img src="https://www.code-brew.com/wp-content/themes/Avada-Child-Theme/media/2023/05/blog_banner.webp?var=580408830" id="suri2"></img>
+            <p id="kj1"><br/>How Ecommerce Website Development Is<br /> Necessary for a Business to Succeed?</p><br />
+            <p id="kj2">Date : August 30, 2023 </p>
+
+
+
+       <br/>
+
+            <div className="container-xxl" style={{ marginTop: "80px" }}>
+                <div className="row">
+                    <div className="col-8">
+
+                        <section class="main" >
+                            <br />
+                            <h2 id="sg2">How Ecommerce Website Development Is Necessary for a Business
+                                to Succeed?</h2>
+
+
+                            <div class="container-xxl">
+                                <div class="container">
+                                    <p id="sg3" style={{ lineHeight: "30px" }}>
+                                        Ecommerce website development plays a crucial role in the success of a
+                                        business in today's digital landscape. Here are several reasons why it is
+                                        necessary for a business to succeed.</p>
+                                    <p id="sg3" style={{ lineHeight: "30px" }}>
+                                        <span>
+                                            {" "}
+                                            <b>•  Global Reach: </b>{" "}
+                                        </span>
+                                        <br /> An ecommerce website allows businesses to expand their
+                                        reach beyond local markets and tap into a global customer base. With an online
+                                        store, businesses can sell their products or services to customers from different
+                                        geographical locations, increasing their potential customer base significantly. An
+                                        ecommerce website development breaks down geographical barriers and allows
+                                        businesses to reach customers beyond their local market. With an online store,
+                                        businesses can target customers nationally or even internationally, significantly
+                                        expanding their customer base. This increased reach can lead to higher sales
+                                        and business growth.
+                                    </p>
+                                    <p id="sg3" style={{ lineHeight: "30px" }}>
+                                        <span>
+                                            <b> • 24/7 Availability </b>{" "}
+                                        </span>
+                                        <br /> Unlike traditional brick-and-mortar stores with fixed
+                                        operating hours, an ecommerce website enables businesses to remain open
+                                        24/7. Customers can visit the website and make purchases at any time,
+                                        providing convenience and flexibility. This accessibility can lead to increased
+                                        sales and revenue.
+                                    </p>
+
+
+
+                                </div>
+                            </div>
+                            <div class="container-xxl">
+                                <div class="container">
+                                    <img src={b1} alt="blog-image" id="blog1img2" ></img>
+                                </div>
+                            </div>
+                            {/* --------------------------------------------- */}
+                            <br />
+
+                            <div class="container-xxl">
+                                <div class="container">
+
+                                    <p id="sg3" style={{ lineHeight: "30px" }}>
+                                        <span>
+                                            {" "}
+                                            <b>•  Increased Sales Opportunities: </b>{" "}
+                                        </span>
+                                        <br /> By having an ecommerce website,
+                                        businesses can capitalize on the growing trend of online shopping. With the
+                                        ability to showcase their products or services online, provide detailed
+                                        descriptions, high-quality images, and customer reviews, businesses can attract
+                                        more customers and drive more sales. Additionally, an ecommerce website
+                                        enables businesses to implement various marketing strategies, such as
+                                        discounts, promotions, or cross-selling, to further boost sales. An e-commerce
+                                        website allows your business to showcase their products or services to a
+                                        targeted audience. With effective marketing strategies and search engine
+                                        optimization (SEO), businesses can attract more potential customers and
+                                        increase their sales potential.
+                                    </p>
+                                    <p id="sg3" style={{ lineHeight: "30px" }}>
+                                        <span>
+                                            <b> • Cost-Effectiveness </b>{" "}
+                                        </span>
+                                        <br /> Ecommerce website development can be a cost-
+                                        effective solution for businesses compared to establishing and maintaining
+                                        physical stores. The expenses associated with rent, utilities, staffing, and
+                                        inventory management for a physical store are significantly higher. Businesses
+                                        can reduce these costs by operating primarily online and allocating resources to
+                                        other areas such as marketing, product improvement, or customer service.
+                                        Compared to establishing and maintaining a physical store, ecommerce websites
+                                        are relatively more cost-effective. The expenses associated with rent, utilities,
+                                        staff, and other overhead costs are significantly reduced. This allows businesses
+                                        to allocate their resources to other critical areas such as marketing, product
+                                        development, or customer service.
+                                    </p>
+
+                                    <p id="sg3" style={{ lineHeight: "30px" }}>
+                                        <span>
+                                            <b> • Improved Customer Experience </b>{" "}
+                                        </span>
+                                        <br /> Ecommerce websites provide customers
+                                        with a convenient and user-friendly shopping experience. They can browse
+                                        products, compare prices, read reviews, and make purchases with just a few
+                                        clicks. Additionally, features like personalized recommendations and easy
+                                        payment options enhance the overall customer experience, leading to customer
+                                        satisfaction and loyalty. Ecommerce web development generate valuable data
+                                        about customer behavior, preferences, and purchasing patterns. By leveraging
+                                        analytics tools, businesses can gain insights into customer trends, identify
+                                        popular products or services, and understand customer needs better. This data-
+                                        driven approach allows businesses to make informed decisions regarding
+                                        inventory management, marketing campaigns, and product development,
+                                        leading to better business growth strategies.
+                                    </p>
+
+                                </div>
+                            </div>
+                            <div class="container-xxl">
+                                <div class="container">
+                                    <img src={b2} alt="blog-image" id="blog1img2"></img>
+                                </div>
+                            </div>
+                            <br />
+                            <div class="container-xxl">
+                                <div class="container">
+
+                                    <p id="sg3" style={{ lineHeight: "30px" }}>
+                                        <span>
+                                            {" "}
+                                            <b>•  Data Collection and Analysis: </b>{" "}
+                                        </span>
+                                        <br /> Ecommerce websites generate valuable data
+                                        on customer behavior, preferences, and purchasing patterns. By analyzing this
+                                        data, businesses can gain insights into customer trends, identify opportunities
+                                        for improvement, and make data-driven decisions. This information can be used
+                                        to optimize marketing campaigns, improve product offerings, and enhance the
+                                        overall business strategy.
+                                    </p>
+                                    <p id="sg3" style={{ lineHeight: "30px" }}>
+                                        <span>
+                                            <b> • Competitive Advantage </b>{" "}
+                                        </span>
+                                        <br /> In today's competitive market, having an
+                                        ecommerce website is essential to stay ahead of the competition. Customers
+                                        expect businesses to have an online presence, and without it, a business may
+                                        lose potential customers to competitors who offer online purchasing options. An
+                                        ecommerce website allows businesses to establish their brand, showcase their
+                                        unique value proposition, and compete effectively in the digital space. By
+                                        providing a superior online experience compared to competitors, businesses can
+                                        attract and retain customers, leading to business growth.
+                                    </p>
+
+                                    <p id="sg3" style={{ lineHeight: "30px" }}>
+                                        <span>
+                                            <b> • Scalability and Flexibility </b>{" "}
+                                        </span>
+                                        <br /> Custom ecommerce development company offers
+                                        businesses the flexibility to scale their operations according to demand. Whether
+                                        a business experiences sudden growth or needs to expand its product range, an
+                                        ecommerce platform allows for easy scalability. Businesses can add new
+                                        products, update inventory, and optimize the website to accommodate increased
+                                        traffic and sales.
+                                    </p>
+                                    <br />
+
+
+                                </div>
+                            </div>
+                            <div class="container-xxl">
+                                <div class="container">
+                                    <img src={b3} alt="blog-image" id="blog1img2" ></img>
+                                </div>
+                            </div>
+                            <br />
+                            <div class="container-xxl">
+                                <div class="container">
+                                    <p id="sg3" style={{ lineHeight: "30px" }}>
+
+                                        <br /> In conclusion, ecommerce website development is necessary for a business to
+                                        succeed in the modern business landscape. It enables businesses to expand their
+                                        reach, increase sales potential, provide a seamless customer experience, and
+                                        gain a competitive advantage. By leveraging the power of ecommerce,
+                                        businesses can drive revenue, adapt to changing market dynamics, and gain a
+                                        competitive advantage, ultimately fuelling their growth and success.
+                                    </p>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div className="col-4" >
+
+                        <aside >
+                            <br /><br />
+                            <h3 id="sg4"><center>Recent Blog</center></h3>
+                            <nav id="sg1">
+                                <ul id="sg2">
+                                    <li><a href="/blog/the-importance-of-digital-transformation-in-modern-business" ><i class="fa fa-hand-o-right" style={{ fontSize: "23px" }}></i>&nbsp;  The Importance of Digital
+                                        Transformation in Modern
+                                        Business</a></li>
+                                    <li >
+                                        <a href="/blog/the-Pros-and-Cons-of-outsourcing-IT-services-for-your-business" >
+                                            <i class="fa fa-hand-o-right" style={{ fontSize: "23px" }}></i>&nbsp; The Pros and Cons of Outsourcing IT Services for Your Business
+                                        </a>
+                                    </li>
+                                    <li><a href="/blog/how-your-new-website-design-will-help-your-business-grow" >
+
+                                        <i class="fa fa-hand-o-right" style={{ fontSize: "23px" }}></i>&nbsp; How Your New Website Design Will Help Your Business Grow?</a>
+                                    </li>
+                                    <li ><a href="/blog/how-ecommerce-website-development-is-necessary-for-a-business-to-succeed" className="active1"  >
+
+                                        <i class="fa fa-hand-o-right" style={{ fontSize: "23px" }}></i>&nbsp; How Ecommerce Website Development Is Necessary for a Business
+                                        to Succeed?</a>
+                                    </li>
+                                    <li> <a href="/blog/top-reasons-why-strategies-fail"  >
+
+                                        <i class="fa fa-hand-o-right" style={{ fontSize: "23px" }}></i>&nbsp;Top Reasons Why Strategies Fail ?</a></li>
+                                    <li>           
+                                        
+                                    <li> <a href="/blog/the-art-of-branding:-understanding-the-7-types-of-Logos"  >
+
+<i class="fa fa-hand-o-right" style={{ fontSize: "23px" }}></i>&nbsp;The Art of Branding : Understanding the 7 Types of Logos</a></li>      <div id="kj4">
+                                        <br /><h4 id="kj5">Let’s Build</h4>
+                                        <h3 id="kj5">Your Dream App!</h3>
+                                        <form id="kj6">
+                                            <input type="text" value={NameP}
+                                                onChange={(e) => {
+                                                    setNameP(e.target.value);
+                                                }} placeholder="Name" className="kj"></input>
+                                            <br />
+                                            <input type="email" placeholder="Email" className="kj" value={EmailP}
+                                                onChange={(e) => {
+                                                    setEmailP(e.target.value);
+                                                    setEmailError('');
+                                                }}></input>
+                                            <br />
+                                            <input type="number" placeholder="Phone" className="kj" value={PhoneP}
+                                                onChange={(e) => {
+                                                    setPhoneP(e.target.value);
+                                                }}></input>
+                                            <br />
+                                            <textarea placeholder="What's your project about ?" className="kj" cols={22} value={Message}
+                                                onChange={(e) => {
+                                                    setMessage(e.target.value);
+                                                }}></textarea>
+
+                                            <button
+                                                class="btn btn-primary kj  py-2 px-3"
+                                                onClick={submitNowP}
+
+                                            >
+
+                                                {" "}
+                                                <center id="ds" style={{ color: "white" }}>Submit</center>
+
+                                            </button>
+                                        </form>
+                                    </div></li>
+                                    <li><div className="kj1">
+                                        <span className="kj2">Share On</span> &nbsp;
+                                        <span className="kj3">
+                                            <a href="">  <img class="img img-responsive" src="https://www.code-brew.com/wp-content/themes/Avada-Child-Theme/media/2023/05/social_share_img1.webp?var=380929123" alt="Facebook" /></a>&nbsp;
+                                            <a href=""> <img class="img img-responsive" src="https://www.code-brew.com/wp-content/themes/Avada-Child-Theme/media/2023/05/social_share_img2.webp?var=1766419074" alt="Twitter"></img></a>&nbsp;
+                                            <a href=""> <img class="img img-responsive" src="https://www.code-brew.com/wp-content/themes/Avada-Child-Theme/media/2023/05/social_share_img3.webp?var=28660498" alt="Linked In"></img></a>
+                                        </span>
+
+                                    </div></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                </ul>
+                            </nav>
+                        </aside>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="container-xl" id="explore">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2>Explore <b>More</b></h2>
+                        <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="0"  >
+
+                            <div class="carousel-inner">
+                                <div class="item carousel-item active">
+                                    <div class="row">
+
+                                        <div className="col-4">
+                                            <div class="card" >
+                                                <img class="card-img-top kj7" src={blog1} alt="Card image cap" style={{ maxWidth: "100%", height: "200px" }} />
+                                                <div class="card-body">
+
+                                                    <p class="card-text">  The Importance of Digital
+                                                        Transformation in Modern
+                                                        Business</p>
+                                                    <p><i class="fa fa-calendar"></i> 30th August 2023</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="col-4">
+                                            <div class="card" >
+                                                <img class="card-img-top kj7" src={blog2} alt="Card image cap" style={{ maxWidth: "100%", height: "200px" }} />
+                                                <div class="card-body">
+
+                                                    <p class="card-text">The Pros and Cons of Outsourcing IT Services for Your Business.</p>
+                                                    <p><i class="fa fa-calendar"></i> 30th August 2023</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="col-4">
+                                            <div class="card" >
+                                                <img class="card-img-top kj7" src={blog3} alt="Card image cap" style={{ maxWidth: "100%", height: "200px" }} />
+                                                <div class="card-body">
+
+                                                    <p class="card-text">How Your New Website Design Will Help Your Business Grow?</p><br />
+                                                    <p><i class="fa fa-calendar"></i> 30th August 2023</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item carousel-item">
+                                    <div class="row">
+
+                                        <div className="col-4">
+                                            <div class="card" >
+                                                <img class="card-img-top kj7" src={blog3} alt="Card image cap" style={{ maxWidth: "100%", height: "200px" }} />
+                                                <div class="card-body">
+
+                                                    <p class="card-text">How Your New Website Design Will Help Your Business Grow?</p><br />
+                                                    <p><i class="fa fa-calendar"></i> 30th August 2023</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="col-4">
+                                            <div class="card" >
+                                                <img class="card-img-top kj7" src={blog4} alt="Card image cap" style={{ maxWidth: "100%", height: "200px" }} />
+                                                <div class="card-body">
+
+                                                    <p class="card-text">How Ecommerce Website Development Is Necessary for a Business
+                                                        to Succeed?</p>
+                                                    <p><i class="fa fa-calendar"></i> 30th August 2023</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="col-4">
+                                            <div class="card" >
+                                                <img class="kj7" src={blog5} alt="Card image cap" style={{ maxWidth: "100%", height: "200px" }} />
+                                                <div class="card-body">
+
+                                                    <p class="card-text"> Top Reasons Why Strategies Fail</p><br /><br />
+                                                    <p><i class="fa fa-calendar"></i> 30th August 2023</p>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+                                <i class="fa fa-angle-left" style={{ color: "darkgray" }}></i>
+                            </a>
+                            <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+                                <i class="fa fa-angle-right" style={{ color: "darkgray", marginLeft: "50px" }}></i>
+                            </a>
+                        </div>
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active" style={{ marginTop: "140px" }}></li>
+                            <li data-target="#myCarousel" style={{ marginTop: "140px" }} data-slide-to="1"></li>
+
+                        </ol>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <GetInTounch />
+            <br />
+<Footer/>
+        </div>
+    )
+}
+
+export default Blog4
+
+
+                       

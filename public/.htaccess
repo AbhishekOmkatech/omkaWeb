@@ -1,0 +1,16 @@
+RewriteEngine On
+RewriteBase /
+<IfModule mod_headers.c>
+Header set Access-Control-Allow-Origin "*"
+</IfModule>
+# Redirect non-www URLs to www
+RewriteCond %{HTTP_HOST} ^omkatech\.com$ [NC]
+RewriteRule ^(.*)$ https://www.omkatech.com/$1 [L,R=301]
+
+# Serve index.html without changing the URL
+RewriteRule ^index\.html$ - [L]
+
+# Rewrite all other requests to index.html
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.html [L]
