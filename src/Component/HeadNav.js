@@ -269,7 +269,7 @@ window.onscroll = () => {
                 id="quote"
                 style={{ animation: "pulse 1.1s ease infinite", color: "white" }}
               >
-                Get Quote
+                Free 30-Min Consultation
               </button>
             </a>
 

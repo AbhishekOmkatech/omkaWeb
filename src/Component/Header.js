@@ -75,12 +75,6 @@ const Header1 = () => {
    };
  }, [])
 
-
-
-
-
-
-
   const [show, setShow] = useState(false)
   const [hide, setHide] = useState(true)
   function show1() {

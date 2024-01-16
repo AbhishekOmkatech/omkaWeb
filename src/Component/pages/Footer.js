@@ -275,7 +275,7 @@ const Footer = () => {
                 <a href="https://omkatech.com/" rel="noopener noreferrer">
                   Omka Tech
                 </a>
-                . All Right Reserved.
+                . All Rights Reserved.
               </div>
             </div>
           </div>
