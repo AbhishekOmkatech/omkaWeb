@@ -374,10 +374,10 @@ marketing"></link>
             >
               Hire Resources
             </a>
-            &nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;  
             <a href="/blog" class="nav-item nav-link" rel="noopener noreferrer">
               Blog
-            </a>{" "}
+            </a>
             &nbsp;&nbsp;&nbsp;
             <a
               href="/contact-us"
@@ -436,9 +436,9 @@ marketing"></link>
                   DIGITAL MARKETING SERVICE IN USA
                 </h1>
                 <h2 class="display-6 mb-4" id="whoweare">
-                  More Traffic, More Conversions{" "}
+                  More Traffic, More Conversions
                   <span class="text-primary" id="whoweare">
-                    , More Results{" "}
+                    , More Results
                   </span>
                 </h2>
                 <p>

@@ -57,6 +57,8 @@ const ContactForm = () => {
     setPhone("");
     setDocument("");
     setProject("");
+    // alert("Thank you for reaching out. Our team will be in touch with you within 24 hours.");
+    alert("successfully submitted")
   };
 
 
@@ -201,7 +203,7 @@ const ContactForm = () => {
                                 onChange={(e) => {
                                   setDocument(e.target.value);
                                 }}
-                                required
+                                
                               />
                             </div>
                           </div>
