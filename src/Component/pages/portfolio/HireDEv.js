@@ -179,21 +179,21 @@ window.onscroll = () => {
       {/* navbar */}
       <nav
         id="topNavbar"
-        class=""
+        className=""
         data-wow-delay="0.1s"
         style={{ height: "60px", backgroundColor: "white" }}
       >
-        <div class="container" >
+        <div className="container" >
          
-        <div class="flag-container">
-                            <img src='../india.png' class="flag-icon" alt ="india"></img><span style={{ color: "white" }}>|</span>&nbsp;&nbsp;
-                            <img src='../us.png' class="flag-icon" alt ="US"></img><span style={{ color: "white" }}>|</span>&nbsp;&nbsp;
-                            <img src='../canda.png' class="flag-icon" alt ="Canda"></img>
+        <div className="flag-container">
+                            <img src='../india.png' className="flag-icon" alt ="india"></img><span style={{ color: "white" }}>|</span>&nbsp;&nbsp;
+                            <img src='../us.png' className="flag-icon" alt ="US"></img><span style={{ color: "white" }}>|</span>&nbsp;&nbsp;
+                            <img src='../canda.png' className="flag-icon" alt ="Canda"></img>
                         </div>
-                    <div className="row" id="gsss" >
+                    <div classNameName="row" id="gsss" >
 
-                        <div className="col-5"></div>
-                        <div className="col-7">
+                        <div classNameName="col-5"></div>
+                        <div classNameName="col-7">
                             <a href="tel:+1 (786)648-29107"> <img src='../c.jpg' id="flag" alt="canda"></img>&nbsp;+1(786) 648-2910</a>&nbsp; |&nbsp;&nbsp;
                             <a href="tel:+1 (437) 979-1504"><img src='../po.jpg' id="flag" alt="US"></img> &nbsp;+1 (437) 979-1504</a>&nbsp; |&nbsp;&nbsp;
 
@@ -204,12 +204,12 @@ window.onscroll = () => {
         </div>
       </nav>
       <nav
-        class="navbar navbar-expand-md fixed-top navbar-dark py-lg-0 px-lg-5"
+        className="navbar navbar-expand-md fixed-top navbar-dark py-lg-0 px-lg-5"
         data-wow-delay="0.1s" id="bottomNavbar" style={{ backgroundColor: "#F2F2F2", height: "80px" }}
       >
         <a
           href="/"
-          class="navbar-brand ms-3 d-lg-none"
+          className="navbar-brand ms-3 d-lg-none"
           rel="noopener noreferrer"
         >
           <img
@@ -221,14 +221,14 @@ window.onscroll = () => {
         </a>
         <button
           type="button"
-          class="navbar-toggler me-3"
+          className="navbar-toggler me-3"
           data-bs-toggle="collapse"
           data-bs-target="#navbarCollapse"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <div class="navbar-nav me-auto p-3 p-lg-0" >
+        <div className="collapse navbar-collapse" id="navbarCollapse">
+          <div className="navbar-nav me-auto p-3 p-lg-0" >
             <a
               href="/"
               style={{
@@ -253,43 +253,43 @@ window.onscroll = () => {
             </a>
             <a
               href="/"
-              class="nav-item nav-link"
+              className="nav-item nav-link"
               id="homeleft"
               rel="noopener noreferrer"
             >
               Home
             </a>
             &nbsp;&nbsp;&nbsp;
-            <div class="nav-item dropdown">
+            <div className="nav-item dropdown">
               <a
                 rel="noopener noreferrer"
                 href="#"
-                class="nav-link dropdown-toggle"
+                className="nav-link dropdown-toggle"
                 data-bs-toggle="dropdown"
               >
                 About Us
               </a>
               <div
-                class="dropdown-menu border-0 rounded-0 rounded-bottom m-0"
+                className="dropdown-menu border-0 rounded-0 rounded-bottom m-0"
                 style={{ marginTop: "-20px" }}
               >
                 <a
                   href="/about-us"
-                  class="dropdown-item"
+                  className="dropdown-item"
                   rel="noopener noreferrer"
                 >
                   Our Company
                 </a>
                 <a
                   href="/Careers"
-                  class="dropdown-item"
+                  className="dropdown-item"
                   rel="noopener noreferrer"
                 >
                   Careers
                 </a>
                 {/* <a
                   href="/Main"
-                  class="dropdown-item"
+                  className="dropdown-item"
                   rel="noopener noreferrer"
                 >
                   CaseStudy
@@ -297,69 +297,69 @@ window.onscroll = () => {
               </div>
             </div>
             &nbsp;&nbsp;&nbsp;
-            <div class="nav-item dropdown">
+            <div className="nav-item dropdown">
               <a
                 href="#"
-                class="nav-link dropdown-toggle"
+                className="nav-link dropdown-toggle"
                 data-bs-toggle="dropdown"
                 rel="noopener noreferrer"
               >
                 Services
               </a>
               <div
-                class="dropdown-menu border-0 rounded-0 rounded-bottom m-0"
+                className="dropdown-menu border-0 rounded-0 rounded-bottom m-0"
                 style={{ marginTop: "-20px" }}
               >
                 <a
                   href="/services/website-development"
-                  class="dropdown-item"
+                  className="dropdown-item"
                   rel="noopener noreferrer"
                 >
                   Website Development
                 </a>
                 <a
                   href="/services/mobile-app-development"
-                  class="dropdown-item"
+                  className="dropdown-item"
                   rel="noopener noreferrer"
                 >
                   Mobile App Development
                 </a>
                 <a
                   href="/services/graphics-ui-ux"
-                  class="dropdown-item"
+                  className="dropdown-item"
                   rel="noopener noreferrer"
                 >
                   Graphics & UI/UX
                 </a>
                 <a
                   href="/services/growth-marketing"
-                  class="dropdown-item"
+                  className="dropdown-item"
                   rel="noopener noreferrer"
                 >
                   Growth & Marketing
                 </a>
                 <a
                   href="/services/enterprise-software-solution"
-                  class="dropdown-item"
+                  className="dropdown-item"
                   rel="noopener noreferrer"
                 >
                   Enterprise Software Solution
                 </a>
                 <a
                   href="/services/e-commerce-web-apps"
-                  class="dropdown-item"
+                  className="dropdown-item"
                   rel="noopener noreferrer"
                 >
                   E-Commerce Web & Apps
                 </a>
                 <a
                   href="/services/cms-design-development"
-                  class="dropdown-item"
+                  className="dropdown-item"
                   rel="noopener noreferrer"
                 >
                   CMS Design & Development
                 </a>
-                {/* <a href="/Services/ReadyMadeSolution" class="dropdown-item">
+                {/* <a href="/Services/ReadyMadeSolution" className="dropdown-item">
                   Ready Made Solution
                 </a> */}
               </div>
@@ -367,13 +367,13 @@ window.onscroll = () => {
             &nbsp;&nbsp;&nbsp;
             <a
               href="/hire-resources"
-              class="nav-item nav-link active"
+              className="nav-item nav-link active"
               rel="noopener noreferrer"
             >
               Hire Resources
             </a>
             &nbsp;&nbsp;&nbsp;
-            <a href="/blog" class="nav-item nav-link" rel="noopener noreferrer">
+            <a href="/blog" className="nav-item nav-link" rel="noopener noreferrer">
               Blog
             </a>{" "}
             &nbsp;&nbsp;&nbsp;
@@ -388,7 +388,7 @@ window.onscroll = () => {
             >
               <button
                 type="button"
-                class="btn btn-primary rounded-pill"
+                className="btn btn-primary rounded-pill"
                 id="quote"
                 style={{ animation: "pulse 1.1s ease infinite" ,color:"white"}}
               >
@@ -401,7 +401,7 @@ window.onscroll = () => {
         </div>
       </nav>
       <div
-        class="container-fluid page-header py-5 mb-5 wow fadeIn"
+        className="container-fluid page-header py-5 mb-5 wow fadeIn"
         data-wow-delay="0.1s"
         id="HireBanner"
       >
@@ -415,18 +415,18 @@ window.onscroll = () => {
       <EmailForm />
       <br />
       {/* {why choose Us */}
-      <div class="container-xxl py-5">
-        <div class="container">
-          <div class="row g-5">
-            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-              <div class="h-100">
-                <h4 class="display-6 mb-4" style={{ textAlign: "left" }}>
+      <div className="container-xxl py-5">
+        <div className="container">
+          <div className="row g-5">
+            <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+              <div className="h-100">
+                <h4 className="display-6 mb-4" style={{ textAlign: "left" }}>
                   Hire Expert Developers,
                   <span style={{ color: "#04165D" }} id="whoweare">
                     Don’t Just Outsource
                   </span>
                 </h4>
-                <p class="mb-4">
+                <p className="mb-4">
                   Hiring dedicated developers to work on your project can be
                   easier than you think, as OMKA TECH brings you a talented tool
                   of professionals with expertise in different technologies. All
@@ -440,27 +440,27 @@ window.onscroll = () => {
                 </p>
               </div>
             </div>
-            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-              <div class="img-border">
-                <img class="img-fluid" ref={targetDivRef1} src={a2} alt="hire expert developers don’t just outsource" />
+            <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+              <div className="img-border">
+                <img className="img-fluid" ref={targetDivRef1} src={a2} alt="hire expert developers don’t just outsource" />
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="container-xxl py-5">
-        <div class="container">
+      <div className="container-xxl py-5">
+        <div className="container">
           <div
-            class="text-center mx-auto mb-5 wow fadeInUp"
+            className="text-center mx-auto mb-5 wow fadeInUp"
             data-wow-delay="0.1s"
             style={{ maxWidth: "600px" }}
           >
-            <h2 class="display-6 mb-4">
+            <h2 className="display-6 mb-4">
               Why Hire Developers{" "}
               <span style={{ color: "#04165D" }}> For Your Project?</span>
             </h2>
           </div>
-          <div class="row g-4" style={{ lineHeight: "normal" }}>
+          <div className="row g-4" style={{ lineHeight: "normal" }}>
             <p>
               A dedicated developer can help your business to embark on a
               digital transformation journey with a faster turnaround time and
@@ -471,44 +471,44 @@ window.onscroll = () => {
         </div>
       </div>
       {/* technology */}
-      <div class="container-xxl py-5">
-        <div class="container">
+      <div className="container-xxl py-5">
+        <div className="container">
           <div
-            class="text-center mx-auto mb-5 wow fadeInUp"
+            className="text-center mx-auto mb-5 wow fadeInUp"
             data-wow-delay="0.1s"
             style={{ maxWidth: "600px" }}
           >
-            <h6 class=" bg-white text-primary" id="whoweare">
+            <h6 className=" bg-white text-primary" id="whoweare">
               Our Expertise
             </h6>
-            <h2 class="display-6 mb-4" id="whoweare">
+            <h2 className="display-6 mb-4" id="whoweare">
               What Makes Us The Best Destination To Hire
-              <span class="text-primary" id="whoweare">
+              <span className="text-primary" id="whoweare">
                 {" "}
                 Full Stack Developers
               </span>
             </h2>
           </div>
 
-          <div class="row g-4">
-            <div class="container-fluid">
-              <div class="row mb-5">
+          <div className="row g-4">
+            <div className="container-fluid">
+              <div className="row mb-5">
                 <p>
                   We cater extensive expertise in a range of technologies to
                   help businesses build optimal solutions that overcome their
                   challenges and drive comprehensive growth.
                 </p>
-                <div class="col-12 col-sm-6 col-md-3 m-auto" id="num1">
+                <div className="col-12 col-sm-6 col-md-3 m-auto" id="num1">
                   <div
-                    class=" car shadow"
+                    className=" car shadow"
                     style={{ border: "1px solid darkgrey" }}
                   >
-                    <img src={i1} alt="text" class="card-img-top" />
-                    <br/><br/><div class="card-body">
+                    <img src={i1} alt="text" className="card-img-top" />
+                    <br/><br/><div className="card-body">
                       <h5>Magento Developer</h5>
 
                       <button
-                        class="btn btn-primary rounded-pill"
+                        className="btn btn-primary rounded-pill"
                         style={{ height: "35px" ,color:"white"}}
                         data-target="#myModal"
                         role="button"
@@ -521,17 +521,17 @@ window.onscroll = () => {
                   </div>
                 </div>
 
-                <div class="col-12 col-sm-6 col-md-3 m-auto" id="num1">
+                <div className="col-12 col-sm-6 col-md-3 m-auto" id="num1">
                   <div
-                    class=" car shadow"
+                    className=" car shadow"
                     style={{ border: "1px solid darkgrey" }}
                   >
-                    <img src={i2} alt="text" class="card-img-top" />
-                    <br/><br/><div class="card-body">
+                    <img src={i2} alt="text" className="card-img-top" />
+                    <br/><br/><div className="card-body">
                       <h5>Magento 2 Developer</h5>
 
                       <button
-                        class="btn btn-primary rounded-pill"
+                        className="btn btn-primary rounded-pill"
                         style={{ height: "35px" ,color:"white"}}
                         data-target="#myModal"
                         role="button"
@@ -543,17 +543,17 @@ window.onscroll = () => {
                   </div>
                 </div>
 
-                <div class="col-12 col-sm-6 col-md-3 m-auto" id="num1">
+                <div className="col-12 col-sm-6 col-md-3 m-auto" id="num1">
                   <div
-                    class=" car shadow"
+                    className=" car shadow"
                     style={{ border: "1px solid darkgrey" }}
                   >
-                    <img src={i3} alt="text" class="card-img-top" />
-                    <br/><br/><div class="card-body">
+                    <img src={i3} alt="text" className="card-img-top" />
+                    <br/><br/><div className="card-body">
                       <h5>Java Developer</h5>
 
                       <button
-                        class="btn btn-primary rounded-pill"
+                        className="btn btn-primary rounded-pill"
                         style={{ height: "35px" ,color:"white"}}
                         data-target="#myModal"
                         role="button"
@@ -565,16 +565,16 @@ window.onscroll = () => {
                   </div>
                 </div>
 
-                <div class="col-12 col-sm-6 col-md-3 m-auto" id="num1">
+                <div className="col-12 col-sm-6 col-md-3 m-auto" id="num1">
                   <div
-                    class=" car shadow"
+                    className=" car shadow"
                     style={{ border: "1px solid darkgrey" }}
                   >
-                    <img src={i4} alt="text" class="card-img-top" />
-                    <br/><br/><div class="card-body">
+                    <img src={i4} alt="text" className="card-img-top" />
+                    <br/><br/><div className="card-body">
                       <h5>PHP Developer</h5>
                       <button
-                        class="btn btn-primary rounded-pill"
+                        className="btn btn-primary rounded-pill"
                         style={{ height: "35px" ,color:"white"}}
                         data-target="#myModal"
                         role="button"
@@ -588,20 +588,20 @@ window.onscroll = () => {
               </div>
             </div>
           </div>
-          <div class="row g-4">
-            <div class="container-fluid">
-              <div class="row mb-5">
-                <div class="col-12 col-sm-6 col-md-3 m-auto" id="num1">
+          <div className="row g-4">
+            <div className="container-fluid">
+              <div className="row mb-5">
+                <div className="col-12 col-sm-6 col-md-3 m-auto" id="num1">
                   <div
-                    class=" car shadow"
+                    className=" car shadow"
                     style={{ border: "1px solid darkgrey" }}
                   >
-                    <img src={i5} alt="text" class="card-img-top" />
-                    <br/><br/><div class="card-body">
+                    <img src={i5} alt="text" className="card-img-top" />
+                    <br/><br/><div className="card-body">
                       <h5>Laravel Developer</h5>
 
                       <button
-                        class="btn btn-primary rounded-pill"
+                        className="btn btn-primary rounded-pill"
                         style={{ height: "35px" ,color:"white"}}
                         data-target="#myModal"
                         role="button"
@@ -613,17 +613,17 @@ window.onscroll = () => {
                   </div>
                 </div>
 
-                <div class="col-12 col-sm-6 col-md-3 m-auto" id="num1">
+                <div className="col-12 col-sm-6 col-md-3 m-auto" id="num1">
                   <div
-                    class=" car shadow"
+                    className=" car shadow"
                     style={{ border: "1px solid darkgrey" }}
                   >
-                    <img src={i6} alt="text" class="card-img-top" />
-                    <br/><br/><div class="card-body">
+                    <img src={i6} alt="text" className="card-img-top" />
+                    <br/><br/><div className="card-body">
                       <h5>Codeigniter Developer</h5>
 
                       <button
-                        class="btn btn-primary rounded-pill"
+                        className="btn btn-primary rounded-pill"
                         style={{ height: "35px" ,color:"white"}}
                         data-target="#myModal"
                         role="button"
@@ -635,17 +635,17 @@ window.onscroll = () => {
                   </div>
                 </div>
 
-                <div class="col-12 col-sm-6 col-md-3 m-auto" id="num1">
+                <div className="col-12 col-sm-6 col-md-3 m-auto" id="num1">
                   <div
-                    class=" car shadow"
+                    className=" car shadow"
                     style={{ border: "1px solid darkgrey" }}
                   >
-                    <img src={i8} alt="text" class="card-img-top" />
-                    <br/><br/><div class="card-body">
+                    <img src={i8} alt="text" className="card-img-top" />
+                    <br/><br/><div className="card-body">
                       <h5>CorePHP Developer</h5>
 
                       <button
-                        class="btn btn-primary rounded-pill"
+                        className="btn btn-primary rounded-pill"
                         style={{ height: "35px" ,color:"white"}}
                         data-target="#myModal"
                         role="button"
@@ -657,17 +657,17 @@ window.onscroll = () => {
                   </div>
                 </div>
 
-                <div class="col-12 col-sm-6 col-md-3 m-auto" id="num1">
+                <div className="col-12 col-sm-6 col-md-3 m-auto" id="num1">
                   <div
-                    class=" car shadow"
+                    className=" car shadow"
                     style={{ border: "1px solid darkgrey" }}
                   >
-                    <img src={i7} alt="text" class="card-img-top" />
-                    <br/><br/><div class="card-body">
+                    <img src={i7} alt="text" className="card-img-top" />
+                    <br/><br/><div className="card-body">
                       <h5>MEAN Stack Developer</h5>
 
                       <button
-                        class="btn btn-primary rounded-pill"
+                        className="btn btn-primary rounded-pill"
                         style={{ height: "35px" ,color:"white"}}
                         data-target="#myModal"
                         role="button"
@@ -681,20 +681,20 @@ window.onscroll = () => {
               </div>
             </div>
           </div>
-          <div class="row g-4">
-            <div class="container-fluid">
-              <div class="row mb-5">
-                <div class="col-12 col-sm-6 col-md-3 m-auto" id="num1">
+          <div className="row g-4">
+            <div className="container-fluid">
+              <div className="row mb-5">
+                <div className="col-12 col-sm-6 col-md-3 m-auto" id="num1">
                   <div
-                    class=" car shadow"
+                    className=" car shadow"
                     style={{ border: "1px solid darkgrey" }}
                   >
-                    <img src={i9} alt="text" class="card-img-top" />
-                    <br/><br/><div class="card-body">
+                    <img src={i9} alt="text" className="card-img-top" />
+                    <br/><br/><div className="card-body">
                       <h5>MERN Stack Developer</h5>
 
                       <button
-                        class="btn btn-primary rounded-pill"
+                        className="btn btn-primary rounded-pill"
                         style={{ height: "35px" ,color:"white"}}
                         data-target="#myModal"
                         role="button"
@@ -706,17 +706,17 @@ window.onscroll = () => {
                   </div>
                 </div>
 
-                <div class="col-12 col-sm-6 col-md-3 m-auto" id="num1">
+                <div className="col-12 col-sm-6 col-md-3 m-auto" id="num1">
                   <div
-                    class=" car shadow"
+                    className=" car shadow"
                     style={{ border: "1px solid darkgrey" }}
                   >
-                    <img src={i10} alt="text" class="card-img-top" />
-                    <br/><br/><div class="card-body">
+                    <img src={i10} alt="text" className="card-img-top" />
+                    <br/><br/><div className="card-body">
                       <h5>React JS Developer</h5>
 
                       <button
-                        class="btn btn-primary rounded-pill"
+                        className="btn btn-primary rounded-pill"
                         style={{ height: "35px" ,color:"white"}}
                         data-target="#myModal"
                         role="button"
@@ -728,17 +728,17 @@ window.onscroll = () => {
                   </div>
                 </div>
 
-                <div class="col-12 col-sm-6 col-md-3 m-auto" id="num1">
+                <div className="col-12 col-sm-6 col-md-3 m-auto" id="num1">
                   <div
-                    class=" car shadow"
+                    className=" car shadow"
                     style={{ border: "1px solid darkgrey" }}
                   >
-                    <img src={i11} alt="text" class="card-img-top" />
-                    <br/><br/><div class="card-body">
+                    <img src={i11} alt="text" className="card-img-top" />
+                    <br/><br/><div className="card-body">
                       <h5>NodeJS Developer</h5>
 
                       <button
-                        class="btn btn-primary rounded-pill"
+                        className="btn btn-primary rounded-pill"
                         style={{ height: "35px" ,color:"white"}}
                         data-target="#myModal"
                         role="button"
@@ -750,16 +750,16 @@ window.onscroll = () => {
                   </div>
                 </div>
 
-                <div class="col-12 col-sm-6 col-md-3 m-auto" id="num1">
+                <div className="col-12 col-sm-6 col-md-3 m-auto" id="num1">
                   <div
-                    class=" car shadow"
+                    className=" car shadow"
                     style={{ border: "1px solid darkgrey" }}
                   >
-                    <img src={i12} alt="text" class="card-img-top" />
-                    <br/><br/><div class="card-body">
+                    <img src={i12} alt="text" className="card-img-top" />
+                    <br/><br/><div className="card-body">
                       <h5>Wordpress Developer</h5>
                       <button
-                        class="btn btn-primary rounded-pill"
+                        className="btn btn-primary rounded-pill"
                         style={{ height: "35px" ,color:"white"}}
                         data-target="#myModal"
                         role="button"
@@ -773,20 +773,20 @@ window.onscroll = () => {
               </div>
             </div>
           </div>
-          <div class="row g-4">
-            <div class="container-fluid">
-              <div class="row mb-5">
-                <div class="col-12 col-sm-6 col-md-3 m-auto" id="num1">
+          <div className="row g-4">
+            <div className="container-fluid">
+              <div className="row mb-5">
+                <div className="col-12 col-sm-6 col-md-3 m-auto" id="num1">
                   <div
-                    class=" car shadow"
+                    className=" car shadow"
                     style={{ border: "1px solid darkgrey" }}
                   >
-                    <img src={i13} alt="text" class="card-img-top" />
-                    <br/><br/><div class="card-body">
+                    <img src={i13} alt="text" className="card-img-top" />
+                    <br/><br/><div className="card-body">
                       <h5>Shopify Developer</h5>
 
                       <button
-                        class="btn btn-primary rounded-pill"
+                        className="btn btn-primary rounded-pill"
                         style={{ height: "35px" ,color:"white"}}
                         data-target="#myModal"
                         role="button"
@@ -798,17 +798,17 @@ window.onscroll = () => {
                   </div>
                 </div>
 
-                <div class="col-12 col-sm-6 col-md-3 m-auto" id="num1">
+                <div className="col-12 col-sm-6 col-md-3 m-auto" id="num1">
                   <div
-                    class=" car shadow"
+                    className=" car shadow"
                     style={{ border: "1px solid darkgrey" }}
                   >
-                    <img src={i14} alt="text" class="card-img-top" />
-                    <br/><br/><div class="card-body">
+                    <img src={i14} alt="text" className="card-img-top" />
+                    <br/><br/><div className="card-body">
                       <h5>Project Manager</h5>
 
                       <button
-                        class="btn btn-primary rounded-pill"
+                        className="btn btn-primary rounded-pill"
                         style={{ height: "35px" ,color:"white"}}
                         data-target="#myModal"
                         role="button"
@@ -820,17 +820,17 @@ window.onscroll = () => {
                   </div>
                 </div>
 
-                <div class="col-12 col-sm-6 col-md-3 m-auto" id="num1">
+                <div className="col-12 col-sm-6 col-md-3 m-auto" id="num1">
                   <div
-                    class=" car shadow"
+                    className=" car shadow"
                     style={{ border: "1px solid darkgrey" }}
                   >
-                    <img src={i15} alt="text" class="card-img-top" />
-                    <br/><br/><div class="card-body">
+                    <img src={i15} alt="text" className="card-img-top" />
+                    <br/><br/><div className="card-body">
                       <h5>Mobile App Developer</h5>
 
                       <button
-                        class="btn btn-primary rounded-pill"
+                        className="btn btn-primary rounded-pill"
                         style={{ height: "35px" ,color:"white"}}
                         data-target="#myModal"
                         role="button"
@@ -842,18 +842,18 @@ window.onscroll = () => {
                   </div>
                 </div>
 
-                <div class="col-12 col-sm-6 col-md-3 m-auto" id="num1">
+                <div className="col-12 col-sm-6 col-md-3 m-auto" id="num1">
                   <div
-                    class=" car shadow"
+                    className=" car shadow"
                     style={{ border: "1px solid darkgrey" }}
                   >
-                    <img src={i16} alt="text" class="card-img-top" />
+                    <img src={i16} alt="text" className="card-img-top" />
 
-                    <br/><br/><div class="card-body">
+                    <br/><br/><div className="card-body">
                       <h5>Flutter Developer</h5>
 
                       <button
-                        class="btn btn-primary rounded-pill"
+                        className="btn btn-primary rounded-pill"
                         style={{ height: "35px" ,color:"white"}}
                         data-target="#myModal"
                         role="button"
@@ -867,20 +867,20 @@ window.onscroll = () => {
               </div>
             </div>
           </div>
-          <div class="row g-4">
-            <div class="container-fluid">
-              <div class="row mb-5">
-                <div class="col-12 col-sm-6 col-md-3 m-auto" id="num1">
+          <div className="row g-4">
+            <div className="container-fluid">
+              <div className="row mb-5">
+                <div className="col-12 col-sm-6 col-md-3 m-auto" id="num1">
                   <div
-                    class=" car shadow"
+                    className=" car shadow"
                     style={{ border: "1px solid darkgrey" }}
                   >
-                    <img src={i17} alt="text" class="card-img-top" />
-                    <br/><br/><div class="card-body">
+                    <img src={i17} alt="text" className="card-img-top" />
+                    <br/><br/><div className="card-body">
                       <h5>iOS Developer</h5>
 
                       <button
-                        class="btn btn-primary rounded-pill"
+                        className="btn btn-primary rounded-pill"
                         style={{ height: "35px" ,color:"white"}}
                         data-target="#myModal"
                         role="button"
@@ -892,17 +892,17 @@ window.onscroll = () => {
                   </div>
                 </div>
 
-                <div class="col-12 col-sm-6 col-md-3 m-auto" id="num1">
+                <div className="col-12 col-sm-6 col-md-3 m-auto" id="num1">
                   <div
-                    class=" car shadow"
+                    className=" car shadow"
                     style={{ border: "1px solid darkgrey" }}
                   >
-                    <img src={i18} alt="text" class="card-img-top" />
-                    <br/><br/><div class="card-body">
+                    <img src={i18} alt="text" className="card-img-top" />
+                    <br/><br/><div className="card-body">
                       <h5>Android Developer</h5>
 
                       <button
-                        class="btn btn-primary rounded-pill"
+                        className="btn btn-primary rounded-pill"
                         style={{ height: "35px" ,color:"white"}}
                         data-target="#myModal"
                         role="button"
@@ -914,17 +914,17 @@ window.onscroll = () => {
                   </div>
                 </div>
 
-                <div class="col-12 col-sm-6 col-md-3 m-auto" id="num1">
+                <div className="col-12 col-sm-6 col-md-3 m-auto" id="num1">
                   <div
-                    class=" car shadow"
+                    className=" car shadow"
                     style={{ border: "1px solid darkgrey" }}
                   >
-                    <img src={i19} alt="text" class="card-img-top" />
-                    <br/><br/><div class="card-body">
+                    <img src={i19} alt="text" className="card-img-top" />
+                    <br/><br/><div className="card-body">
                       <h5>Ecommerce Developer</h5>
 
                       <button
-                        class="btn btn-primary rounded-pill"
+                        className="btn btn-primary rounded-pill"
                         style={{ height: "35px" ,color:"white"}}
                         data-target="#myModal"
                         role="button"
@@ -936,17 +936,17 @@ window.onscroll = () => {
                   </div>
                 </div>
 
-                <div class="col-12 col-sm-6 col-md-3 m-auto" id="num1">
+                <div className="col-12 col-sm-6 col-md-3 m-auto" id="num1">
                   <div
-                    class=" car shadow"
+                    className=" car shadow"
                     style={{ border: "1px solid darkgrey" }}
                   >
-                    <img src={i20} alt="text" class="card-img-top" />
+                    <img src={i20} alt="text" className="card-img-top" />
 
-                    <br/><br/><div class="card-body">
+                    <br/><br/><div className="card-body">
                       <h5>HTML Developer</h5>
                       <button
-                        class="btn btn-primary rounded-pill"
+                        className="btn btn-primary rounded-pill"
                         style={{ height: "35px" ,color:"white"}}
                         data-target="#myModal"
                         role="button"
@@ -960,19 +960,19 @@ window.onscroll = () => {
               </div>
             </div>
           </div>
-          <div class="row g-4">
-            <div class="container-fluid">
-              <div class="row mb-5">
-                <div class="col-12 col-sm-6 col-md-3 m-auto" id="num1">
+          <div className="row g-4">
+            <div className="container-fluid">
+              <div className="row mb-5">
+                <div className="col-12 col-sm-6 col-md-3 m-auto" id="num1">
                   <div
-                    class=" car shadow"
+                    className=" car shadow"
                     style={{ border: "1px solid darkgrey" }}
                   >
-                    <img src={i21} alt="text" class="card-img-top" />
-                    <br/><br/><div class="card-body">
+                    <img src={i21} alt="text" className="card-img-top" />
+                    <br/><br/><div className="card-body">
                       <h5>Web Designer</h5>
                       <button
-                        class="btn btn-primary rounded-pill"
+                        className="btn btn-primary rounded-pill"
                         style={{ height: "35px" ,color:"white"}}
                         data-target="#myModal"
                         role="button"
@@ -984,17 +984,17 @@ window.onscroll = () => {
                   </div>
                 </div>
 
-                <div class="col-12 col-sm-6 col-md-3 m-auto" id="num1">
+                <div className="col-12 col-sm-6 col-md-3 m-auto" id="num1">
                   <div
-                    class=" car shadow"
+                    className=" car shadow"
                     style={{ border: "1px solid darkgrey" }}
                   >
-                    <img src={i22} alt="text" class="card-img-top" />
-                    <br/><br/><div class="card-body">
+                    <img src={i22} alt="text" className="card-img-top" />
+                    <br/><br/><div className="card-body">
                       <h5>UI UX Designer</h5>
 
                       <button
-                        class="btn btn-primary rounded-pill"
+                        className="btn btn-primary rounded-pill"
                         style={{ height: "35px" ,color:"white"}}
                         data-target="#myModal"
                         role="button"
@@ -1006,16 +1006,16 @@ window.onscroll = () => {
                   </div>
                 </div>
 
-                <div class="col-12 col-sm-6 col-md-3 m-auto" id="num1">
+                <div className="col-12 col-sm-6 col-md-3 m-auto" id="num1">
                   <div
-                    class=" car shadow"
+                    className=" car shadow"
                     style={{ border: "1px solid darkgrey" }}
                   >
-                    <img src={i23} alt="text" class="card-img-top" />
-                    <br/><br/><div class="card-body">
+                    <img src={i23} alt="text" className="card-img-top" />
+                    <br/><br/><div className="card-body">
                       <h5>Graphic Designer</h5>
                       <button
-                        class="btn btn-primary rounded-pill"
+                        className="btn btn-primary rounded-pill"
                         style={{ height: "35px" ,color:"white"}}
                         data-target="#myModal"
                         role="button"
@@ -1027,18 +1027,18 @@ window.onscroll = () => {
                   </div>
                 </div>
 
-                <div class="col-12 col-sm-6 col-md-3 m-auto" id="num1">
+                <div className="col-12 col-sm-6 col-md-3 m-auto" id="num1">
                   <div
-                    class=" car shadow"
+                    className=" car shadow"
                     style={{ border: "1px solid darkgrey" }}
                   >
-                    <img src={i24} alt="text" class="card-img-top" />
+                    <img src={i24} alt="text" className="card-img-top" />
 
-                    <br/><br/><div class="card-body">
+                    <br/><br/><div className="card-body">
                       <h5>Logo Designer</h5>
 
                       <button
-                        class="btn btn-primary rounded-pill"
+                        className="btn btn-primary rounded-pill"
                         style={{ height: "35px" ,color:"white"}}
                         // id="contactWeb23"
                         data-target="#myModal"
@@ -1058,35 +1058,35 @@ window.onscroll = () => {
       {/* popupform */}
       {show && (
         <div
-          class="modal fade"
+          className="modal fade"
           id="myModal"
-          tabindex="-1"
+          tabIndex="-1"
           role="dialog"
           aria-labelledby="myModalLabel"
           aria-hidden="true"
         >
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-body">
+          <div className="modal-dialog">
+            <div className="modal-content">
+              <div className="modal-body">
                 <div
-                  class="contact-page-form"
+                  className="contact-page-form"
                   method="post"
                   style={{ marginTop: "-20px" }}
                 >
                   <form onSubmit={submitNow1}>
-                    <div class="containerB" style={{backgroundColor:"white"}}>
+                    <div className="containerB" style={{backgroundColor:"white"}}>
                       {" "}
                       <button
                         type="button"
-                        class="close"
+                        className="close"
                         data-dismiss="modal"
                         aria-hidden="true"
                       >
                         ×
                       </button>
-                      <div class="brand-logoB"> <img src={po}></img></div>
-                      <div class="brand-titleB">HIRE US!!</div>
-                      <div class="inputsB">
+                      <div className="brand-logoB"> <img src={po}></img></div>
+                      <div className="brand-titleB">HIRE US!!</div>
+                      <div className="inputsB">
                         <label id="Booklabel">Name</label> :&nbsp;
                         <input
                           type="text"
@@ -1148,26 +1148,26 @@ window.onscroll = () => {
       )}
       {/* integrity */}
 
-      <div class="container" style={{ backgroundColor: "#04165D" }}>
-        <div class="row">
-          <div class="col-sm">
-            <div id="workexperience" class="sectionClass">
-              <div class="row ">
-                <div class="fullWidth eight columns">
-                  <ul class="cbp_tmtimeline">
+      <div className="container" style={{ backgroundColor: "#04165D" }}>
+        <div className="row">
+          <div className="col-sm">
+            <div id="workexperience" className="sectionclassName">
+              <div className="row ">
+                <div className="fullWidth eight columns">
+                  <ul className="cbp_tmtimeline">
                     <li>
-                      <div class="cbp_tmicon cbp_tmicon-phone">
-                        <i class="faPra fa-briefcas">
+                      <div className="cbp_tmicon cbp_tmicon-phone">
+                        <i className="faPra fa-briefcas">
                           <img
                             src="https://www.orangemantra.com/wp-content/uploads/2021/09/icon26.png"
                             alt="text"
                           ></img>
                         </i>
                       </div>
-                      <div class="cbp_tmlabel wow fadeInRight animated">
+                      <div className="cbp_tmlabel wow fadeInRight animated">
                         <h3>Dedicated Skilled Resources</h3>
 
-                        <p class="projectParagraph">
+                        <p className="projectParagraph">
                           You have a dedicated team of skilled developers and
                           technical architects to work on your development
                           project
@@ -1176,8 +1176,8 @@ window.onscroll = () => {
                     </li>
 
                     <li>
-                      <div class="cbp_tmicon cbp_tmicon-mail">
-                        <i class="faPra fa-briefcas">
+                      <div className="cbp_tmicon cbp_tmicon-mail">
+                        <i className="faPra fa-briefcas">
                           <img
                             alt="undefined"
                             src="https://www.orangemantra.com/wp-content/uploads/2021/09/icon29.png
@@ -1185,10 +1185,10 @@ window.onscroll = () => {
                           ></img>
                         </i>
                       </div>
-                      <div class="cbp_tmlabel wow fadeInRight animated">
+                      <div className="cbp_tmlabel wow fadeInRight animated">
                         <h3>High-Quality Development</h3>
 
-                        <p class="projectParagraph">
+                        <p className="projectParagraph">
                           Get access to multiple user stories, use cases & in
                           depth analysis for a thorough development of features
                           & functionalities throughout the project development.
@@ -1196,8 +1196,8 @@ window.onscroll = () => {
                       </div>
                     </li>
                     <li>
-                      <div class="cbp_tmicon cbp_tmicon-screen">
-                        <i class="faPra fa-briefcse">
+                      <div className="cbp_tmicon cbp_tmicon-screen">
+                        <i className="faPra fa-briefcse">
                           <img
                             alt="text"
                             src="https://www.orangemantra.com/wp-content/uploads/2021/09/icon32.png
@@ -1205,10 +1205,10 @@ window.onscroll = () => {
                           ></img>
                         </i>
                       </div>
-                      <div class="cbp_tmlabel wow fadeInRight animated">
+                      <div className="cbp_tmlabel wow fadeInRight animated">
                         <h3>Adherence To Deadlines</h3>
 
-                        <p class="projectParagraph">
+                        <p className="projectParagraph">
                           Assurance of adherence to deadlines, on time every
                           time, which translates into zero hassles regarding
                           project delivery.
@@ -1221,24 +1221,24 @@ window.onscroll = () => {
               </div>
             </div>
           </div>
-          <div class="col-sm">
-            <div id="workexperience" class="sectionClass">
-              <div class="row ">
-                <div class="fullWidth eight columns">
-                  <ul class="cbp_tmtimeline">
+          <div className="col-sm">
+            <div id="workexperience" className="sectionclassName">
+              <div className="row ">
+                <div className="fullWidth eight columns">
+                  <ul className="cbp_tmtimeline">
                     <li>
-                      <div class="cbp_tmicon cbp_tmicon-phone">
-                        <i class="faPra fa-briefcas">
+                      <div className="cbp_tmicon cbp_tmicon-phone">
+                        <i className="faPra fa-briefcas">
                           <img
                             src="https://www.orangemantra.com/wp-content/uploads/2021/09/icon27.png"
                             alt="text"
                           ></img>
                         </i>
                       </div>
-                      <div class="cbp_tmlabel wow fadeInRight animated">
+                      <div className="cbp_tmlabel wow fadeInRight animated">
                         <h3>Confidentiality And Security</h3>
 
-                        <p class="projectParagraph">
+                        <p className="projectParagraph">
                           Guaranteed confidentiality and security for your
                           project with strict non-disclosure agreements for
                           every client we work for..
@@ -1246,18 +1246,18 @@ window.onscroll = () => {
                       </div>
                     </li>
                     <li>
-                      <div class="cbp_tmicon cbp_tmicon-screen">
-                        <i class="faPra fa-briefcas">
+                      <div className="cbp_tmicon cbp_tmicon-screen">
+                        <i className="faPra fa-briefcas">
                           <img
                             src="https://www.orangemantra.com/wp-content/uploads/2021/09/icon30.png"
                             alt="text"
                           ></img>
                         </i>
                       </div>
-                      <div class="cbp_tmlabel wow fadeInRight animated">
+                      <div className="cbp_tmlabel wow fadeInRight animated">
                         <h3>IP Protection</h3>
 
-                        <p class="projectParagraph">
+                        <p className="projectParagraph">
                           You are the sole owner of your IP and we prioritize
                           the IP protection for all our clients to match the
                           trust they have in us.
@@ -1266,8 +1266,8 @@ window.onscroll = () => {
                     </li>
                     <br />
                     <li>
-                      <div class="cbp_tmicon cbp_tmicon-mail">
-                        <i class="faPra fa-briefse">
+                      <div className="cbp_tmicon cbp_tmicon-mail">
+                        <i className="faPra fa-briefse">
                           <img
                             alt="text"
                             src="https://www.orangemantra.com/wp-content/uploads/2021/09/icon33.png
@@ -1275,10 +1275,10 @@ window.onscroll = () => {
                           ></img>
                         </i>
                       </div>
-                      <div class="cbp_tmlabel wow fadeInRight animated">
+                      <div className="cbp_tmlabel wow fadeInRight animated">
                         <h3>Seamless User Experience</h3>
 
-                        <p class="projectParagraph">
+                        <p className="projectParagraph">
                           Build a seamless user experience for your software and
                           apps to add value to them and generate revenue for
                           your.
@@ -1291,14 +1291,14 @@ window.onscroll = () => {
               </div>
             </div>
           </div>
-          <div class="col-sm">
-            <div id="workexperience" class="sectionClass">
-              <div class="row ">
-                <div class="fullWidth eight columns">
-                  <ul class="cbp_tmtimeline">
+          <div className="col-sm">
+            <div id="workexperience" className="sectionclassName">
+              <div className="row ">
+                <div className="fullWidth eight columns">
+                  <ul className="cbp_tmtimeline">
                     <li>
-                      <div class="cbp_tmicon cbp_tmicon-phone">
-                        <i class="faPra fa-briefcas">
+                      <div className="cbp_tmicon cbp_tmicon-phone">
+                        <i className="faPra fa-briefcas">
                           <img
                             alt="text"
                             src="https://www.orangemantra.com/wp-content/uploads/2021/09/icon28.png
@@ -1306,10 +1306,10 @@ window.onscroll = () => {
                           ></img>
                         </i>
                       </div>
-                      <div class="cbp_tmlabel wow fadeInRight animated">
+                      <div className="cbp_tmlabel wow fadeInRight animated">
                         <h3>Test First Approach</h3>
 
-                        <p class="projectParagraph">
+                        <p className="projectParagraph">
                           You have a dedicated team of skilled developers and
                           technical architects to work on your development
                           project
@@ -1317,18 +1317,18 @@ window.onscroll = () => {
                       </div>
                     </li>
                     <li>
-                      <div class="cbp_tmicon cbp_tmicon-screen">
-                        <i class="faPra fa-briefcae">
+                      <div className="cbp_tmicon cbp_tmicon-screen">
+                        <i className="faPra fa-briefcae">
                           <img
                             src="https://www.orangemantra.com/wp-content/uploads/2021/09/icon31.png"
                             alt="text"
                           ></img>
                         </i>
                       </div>
-                      <div class="cbp_tmlabel wow fadeInRight animated">
+                      <div className="cbp_tmlabel wow fadeInRight animated">
                         <h3>Articulated Documentation</h3>
 
-                        <p class="projectParagraph">
+                        <p className="projectParagraph">
                           Get access to multiple user stories, use cases & in
                           depth analysis for a thorough development of features
                           & functionalities throughout the project development.
@@ -1336,18 +1336,18 @@ window.onscroll = () => {
                       </div>
                     </li>
                     <li>
-                      <div class="cbp_tmicon cbp_tmicon-mail">
-                        <i class="faPra fa-briefcse">
+                      <div className="cbp_tmicon cbp_tmicon-mail">
+                        <i className="faPra fa-briefcse">
                           <img
                             src="https://www.orangemantra.com/wp-content/uploads/2021/09/icon34.png"
                             alt="text"
                           ></img>
                         </i>
                       </div>
-                      <div class="cbp_tmlabel wow fadeInRight animated">
+                      <div className="cbp_tmlabel wow fadeInRight animated">
                         <h3>Single Coding Standard</h3>
 
-                        <p class="projectParagraph">
+                        <p className="projectParagraph">
                           Assurance of adherence to deadlines, on time every
                           time, which translates into zero hassles regarding
                           project delivery.

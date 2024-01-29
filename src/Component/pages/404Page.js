@@ -15,8 +15,8 @@ const Page404 = () => {
           content="Web development company, Website Development Company, Web development, website development"
         />
       </Helmet>
-    <div class="container">
-      <div class="gif">
+    <div className="container">
+      <div className="gif">
         <img src={err} alt="gif_ing" />
       </div>
      

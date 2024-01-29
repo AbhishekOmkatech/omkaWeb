@@ -144,9 +144,9 @@ const Header1 = () => {
       </Helmet>
 <HeadNav/>
       {/* <HeadNav /> */}
-      <div class="container-fluid page-header py-3 mb-5 fadeIn " id="HBanner">
-        <div class="container text-center py-5" id="dummyHead">
-          <div class="dummyHead">
+      <div className="container-fluid page-header py-3 mb-5 fadeIn " id="HBanner">
+        <div className="container text-center py-5" id="dummyHead">
+          <div className="dummyHead">
             <h3 id="headh2">DREAM IT.BUILD IT.LAUNCH IT.GROW IT.</h3>
             <br /><br />
             <p id="headpara">
@@ -165,37 +165,37 @@ const Header1 = () => {
       <Homeform></Homeform>
       <br />
       {/* Aboutus */}
-      <div class="container-xxl py-5">
-        <div class="container">
-          <div class="row g-5">
-            <div class="col-lg-5 wow fadeInUp" data-wow-delay="0.1s">
+      <div className="container-xxl py-5">
+        <div className="container">
+          <div className="row g-5">
+            <div className="col-lg-5 wow fadeInUp" data-wow-delay="0.1s">
               <div className="img-border">
                 <img className="img-fluid" ref={targetDivRef} src={i4} alt="web design and development company in usa" />
               </div>
             </div>
-            <div class="col-lg-7 wow fadeInUp" data-wow-delay="0.5s">
-              <div class="h-100">
-                <h6 class="bg-white  text-primary " id="whoweare">
+            <div className="col-lg-7 wow fadeInUp" data-wow-delay="0.5s">
+              <div className="h-100">
+                <h6 className="bg-white  text-primary " id="whoweare">
                   WHO WE ARE
                 </h6>
 
-                <h2 class="display-6 mb-4" id="whoweare" style={{ fontSize: "30px" }}>
+                <h2 className="display-6 mb-4" id="whoweare" style={{ fontSize: "30px" }}>
                   Experience World Class IT Services and
 
-                  <h1 class="text-primary" id="whoweare" style={{ fontSize: "30px" }}>
+                  <h1 className="text-primary" id="whoweare" style={{ fontSize: "30px" }}>
                     {" "}
                     Custom Website
                     Development
                   </h1>
                 </h2>
-                <p class="mb-4">
+                <p className="mb-4">
                   We offer a complete suite of integrated IT services , custom website
                   development, encompassing website and mobile application design and
                   development. Our team utilizes cutting-edge technology to
                   develop and implement mission-critical business applications
                   for clients across the globe.
                 </p>
-                <p class="mb-4">
+                <p className="mb-4">
                   At Omka Tech, our priority is to deliver high-quality
                   solutions on time, every time. We value client satisfaction
                   above all else, recognizing that our success is directly
@@ -204,7 +204,7 @@ const Header1 = () => {
 
 
                 <button
-                  class="btn btn-primary rounded-pill py-3 px-5"
+                  className="btn btn-primary rounded-pill py-3 px-5"
                   href=""
                   id="knowmore"
                   rel="noopener noreferrer"
@@ -221,111 +221,111 @@ const Header1 = () => {
       </div>
       <br />
       {/* services */}
-      <div class="container-xxl py-5">
-        <div class="container">
+      <div className="container-xxl py-5">
+        <div className="container">
           <div
-            class="text-center mx-auto mb-5 wow fadeInUp"
+            className="text-center mx-auto mb-5 wow fadeInUp"
             data-wow-delay="0.1s"
             style={{ maxWidth: "600px" }}
           >
-            <h5 class=" bg-white text-primary" id="whoweare">
+            <h5 className=" bg-white text-primary" id="whoweare">
               SERVICES
             </h5>
-            <h3 class="display-6 mb-4" id="whoweare">
+            <h3 className="display-6 mb-4" id="whoweare">
               The World Revolves around{" "}
               <span style={{ color: "#04165D" }} id="whoweare">
                 Technology
               </span>
             </h3>
           </div>
-          <div class="row g-4">
-            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+          <div className="row g-4">
+            <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
               <a
-                class="service-item d-block rounded text-center h-100 p-4"
+                className="service-item d-block rounded text-center h-100 p-4"
                 href="/services/website-development" rel="noopener noreferrer"
               >
-                <img class="img-fluid rounded mb-4" src={web} alt="web development service" />
-                <h4 class="mb-0" id="h4hover">
+                <img className="img-fluid rounded mb-4" src={web} alt="web development service" />
+                <h4 className="mb-0" id="h4hover">
                   WEBSITE DEVELOPMENT
                 </h4>
               </a>
             </div>
-            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
               <a
-                class="service-item d-block rounded text-center h-100 p-4"
+                className="service-item d-block rounded text-center h-100 p-4"
                 href="/services/mobile-app-development" rel="noopener noreferrer"
               >
-                <img class="img-fluid rounded mb-4" src={mobile} alt="mobile app development service" />
-                <h4 class="mb-0" id="h4hover">
+                <img className="img-fluid rounded mb-4" src={mobile} alt="mobile app development service" />
+                <h4 className="mb-0" id="h4hover">
                   MOBILE APP DEVELOPMENT
                 </h4>
               </a>
             </div>
-            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+            <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
               <a
-                class="service-item d-block rounded text-center h-100 p-4"
+                className="service-item d-block rounded text-center h-100 p-4"
                 href="/services/graphics-ui-ux" rel="noopener noreferrer"
               >
-                <img class="img-fluid rounded mb-4" src={UI} alt="graphic designing service" />
-                <h4 class="mb-0" id="h4hover">
+                <img className="img-fluid rounded mb-4" src={UI} alt="graphic designing service" />
+                <h4 className="mb-0" id="h4hover">
                   GRAPHICS & UI/UX DESIGNING
                 </h4>
               </a>
             </div>
-            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
               <a
-                class="service-item d-block rounded text-center h-100 p-4"
+                className="service-item d-block rounded text-center h-100 p-4"
                 href="/services/growth-marketing" rel="noopener noreferrer"
               >
-                <img class="img-fluid rounded mb-4" src={Marketing} alt="growth and marketing service" />
-                <h4 class="mb-0" id="h4hover">
+                <img className="img-fluid rounded mb-4" src={Marketing} alt="growth and marketing service" />
+                <h4 className="mb-0" id="h4hover">
                   GROWTH & MARKETING
                 </h4>
               </a>
             </div>
-            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
               <a
-                class="service-item d-block rounded text-center h-100 p-4"
+                className="service-item d-block rounded text-center h-100 p-4"
                 href="/services/enterprise-software-solution" rel="noopener noreferrer"
               >
-                <img class="img-fluid rounded mb-4" src={Software} alt="enterprise solution service" />
-                <h4 class="mb-0" id="h4hover">
+                <img className="img-fluid rounded mb-4" src={Software} alt="enterprise solution service" />
+                <h4 className="mb-0" id="h4hover">
                   ENTERPRISE SOLUTION
                 </h4>
               </a>
             </div>
-            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+            <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
               <a
-                class="service-item d-block rounded text-center h-100 p-4"
+                className="service-item d-block rounded text-center h-100 p-4"
                 href="/services/e-commerce-web-apps" rel="noopener noreferrer"
               >
-                <img class="img-fluid rounded mb-4" src={ecom} alt="e-commerce web and app service" />
+                <img className="img-fluid rounded mb-4" src={ecom} alt="e-commerce web and app service" />
 
-                <h4 class="mb-0" id="h4hover">
+                <h4 className="mb-0" id="h4hover">
                   E-COMMERCE WEB & APPS
                 </h4>
               </a>
             </div>
-            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+            <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
               <a
-                class="service-item d-block rounded text-center h-100 p-4"
+                className="service-item d-block rounded text-center h-100 p-4"
                 href="/services/cms-design-development" rel="noopener noreferrer"
               >
-                <img class="img-fluid rounded mb-4" src={cms} alt="cms design and development service" />
+                <img className="img-fluid rounded mb-4" src={cms} alt="cms design and development service" />
 
-                <h4 class="mb-0" id="h4hover">
+                <h4 className="mb-0" id="h4hover">
                   CMS DESIGN & DEVELOPMENT
                 </h4>
               </a>
             </div>
-            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+            <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
               <a
-                class="service-item d-block rounded text-center h-100 p-4"
+                className="service-item d-block rounded text-center h-100 p-4"
                 href="/" rel="noopener noreferrer"
               >
-                <img class="img-fluid rounded mb-4" src={customers} alt="Ready made solution service" />
+                <img className="img-fluid rounded mb-4" src={customers} alt="Ready made solution service" />
 
-                <h4 class="mb-0" id="h4hover">
+                <h4 className="mb-0" id="h4hover">
                   READY MADE SOLUTION
                 </h4>
               </a>
@@ -337,27 +337,27 @@ const Header1 = () => {
       <Connect />
       <br />
       {/* {why choose Us */}
-      <div class="container-xxl py-5">
-        <div class="container">
-          <div class="row g-5">
-            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-              <div class="h-100">
-                <h6 class=" bg-white  text-primary " id="whoweare">
+      <div className="container-xxl py-5">
+        <div className="container">
+          <div className="row g-5">
+            <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+              <div className="h-100">
+                <h6 className=" bg-white  text-primary " id="whoweare">
                   WHY OMKA TECH
                 </h6>
-                <h2 class="display-6 mb-4" id="whoweare">
+                <h2 className="display-6 mb-4" id="whoweare">
                   Why People Trust Us?{" "}
                   <span style={{ color: "#04165D" }} id="whoweare">
                     Learn About Us!
                   </span>
                 </h2>
-                <p class="mb-4">
+                <p className="mb-4">
                 At OMKA TECH, we specialize in delivering comprehensive business solutions to our clients. Our process involves converting their requirement documents into functional technologies, ensuring that their needs are met effectively. Here are the key aspects of our services:
                 </p>
-                <div class="row g-4">
-                  <div class="col-12">
-                    <div class="skill">
-                      <div class="d-flex justify-content-between">
+                <div className="row g-4">
+                  <div className="col-12">
+                    <div className="skill">
+                      <div className="d-flex justify-content-between">
                         {/* <p class="mb-2">Digital Marketing</p><br/><br/> */}
                       </div>
                       <h6
@@ -404,16 +404,16 @@ const Header1 = () => {
                       </h6>
                     </div>
                   </div>
-                  <div class="col-12">
-                    <div class="skill">
-                      <div class="d-flex justify-content-between">
+                  <div className="col-12">
+                    <div className="skill">
+                      <div className="d-flex justify-content-between">
                         {/* <p class="mb-2">SEO & Backlinks</p> */}
                       </div>
                     </div>
                   </div>
-                  <div class="col-12">
-                    <div class="skill">
-                      <div class="d-flex justify-content-between">
+                  <div className="col-12">
+                    <div className="skill">
+                      <div className="d-flex justify-content-between">
                         {/* <p class="mb-2">Design & Development</p> */}
                       </div>
                     </div>
@@ -421,9 +421,9 @@ const Header1 = () => {
                 </div>
               </div>
             </div>
-            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-              <div class="img-border">
-                <img class="img-fluid "  ref={targetDivRef1} src={hero} alt="Omka Tech delivering comprehensive business 
+            <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+              <div className="img-border">
+                <img className="img-fluid "  ref={targetDivRef1} src={hero} alt="Omka Tech delivering comprehensive business 
 solutions to his clients" />
               </div>
             </div>
@@ -432,21 +432,21 @@ solutions to his clients" />
       </div>
       <Marquee /><br /><br /><br />
       {/* process */}
-      <div class="container-xxl py-5" className="s3">
-        <div class="container">
+      <div className="container-xxl py-5 s3" >
+        <div className="container">
           <div
-            class="text-center mx-auto mb-5 wow fadeInUp"
+            className="text-center mx-auto mb-5 wow fadeInUp"
             data-wow-delay="0.1s"
             style={{ maxWidth: "600px" }}
           >
-            <h2 class="display-6 mb-4" id="whoweare">
+            <h2 className="display-6 mb-4" id="whoweare">
               Our Work{" "}
               <span style={{ color: "#04165D" }} id="whoweare">
                 Process
               </span>
             </h2>
           </div>
-          <div class="row g-4">
+          <div className="row g-4">
             <FlowChart />
           </div>
         </div>
@@ -454,14 +454,14 @@ solutions to his clients" />
       <br /><br />
       <Tools />
       {/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */}
-      <div class="container-xxl py-5" id="homeclient">
-        <div class="container">
+      <div className="container-xxl py-5" id="homeclient">
+        <div className="container">
           <div
-            class="text-center mx-auto mb-5 wow fadeInUp"
+            className="text-center mx-auto mb-5 wow fadeInUp"
             data-wow-delay="0.1s"
             style={{ maxWidth: "600px" }}
           >
-            <h2 class="display-6 mb-4 homeclient1" id="whoweare">
+            <h2 className="display-6 mb-4 homeclient1" id="whoweare">
               What Our Client Say{" "}
               <span style={{ color: "#04165D" }} id="whoweare">
                 About Us
@@ -471,11 +471,11 @@ solutions to his clients" />
         </div>
       </div>
       <Youtube />
-      <div class="container-xxl" id="elfsight">
+      <div className="container-xxl" id="elfsight">
         <div className="container">
-          <div class="row g-5">
+          <div className="row g-5">
 
-            <div class="elfsight-app-f2184c12-c34e-45de-a57d-8f06dbd39cc8"></div>
+            <div className="elfsight-app-f2184c12-c34e-45de-a57d-8f06dbd39cc8"></div>
            
           </div></div>
         <br />

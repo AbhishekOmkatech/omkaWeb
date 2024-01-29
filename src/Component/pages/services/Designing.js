@@ -139,21 +139,21 @@ const Designing = () => {
       {/* navbar */}
       <nav
         id="topNavbar"
-        class=""
+        className=""
         data-wow-delay="0.1s"
         style={{ height: "60px", backgroundColor: "white" }}
       >
-        <div class="container" >
+        <div className="container" >
 
-        <div class="flag-container">
-                            <img src='../india.png' class="flag-icon" alt ="india"></img><span style={{ color: "white" }}>|</span>&nbsp;&nbsp;
-                            <img src='../us.png' class="flag-icon" alt ="US"></img><span style={{ color: "white" }}>|</span>&nbsp;&nbsp;
-                            <img src='../canda.png' class="flag-icon" alt ="Canda"></img>
+        <div className="flag-container">
+                            <img src='../india.png' className="flag-icon" alt ="india"></img><span style={{ color: "white" }}>|</span>&nbsp;&nbsp;
+                            <img src='../us.png' className="flag-icon" alt ="US"></img><span style={{ color: "white" }}>|</span>&nbsp;&nbsp;
+                            <img src='../canda.png' className="flag-icon" alt ="Canda"></img>
                         </div>
-                    <div className="row" id="gsss" >
+                    <div classNameName="row" id="gsss" >
 
-                        <div className="col-5"></div>
-                        <div className="col-7">
+                        <div classNameName="col-5"></div>
+                        <div classNameName="col-7">
                             <a href="tel:+1 (786)648-29107"> <img src='../c.jpg' id="flag" alt="canda"></img>&nbsp;+1(786) 648-2910</a>&nbsp; |&nbsp;&nbsp;
                             <a href="tel:+1 (437) 979-1504"><img src='../po.jpg' id="flag" alt="US"></img> &nbsp;+1 (437) 979-1504</a>&nbsp; |&nbsp;&nbsp;
 
@@ -164,12 +164,12 @@ const Designing = () => {
         </div>
       </nav>
       <nav
-        class="navbar navbar-expand-md fixed-top navbar-dark py-lg-0 px-lg-5"
+        className="navbar navbar-expand-md fixed-top navbar-dark py-lg-0 px-lg-5"
         data-wow-delay="0.1s" id="bottomNavbar" style={{ backgroundColor: "#F2F2F2", height: "80px" }}
       >
         <a
           href="/"
-          class="navbar-brand ms-3 d-lg-none"
+          className="navbar-brand ms-3 d-lg-none"
           rel="noopener noreferrer"
         >
           <img
@@ -180,14 +180,14 @@ const Designing = () => {
         </a>
         <button
           type="button"
-          class="navbar-toggler me-3"
+          className="navbar-toggler me-3"
           data-bs-toggle="collapse"
           data-bs-target="#navbarCollapse"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <div class="navbar-nav me-auto p-3 p-lg-0" >
+        <div className="collapse navbar-collapse" id="navbarCollapse">
+          <div className="navbar-nav me-auto p-3 p-lg-0" >
             <a
               href="/"
               style={{
@@ -211,43 +211,43 @@ const Designing = () => {
             </a>
             <a
               href="/"
-              class="nav-item nav-link"
+              className="nav-item nav-link"
               id="homeleft"
               rel="noopener noreferrer"
             >
               Home
             </a>
             &nbsp;&nbsp;&nbsp;
-            <div class="nav-item dropdown">
+            <div className="nav-item dropdown">
               <a
                 href="#"
-                class="nav-link dropdown-toggle"
+                className="nav-link dropdown-toggle"
                 data-bs-toggle="dropdown"
                 rel="noopener noreferrer"
               >
                 About Us
               </a>
               <div
-                class="dropdown-menu border-0 rounded-0 rounded-bottom m-0"
+                className="dropdown-menu border-0 rounded-0 rounded-bottom m-0"
                 style={{ marginTop: "-20px" }}
               >
                 <a
                   href="/about-us"
-                  class="dropdown-item"
+                  className="dropdown-item"
                   rel="noopener noreferrer"
                 >
                   Our Company
                 </a>
                 <a
                   href="/Careers"
-                  class="dropdown-item"
+                  className="dropdown-item"
                   rel="noopener noreferrer"
                 >
                   Careers
                 </a>
                 {/* <a
                   href="/Main"
-                  class="dropdown-item"
+                  className="dropdown-item"
                   rel="noopener noreferrer"
                 >
                   CaseStudy
@@ -255,64 +255,64 @@ const Designing = () => {
               </div>
             </div>
             &nbsp;&nbsp;&nbsp;
-            <div class="nav-item dropdown">
+            <div className="nav-item dropdown">
               <a
                 href="#"
-                class="nav-link dropdown-toggle active"
+                className="nav-link dropdown-toggle active"
                 data-bs-toggle="dropdown"
                 rel="noopener noreferrer"
               >
                 Services
               </a>
               <div
-                class="dropdown-menu border-0 rounded-0 rounded-bottom m-0"
+                className="dropdown-menu border-0 rounded-0 rounded-bottom m-0"
                 style={{ marginTop: "-20px" }}
               >
                 <a
                   href="/services/website-development"
-                  class="dropdown-item"
+                  className="dropdown-item"
                   rel="noopener noreferrer"
                 >
                   Website Development
                 </a>
                 <a
                   href="/services/mobile-app-development"
-                  class="dropdown-item"
+                  className="dropdown-item"
                   rel="noopener noreferrer"
                 >
                   Mobile App Development
                 </a>
                 <a
                   href="/Services/graphics-ui-ux"
-                  class="dropdown-item active"
+                  className="dropdown-item active"
                   rel="noopener noreferrer"
                 >
                   Graphics & UI/UX
                 </a>
                 <a
                   href="/services/growth-marketing"
-                  class="dropdown-item"
+                  className="dropdown-item"
                   rel="noopener noreferrer"
                 >
                   Growth & Marketing
                 </a>
                 <a
                   href="/services/enterprise-software-solution"
-                  class="dropdown-item"
+                  className="dropdown-item"
                   rel="noopener noreferrer"
                 >
                   Enterprise Software Solution
                 </a>
                 <a
                   href="/services/e-commerce-web-apps"
-                  class="dropdown-item"
+                  className="dropdown-item"
                   rel="noopener noreferrer"
                 >
                   E-Commerce Web & Apps
                 </a>
                 <a
                   href="/services/cms-design-development"
-                  class="dropdown-item"
+                  className="dropdown-item"
                   rel="noopener noreferrer"
                 >
                   CMS Design & Development
@@ -322,13 +322,13 @@ const Designing = () => {
             &nbsp;&nbsp;&nbsp;
             <a
               href="/Hire-Resources"
-              class="nav-item nav-link"
+              className="nav-item nav-link"
               rel="noopener noreferrer"
             >
               Hire Resources
             </a>
             &nbsp;&nbsp;&nbsp;
-            <a href="/blog" class="nav-item nav-link" rel="noopener noreferrer">
+            <a href="/blog" className="nav-item nav-link" rel="noopener noreferrer">
               Blog
             </a>{" "}
             &nbsp;&nbsp;&nbsp;
@@ -343,7 +343,7 @@ const Designing = () => {
             >
               <button
                 type="button"
-                class="btn btn-primary rounded-pill"
+                className="btn btn-primary rounded-pill"
                 id="quote"
                 style={{ animation: "pulse 1.1s ease infinite", color: "white" }}
               >
@@ -356,7 +356,7 @@ const Designing = () => {
         </div>
       </nav><br />
       <div
-        class="container-fluid page-header py-5 mb-5 fadeIn "
+        className="container-fluid page-header py-5 mb-5 fadeIn "
         id="DesignBanner"
       >
         <h1 id="ah">
@@ -372,22 +372,22 @@ const Designing = () => {
       <EmailForm />
       <br />
       {/* Aboutus */}
-      <div class="container-xxl py-5">
-        <div class="container">
-          <div class="row g-5">
-            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-              <div class="img-border">
-                <img class="img-fluid" ref={targetDivRef} src={p1} alt="professional web designing company in usa" />
+      <div className="container-xxl py-5">
+        <div className="container">
+          <div className="row g-5">
+            <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+              <div className="img-border">
+                <img className="img-fluid" ref={targetDivRef} src={p1} alt="professional web designing company in usa" />
               </div>
             </div>
-            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-              <div class="h-100">
-                <h5 class=" bg-white  text-primary " id="whoweare">
+            <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+              <div className="h-100">
+                <h5 className=" bg-white  text-primary " id="whoweare">
                   GRAPHICS & UI/UX DESIGNING
                 </h5>
-                <h2 class="display-6 mb-4" id="whoweare">
+                <h2 className="display-6 mb-4" id="whoweare">
                   We Bring your imagination from{" "}
-                  <span class="text-primary" id="whoweare">
+                  <span className="text-primary" id="whoweare">
                     Canvas to Reality!!{" "}
                   </span>
                 </h2>
@@ -397,7 +397,7 @@ const Designing = () => {
                   graphic designers are proficient in different design tools and
                   have remarkable experience in handling design projects.
                 </p>
-                <p class="mb-4">
+                <p className="mb-4">
                   Our unique graphic designs create visual concepts that inspire
                   and captivate customers, which helps in making your business
                   become a brand. We have established ourselves as one of the
@@ -412,13 +412,13 @@ const Designing = () => {
       <br />
       {/* service call */}
       <div
-        class="containe"
+        className="containe"
         id="homecall"
         style={{ backgroundColor: "#04165D", width: "100%" }}
       >
         <br /> <br />
         <h2
-          class="text-white animated zoomIn"
+          className="text-white animated zoomIn"
           style={{
             fontWeight: "bold",
             marginTop: "-11px",
@@ -429,7 +429,7 @@ const Designing = () => {
           <br />{" "}
           <p
             id="homeh4"
-            class="text-white animated zoomIn"
+            className="text-white animated zoomIn"
             style={{
               textAlign: "center",
 
@@ -446,7 +446,7 @@ const Designing = () => {
             >
               <button
                 type="button"
-                class="btn btn-primary rounded-pill"
+                className="btn btn-primary rounded-pill"
                 id="buttonH1"
                 style={{ animation: "pulse 1.1s ease infinite", color: "white" }}
               >
@@ -458,29 +458,29 @@ const Designing = () => {
       </div>
 
       <br />
-      <div class="container-xxl py-5">
-        <div class="container">
+      <div className="container-xxl py-5">
+        <div className="container">
           <div
-            class="text-center mx-auto mb-5 wow fadeInUp"
+            className="text-center mx-auto mb-5 wow fadeInUp"
             data-wow-delay="0.1s"
             style={{ maxWidth: "600px" }}
           >
-            <h6 class=" bg-white  text-primary " id="whoweare">
+            <h6 className=" bg-white  text-primary " id="whoweare">
               Approach We Follow
             </h6>
-            <h2 class="display-6 mb-4" id="whoweare">
+            <h2 className="display-6 mb-4" id="whoweare">
               We Just Don’t Design, We Build
               <span className="text-primary"> Customer Experience</span>
             </h2>
           </div>
-          <div class="row g-4">
+          <div className="row g-4">
             {" "}
-            <div class="container">
+            <div className="container">
               {/* 1 */}
-              <div class="row align-items-center connecting-lines d-flex">
-                <div class="col-2 text-center bottom d-inline-flex justify-content-center align-items-center">
-                  <div class="circle">
-                    <i class="fa fa-chec">
+              <div className="row align-items-center connecting-lines d-flex">
+                <div className="col-2 text-center bottom d-inline-flex justify-content-center align-items-center">
+                  <div className="circle">
+                    <i className="fa fa-chec">
                       {" "}
                       <img
                         src={req}
@@ -490,7 +490,7 @@ const Designing = () => {
                     </i>
                   </div>
                 </div>
-                <div class="col-6 text-left">
+                <div className="col-6 text-left">
                   <h4> Defining & Analyzing</h4>
                   <p>
                     It is important to analyze the requirement and define the
@@ -499,20 +499,20 @@ const Designing = () => {
                 </div>
               </div>
 
-              <div class="row timeline">
-                <div class="col-2">
-                  <div class="corner top-right"></div>
+              <div className="row timeline">
+                <div className="col-2">
+                  <div className="corner top-right"></div>
                 </div>
-                <div class="col-8">
+                <div className="col-8">
                   <hr />
                 </div>
-                <div class="col-2">
-                  <div class="corner left-bottom"></div>
+                <div className="col-2">
+                  <div className="corner left-bottom"></div>
                 </div>
               </div>
               {/* 2 */}
-              <div class="row align-items-center justify-content-end connecting-lines d-flex">
-                <div class="col-6 text-right">
+              <div className="row align-items-center justify-content-end connecting-lines d-flex">
+                <div className="col-6 text-right">
                   <h4> User-Centric Designs </h4>
                   <p style={{ textAlign: "right" }}>
                     We start by creating a pen-paper sketch keeping in mind the
@@ -520,9 +520,9 @@ const Designing = () => {
                     of a user .
                   </p>
                 </div>
-                <div class="col-2 text-center full d-inline-flex justify-content-center align-items-center">
-                  <div class="circle">
-                    <i class="fa fa-chec">
+                <div className="col-2 text-center full d-inline-flex justify-content-center align-items-center">
+                  <div className="circle">
+                    <i className="fa fa-chec">
                       <img
                         src={uiux}
                         style={{ marginLeft: "-3px" }}
@@ -533,22 +533,22 @@ const Designing = () => {
                 </div>
               </div>
 
-              <div class="row timeline">
-                <div class="col-2">
-                  <div class="corner right-bottom"></div>
+              <div className="row timeline">
+                <div className="col-2">
+                  <div className="corner right-bottom"></div>
                 </div>
-                <div class="col-8">
+                <div className="col-8">
                   <hr />
                 </div>
-                <div class="col-2">
-                  <div class="corner top-left"></div>
+                <div className="col-2">
+                  <div className="corner top-left"></div>
                 </div>
               </div>
               {/* 3 */}
-              <div class="row align-items-center connecting-lines d-flex">
-                <div class="col-2 text-center top d-inline-flex justify-content-center align-items-center">
-                  <div class="circle">
-                    <i class="fa fa-chec">
+              <div className="row align-items-center connecting-lines d-flex">
+                <div className="col-2 text-center top d-inline-flex justify-content-center align-items-center">
+                  <div className="circle">
+                    <i className="fa fa-chec">
                       {" "}
                       <img
                         src={proto}
@@ -558,7 +558,7 @@ const Designing = () => {
                     </i>
                   </div>
                 </div>
-                <div class="col-6 text-left">
+                <div className="col-6 text-left">
                   <h4>Getting Client Feedback</h4>
                   <p>
                     Before working on the colors we take client feedback on the
@@ -567,29 +567,29 @@ const Designing = () => {
                   </p>
                 </div>
               </div>
-              <div class="row timeline">
-                <div class="col-2">
-                  <div class="corner top-right"></div>
+              <div className="row timeline">
+                <div className="col-2">
+                  <div className="corner top-right"></div>
                 </div>
-                <div class="col-8">
+                <div className="col-8">
                   <hr />
                 </div>
-                <div class="col-2">
-                  <div class="corner left-bottom"></div>
+                <div className="col-2">
+                  <div className="corner left-bottom"></div>
                 </div>
               </div>
               {/* 4 */}
-              <div class="row align-items-center justify-content-end connecting-lines d-flex">
-                <div class="col-6 text-right">
+              <div className="row align-items-center justify-content-end connecting-lines d-flex">
+                <div className="col-6 text-right">
                   <h4>Color Filling</h4>
                   <p style={{ textAlign: "right" }}>
                     We then start using the color codes in the application where
                     the color filling is done and the final product is created.
                   </p>
                 </div>
-                <div class="col-2 text-center full d-inline-flex justify-content-center align-items-center">
-                  <div class="circle">
-                    <i class="fa fa-chec">
+                <div className="col-2 text-center full d-inline-flex justify-content-center align-items-center">
+                  <div className="circle">
+                    <i className="fa fa-chec">
                       {" "}
                       <img
                         src={app}
@@ -600,28 +600,28 @@ const Designing = () => {
                   </div>
                 </div>
               </div>
-              <div class="row timeline">
-                <div class="col-2">
-                  <div class="corner right-bottom"></div>
+              <div className="row timeline">
+                <div className="col-2">
+                  <div className="corner right-bottom"></div>
                 </div>
-                <div class="col-8">
+                <div className="col-8">
                   <hr />
                 </div>
-                <div class="col-2">
-                  <div class="corner top-left"></div>
+                <div className="col-2">
+                  <div className="corner top-left"></div>
                 </div>
               </div>
               {/* 5 */}
-              <div class="row align-items-center connecting-lines d-flex">
-                <div class="col-2 text-center top d-inline-flex justify-content-center align-items-center">
-                  <div class="circle">
-                    <i class="fa fa-chec">
+              <div className="row align-items-center connecting-lines d-flex">
+                <div className="col-2 text-center top d-inline-flex justify-content-center align-items-center">
+                  <div className="circle">
+                    <i className="fa fa-chec">
                       {" "}
                       <img src={dep} alt="graphic designing service"></img>
                     </i>
                   </div>
                 </div>
-                <div class="col-6 text-left">
+                <div className="col-6 text-left">
                   <h4> Prototyping</h4>
                   <p>
                     Before providing it to the development team, the prototyping
@@ -630,20 +630,20 @@ const Designing = () => {
                   </p>
                 </div>
               </div>
-              <div class="row timeline">
-                <div class="col-2">
-                  <div class="corner top-right"></div>
+              <div className="row timeline">
+                <div className="col-2">
+                  <div className="corner top-right"></div>
                 </div>
-                <div class="col-8">
+                <div className="col-8">
                   <hr />
                 </div>
-                <div class="col-2">
-                  <div class="corner left-bottom"></div>
+                <div className="col-2">
+                  <div className="corner left-bottom"></div>
                 </div>
               </div>
               {/* 6 */}
-              <div class="row align-items-center justify-content-end connecting-lines d-flex">
-                <div class="col-6 text-right">
+              <div className="row align-items-center justify-content-end connecting-lines d-flex">
+                <div className="col-6 text-right">
                   <h4> Final Feedback before Development</h4>
                   <p style={{ textAlign: "right" }}>
                     We then take the final feedback from the client. Though the
@@ -651,9 +651,9 @@ const Designing = () => {
                     creation to make sure the product is as per the requirement.
                   </p>
                 </div>
-                <div class="col-2 text-center full d-inline-flex justify-content-center align-items-center">
-                  <div class="circle">
-                    <i class="fa fa-chec">
+                <div className="col-2 text-center full d-inline-flex justify-content-center align-items-center">
+                  <div className="circle">
+                    <i className="fa fa-chec">
                       {" "}
                       <img
                         src={proto}
@@ -670,64 +670,64 @@ const Designing = () => {
       </div>
 
       {/* technology */}
-      <div class="container-xxl py-5" style={{ marginTop: "-40px" }}>
-        <div class="container">
+      <div className="container-xxl py-5" style={{ marginTop: "-40px" }}>
+        <div className="container">
           <div
-            class="text-center mx-auto mb-5 wow fadeInUp"
+            className="text-center mx-auto mb-5 wow fadeInUp"
             data-wow-delay="0.1s"
             style={{ maxWidth: "600px" }}
           >
-            <h6 class=" bg-white  text-primary " id="whoweare">
+            <h6 className=" bg-white  text-primary " id="whoweare">
               Services We Provide
             </h6>
-            <h2 class="display-6 mb-4" id="whoweare">
+            <h2 className="display-6 mb-4" id="whoweare">
               Ourshine With{" "}
-              <span className="text-primary" id="whoweare">
+              <span classNameName="text-primary" id="whoweare">
                 Interactive & Engaging Designs
               </span>
             </h2>
           </div>
           <br />
           <br />
-          <div class="row g-4" id="back">
-            <div class="wrapper2">
+          <div className="row g-4" id="back">
+            <div className="wrapper2">
               <h2> </h2>
-              <div class="team">
-                <div class="team_member" id="team1">
-                  <div class="team_img">
+              <div className="team">
+                <div className="team_member" id="team1">
+                  <div className="team_img">
                     <img src={web} alt="website design service" />
                   </div>
                   <h3 className="text-primary">Website Design</h3>
                 </div>
-                <div class="team_member" id="team1">
-                  <div class="team_img">
+                <div className="team_member" id="team1">
+                  <div className="team_img">
                     <img src={mobile} alt="mobile app design service" />
                   </div>
                   <h3 className="text-primary">Mobile App Design</h3>
                 </div>
-                <div class="team_member" id="team1">
-                  <div class="team_img">
+                <div className="team_member" id="team1">
+                  <div className="team_img">
                     <img src={icon} alt="Icon Designing service" />
                   </div>
                   <h3 className="text-primary">Icon Designing</h3>
                 </div>
               </div>
               <br />{" "}
-              <div class="team">
-                <div class="team_member" id="team1">
-                  <div class="team_img">
+              <div className="team">
+                <div className="team_member" id="team1">
+                  <div className="team_img">
                     <img src={Flyer} alt="flyer & brochure service" />
                   </div>
                   <h3 className="text-primary">Flyer & Brochure</h3>
                 </div>
-                <div class="team_member" id="team1">
-                  <div class="team_img">
+                <div className="team_member" id="team1">
+                  <div className="team_img">
                     <img src={brand} alt="brand design service" />
                   </div>
                   <h3 className="text-primary">Brand Design</h3>
                 </div>
-                <div class="team_member" id="team1">
-                  <div class="team_img">
+                <div className="team_member" id="team1">
+                  <div className="team_img">
                     <img src={imge} alt="image editing services" />
                   </div>
                   <h3 className="text-primary">Image Editing</h3>
@@ -738,29 +738,29 @@ const Designing = () => {
         </div>
       </div>
       {/* {why choose Us */}
-      <div class="container-xxl py-5">
-        <div class="container">
-          <div class="row g-5">
-            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-              <div class="h-100">
-                <h6 class=" bg-white text-primary" id="whoweare">
+      <div className="container-xxl py-5">
+        <div className="container">
+          <div className="row g-5">
+            <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+              <div className="h-100">
+                <h6 className=" bg-white text-primary" id="whoweare">
                   Why Choose Us
                 </h6>
-                <h2 class="display-6 mb-4" id="whoweare">
+                <h2 className="display-6 mb-4" id="whoweare">
                   Benefits you get while working with{" "}
                   <span className="text-primary" id="whoweare">
                     Omka Tech
                   </span>
                 </h2>
-                <p class="mb-4">Omka Tech is a website designing company that aims to create a
+                <p className="mb-4">Omka Tech is a website designing company that aims to create a
                   simple and powerful website for our customers with the help of the
                   industry's best designers. With our services, you'll get high quality digital
                   design that speaks for itself</p>
-                <div class="row g-4">
-                  <div class="col-12">
-                    <div class="skill">
-                      <div class="d-flex justify-content-between">
-                        {/* <p class="mb-2">Digital Marketing</p><br/><br/> */}
+                <div className="row g-4">
+                  <div className="col-12">
+                    <div className="skill">
+                      <div className="d-flex justify-content-between">
+                        {/* <p className="mb-2">Digital Marketing</p><br/><br/> */}
                       </div>
 
                       <h6
@@ -801,26 +801,26 @@ const Designing = () => {
                       </h6>
                     </div>
                   </div>
-                  <div class="col-12">
-                    <div class="skill">
-                      <div class="d-flex justify-content-between">
-                        {/* <p class="mb-2">SEO & Backlinks</p> */}
+                  <div className="col-12">
+                    <div className="skill">
+                      <div className="d-flex justify-content-between">
+                        {/* <p className="mb-2">SEO & Backlinks</p> */}
                       </div>
                     </div>
                   </div>
-                  <div class="col-12">
-                    <div class="skill">
-                      <div class="d-flex justify-content-between">
-                        {/* <p class="mb-2">Design & Development</p> */}
+                  <div className="col-12">
+                    <div className="skill">
+                      <div className="d-flex justify-content-between">
+                        {/* <p className="mb-2">Design & Development</p> */}
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-              <div class="img-border">
-                <img class="img-fluid" ref={targetDivRef1} src={hero} alt="website designing with Omka Tech" />
+            <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+              <div className="img-border">
+                <img className="img-fluid" ref={targetDivRef1} src={hero} alt="website designing with Omka Tech" />
               </div>
             </div>
           </div>

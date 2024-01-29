@@ -185,21 +185,21 @@ marketing"></link>
       {/* navbar */}
       <nav
         id="topNavbar"
-        class=""
+        className=""
         data-wow-delay="0.1s"
         style={{ height: "60px", backgroundColor: "white" }}
       >
-        <div class="container" >
+        <div className="container" >
 
-        <div class="flag-container">
-                            <img src='../india.png' class="flag-icon" alt ="india"></img><span style={{ color: "white" }}>|</span>&nbsp;&nbsp;
-                            <img src='../us.png' class="flag-icon" alt ="US"></img><span style={{ color: "white" }}>|</span>&nbsp;&nbsp;
-                            <img src='../canda.png' class="flag-icon" alt ="Canda"></img>
+        <div className="flag-container">
+                            <img src='../india.png' className="flag-icon" alt ="india"></img><span style={{ color: "white" }}>|</span>&nbsp;&nbsp;
+                            <img src='../us.png' className="flag-icon" alt ="US"></img><span style={{ color: "white" }}>|</span>&nbsp;&nbsp;
+                            <img src='../canda.png' className="flag-icon" alt ="Canda"></img>
                         </div>
-                    <div className="row" id="gsss" >
+                    <div classNameName="row" id="gsss" >
 
-                        <div className="col-5"></div>
-                        <div className="col-7">
+                        <div classNameName="col-5"></div>
+                        <div classNameName="col-7">
                             <a href="tel:+1 (786)648-29107"> <img src='../c.jpg' id="flag" alt="canda"></img>&nbsp;+1(786) 648-2910</a>&nbsp; |&nbsp;&nbsp;
                             <a href="tel:+1 (437) 979-1504"><img src='../po.jpg' id="flag" alt="US"></img> &nbsp;+1 (437) 979-1504</a>&nbsp; |&nbsp;&nbsp;
 
@@ -211,12 +211,12 @@ marketing"></link>
       </nav>
       <br />
       <nav
-        class="navbar navbar-expand-md fixed-top navbar-dark py-lg-0 px-lg-5"
+        className="navbar navbar-expand-md fixed-top navbar-dark py-lg-0 px-lg-5"
         data-wow-delay="0.1s" id="bottomNavbar" style={{ backgroundColor: "#F2F2F2", height: "80px" }}
       >
         <a
           href="/"
-          class="navbar-brand ms-3 d-lg-none"
+          className="navbar-brand ms-3 d-lg-none"
           rel="noopener noreferrer"
         >
           <img
@@ -227,14 +227,14 @@ marketing"></link>
         </a>
         <button
           type="button"
-          class="navbar-toggler me-3"
+          className="navbar-toggler me-3"
           data-bs-toggle="collapse"
           data-bs-target="#navbarCollapse"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <div class="navbar-nav me-auto p-3 p-lg-0" >
+        <div className="collapse navbar-collapse" id="navbarCollapse">
+          <div className="navbar-nav me-auto p-3 p-lg-0" >
             <a
               href="/"
               style={{
@@ -258,43 +258,43 @@ marketing"></link>
             </a>
             <a
               href="/"
-              class="nav-item nav-link"
+              className="nav-item nav-link"
               id="homeleft"
               rel="noopener noreferrer"
             >
               Home
             </a>
             &nbsp;&nbsp;&nbsp;
-            <div class="nav-item dropdown">
+            <div className="nav-item dropdown">
               <a
                 href="#"
-                class="nav-link dropdown-toggle"
+                className="nav-link dropdown-toggle"
                 data-bs-toggle="dropdown"
                 rel="noopener noreferrer"
               >
                 About Us
               </a>
               <div
-                class="dropdown-menu border-0 rounded-0 rounded-bottom m-0"
+                className="dropdown-menu border-0 rounded-0 rounded-bottom m-0"
                 style={{ marginTop: "-20px" }}
               >
                 <a
                   href="/about-us"
-                  class="dropdown-item"
+                  className="dropdown-item"
                   rel="noopener noreferrer"
                 >
                   Our Company
                 </a>
                 <a
                   href="/Careers"
-                  class="dropdown-item"
+                  className="dropdown-item"
                   rel="noopener noreferrer"
                 >
                   Careers
                 </a>
                 {/* <a
                   href="/Main"
-                  class="dropdown-item"
+                  className="dropdown-item"
                   rel="noopener noreferrer"
                 >
                   CaseStudy
@@ -302,64 +302,64 @@ marketing"></link>
               </div>
             </div>
             &nbsp;&nbsp;&nbsp;
-            <div class="nav-item dropdown">
+            <div className="nav-item dropdown">
               <a
                 href="#"
-                class="nav-link dropdown-toggle active"
+                className="nav-link dropdown-toggle active"
                 data-bs-toggle="dropdown"
                 rel="noopener noreferrer"
               >
                 Services
               </a>
               <div
-                class="dropdown-menu border-0 rounded-0 rounded-bottom m-0"
+                className="dropdown-menu border-0 rounded-0 rounded-bottom m-0"
                 style={{ marginTop: "-20px" }}
               >
                 <a
                   href="/services/website-development"
-                  class="dropdown-item"
+                  className="dropdown-item"
                   rel="noopener noreferrer"
                 >
                   Website Development
                 </a>
                 <a
                   href="/services/mobile-app-development"
-                  class="dropdown-item"
+                  className="dropdown-item"
                   rel="noopener noreferrer"
                 >
                   Mobile App Development
                 </a>
                 <a
                   href="/Services/graphics-ui-ux"
-                  class="dropdown-item"
+                  className="dropdown-item"
                   rel="noopener noreferrer"
                 >
                   Graphics & UI/UX
                 </a>
                 <a
                   href="/services/growth-marketing"
-                  class="dropdown-item active"
+                  className="dropdown-item active"
                   rel="noopener noreferrer"
                 >
                   Growth & Marketing
                 </a>
                 <a
                   href="/services/enterprise-software-solution"
-                  class="dropdown-item"
+                  className="dropdown-item"
                   rel="noopener noreferrer"
                 >
                   Enterprise Software Solution
                 </a>
                 <a
                   href="/services/e-commerce-web-apps"
-                  class="dropdown-item"
+                  className="dropdown-item"
                   rel="noopener noreferrer"
                 >
                   E-Commerce Web & Apps
                 </a>
                 <a
                   href="/services/cms-design-development"
-                  class="dropdown-item"
+                  className="dropdown-item"
                   rel="noopener noreferrer"
                 >
                   CMS Design & Development
@@ -369,13 +369,13 @@ marketing"></link>
             &nbsp;&nbsp;&nbsp;
             <a
               href="/hire-resources"
-              class="nav-item nav-link"
+              className="nav-item nav-link"
               rel="noopener noreferrer"
             >
               Hire Resources
             </a>
             &nbsp;&nbsp;&nbsp;  
-            <a href="/blog" class="nav-item nav-link" rel="noopener noreferrer">
+            <a href="/blog" className="nav-item nav-link" rel="noopener noreferrer">
               Blog
             </a>
             &nbsp;&nbsp;&nbsp;
@@ -390,7 +390,7 @@ marketing"></link>
             >
               <button
                 type="button"
-                class="btn btn-primary rounded-pill"
+                className="btn btn-primary rounded-pill"
                 id="quote"
                 style={{ animation: "pulse 1.1s ease infinite", color: "white" }}
               >
@@ -402,17 +402,17 @@ marketing"></link>
         </div>
       </nav>
       <div
-        class="container-fluid page-header py-5 mb-5 fadeIn"
+        className="container-fluid page-header py-5 mb-5 fadeIn"
         id="MarketingBanner"
       >
-        <div class="container text-center py-5">
-          <h2 class="display-4 text-white animated slideInDown mb-3"></h2>
+        <div className="container text-center py-5">
+          <h2 className="display-4 text-white animated slideInDown mb-3"></h2>
         </div>
       </div>
       <br />
       <button
         type="button"
-        class="btn btn-primary rounded-pill"
+        className="btn btn-primary rounded-pill"
         data-toggle="modal"
         data-target="#exampleModalCenter"
         style={{ animation: "pulse 1.1s ease infinite", fontSize: "14px", color: "white" }}
@@ -422,22 +422,22 @@ marketing"></link>
 
       <br />
       {/* abouts */}
-      <div class="container-xxl py-5">
-        <div class="container">
-          <div class="row g-5">
-            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-              <div class="img-border">
-                <img class="img-fluid"  ref={targetDivRef} src={p1} alt="top social media marketing agency in usa" />
+      <div className="container-xxl py-5">
+        <div className="container">
+          <div className="row g-5">
+            <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+              <div className="img-border">
+                <img className="img-fluid"  ref={targetDivRef} src={p1} alt="top social media marketing agency in usa" />
               </div>
             </div>
-            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-              <div class="h-100">
-                <h1 class=" bg-white  text-primary" id="whoweare" style={{ fontSize: "15px" }}>
+            <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+              <div className="h-100">
+                <h1 className=" bg-white  text-primary" id="whoweare" style={{ fontSize: "15px" }}>
                   DIGITAL MARKETING SERVICE IN USA
                 </h1>
-                <h2 class="display-6 mb-4" id="whoweare">
+                <h2 className="display-6 mb-4" id="whoweare">
                   More Traffic, More Conversions
-                  <span class="text-primary" id="whoweare">
+                  <span className="text-primary" id="whoweare">
                     , More Results
                   </span>
                 </h2>
@@ -449,7 +449,7 @@ marketing"></link>
                   anyone else and that's why we don't offer a
                   'one-size-fits-all' solution.
                 </p>
-                <p class="mb-4">
+                <p className="mb-4">
                   nstead, we offer a wide range of digital marketing services
                   for our clients, enabling them to select the ones that are the
                   best for their business or to enlist the help of our team in
@@ -465,13 +465,13 @@ marketing"></link>
       <br />
       {/* service call */}
       <div
-        class="containe"
+        className="containe"
         id="homecall"
         style={{ backgroundColor: "#04165D", width: "100%" }}
       >
         <br /> <br />
         <h2
-          class="text-white animated zoomIn"
+          className="text-white animated zoomIn"
           style={{
             fontWeight: "bold",
             marginTop: "-11px",
@@ -484,7 +484,7 @@ marketing"></link>
           <br />{" "}
           <h4
             id="homeh4"
-            class="text-white animated zoomIn"
+            className="text-white animated zoomIn"
             style={{
               textAlign: "center",
 
@@ -501,7 +501,7 @@ marketing"></link>
             >
               <button
                 type="button"
-                class="btn btn-primary rounded-pill"
+                className="btn btn-primary rounded-pill"
                 id="buttonH1"
                 style={{ animation: "pulse 1.1s ease infinite", color: "white" }}
               >
@@ -514,40 +514,40 @@ marketing"></link>
 
       <br />
       {/* services */}
-      <div class="container-xxl py-5">
-        <div class="container">
+      <div className="container-xxl py-5">
+        <div className="container">
           <div
-            class="text-center mx-auto mb-5 wow fadeInUp"
+            className="text-center mx-auto mb-5 wow fadeInUp"
             data-wow-delay="0.1s"
             style={{ maxWidth: "600px" }}
           >
-            <h6 class=" bg-white  text-primary" id="whoweare">
+            <h6 className=" bg-white  text-primary" id="whoweare">
               Services We Provide
             </h6>
-            <h2 class="display-6 mb-4" id="whoweare">
+            <h2 className="display-6 mb-4" id="whoweare">
               No one visits the{" "}
-              <span id="whoweare" className="text-primary">
+              <span id="whoweare" classNameName="text-primary">
                 Website
               </span>{" "}
               if they are not aware.
             </h2>
           </div>
-          <div class="row g-4">
-            <div class="container-fluid">
-              <div class="row mb-5">
-                <div class="col-12 col-sm-6 col-md-3 m-auto" id="team2">
+          <div className="row g-4">
+            <div className="container-fluid">
+              <div className="row mb-5">
+                <div className="col-12 col-sm-6 col-md-3 m-auto" id="team2">
                   <div
-                    class="car shadow"
+                    className="car shadow"
                     style={{ border: "1px solid darkgrey", borderRadius: "5%" }}
                   >
                     <img
                       src={web}
                       alt="search engine optimization service"
-                      class="card-img-top"
+                      className="card-img-top"
                       id="teamimg"
                     /><br /><br />
-                    <div class="card-body">
-                      <h3 class="text-center" style={{ fontSize: "1rem" }}>
+                    <div className="card-body">
+                      <h3 className="text-center" style={{ fontSize: "1rem" }}>
                         Search Engine Optimization
                         <br />
                         (SEO)
@@ -556,19 +556,19 @@ marketing"></link>
                   </div>
                 </div>
 
-                <div class="col-12 col-sm-6 col-md-3 m-auto" id="team2">
+                <div className="col-12 col-sm-6 col-md-3 m-auto" id="team2">
                   <div
-                    class="car shadow"
+                    className="car shadow"
                     style={{ border: "1px solid darkgrey", borderRadius: "5%" }}
                   >
                     <img
                       src={mobile}
                       alt="social media optimization service"
-                      class="card-img-top"
+                      className="card-img-top"
                       id="teamimg"
                     /><br /><br />
-                    <div class="card-body">
-                      <h3 class="text-center" style={{ fontSize: "1rem" }}>
+                    <div className="card-body">
+                      <h3 className="text-center" style={{ fontSize: "1rem" }}>
                         Social Media Optimization
                         <br />
                         (SMO)
@@ -577,19 +577,19 @@ marketing"></link>
                   </div>
                 </div>
 
-                <div class="col-12 col-sm-6 col-md-3 m-auto" id="team2">
+                <div className="col-12 col-sm-6 col-md-3 m-auto" id="team2">
                   <div
-                    class="car shadow"
+                    className="car shadow"
                     style={{ border: "1px solid darkgrey", borderRadius: "5%" }}
                   >
                     <img
                       src={Marketing}
                       alt="pay-per-click advertising service"
-                      class="card-img-top"
+                      className="card-img-top"
                       id="teamimg"
                     /><br /><br />
-                    <div class="card-body">
-                      <h3 class="text-center" style={{ fontSize: "1rem" }}>
+                    <div className="card-body">
+                      <h3 className="text-center" style={{ fontSize: "1rem" }}>
                         Pay-Per-Click Advertising
                         <br />
                         (PPC)
@@ -598,20 +598,20 @@ marketing"></link>
                   </div>
                 </div>
               </div>
-              <div class="row mb-5">
-                <div class="col-12 col-sm-6 col-md-3 m-auto" id="team2">
+              <div className="row mb-5">
+                <div className="col-12 col-sm-6 col-md-3 m-auto" id="team2">
                   <div
-                    class="car shadow"
+                    className="car shadow"
                     style={{ border: "1px solid darkgrey", borderRadius: "5%" }}
                   >
                     <img
                       src={UI}
                       alt="content marketing service"
-                      class="card-img-top"
+                      className="card-img-top"
                       id="teamimg"
                     /><br /><br />
-                    <div class="card-body">
-                      <h3 class="text-center" style={{ fontSize: "1rem" }}>
+                    <div className="card-body">
+                      <h3 className="text-center" style={{ fontSize: "1rem" }}>
                         Content Marketing
                       </h3>
                     </div>
@@ -619,19 +619,19 @@ marketing"></link>
                   </div>
                 </div>
 
-                <div class="col-12 col-sm-6 col-md-3 m-auto" id="team2">
+                <div className="col-12 col-sm-6 col-md-3 m-auto" id="team2">
                   <div
-                    class="car shadow"
+                    className="car shadow"
                     style={{ border: "1px solid darkgrey", borderRadius: "5%" }}
                   >
                     <img
                       src={email}
                       alt="email marketing service "
-                      class="card-img-top"
+                      className="card-img-top"
                       id="teamimg"
                     /><br /><br />
-                    <div class="card-body">
-                      <h3 class="text-center" style={{ fontSize: "1rem" }}>
+                    <div className="card-body">
+                      <h3 className="text-center" style={{ fontSize: "1rem" }}>
                         Email Marketing
                       </h3>
                     </div>
@@ -639,19 +639,19 @@ marketing"></link>
                   </div>
                 </div>
 
-                <div class="col-12 col-sm-6 col-md-3 m-auto" id="team2">
+                <div className="col-12 col-sm-6 col-md-3 m-auto" id="team2">
                   <div
-                    class="car shadow"
+                    className="car shadow"
                     style={{ border: "1px solid darkgrey", borderRadius: "5%" }}
                   >
                     <img
                       src={seo}
                       alt="social media marketing service"
-                      class="card-img-top"
+                      className="card-img-top"
                       id="teamimg"
                     /><br /><br />
-                    <div class="card-body">
-                      <h3 class="text-center" style={{ fontSize: "1rem" }}>
+                    <div className="card-body">
+                      <h3 className="text-center" style={{ fontSize: "1rem" }}>
                         Social Media Marketing
                         <br />
                         (SMM)
@@ -666,29 +666,29 @@ marketing"></link>
       </div>
 
       {/* {why choose Us */}
-      <div class="container-xxl py-5">
-        <div class="container">
-          <div class="row g-5">
-            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-              <div class="h-100">
-                <h6 class=" bg-white text-primary" id="whoweare">
+      <div className="container-xxl py-5">
+        <div className="container">
+          <div className="row g-5">
+            <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+              <div className="h-100">
+                <h6 className=" bg-white text-primary" id="whoweare">
                   What We Do?
                 </h6>
-                <h2 class="display-6 mb-4" id="whoweare">
+                <h2 className="display-6 mb-4" id="whoweare">
                   We create Strategies to reach
-                  <span className="text-primary" id="whoweare">
+                  <span classNameName="text-primary" id="whoweare">
                     {" "}
                     Target Audiences
                   </span>
                 </h2>
-                <p class="mb-4">Omka Tech is the best social media marketing company that offers
+                <p className="mb-4">Omka Tech is the best social media marketing company that offers
                   high-quality digital marketing services. We are passionate about building
                   innovative digital solutions that bring your business to the next level.</p>
-                <div class="row g-4">
-                  <div class="col-12">
-                    <div class="skill">
-                      <div class="d-flex justify-content-between">
-                        {/* <p class="mb-2">Digital Marketing</p><br/><br/> */}
+                <div className="row g-4">
+                  <div className="col-12">
+                    <div className="skill">
+                      <div className="d-flex justify-content-between">
+                        {/* <p className="mb-2">Digital Marketing</p><br/><br/> */}
                       </div>
 
                       <h6
@@ -742,26 +742,26 @@ marketing"></link>
                       </h6>
                     </div>
                   </div>
-                  <div class="col-12">
-                    <div class="skill">
-                      <div class="d-flex justify-content-between">
-                        {/* <p class="mb-2">SEO & Backlinks</p> */}
+                  <div className="col-12">
+                    <div className="skill">
+                      <div className="d-flex justify-content-between">
+                        {/* <p className="mb-2">SEO & Backlinks</p> */}
                       </div>
                     </div>
                   </div>
-                  <div class="col-12">
-                    <div class="skill">
-                      <div class="d-flex justify-content-between">
-                        {/* <p class="mb-2">Design & Development</p> */}
+                  <div className="col-12">
+                    <div className="skill">
+                      <div className="d-flex justify-content-between">
+                        {/* <p className="mb-2">Design & Development</p> */}
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-              <div class="img-border">
-                <img class="img-fluid" ref={targetDivRef1} src={hero} alt="reach the target audience with social media 
+            <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+              <div className="img-border">
+                <img className="img-fluid" ref={targetDivRef1} src={hero} alt="reach the target audience with social media 
 marketing service" />
               </div>
             </div>
@@ -778,35 +778,35 @@ marketing service" />
       <div>
         {show1 && (
           <div
-            class="modal fade"
+            className="modal fade"
             id="exampleModalCenter"
-            tabindex="-1"
+            tabIndex="-1"
             role="dialog"
             aria-labelledby="exampleModalCenterTitle"
             aria-hidden="true"
           >
-            <div class="modal-dialog modal-dialog-centered" role="document">
-              <div class="modal-content">
-                <div class="modal-body">
+            <div className="modal-dialog modal-dialog-centered" role="document">
+              <div className="modal-content">
+                <div className="modal-body">
                   <div
-                    class="contact-page-form"
+                    className="contact-page-form"
                     method="post"
                     style={{ marginTop: "-20px" }}
                   >
                     <form onSubmit={submitNow1}>
-                      <div class="containerBb" style={{ backgroundColor: "white" }}>
+                      <div className="containerBb" style={{ backgroundColor: "white" }}>
                         {" "}
                         <button
                           type="button"
-                          class="close"
+                          className="close"
                           data-dismiss="modal"
                           aria-hidden="true"
                         >
                           ×
                         </button>
-                        <div class="brand-logoBb1"></div>
-                        <div class="brand-titleBb">Book Now</div>
-                        <div class="inputsBb">
+                        <div className="brand-logoBb1"></div>
+                        <div className="brand-titleBb">Book Now</div>
+                        <div className="inputsBb">
                           <label id="Booklabelb">Name</label> :&nbsp;
                           <input
                             type="text"

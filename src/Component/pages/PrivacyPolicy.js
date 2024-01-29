@@ -68,16 +68,16 @@ const PrivacyPolicy = () => {
       </Helmet>
       <nav
         id="topNavbar"
-        class=""
+        className=""
         data-wow-delay="0.1s"
         style={{ height: "60px", backgroundColor: "white" }}
       >
-        <div class="container" >
+        <div className="container" >
 
-          <div class="flag-container">
-            <img src='../india.png' class="flag-icon" alt="india"></img><span style={{ color: "white" }}>|</span>&nbsp;&nbsp;
-            <img src='../us.png' class="flag-icon" alt="US"></img><span style={{ color: "white" }}>|</span>&nbsp;&nbsp;
-            <img src='../canda.png' class="flag-icon" alt="Canda"></img>
+          <div className="flag-container">
+            <img src='../india.png' className="flag-icon" alt="india"></img><span style={{ color: "white" }}>|</span>&nbsp;&nbsp;
+            <img src='../us.png' className="flag-icon" alt="US"></img><span style={{ color: "white" }}>|</span>&nbsp;&nbsp;
+            <img src='../canda.png' className="flag-icon" alt="Canda"></img>
           </div>
           <div className="row" id="gsss" >
 
@@ -94,12 +94,12 @@ const PrivacyPolicy = () => {
       </nav>
       <nav
 
-        class="navbar navbar-expand-md  navbar-dark py-lg-0 px-lg-5"
+        className="navbar navbar-expand-md  navbar-dark py-lg-0 px-lg-5"
         data-wow-delay="0.1s" id="bottomNavbar" style={{ backgroundColor: "#F2F2F2", height: "80px" }}
       >
         <a
           href="/"
-          class="navbar-brand ms-3 d-lg-none"
+          className="navbar-brand ms-3 d-lg-none"
           rel="noopener noreferrer"
         >
           <img
@@ -111,14 +111,14 @@ const PrivacyPolicy = () => {
         </a>
         <button
           type="button"
-          class="navbar-toggler me-3"
+          className="navbar-toggler me-3"
           data-bs-toggle="collapse"
           data-bs-target="#navbarCollapse"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <div class="navbar-nav me-auto p-3 p-lg-0">
+        <div className="collapse navbar-collapse" id="navbarCollapse">
+          <div className="navbar-nav me-auto p-3 p-lg-0">
             <a
               href="/"
               style={{
@@ -143,36 +143,36 @@ const PrivacyPolicy = () => {
             </a>
             <a
               href="/"
-              class="nav-item nav-link "
+              className="nav-item nav-link "
               id="homeleft"
               rel="noopener noreferrer"
             >
               Home
             </a>
             &nbsp;&nbsp;&nbsp;
-            <div class="nav-item dropdown">
+            <div className="nav-item dropdown">
               <a
                 rel="noopener noreferrer"
                 href="#"
-                class="nav-link dropdown-toggle"
+                className="nav-link dropdown-toggle"
                 data-bs-toggle="dropdown"
               >
                 About Us
               </a>
               <div
-                class="dropdown-menu border-0 rounded-0 rounded-bottom m-0"
+                className="dropdown-menu border-0 rounded-0 rounded-bottom m-0"
                 style={{ marginTop: "-20px" }}
               >
                 <a
                   href="/about-us"
-                  class="dropdown-item "
+                  className="dropdown-item "
                   rel="noopener noreferrer"
                 >
                   Our Company
                 </a>
                 <a
                   href="/Careers"
-                  class="dropdown-item"
+                  className="dropdown-item"
                   rel="noopener noreferrer"
                 >
                   Careers
@@ -180,69 +180,69 @@ const PrivacyPolicy = () => {
               </div>
             </div>
             &nbsp;&nbsp;&nbsp;
-            <div class="nav-item dropdown">
+            <div className="nav-item dropdown">
               <a
                 href="#"
-                class="nav-link dropdown-toggle"
+                className="nav-link dropdown-toggle"
                 data-bs-toggle="dropdown"
                 rel="noopener noreferrer"
               >
                 Services
               </a>
               <div
-                class="dropdown-menu border-0 rounded-0 rounded-bottom m-0"
+                className="dropdown-menu border-0 rounded-0 rounded-bottom m-0"
                 style={{ marginTop: "-20px" }}
               >
                 <a
                   href="/services/website-development"
-                  class="dropdown-item"
+                  className="dropdown-item"
                   rel="noopener noreferrer"
                 >
                   Website Development
                 </a>
                 <a
                   href="/services/mobile-app-development"
-                  class="dropdown-item"
+                  className="dropdown-item"
                   rel="noopener noreferrer"
                 >
                   Mobile App Development
                 </a>
                 <a
                   href="/services/designing"
-                  class="dropdown-item"
+                  className="dropdown-item"
                   rel="noopener noreferrer"
                 >
                   Graphics & UI/UX
                 </a>
                 <a
                   href="/services/growth-marketing"
-                  class="dropdown-item"
+                  className="dropdown-item"
                   rel="noopener noreferrer"
                 >
                   Growth & Marketing
                 </a>
                 <a
                   href="/services/enterprise-software-solution"
-                  class="dropdown-item"
+                  className="dropdown-item"
                   rel="noopener noreferrer"
                 >
                   Enterprise Software Solution
                 </a>
                 <a
                   href="/services/e-commerce-web-apps"
-                  class="dropdown-item"
+                  className="dropdown-item"
                   rel="noopener noreferrer"
                 >
                   E-Commerce Web & Apps
                 </a>
                 <a
                   href="/services/cms-design-development"
-                  class="dropdown-item"
+                  className="dropdown-item"
                   rel="noopener noreferrer"
                 >
                   CMS Design & Development
                 </a>
-                {/* <a href="/Services/ReadyMadeSolution" class="dropdown-item">
+                {/* <a href="/Services/ReadyMadeSolution" className="dropdown-item">
        Ready Made Solution
      </a> */}
               </div>
@@ -250,13 +250,13 @@ const PrivacyPolicy = () => {
             &nbsp;&nbsp;&nbsp;
             <a
               href="/hire-resources"
-              class="nav-item nav-link"
+              className="nav-item nav-link"
               rel="noopener noreferrer"
             >
               Hire Resources
             </a>
             &nbsp;&nbsp;&nbsp;
-            <a href="/blog" class="nav-item nav-link" rel="noopener noreferrer">
+            <a href="/blog" className="nav-item nav-link" rel="noopener noreferrer">
               Blog
             </a>{" "}
             &nbsp;&nbsp;&nbsp;
@@ -271,7 +271,7 @@ const PrivacyPolicy = () => {
             >
               <button
                 type="button"
-                class="btn btn-primary rounded-pill active"
+                className="btn btn-primary rounded-pill active"
                 id="quote"
                 style={{ animation: "pulse 1.1s ease infinite", color: "white" }}
               >
@@ -286,7 +286,7 @@ const PrivacyPolicy = () => {
 
       {/* header */}
       <div
-        class="container-fluid page-header py-5 mb-5 wow fadeIn"
+        className="container-fluid page-header py-5 mb-5 wow fadeIn"
         data-wow-delay="0.1s"
         id="PrivacyBanner"
       >
@@ -297,19 +297,19 @@ const PrivacyPolicy = () => {
         </h1>
       </div>
 
-      <div class="container-xxl py-5">
-        <div class="container">
+      <div className="container-xxl py-5">
+        <div className="container">
           <div
-            class="text-center mx-auto mb-5 wow fadeInUp"
+            className="text-center mx-auto mb-5 wow fadeInUp"
             data-wow-delay="0.1s"
             style={{ maxWidth: "600px" }}
           >
-            <h1 class="display-6 mb-4">
+            <h1 className="display-6 mb-4">
               Privacy Policy for{" "}
               <span style={{ color: "#04165D" }}> OMKA TECH</span>
             </h1>
           </div>
-          <div class="row g-4" style={{ lineHeight: "normal" }}>
+          <div className="row g-4" style={{ lineHeight: "normal" }}>
             <p>
               At Omka Tech, accessible from{" "}
               <a href="https://omkatech.com" rel="noopener noreferrer">
@@ -326,12 +326,12 @@ const PrivacyPolicy = () => {
               information collected offline or via channels other than this
               website.{" "}
             </p>
-            <h3 class=" bg-white  text-primary ">Consent</h3>
+            <h3 className=" bg-white  text-primary ">Consent</h3>
             <p>
               By using our website, you hereby consent to our Privacy Policy and
               agree to its terms.
             </p>
-            <h4 class=" bg-white  text-primary ">Information we collect</h4>
+            <h4 className=" bg-white  text-primary ">Information we collect</h4>
             <p>
               The personal information that you are asked to provide, and the
               reasons why you are asked to provide it, will be made clear to you
@@ -343,8 +343,8 @@ const PrivacyPolicy = () => {
               contents of the message and/or attachments you may send us, and
               any other information you may choose to provide.
             </p>
-            <h4 class="   text-primary ">How we use your information</h4>
-            <h6 class="  text-primary ">
+            <h4 className="   text-primary ">How we use your information</h4>
+            <h6 className="  text-primary ">
               We use the information we collect in various ways, including to:
             </h6>
             <li id="whoweare1">Provide, operate, and maintain our website</li>
@@ -367,7 +367,7 @@ const PrivacyPolicy = () => {
             </li>
             <li id="whoweare1">Send you emails</li>
             <li id="whoweare1">Find and prevent fraud</li>
-            <h4 class=" bg-white  text-primary ">Log Files</h4>
+            <h4 className=" bg-white  text-primary ">Log Files</h4>
             <p>
               Omka Tech follows a standard procedure of using log files. These
               files log visitors when they visit websites. All hosting companies
@@ -380,7 +380,7 @@ const PrivacyPolicy = () => {
               trends, administering the site, tracking users' movement on the
               website, and gathering demographic information.
             </p>
-            <h4 class=" bg-white  text-primary ">Cookies and Web Beacons</h4>
+            <h4 className=" bg-white  text-primary ">Cookies and Web Beacons</h4>
             <p>
               Like any other website, Omka Tech uses 'cookies'. These cookies
               are used to store information including visitors' preferences, and
@@ -389,7 +389,7 @@ const PrivacyPolicy = () => {
               customizing our web page content based on visitors' browser type
               and/or other information.
             </p>
-            <h4 class=" bg-white  text-primary ">
+            <h4 className=" bg-white  text-primary ">
               Advertising Partners Privacy Policies
             </h4>
             <p>
@@ -410,7 +410,7 @@ const PrivacyPolicy = () => {
               Note that Omka Tech has no access to or control over these cookies
               that are used by third-party advertisers.
             </p>
-            <h4 class=" bg-white  text-primary ">
+            <h4 className=" bg-white  text-primary ">
               Third Party Privacy Policies
             </h4>
             <p>
@@ -426,7 +426,7 @@ const PrivacyPolicy = () => {
               with specific web browsers, it can be found at the browsers'
               respective websites.
             </p>
-            <h4 class=" bg-white  text-primary ">
+            <h4 className=" bg-white  text-primary ">
               GDPR Data Protection Rights
             </h4>
             <p>
@@ -464,7 +464,7 @@ const PrivacyPolicy = () => {
               make a request, we have one month to respond to you. If you would
               like to exercise any of these rights, please contact us.
             </p>
-            <h4 class=" bg-white  text-primary ">Children's Information</h4>
+            <h4 className=" bg-white  text-primary ">Children's Information</h4>
             <p>
               Another part of our priority is adding protection for children
               while using the internet. We encourage parents and guardians to

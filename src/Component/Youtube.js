@@ -3,31 +3,31 @@ import React from 'react'
 const Youtube = () => {
   return (
     <div>
-      <div class="container-xxl py-5" id="g2">
-        <div class="container">
-          <div class="row g-5 " id="youtubevideo">
+      <div className="container-xxl py-5" id="g2">
+        <div className="container">
+          <div className="row g-5 " id="youtubevideo">
             <div
               id="myCarousel"
-              class="carousel slide"
+              className="carousel slide"
               data-ride="carousel"
               data-interval="0"
             >
-              <ol class="carousel-indicators" id="indicator">
+              <ol className="carousel-indicators" id="indicator">
                 <li
                   data-target="#myCarousel"
                   data-slide-to="0"
-                  class="active"
+                  className="active"
                 ></li>
                 <li data-target="#myCarousel" data-slide-to="1"></li>
               </ol>
 
-              <div class="carousel-inner">
-                <div class="item carousel-item active">
-                  <div class="row">
-                    <div class="col-sm-4">
+              <div className="carousel-inner">
+                <div className="item carousel-item active">
+                  <div className="row">
+                    <div className="col-sm-4">
 
                       <iframe id="iframe1"
-                        srcdoc="
+                        srcDoc="
         <style>
             body, .full {
                 width: 100%;
@@ -41,11 +41,11 @@ const Youtube = () => {
         </style>
         <a
             href='https://www.youtube.com/embed/VxUSHDLyTho?autoplay=1'
-            class='full'
+            className='full'
         >
             <img
                 src='https://vumbnail.com/VxUSHDLyTho.jpg'
-                class='full'
+                className='full'
             />
             <svg
                 version='1.1'
@@ -59,14 +59,14 @@ const Youtube = () => {
         </a>
     "
 
-                        frameborder="0"
+                        frameBorder="0"
                       ></iframe>
                     </div>
 
-                    <div class="col-sm-4">
+                    <div className="col-sm-4">
 
                       <iframe id="iframe1"
-                        srcdoc="
+                        srcDoc="
         <style>
             body, .full {
                 width: 100%;
@@ -80,11 +80,11 @@ const Youtube = () => {
         </style>
         <a
             href='https://www.youtube.com/embed/APDee5jTGf4?start=2?autoplay=1'
-            class='full'
+            className='full'
         >
             <img
                 src='https://vumbnail.com/APDee5jTGf4.jpg'
-                class='full'
+                className='full'
             />
             <svg
                 version='1.1'
@@ -98,13 +98,13 @@ const Youtube = () => {
         </a>
     "
 
-                        frameborder="0"
+                        frameBorder="0"
                       ></iframe>
                     </div>
-                    <div class="col-sm-4">
+                    <div className="col-sm-4">
 
                       <iframe id="iframe1"
-                        srcdoc="
+                        srcDoc="
         <style>
             body, .full {
                 width: 100%;
@@ -118,11 +118,11 @@ const Youtube = () => {
         </style>
         <a
             href='https://www.youtube.com/embed/XRghryoXxuU?autoplay=1'
-            class='full'
+            className='full'
         >
             <img
                 src='https://vumbnail.com/XRghryoXxuU.jpg'
-                class='full'
+                className='full'
             />
             <svg
                 version='1.1'
@@ -136,19 +136,19 @@ const Youtube = () => {
         </a>
     "
 
-                        frameborder="0"
+                        frameBorder="0"
                       ></iframe>
                     </div>
                   </div>
                 </div>
 
-                <div class="item carousel-item">
-                  <div class="row">
-                    <div class="col-sm-4">
+                <div className="item carousel-item">
+                  <div className="row">
+                    <div className="col-sm-4">
 
 
                       <iframe id="iframe1"
-                        srcdoc="
+                        srcDoc="
         <style>
             body, .full {
                 width: 100%;
@@ -162,11 +162,11 @@ const Youtube = () => {
         </style>
         <a
             href='https://www.youtube.com/embed/ICRcTZiAtN4?autoplay=1'
-            class='full'
+            className='full'
         >
             <img
                 src='https://vumbnail.com/ICRcTZiAtN4.jpg'
-                class='full'
+                className='full'
             />
             <svg
                 version='1.1'
@@ -180,14 +180,14 @@ const Youtube = () => {
         </a>
     "
 
-                        frameborder="0"
+                        frameBorder="0"
                       ></iframe>
 
                     </div>
-                    <div class="col-sm-4">
+                    <div className="col-sm-4">
 
 <iframe id="iframe1"
-  srcdoc="
+  srcDoc="
 <style>
 body, .full {
 width: 100%;
@@ -201,11 +201,11 @@ object-fit: cover;
 </style>
 <a
 href='https://www.youtube.com/embed/VxUSHDLyTho?autoplay=1'
-class='full'
+className='full'
 >
 <img
 src='https://vumbnail.com/VxUSHDLyTho.jpg'
-class='full'
+className='full'
 />
 <svg
 version='1.1'
@@ -219,14 +219,14 @@ style='position: relative;'
 </a>
 "
 
-  frameborder="0"
+  frameBorder="0"
 ></iframe>
 </div>
 
-<div class="col-sm-4">
+<div className="col-sm-4">
 
 <iframe id="iframe1"
-  srcdoc="
+  srcDoc="
 <style>
 body, .full {
 width: 100%;
@@ -240,11 +240,11 @@ object-fit: cover;
 </style>
 <a
 href='https://www.youtube.com/embed/APDee5jTGf4?start=2?autoplay=1'
-class='full'
+className='full'
 >
 <img
 src='https://vumbnail.com/APDee5jTGf4.jpg'
-class='full'
+className='full'
 />
 <svg
 version='1.1'
@@ -257,25 +257,25 @@ style='position: relative;'
 </svg>
 </a>
 "
-frameborder="0"></iframe>
+frameBorder="0"></iframe>
 </div>
                   </div>
                 </div>
               </div>
 
               <a
-                class="carousel-control-prev"
+                className="carousel-control-prev"
                 href="#myCarousel"
                 data-slide="prev" rel="noopener noreferrer"
               >
-                <i class="fa fa-angle-left" id="leftright" style={{ color: "darkgrey" }}></i>
+                <i className="fa fa-angle-left" id="leftright" style={{ color: "darkgrey" }}></i>
               </a>
               <a
-                class="carousel-control-next"
+                className="carousel-control-next"
                 href="#myCarousel"
                 data-slide="next" rel="noopener noreferrer"
               >
-                <i class="fa fa-angle-right" id="rightleft" style={{ color: "darkgrey" }}></i>
+                <i className="fa fa-angle-right" id="rightleft" style={{ color: "darkgrey" }}></i>
               </a>
             </div>
           </div>

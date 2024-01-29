@@ -19,21 +19,21 @@ const Blog = () => {
     $(window).scroll(function () {
       if ($(window).scrollTop() > 56) {
         $(".navbar").addClass("bg-dark1");
-        $(".navbar").addClass("text-whitee"); // Add text-white class
+        $(".navbar").addClass("text-whitee"); // Add text-white className
       } else {
         $(".navbar").removeClass("bg-dark1");
-        $(".navbar").removeClass("text-whitee"); // Remove text-white class
+        $(".navbar").removeClass("text-whitee"); // Remove text-white className
       }
     });
 
     $(".navbar-toggler").click(function () {
       if (!$(".navbar-collapse").hasClass("show")) {
         $(".navbar").addClass("bg-dark1");
-        $(".navbar").addClass("text-whitee"); // Add text-white class
+        $(".navbar").addClass("text-whitee"); // Add text-white className
       } else {
         if ($(window).scrollTop() < 56) {
           $(".navbar").removeClass("bg-dark1");
-          $(".navbar").removeClass("text-whitee"); // Remove text-white class
+          $(".navbar").removeClass("text-whitee"); // Remove text-white className
         }
       }
     });
@@ -115,21 +115,21 @@ const bottomNavbar = document.getElementById("bottomNavbar");
       {/* navbar */}
       <nav
         id="topNavbar"
-        class=""
+        className=""
         data-wow-delay="0.1s"
         style={{ height: "60px", backgroundColor: "white" }}
       >
-        <div class="container" >
+        <div className="container" >
          
-        <div class="flag-container">
-                            <img src='../india.png' class="flag-icon" alt ="india"></img><span style={{ color: "white" }}>|</span>&nbsp;&nbsp;
-                            <img src='../us.png' class="flag-icon" alt ="US"></img><span style={{ color: "white" }}>|</span>&nbsp;&nbsp;
-                            <img src='../canda.png' class="flag-icon" alt ="Canda"></img>
+        <div className="flag-container">
+                            <img src='../india.png' className="flag-icon" alt ="india"></img><span style={{ color: "white" }}>|</span>&nbsp;&nbsp;
+                            <img src='../us.png' className="flag-icon" alt ="US"></img><span style={{ color: "white" }}>|</span>&nbsp;&nbsp;
+                            <img src='../canda.png' className="flag-icon" alt ="Canda"></img>
                         </div>
-                    <div className="row" id="gsss" >
+                    <div classNameName="row" id="gsss" >
 
-                        <div className="col-5"></div>
-                        <div className="col-7">
+                        <div classNameName="col-5"></div>
+                        <div classNameName="col-7">
                             <a href="tel:+1 (786)648-29107"> <img src='../c.jpg' id="flag" alt="canda"></img>&nbsp;+1(786) 648-2910</a>&nbsp; |&nbsp;&nbsp;
                             <a href="tel:+1 (437) 979-1504"><img src='../po.jpg' id="flag" alt="US"></img> &nbsp;+1 (437) 979-1504</a>&nbsp; |&nbsp;&nbsp;
 
@@ -140,12 +140,12 @@ const bottomNavbar = document.getElementById("bottomNavbar");
         </div>
       </nav>
       <nav
-        class="navbar navbar-expand-md fixed-top navbar-dark py-lg-0 px-lg-5"
+        className="navbar navbar-expand-md fixed-top navbar-dark py-lg-0 px-lg-5"
         data-wow-delay="0.1s" id="bottomNavbar" style={{ backgroundColor: "#F2F2F2", height: "80px" }}
       >
         <a
           href="/"
-          class="navbar-brand ms-3 d-lg-none"
+          className="navbar-brand ms-3 d-lg-none"
           rel="noopener noreferrer"
         >
           <img
@@ -156,14 +156,14 @@ const bottomNavbar = document.getElementById("bottomNavbar");
         </a>
         <button
           type="button"
-          class="navbar-toggler me-3"
+          className="navbar-toggler me-3"
           data-bs-toggle="collapse"
           data-bs-target="#navbarCollapse"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <div class="navbar-nav me-auto p-3 p-lg-0" >
+        <div className="collapse navbar-collapse" id="navbarCollapse">
+          <div className="navbar-nav me-auto p-3 p-lg-0" >
             <a
               href="/"
               style={{
@@ -187,43 +187,43 @@ const bottomNavbar = document.getElementById("bottomNavbar");
             </a>
             <a
               href="/"
-              class="nav-item nav-link"
+              className="nav-item nav-link"
               id="homeleft"
               rel="noopener noreferrer"
             >
               Home
             </a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <div class="nav-item dropdown">
+            <div className="nav-item dropdown">
               <a
                 href="#"
                 rel="noopener noreferrer"
-                class="nav-link dropdown-toggle"
+                className="nav-link dropdown-toggle"
                 data-bs-toggle="dropdown"
               >
                 About Us
               </a>
               <div
-                class="dropdown-menu border-0 rounded-0 rounded-bottom m-0"
+                className="dropdown-menu border-0 rounded-0 rounded-bottom m-0"
                 style={{ marginTop: "-20px" }}
               >
                 <a
                   href="/about-us"
-                  class="dropdown-item"
+                  className="dropdown-item"
                   rel="noopener noreferrer"
                 >
                   Our Company
                 </a>
                 <a
                   href="/Careers"
-                  class="dropdown-item"
+                  className="dropdown-item"
                   rel="noopener noreferrer"
                 >
                   Careers
                 </a>
                 {/* <a
                   href="/Main"
-                  class="dropdown-item"
+                  className="dropdown-item"
                   rel="noopener noreferrer"
                 >
                   CaseStudy
@@ -231,43 +231,43 @@ const bottomNavbar = document.getElementById("bottomNavbar");
               </div>
             </div>
             &nbsp;&nbsp;&nbsp;
-            <div class="nav-item dropdown">
+            <div className="nav-item dropdown">
               <a
                 href="#"
-                class="nav-link dropdown-toggle"
+                className="nav-link dropdown-toggle"
                 data-bs-toggle="dropdown"
                 rel="noopener noreferrer"
               >
                 Services
               </a>
               <div
-                class="dropdown-menu border-0 rounded-0 rounded-bottom m-0"
+                className="dropdown-menu border-0 rounded-0 rounded-bottom m-0"
                 style={{ marginTop: "-20px" }}
               >
                 <a
                   href="/services/website-development"
                   rel="noopener noreferrer"
-                  class="dropdown-item"
+                  className="dropdown-item"
                 >
                   Website Development
                 </a>
                 <a
                   href="/services/mobile-app-development"
                   rel="noopener noreferrer"
-                  class="dropdown-item"
+                  className="dropdown-item"
                 >
                   Mobile App Development
                 </a>
                 <a
                   href="/services/graphics-ui-ux"
                   rel="noopener noreferrer"
-                  class="dropdown-item"
+                  className="dropdown-item"
                 >
                   Graphics & UI/UX
                 </a>
                 <a
                   href="/services/growth-marketing"
-                  class="dropdown-item"
+                  className="dropdown-item"
                   rel="noopener noreferrer"
                 >
                   Growth & Marketing
@@ -275,20 +275,20 @@ const bottomNavbar = document.getElementById("bottomNavbar");
                 <a
                   href="/services/enterprise-software-solution"
                   rel="noopener noreferrer"
-                  class="dropdown-item"
+                  className="dropdown-item"
                 >
                   Enterprise Software Solution
                 </a>
                 <a
                   href="/services/e-commerce-web-apps"
-                  class="dropdown-item"
+                  className="dropdown-item"
                   rel="noopener noreferrer"
                 >
                   E-Commerce Web & Apps
                 </a>
                 <a
                   href="/services/cms-design-development"
-                  class="dropdown-item"
+                  className="dropdown-item"
                   rel="noopener noreferrer"
                 >
                   CMS Design & Development
@@ -298,7 +298,7 @@ const bottomNavbar = document.getElementById("bottomNavbar");
             &nbsp;&nbsp;&nbsp;
             <a
               href="/hire-resources"
-              class="nav-item nav-link"
+              className="nav-item nav-link"
               rel="noopener noreferrer"
             >
               Hire Resources
@@ -306,7 +306,7 @@ const bottomNavbar = document.getElementById("bottomNavbar");
             &nbsp;&nbsp;&nbsp;
             <a
               href="/blog"
-              class="nav-item nav-link active"
+              className="nav-item nav-link active"
               rel="noopener noreferrer"
             >
               Blog
@@ -323,7 +323,7 @@ const bottomNavbar = document.getElementById("bottomNavbar");
             >
               <button
                 type="button"
-                class="btn btn-primary rounded-pill"
+                className="btn btn-primary rounded-pill"
                 id="quote"
                 style={{ animation: "pulse 1.1s ease infinite", color: "white" }}
               >
@@ -335,7 +335,7 @@ const bottomNavbar = document.getElementById("bottomNavbar");
         </div>
       </nav>
       <div
-        class="container-fluid page-header py-5 mb-5 fadeIn "
+        className="container-fluid page-header py-5 mb-5 fadeIn "
         id="BlogBanner"
       >
         <h1 id="ahblog">
@@ -351,22 +351,22 @@ const bottomNavbar = document.getElementById("bottomNavbar");
       </div>
       <br />
 
-      <div class="container">
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+      <div className="container">
+        <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
           {product.map((item, index) => (
-          <div class="col" key={index}>
-            <div class="card" id="zom">
-              <div class="card-image-wrapper">
+          <div className="col" key={index}>
+            <div className="card" id="zom">
+              <div className="card-image-wrapper">
 
-                <img src={item.Image} class="card-img-top img-fluid" style={{ height: "230px" }} alt="Product" />
+                <img src={item.Image} className="card-img-top img-fluid" style={{ height: "230px" }} alt="Product" />
 
               </div>
-              <div class="card-body hj">
-                <p class="card-title" style={{ textAlign: "left" ,color:"black"}}><i class="fa fa-calendar"></i> {item.Date}</p>
-                <p class="card-text">
+              <div className="card-body hj">
+                <p className="card-title" style={{ textAlign: "left" ,color:"black"}}><i className="fa fa-calendar"></i> {item.Date}</p>
+                <p className="card-text">
                  {item.Title}
                   <br /><br />
-                <div  onClick={() => Show(item.Title)} class="btn btn-primary1" rel="noopener noreferrer"id="suri1"><div class="pulsating-circle"></div> &nbsp; &nbsp; &nbsp;Read More</div>
+                <div  onClick={() => Show(item.Title)} className="btn btn-primary1" rel="noopener noreferrer"id="suri1"><div className="pulsating-circle"></div> &nbsp; &nbsp; &nbsp;Read More</div>
                   
                   
                   
@@ -377,74 +377,74 @@ const bottomNavbar = document.getElementById("bottomNavbar");
           </div>
               ))}
 {/* 
-          <div class="col">
-            <div class="card" id="zom">
-              <div class="card-image-wrapper">
-                <img src={b2} class="card-img-top img-fluid" alt="..." />
+          <div className="col">
+            <div className="card" id="zom">
+              <div className="card-image-wrapper">
+                <img src={b2} className="card-img-top img-fluid" alt="..." />
               </div>
-              <div class="card-body hj">
-                <p class="card-title" style={{ textAlign: "left" ,color:"black"}}><i class="fa fa-calendar"></i> 30th August 2023</p>
-                <p class="card-text"> The Pros and Cons of Outsourcing IT Services for Your Business
+              <div className="card-body hj">
+                <p className="card-title" style={{ textAlign: "left" ,color:"black"}}><i className="fa fa-calendar"></i> 30th August 2023</p>
+                <p className="card-text"> The Pros and Cons of Outsourcing IT Services for Your Business
                 <br /><br />
-                <a href="/blog/the-Pros-and-Cons-of-outsourcing-IT-services-for-your-business" class="btn btn-primary" rel="noopener noreferrer"id="suri1"><div class="pulsating-circle"></div> &nbsp; &nbsp; &nbsp;Read More</a></p>
+                <a href="/blog/the-Pros-and-Cons-of-outsourcing-IT-services-for-your-business" className="btn btn-primary" rel="noopener noreferrer"id="suri1"><div className="pulsating-circle"></div> &nbsp; &nbsp; &nbsp;Read More</a></p>
                 
               </div>
             </div>
           </div>
-          <div class="col">
-            <div class="card" id="zom">
-              <div class="card-image-wrapper">
-                <img src={b3} class="card-img-top img-fluid" alt="..." />
+          <div className="col">
+            <div className="card" id="zom">
+              <div className="card-image-wrapper">
+                <img src={b3} className="card-img-top img-fluid" alt="..." />
               </div>
-              <div class="card-body hj">
-                <p class="card-title" style={{ textAlign: "left" ,color:"black"}}><i class="fa fa-calendar"></i> 30th August 2023</p>
-                <p class="card-text">How Your New Website Design Will Help Your Business Grow?<br /><br />
-                <a href="/blog/how-your-new-website-design-will-help-your-business-grow" class="btn btn-primary" rel="noopener noreferrer"id="suri1"><div class="pulsating-circle"></div> &nbsp; &nbsp; &nbsp;Read More</a>
+              <div className="card-body hj">
+                <p className="card-title" style={{ textAlign: "left" ,color:"black"}}><i className="fa fa-calendar"></i> 30th August 2023</p>
+                <p className="card-text">How Your New Website Design Will Help Your Business Grow?<br /><br />
+                <a href="/blog/how-your-new-website-design-will-help-your-business-grow" className="btn btn-primary" rel="noopener noreferrer"id="suri1"><div className="pulsating-circle"></div> &nbsp; &nbsp; &nbsp;Read More</a>
                 </p>
                
               </div>
             </div>
           </div>
-          <div class="col">
-            <div class="card" id="zom">
-              <div class="card-image-wrapper">
-                <img src={b4} class="card-img-top img-fluid" alt="..." />
+          <div className="col">
+            <div className="card" id="zom">
+              <div className="card-image-wrapper">
+                <img src={b4} className="card-img-top img-fluid" alt="..." />
               </div>
-              <div class="card-body hj">
-                <p class="card-title" style={{ textAlign: "left" ,color:"black"}}><i class="fa fa-calendar"></i> 30th August 2023</p>
-                <p class="card-text">How Ecommerce Website Development Is Necessary for a Business
+              <div className="card-body hj">
+                <p className="card-title" style={{ textAlign: "left" ,color:"black"}}><i className="fa fa-calendar"></i> 30th August 2023</p>
+                <p className="card-text">How Ecommerce Website Development Is Necessary for a Business
                   to Succeed?
                   <br /><br />
-                  <a href="/blog/how-ecommerce-website-development-is-necessary-for-a-business-to-succeed" rel="noopener noreferrer" class="btn btn-primary" id="suri1"><div class="pulsating-circle"></div> &nbsp; &nbsp; &nbsp;Read More</a>
+                  <a href="/blog/how-ecommerce-website-development-is-necessary-for-a-business-to-succeed" rel="noopener noreferrer" className="btn btn-primary" id="suri1"><div className="pulsating-circle"></div> &nbsp; &nbsp; &nbsp;Read More</a>
                 </p>
 
               </div>
             </div>
           </div>
-          <div class="col">
-            <div class="card" id="zom">
-              <div class="card-image-wrapper">
-                <img src={b5} class="card-img-top img-fluid" style={{ height: "220px" }} alt="..." />
+          <div className="col">
+            <div className="card" id="zom">
+              <div className="card-image-wrapper">
+                <img src={b5} className="card-img-top img-fluid" style={{ height: "220px" }} alt="..." />
               </div>
-              <div class="card-body hj">
-                <p class="card-title" style={{ textAlign: "left" ,color:"black"}}><i class="fa fa-calendar"></i> 30th August 2023</p>
-                <p class="card-text">
+              <div className="card-body hj">
+                <p className="card-title" style={{ textAlign: "left" ,color:"black"}}><i className="fa fa-calendar"></i> 30th August 2023</p>
+                <p className="card-text">
                   Top Reasons Why Strategies Fail<br /><br /><br /><br />
-                  <a href="/blog/top-reasons-why-strategies-fail" rel="noopener noreferrer" class="btn btn-primary" id="suri1"><div class="pulsating-circle"></div> &nbsp; &nbsp; &nbsp;Read More</a></p>
+                  <a href="/blog/top-reasons-why-strategies-fail" rel="noopener noreferrer" className="btn btn-primary" id="suri1"><div className="pulsating-circle"></div> &nbsp; &nbsp; &nbsp;Read More</a></p>
 
               </div>
             </div>
           </div>
-          <div class="col">
-            <div class="card" id="zom">
-              <div class="card-image-wrapper">
-                <img src={b6} class="card-img-top img-fluid" style={{ height: "220px" }} alt="..." />
+          <div className="col">
+            <div className="card" id="zom">
+              <div className="card-image-wrapper">
+                <img src={b6} className="card-img-top img-fluid" style={{ height: "220px" }} alt="..." />
               </div>
-              <div class="card-body hj">
-                <p class="card-title" style={{ textAlign: "left" ,color:"black"}}><i class="fa fa-calendar"></i> 30th August 2023</p>
-                <p class="card-text">
+              <div className="card-body hj">
+                <p className="card-title" style={{ textAlign: "left" ,color:"black"}}><i className="fa fa-calendar"></i> 30th August 2023</p>
+                <p className="card-text">
                 The Art of Branding: Understanding the 7 Types of Logos<br /><br /><br />
-                  <a href="/blog/the-art-of-branding:-understanding-the-7-types-of-Logos" rel="noopener noreferrer" class="btn btn-primary" id="suri1"><div class="pulsating-circle"></div> &nbsp; &nbsp; &nbsp;Read More</a></p>
+                  <a href="/blog/the-art-of-branding:-understanding-the-7-types-of-Logos" rel="noopener noreferrer" className="btn btn-primary" id="suri1"><div className="pulsating-circle"></div> &nbsp; &nbsp; &nbsp;Read More</a></p>
 
               </div>
             </div>

@@ -21,15 +21,15 @@ const Footer = () => {
   return (
     <div>
       <div
-        class="container-fluid bg-dark text-body footer wow fadeIn"
+        className="container-fluid bg-dark text-body footer wow fadeIn"
         data-wow-delay="0.1s" id="jhu"
       >
         
-        <div class="container py-5">
-          <div class="row g-5">
-            <div class="col-lg-3 col-md-6">
+        <div className="container py-5">
+          <div className="row g-5">
+            <div className="col-lg-3 col-md-6">
               <div
-                class="position-relative mx-auto"
+                className="position-relative mx-auto"
                 style={{ maxWidth: "400px" }}
               >
                 <img src={Flogo} id="suru2" alt="Omka Tech logo"></img>
@@ -97,18 +97,18 @@ const Footer = () => {
                 <br />
                 <img src={pdf} id="pdf1" alt="text"></img>&nbsp;&nbsp;&nbsp;
                 <a href={PDF} target="_blank" rel="noopener">
-                  <span class="text-light" id="company">
+                  <span className="text-light" id="company">
                     COMPANY PROFILE
                   </span>
                 </a>
                 
               </div><br/>
-              <a href='//www.dmca.com/Protection/Status.aspx?ID=ff7c6219-80ff-4146-b2cb-04374246c28d' target="__blank" title='DMCA.com Protection Status' class='dmca-badge'> <img src ='https://images.dmca.com/Badges/dmca-badge-w100-2x1-02.png?ID=ff7c6219-80ff-4146-b2cb-04374246c28d'  alt='DMCA.com Protection Status'  style={{width:"100px",height:"50px"}}/></a> 
+              <a href='//www.dmca.com/Protection/Status.aspx?ID=ff7c6219-80ff-4146-b2cb-04374246c28d' target="__blank" title='DMCA.com Protection Status' className='dmca-badge'> <img src ='https://images.dmca.com/Badges/dmca-badge-w100-2x1-02.png?ID=ff7c6219-80ff-4146-b2cb-04374246c28d'  alt='DMCA.com Protection Status'  style={{width:"100px",height:"50px"}}/></a> 
             </div>
-            <div class="col-lg-3 col-md-6">
-              <h5 class="text-light mb-4">Quick Links</h5>
+            <div className="col-lg-3 col-md-6">
+              <h5 className="text-light mb-4">Quick Links</h5>
               <a
-                class="btn btn-link"
+                className="btn btn-link"
                 href="/about-us"
                 rel="noopener noreferrer"
                 style={{ textDecoration: "none" }}
@@ -116,7 +116,7 @@ const Footer = () => {
                 About Us
               </a>
               <a
-                class="btn btn-link"
+                className="btn btn-link"
                 href="/contact-us"
                 rel="noopener noreferrer"
                 style={{ textDecoration: "none" }}
@@ -125,7 +125,7 @@ const Footer = () => {
               </a>
 
               <a
-                class="btn btn-link"
+                className="btn btn-link"
                 href="/privacy-policy"
                 rel="noopener noreferrer"
                 style={{ textDecoration: "none" }}
@@ -133,7 +133,7 @@ const Footer = () => {
                 Privacy Policy
               </a>
               <a
-                class="btn btn-link"
+                className="btn btn-link"
                 href="/term-condition"
                 rel="noopener noreferrer"
                 style={{ textDecoration: "none" }}
@@ -141,12 +141,12 @@ const Footer = () => {
                 Terms & Conditions
               </a>
             </div>
-            <div class="col-lg-3 col-md-6">
-              <h5 class="text-light mb-4">Services</h5>
-              <div class="row g-2">
+            <div className="col-lg-3 col-md-6">
+              <h5 className="text-light mb-4">Services</h5>
+              <div className="row g-2">
                 <a
                   href="/Services/Website-Development"
-                  class="btn btn-link"
+                  className="btn btn-link"
                   rel="noopener noreferrer"
                   style={{ textDecoration: "none" }}
                 >
@@ -154,7 +154,7 @@ const Footer = () => {
                 </a>
                 <a
                   href="/services/mobile-app-development"
-                  class="btn btn-link"
+                  className="btn btn-link"
                   rel="noopener noreferrer"
                   style={{ textDecoration: "none" }}
                 >
@@ -162,7 +162,7 @@ const Footer = () => {
                 </a>
                 <a
                   href="/services/designing"
-                  class="btn btn-link"
+                  className="btn btn-link"
                   rel="noopener noreferrer"
                   style={{ textDecoration: "none" }}
                 >
@@ -170,7 +170,7 @@ const Footer = () => {
                 </a>
                 <a
                   href="/services/social-media-marketing"
-                  class="btn btn-link"
+                  className="btn btn-link"
                   rel="noopener noreferrer"
                   style={{ textDecoration: "none" }}
                 >
@@ -178,7 +178,7 @@ const Footer = () => {
                 </a>
                 <a
                   href="/services/enterprise-software-solution"
-                  class="btn btn-link"
+                  className="btn btn-link"
                   rel="noopener noreferrer"
                   style={{ textDecoration: "none" }}
                 >
@@ -186,7 +186,7 @@ const Footer = () => {
                 </a>
                 <a
                   href="/services/e-commerce-web-apps"
-                  class="btn btn-link"
+                  className="btn btn-link"
                   rel="noopener noreferrer"
                   style={{ textDecoration: "none" }}
                 >
@@ -194,7 +194,7 @@ const Footer = () => {
                 </a>
                 <a
                   href="/services/cms-design-development"
-                  class="btn btn-link"
+                  className="btn btn-link"
                   rel="noopener noreferrer"
                   style={{ textDecoration: "none" }}
                 >
@@ -202,10 +202,10 @@ const Footer = () => {
                 </a>
               </div>
             </div>
-            <div class="col-lg-3 col-md-6">
-              <h5 class="text-light mb-4">Performance Acknowledgement</h5>
+            <div className="col-lg-3 col-md-6">
+              <h5 className="text-light mb-4">Performance Acknowledgement</h5>
               <div
-                class="position-relative mx-auto"
+                className="position-relative mx-auto"
                 style={{ maxWidth: "400px" }}
               >
                 <a
@@ -267,10 +267,10 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div class="container-fluid copyright">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12 text-center   ">
+        <div className="container-fluid copyright">
+          <div className="container">
+            <div className="row">
+              <div className="col-md-12 text-center   ">
                 Copyright &copy; 2023{" "}
                 <a href="https://omkatech.com/" rel="noopener noreferrer">
                   Omka Tech

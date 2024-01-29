@@ -24,16 +24,16 @@ const Thankyou = (e) => {
       {/* navbar */}
       <nav
         id="topNavbar"
-        class=""
+        className=""
         data-wow-delay="0.1s"
         style={{ height: "60px", backgroundColor: "white" }}
       >
-        <div class="container" >
+        <div className="container" >
         
-        <div class="flag-container">
-                            <img src='../india.png' class="flag-icon" alt ="india"></img><span style={{ color: "white" }}>|</span>&nbsp;&nbsp;
-                            <img src='../us.png' class="flag-icon" alt ="US"></img><span style={{ color: "white" }}>|</span>&nbsp;&nbsp;
-                            <img src='../canda.png' class="flag-icon" alt ="Canda"></img>
+        <div className="flag-container">
+                            <img src='../india.png' className="flag-icon" alt ="india"></img><span style={{ color: "white" }}>|</span>&nbsp;&nbsp;
+                            <img src='../us.png' className="flag-icon" alt ="US"></img><span style={{ color: "white" }}>|</span>&nbsp;&nbsp;
+                            <img src='../canda.png' className="flag-icon" alt ="Canda"></img>
                         </div>
                     <div className="row" id="gsss" >
 
@@ -50,12 +50,12 @@ const Thankyou = (e) => {
       </nav>
       <nav
      
-     class="navbar navbar-expand-md  navbar-dark py-lg-0 px-lg-5"
+     className="navbar navbar-expand-md  navbar-dark py-lg-0 px-lg-5"
      data-wow-delay="0.1s"    id="bottomNavbar" style={{ backgroundColor: "#F2F2F2", height: "80px" }}
    >
      <a
        href="/"
-       class="navbar-brand ms-3 d-lg-none"
+       className="navbar-brand ms-3 d-lg-none"
        rel="noopener noreferrer"
      >
        <img
@@ -67,14 +67,14 @@ const Thankyou = (e) => {
      </a>
      <button
        type="button"
-       class="navbar-toggler me-3"
+       className="navbar-toggler me-3"
        data-bs-toggle="collapse"
        data-bs-target="#navbarCollapse"
      >
-       <span class="navbar-toggler-icon"></span>
+       <span className="navbar-toggler-icon"></span>
      </button>
-     <div class="collapse navbar-collapse" id="navbarCollapse">
-       <div class="navbar-nav me-auto p-3 p-lg-0">
+     <div className="collapse navbar-collapse" id="navbarCollapse">
+       <div className="navbar-nav me-auto p-3 p-lg-0">
          <a
            href="/"
            style={{
@@ -99,36 +99,36 @@ const Thankyou = (e) => {
          </a>
          <a
            href="/"
-           class="nav-item nav-link "
+           className="nav-item nav-link "
            id="homeleft"
            rel="noopener noreferrer"
          >
            Home
          </a>
          &nbsp;&nbsp;&nbsp;
-         <div class="nav-item dropdown">
+         <div className="nav-item dropdown">
            <a
              rel="noopener noreferrer"
              href="#"
-             class="nav-link dropdown-toggle"
+             className="nav-link dropdown-toggle"
              data-bs-toggle="dropdown"
            >
              About Us
            </a>
            <div
-             class="dropdown-menu border-0 rounded-0 rounded-bottom m-0"
+             className="dropdown-menu border-0 rounded-0 rounded-bottom m-0"
              style={{ marginTop: "-20px" }}
            >
              <a
                href="/about-us"
-               class="dropdown-item"
+               className="dropdown-item"
                rel="noopener noreferrer"
              >
                Our Company
              </a>
              <a
                href="/Careers"
-               class="dropdown-item"
+               className="dropdown-item"
                rel="noopener noreferrer"
              >
                Careers
@@ -136,64 +136,64 @@ const Thankyou = (e) => {
            </div>
          </div>
          &nbsp;&nbsp;&nbsp;
-         <div class="nav-item dropdown">
+         <div className="nav-item dropdown">
            <a
              href="#"
-             class="nav-link dropdown-toggle"
+             className="nav-link dropdown-toggle"
              data-bs-toggle="dropdown"
              rel="noopener noreferrer"
            >
              Services
            </a>
            <div
-             class="dropdown-menu border-0 rounded-0 rounded-bottom m-0"
+             className="dropdown-menu border-0 rounded-0 rounded-bottom m-0"
              style={{ marginTop: "-20px" }}
            >
              <a
                href="/services/website-development"
-               class="dropdown-item"
+               className="dropdown-item"
                rel="noopener noreferrer"
              >
                Website Development
              </a>
              <a
                href="/services/mobile-app-development"
-               class="dropdown-item"
+               className="dropdown-item"
                rel="noopener noreferrer"
              >
                Mobile App Development
              </a>
              <a
                href="/services/graphics-ui-ux"
-               class="dropdown-item"
+               className="dropdown-item"
                rel="noopener noreferrer"
              >
                Graphics & UI/UX
              </a>
              <a
                href="/services/growth-marketing"
-               class="dropdown-item"
+               className="dropdown-item"
                rel="noopener noreferrer"
              >
                Growth & Marketing
              </a>
              <a
                href="/services/enterprise-software-solution"
-               class="dropdown-item"
+               className="dropdown-item"
                rel="noopener noreferrer"
              >
                Enterprise Software Solution
              </a>
              <a
                href="/services/e-commerce-web-apps"
-               class="dropdown-item"
+               className="dropdown-item"
                rel="noopener noreferrer"
              >
                E-Commerce Web & Apps
              </a>
              <a
                href="/services/cms-design-development"
-               class="dropdown-item"
+               className="dropdown-item"
                rel="noopener noreferrer"
              >
                CMS Design & Development
@@ -206,13 +206,13 @@ const Thankyou = (e) => {
          &nbsp;&nbsp;&nbsp;
          <a
            href="/hire-resources"
-           class="nav-item nav-link"
+           className="nav-item nav-link"
            rel="noopener noreferrer"
          >
            Hire Resources
          </a>
          &nbsp;&nbsp;&nbsp;
-         <a href="/blog" class="nav-item nav-link" rel="noopener noreferrer">
+         <a href="/blog" className="nav-item nav-link" rel="noopener noreferrer">
            Blog
          </a>{" "}
          &nbsp;&nbsp;&nbsp;
@@ -227,7 +227,7 @@ const Thankyou = (e) => {
          >
            <button
              type="button"
-             class="btn btn-primary rounded-pill"
+             className="btn btn-primary rounded-pill"
              id="quote"
              style={{ animation: "pulse 1.1s ease infinite", color: "white" }}
            >
@@ -268,7 +268,7 @@ const Thankyou = (e) => {
       <br />
       <br />
       <br />
-      <ol class="numbered">
+      <ol className="numbered">
         <li>
           <h4>Business Analysis</h4>
           <h6 id="thqh6">

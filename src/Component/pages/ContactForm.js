@@ -67,34 +67,34 @@ const ContactForm = () => {
 
   return (
     <div>
-      <div class="container-xxl py-5" style={{ marginTop: "-100px" }}>
-        <div class="container">
+      <div className="container-xxl py-5" style={{ marginTop: "-100px" }}>
+        <div className="container">
           <div
-            class="text-center mx-auto mb-5 wow fadeInUp"
+            className="text-center mx-auto mb-5 wow fadeInUp"
             data-wow-delay="0.1s"
             style={{ maxWidth: "600px" }}
           >
-            <h6 class=" bg-white  text-primary " id="whoweare">
+            <h6 className=" bg-white  text-primary " id="whoweare">
               Contact Us
             </h6>
-            <h2 class="display-6 mb-4" id="whoweare">
+            <h2 className="display-6 mb-4" id="whoweare">
               Get In Touch
             </h2>
           </div>
           <form style={{ marginTop: "-50px" }} onSubmit={submitNow1}>
-            <div class="row g-4">
-              <section class="contact-page-sec">
-                <div class="container">
-                  <div class="row">
-                    <div class="col-md-12">
+            <div className="row g-4">
+              <section className="contact-page-sec">
+                <div className="container">
+                  <div className="row">
+                    <div className="col-md-12">
                       <div
-                        class="contact-page-form"
+                        className="contact-page-form"
                         method="post"
                         style={{ marginTop: "-50px" }}
                       >
-                        <div class="row">
-                          <div class="col-md-6 col-sm-6 col-xs-12">
-                            <div class="single-input-field">
+                        <div className="row">
+                          <div className="col-md-6 col-sm-6 col-xs-12">
+                            <div className="single-input-field">
                               <input
                                 type="text"
                                 placeholder="Your Name"
@@ -107,8 +107,8 @@ const ContactForm = () => {
                               />
                             </div>
                           </div>
-                          <div class="col-md-6 col-sm-6 col-xs-12">
-                            <div class="single-input-field">
+                          <div className="col-md-6 col-sm-6 col-xs-12">
+                            <div className="single-input-field">
                               <input
                                 type="email"
                                 placeholder="E-mail"
@@ -121,8 +121,8 @@ const ContactForm = () => {
                               />
                             </div>
                           </div>
-                          <div class="col-md-6 col-sm-6 col-xs-12">
-                            <div class="single-input-field">
+                          <div className="col-md-6 col-sm-6 col-xs-12">
+                            <div className="single-input-field">
                               <input
                                 type="text"
                                 placeholder="Country Code"
@@ -135,8 +135,8 @@ const ContactForm = () => {
                               />
                             </div>
                           </div>
-                          <div class="col-md-6 col-sm-6 col-xs-12">
-                            <div class="single-input-field">
+                          <div className="col-md-6 col-sm-6 col-xs-12">
+                            <div className="single-input-field">
                               <input
                                 type="number"
                                 placeholder="Phone Number"
@@ -149,8 +149,8 @@ const ContactForm = () => {
                             </div>
                           </div>
 
-                          <div class="col-md-6 col-sm-6 col-xs-12">
-                            <div class="single-input-field">
+                          <div className="col-md-6 col-sm-6 col-xs-12">
+                            <div className="single-input-field">
                               <select
                                 placeholder="Select Service"
                                 value={Service}
@@ -158,7 +158,7 @@ const ContactForm = () => {
                                   setService(e.target.value);
                                 }}
                               >
-                                <option value="" disabled selected>
+                                <option value="" disabled >
                                   Select Service
                                 </option>
                                 <option value="Web Development">
@@ -191,8 +191,8 @@ const ContactForm = () => {
                               </select>
                             </div>
                           </div>
-                          <div class="col-md-6 col-sm-6 col-xs-12">
-                            <div class="single-input-field">
+                          <div className="col-md-6 col-sm-6 col-xs-12">
+                            <div className="single-input-field">
                               <input
                                 id="pdf"
                                 type="file"
@@ -209,8 +209,8 @@ const ContactForm = () => {
                           </div>
                           <br />
                           <br />
-                          <div class="col-md-12 message-input">
-                            <div class="single-input-field">
+                          <div className="col-md-12 message-input">
+                            <div className="single-input-field">
                               <textarea
                                 placeholder="Write Your Project Description"
                                 name="Project"
@@ -226,7 +226,7 @@ const ContactForm = () => {
                           <center>
                             {" "}
                             <button
-                              class="btn btn-primary rounded-pill py-3 px-5"
+                              className="btn btn-primary rounded-pill py-3 px-5"
                          type="submit"
                               style={{
                                 width: "15%",
@@ -249,15 +249,15 @@ const ContactForm = () => {
                   </div>
                   <br />
              
-                  <div class="row">
-                    <div class="col-md-4" id="conrow">
-                      <div class="c1">
-                        <div class="img">
+                  <div className="row">
+                    <div className="col-md-4" id="conrow">
+                      <div className="c1">
+                        <div className="img">
                           <img src={p11} id="dc1" alt="text" />
                         </div>
-                        <div class="infos">
+                        <div className="infos">
                           <div
-                            class="name1"
+                            className="name1"
                             style={{ textAlign: "left", fontSize: "17px" }}
                           >
                             <br />
@@ -276,13 +276,13 @@ const ContactForm = () => {
                         </div>
                       </div>
                     </div>
-                    <div class="col-md-4" id="conrow">
-                      <div class="c1">
-                        <div class="img">
+                    <div className="col-md-4" id="conrow">
+                      <div className="c1">
+                        <div className="img">
                           <img src={p2} id="dc1" alt="text" />
                         </div>
-                        <div class="infos">
-                          <div class="name1" style={{ textAlign: "left" }}>
+                        <div className="infos">
+                          <div className="name1" style={{ textAlign: "left" }}>
                             <br />
                             <p style={{ color: "black" }}>E-mail</p>
                             <span>info@omkatech.com</span>
@@ -294,23 +294,23 @@ const ContactForm = () => {
                       </div>
                     </div>
 
-                    <div class="col-md-4" id="conrow">
-                      <div class="c1">
-                        <div class="img">
+                    <div className="col-md-4" id="conrow">
+                      <div className="c1">
+                        <div className="img">
                           <img src={p3} id="dc1" alt="text" />
                         </div>
-                        <div class="infos">
-                          <div class="name1">
+                        <div className="infos">
+                          <div className="name1">
                             <br/>
                             <p style={{ color: "black" }}>Address</p>
-                           <i class="fas fa-map-marker-alt"></i> <span style={{ textAlign: "left" }}>
+                           <i className="fas fa-map-marker-alt"></i> <span style={{ textAlign: "left" }}>
                             Dallas, TX, USA
                             </span><br/>
-                            <i class="fas fa-map-marker-alt"></i> <span style={{ textAlign: "left" }}>
+                            <i className="fas fa-map-marker-alt"></i> <span style={{ textAlign: "left" }}>
                             Mississauga, ON, Canada
                             </span>
                             <br/>
-                            <i class="fas fa-map-marker-alt"></i> <span style={{ textAlign: "left" }}>
+                            <i className="fas fa-map-marker-alt"></i> <span style={{ textAlign: "left" }}>
                             Delhi, India
                             </span>
                            </div>

@@ -6,11 +6,11 @@ import UI from "../../../images/New folder/03.PNG";
 const CourseCard = () => {
   return (
     <div>
-      <div class="container-fluid">
-        <div class="row mb-5">
-          <div class="col-12 col-sm-6 col-md-3 m-auto" id="course">
+      <div className="container-fluid">
+        <div className="row mb-5">
+          <div className="col-12 col-sm-6 col-md-3 m-auto" id="course">
             <div
-              class="car shadow"
+              className="car shadow"
               style={{
                 border: "1px solid darkgrey",
                 borderBottom: "7px solid #04165D",
@@ -25,11 +25,11 @@ const CourseCard = () => {
                   marginTop: "10px",
                 }}
                 alt="ios mobile application development"
-                class="card-img-top"
+                className="card-img-top"
               />
-              <div class="card-body">
-                <h3 class="text-center">IOS App</h3>
-                <hr class="mx-auto w-75" />
+              <div className="card-body">
+                <h3 className="text-center">IOS App</h3>
+                <hr className="mx-auto w-75" />
                 <p style={{ textAlign: "center" }}>
                   We do IOS mobile application development from scratch and can
                   port your existing.
@@ -38,9 +38,9 @@ const CourseCard = () => {
             </div>
           </div>
 
-          <div class="col-12 col-sm-6 col-md-3 m-auto" id="course">
+          <div className="col-12 col-sm-6 col-md-3 m-auto" id="course">
             <div
-              class="car shadow"
+              className="car shadow"
               style={{
                 border: "1px solid darkgrey",
                 borderBottom: "7px solid #04165D",
@@ -49,7 +49,7 @@ const CourseCard = () => {
               <img
                 src={mobile}
                 alt="android apps development"
-                class="card-img-top"
+                className="card-img-top"
                 style={{
                   height: "140px",
                   width: "140px",
@@ -57,9 +57,9 @@ const CourseCard = () => {
                   marginTop: "10px",
                 }}
               />
-              <div class="card-body">
-                <h3 class="text-center">Android App</h3>
-                <hr class="mx-auto w-75" />
+              <div className="card-body">
+                <h3 className="text-center">Android App</h3>
+                <hr className="mx-auto w-75" />
                 <p style={{ textAlign: "center" }}>
                   We develop Android apps for various devices using the Java and
                   Kotlin programming languages.
@@ -68,9 +68,9 @@ const CourseCard = () => {
             </div>
           </div>
 
-          <div class="col-12 col-sm-6 col-md-3 m-auto" id="course">
+          <div className="col-12 col-sm-6 col-md-3 m-auto" id="course">
             <div
-              class="car shadow"
+              className="car shadow"
               style={{
                 border: "1px solid darkgrey",
                 borderBottom: "7px solid #04165D",
@@ -85,11 +85,11 @@ const CourseCard = () => {
                   marginTop: "10px",
                 }}
                 alt="web app development"
-                class="card-img-top"
+                className="card-img-top"
               />
-              <div class="card-body">
-                <h3 class="text-center">Web App</h3>
-                <hr class="mx-auto w-75" />
+              <div className="card-body">
+                <h3 className="text-center">Web App</h3>
+                <hr className="mx-auto w-75" />
                 <p style={{ textAlign: "center" }}>
                   Our developers will create from single page applications to
                   customized complex web applications.
@@ -98,9 +98,9 @@ const CourseCard = () => {
             </div>
           </div>
 
-          <div class="col-12 col-sm-6 col-md-3 m-auto" id="course">
+          <div className="col-12 col-sm-6 col-md-3 m-auto" id="course">
             <div
-              class="car shadow"
+              className="car shadow"
               style={{
                 border: "1px solid darkgrey",
                 borderBottom: "7px solid #04165D",
@@ -115,11 +115,11 @@ const CourseCard = () => {
                   marginTop: "10px",
                 }}
                 alt="hybrid native app development"
-                class="card-img-top"
+                className="card-img-top"
               />
-              <div class="card-body">
-                <h3 class="text-center">Hybrid-Native App</h3>
-                <hr class="mx-auto w-75" />
+              <div className="card-body">
+                <h3 className="text-center">Hybrid-Native App</h3>
+                <hr className="mx-auto w-75" />
                 <p style={{ textAlign: "center" }}>
                   We offer a full spectrum of development services to build apps
                   that run on multiple platforms.

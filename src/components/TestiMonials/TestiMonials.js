@@ -63,17 +63,17 @@ const TestiMonials = () => {
   };
   return (
     <>
-      <div class="container-xxl py-5" id="testHideHome">
-        <div class="container">
+      <div className="container-xxl py-5" id="testHideHome">
+        <div className="container">
           <div
-            class="text-center mx-auto mb-5 wow fadeInUp"
+            className="text-center mx-auto mb-5 wow fadeInUp"
             data-wow-delay="0.1s"
             style={{ maxWidth: "600px" }}
           ></div>
-          <div class="row g-4" id="back1" style={{ width: "100%" }}>
+          <div className="row g-4" id="back1" style={{ width: "100%" }}>
             <center>
               <h1
-                class="display-6 mb-4"
+                className="display-6 mb-4"
                 style={{ color: "white", marginTop: "60px" }}
                 id="testh"
               >
@@ -88,7 +88,7 @@ const TestiMonials = () => {
               style={{ marginTop: "-30px" }}
             >
               {testiMonials.length === 0 ? (
-                <div class="item" style={{ Width: "80%" }}></div>
+                <div className="item" style={{ Width: "80%" }}></div>
               ) : (
                 testiMonials.map((testiMonialDetail) => {
                   return (

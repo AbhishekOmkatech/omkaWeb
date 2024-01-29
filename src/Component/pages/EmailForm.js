@@ -44,16 +44,16 @@ console.log(Email1);
       <div id="GetFree">
         <center>
           <h6 style={{ fontWeight: "bold", color: "black" }}>
-            GET FREE CONSULTATION{" "}
+            GET FREE CONSULTATION
           </h6>
         </center>
         <br />
         <br />
-        <div class="position-relative mx-auto" id="getdiv">
+        <div className="position-relative mx-auto" id="getdiv">
           <center>
             <form onSubmit={submitNow1}>
               <input
-                class="form-control form-rounded bg-transparent border-secondary w-100 py-3 ps-4 pe-5 text-center"
+                className="form-control form-rounded bg-transparent border-secondary w-100 py-3 ps-4 pe-5 text-center"
                 type="email"
                 value={Email1}
                 id="inputbox"
@@ -66,7 +66,7 @@ console.log(Email1);
               <button
                 type="submit"
                 id="homeB"
-                class="btn btn-primary rounded-pill"
+                className="btn btn-primary rounded-pill"
                
                 style={{color:"white"}}
               >

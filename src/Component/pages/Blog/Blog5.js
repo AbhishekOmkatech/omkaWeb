@@ -120,16 +120,16 @@ console.log(formData)
             {/* navbar */}
             <nav
         id="topNavbar"
-        class=""
+        className=""
         data-wow-delay="0.1s"
         style={{ height: "60px", backgroundColor: "white" }}
       >
-        <div class="container" >
+        <div className="container" >
          
-        <div class="flag-container">
-                            <img src='../india.png' class="flag-icon" alt ="india"></img><span style={{ color: "white" }}>|</span>&nbsp;&nbsp;
-                            <img src='../us.png' class="flag-icon" alt ="US"></img><span style={{ color: "white" }}>|</span>&nbsp;&nbsp;
-                            <img src='../canda.png' class="flag-icon" alt ="Canda"></img>
+        <div className="flag-container">
+                            <img src='../india.png' className="flag-icon" alt ="india"></img><span style={{ color: "white" }}>|</span>&nbsp;&nbsp;
+                            <img src='../us.png' className="flag-icon" alt ="US"></img><span style={{ color: "white" }}>|</span>&nbsp;&nbsp;
+                            <img src='../canda.png' className="flag-icon" alt ="Canda"></img>
                         </div>
                     <div className="row" id="gsss" >
 
@@ -145,10 +145,10 @@ console.log(formData)
         </div>
       </nav>
             <nav
-                class="navbar navbar-expand-md fixed-top navbar-dark py-lg-0 px-lg-5"
+                className="navbar navbar-expand-md fixed-top navbar-dark py-lg-0 px-lg-5"
                 data-wow-delay="0.1s"id="bottomNavbar" style={{ backgroundColor: "#F2F2F2", height: "80px" }}
             >
-                <a href="/" class="navbar-brand ms-3 d-lg-none" rel="noopener noreferrer">
+                <a href="/" className="navbar-brand ms-3 d-lg-none" rel="noopener noreferrer">
                     <img
                         alt="Omka Tech logo"
                         src={Flogo}
@@ -159,14 +159,14 @@ console.log(formData)
                 </a>
                 <button
                     type="button"
-                    class="navbar-toggler me-3"
+                    className="navbar-toggler me-3"
                     data-bs-toggle="collapse"
                     data-bs-target="#navbarCollapse"
                 >
-                    <span class="navbar-toggler-icon"></span>
+                    <span className="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <div class="navbar-nav me-auto p-3 p-lg-0" style={{ marginTop: "15px" }}>
+                <div className="collapse navbar-collapse" id="navbarCollapse">
+                    <div className="navbar-nav me-auto p-3 p-lg-0" style={{ marginTop: "15px" }}>
                         <a
                             href="/"
                             style={{
@@ -187,27 +187,27 @@ console.log(formData)
                                 alt="Omka Tech logo"
                             ></img>
                         </a>
-                        <a href="/" class="nav-item nav-link" id="homeleft">
+                        <a href="/" className="nav-item nav-link" id="homeleft">
                             Home
                         </a>
                         &nbsp;&nbsp;&nbsp;
-                        <div class="nav-item dropdown">
+                        <div className="nav-item dropdown">
                             <a
                                 rel="noopener noreferrer"
                                 href="#"
-                                class="nav-link dropdown-toggle"
+                                className="nav-link dropdown-toggle"
                                 data-bs-toggle="dropdown"
                             >
                                 About Us
                             </a>
                             <div
-                                class="dropdown-menu border-0 rounded-0 rounded-bottom m-0"
+                                className="dropdown-menu border-0 rounded-0 rounded-bottom m-0"
                                 style={{ marginTop: "-20px" }}
                             >
-                                <a href="/about-us" class="dropdown-item" rel="noopener noreferrer">
+                                <a href="/about-us" className="dropdown-item" rel="noopener noreferrer">
                                     Our Company
                                 </a>
-                                <a href="/Careers" class="dropdown-item" rel="noopener noreferrer">
+                                <a href="/Careers" className="dropdown-item" rel="noopener noreferrer">
                                     Careers
                                 </a>
                                 {/* <a
@@ -220,63 +220,63 @@ console.log(formData)
                             </div>
                         </div>
                         &nbsp;&nbsp;&nbsp;
-                        <div class="nav-item dropdown">
+                        <div className="nav-item dropdown">
                             <a
                                 href="#"
-                                class="nav-link dropdown-toggle"
+                                className="nav-link dropdown-toggle"
                                 data-bs-toggle="dropdown"
                                 rel="noopener noreferrer"
                             >
                                 Services
                             </a>
                             <div
-                                class="dropdown-menu border-0 rounded-0 rounded-bottom m-0"
+                                className="dropdown-menu border-0 rounded-0 rounded-bottom m-0"
                                 style={{ marginTop: "-20px" }}
                             >
-                                <a href="/services/website-development" class="dropdown-item" rel="noopener noreferrer">
+                                <a href="/services/website-development" className="dropdown-item" rel="noopener noreferrer">
                                     Website Development
                                 </a>
                                 <a
                                     href="/services/mobile-app-development"
-                                    class="dropdown-item" rel="noopener noreferrer"
+                                    className="dropdown-item" rel="noopener noreferrer"
                                 >
                                     Mobile App Development
                                 </a>
-                                <a href="/services/designing" class="dropdown-item" rel="noopener noreferrer">
+                                <a href="/services/designing" className="dropdown-item" rel="noopener noreferrer">
                                     Graphics & UI/UX
                                 </a>
                                 <a
                                     href="/services/social-media-marketing"
-                                    class="dropdown-item" rel="noopener noreferrer"
+                                    className="dropdown-item" rel="noopener noreferrer"
                                 >
                                     Growth & Marketing
                                 </a>
                                 <a
                                     href="/services/enterprise-software-solution"
-                                    class="dropdown-item"
+                                    className="dropdown-item"
                                 >
                                     Enterprise Software Solution
                                 </a>
-                                <a href="/services/e-commerce-web-apps" class="dropdown-item" rel="noopener noreferrer">
+                                <a href="/services/e-commerce-web-apps" className="dropdown-item" rel="noopener noreferrer">
                                     E-Commerce Web & Apps
                                 </a>
                                 <a
                                     href="/services/cms-design-development"
-                                    class="dropdown-item" rel="noopener noreferrer"
+                                    className="dropdown-item" rel="noopener noreferrer"
                                 >
                                     CMS Design & Development
                                 </a>
-                                {/* <a href="/Services/ReadyMadeSolution" class="dropdown-item">
+                                {/* <a href="/Services/ReadyMadeSolution" className="dropdown-item">
                   Ready Made Solution
                 </a> */}
                             </div>
                         </div>
                         &nbsp;&nbsp;&nbsp;
-                        <a href="/hire-resources" class="nav-item nav-link" rel="noopener noreferrer">
+                        <a href="/hire-resources" className="nav-item nav-link" rel="noopener noreferrer">
                             Hire Resources
                         </a>
                         &nbsp;&nbsp;&nbsp;
-                        <a href="/blog" class="nav-item nav-link active" rel="noopener noreferrer">
+                        <a href="/blog" className="nav-item nav-link active" rel="noopener noreferrer">
                             Blog
                         </a>
                         &nbsp;&nbsp;&nbsp;
@@ -291,7 +291,7 @@ console.log(formData)
                         >
                             <button
                                 type="button"
-                                class="btn btn-primary rounded-pill"
+                                className="btn btn-primary rounded-pill"
                                 id="quote"
                                 style={{ animation: "pulse 1.1s ease infinite", color: "white" }}
                             >
@@ -312,14 +312,14 @@ console.log(formData)
             <div className="container-xxl" style={{ marginTop: "90px" }}>
                 <div className="row">
                     <div className="col-8">
-                        <section class="main" >
+                        <section className="main" >
                             <br />
                             <h2 id="sg2">Top Reasons Why Strategies Fail</h2>
 
 
-                            <div class="container-xxl">
+                            <div className="container-xxl">
                                 <div
-                                    class="container"
+                                    className="container"
 
                                 >
 
@@ -332,15 +332,15 @@ console.log(formData)
                                     </p>
                                 </div>
                             </div>
-                            <div class="container-xxl">
-                                <div class="container">
+                            <div className="container-xxl">
+                                <div className="container">
                                     <img src={b1} alt="blog-image" id="blog1img22" className="suru" ></img>
                                 </div>
                             </div>
                             {/* ------------------------------------------------------------------- */}
                             <br /> <br />
-                            <div class="container-xxl">
-                                <div class="container">
+                            <div className="container-xxl">
+                                <div className="container">
 
                                     <p id="sg3" style={{ lineHeight: "30px" }}>
                                         <span>
@@ -440,30 +440,30 @@ console.log(formData)
                             <h3 id="sg4"><center>Recent Blog</center></h3>
                             <nav id="sg1">
                                 <ul id="sg2">
-                                    <li><a href="/blog/the-importance-of-digital-transformation-in-modern-business" ><i class="fa fa-hand-o-right" style={{ fontSize: "23px" }}></i>&nbsp;  The Importance of Digital
+                                    <li><a href="/blog/the-importance-of-digital-transformation-in-modern-business" ><i className="fa fa-hand-o-right" style={{ fontSize: "23px" }}></i>&nbsp;  The Importance of Digital
                                         Transformation in Modern
                                         Business</a></li>
-                                    <li class="active">
+                                    <li className="active">
                                         <a href="/blog/the-Pros-and-Cons-of-outsourcing-IT-services-for-your-business" >
-                                            <i class="fa fa-hand-o-right" style={{ fontSize: "23px" }}></i>&nbsp; The Pros and Cons of Outsourcing IT Services for Your Business
+                                            <i className="fa fa-hand-o-right" style={{ fontSize: "23px" }}></i>&nbsp; The Pros and Cons of Outsourcing IT Services for Your Business
                                         </a>
                                     </li>
                                     <li><a href="/blog/how-your-new-website-design-will-help-your-business-grow" >
 
-                                        <i class="fa fa-hand-o-right" style={{ fontSize: "23px" }}></i>&nbsp; How Your New Website Design Will Help Your Business Grow?</a>
+                                        <i className="fa fa-hand-o-right" style={{ fontSize: "23px" }}></i>&nbsp; How Your New Website Design Will Help Your Business Grow?</a>
                                     </li>
                                     <li><a href="/blog/how-ecommerce-website-development-is-necessary-for-a-business-to-succeed" >
 
-                                        <i class="fa fa-hand-o-right" style={{ fontSize: "23px" }}></i>&nbsp; How Ecommerce Website Development Is Necessary for a Business
+                                        <i className="fa fa-hand-o-right" style={{ fontSize: "23px" }}></i>&nbsp; How Ecommerce Website Development Is Necessary for a Business
                                         to Succeed?</a>
                                     </li>
                                     <li> <a href="/blog/top-reasons-why-strategies-fail" className="active1" >
 
-                                        <i class="fa fa-hand-o-right" style={{ fontSize: "23px" }}></i>&nbsp;Top Reasons Why Strategies Fail ?</a></li>
+                                        <i className="fa fa-hand-o-right" style={{ fontSize: "23px" }}></i>&nbsp;Top Reasons Why Strategies Fail ?</a></li>
                                    
                                         <li> <a href="/blog/the-art-of-branding:-understanding-the-7-types-of-Logos"  >
 
-<i class="fa fa-hand-o-right" style={{ fontSize: "23px" }}></i>&nbsp;The Art of Branding : Understanding the 7 Types of Logos</a></li>
+<i className="fa fa-hand-o-right" style={{ fontSize: "23px" }}></i>&nbsp;The Art of Branding : Understanding the 7 Types of Logos</a></li>
                                    
                                    
                                     <li>                
@@ -493,7 +493,7 @@ console.log(formData)
                                                 }}></textarea>
 
                                             <button
-                                                class="btn btn-primary kj  py-2 px-3"
+                                                className="btn btn-primary kj  py-2 px-3"
                                                 onClick={submitNowP}
 
                                             >
@@ -507,9 +507,9 @@ console.log(formData)
                                     <li><div className="kj1">
                                         <span className="kj2">Share On</span> &nbsp;
                                         <span className="kj3">
-                                            <a href="">  <img class="img img-responsive" src="https://www.code-brew.com/wp-content/themes/Avada-Child-Theme/media/2023/05/social_share_img1.webp?var=380929123" alt="Facebook" /></a>&nbsp;
-                                            <a href=""> <img class="img img-responsive" src="https://www.code-brew.com/wp-content/themes/Avada-Child-Theme/media/2023/05/social_share_img2.webp?var=1766419074" alt="Twitter"></img></a>&nbsp;
-                                            <a href=""> <img class="img img-responsive" src="https://www.code-brew.com/wp-content/themes/Avada-Child-Theme/media/2023/05/social_share_img3.webp?var=28660498" alt="Linked In"></img></a>
+                                            <a href="">  <img className="img img-responsive" src="https://www.code-brew.com/wp-content/themes/Avada-Child-Theme/media/2023/05/social_share_img1.webp?var=380929123" alt="Facebook" /></a>&nbsp;
+                                            <a href=""> <img className="img img-responsive" src="https://www.code-brew.com/wp-content/themes/Avada-Child-Theme/media/2023/05/social_share_img2.webp?var=1766419074" alt="Twitter"></img></a>&nbsp;
+                                            <a href=""> <img className="img img-responsive" src="https://www.code-brew.com/wp-content/themes/Avada-Child-Theme/media/2023/05/social_share_img3.webp?var=28660498" alt="Linked In"></img></a>
                                         </span>
 
                                     </div></li>
@@ -523,81 +523,81 @@ console.log(formData)
                 </div>
             </div>
 
-            <div class="container-xl" id="explore">
-                <div class="row">
-                    <div class="col-md-12">
+            <div className="container-xl" id="explore">
+                <div className="row">
+                    <div className="col-md-12">
                         <h2>Explore <b>More</b></h2>
-                        <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="0"  >
+                        <div id="myCarousel" className="carousel slide" data-ride="carousel" data-interval="0"  >
 
-                            <div class="carousel-inner">
-                                <div class="item carousel-item active">
-                                    <div class="row">
+                            <div className="carousel-inner">
+                                <div className="item carousel-item active">
+                                    <div className="row">
 
                                         <div className="col-4">
-                                            <div class="card" >
-                                                <img class="card-img-top kj7" src={blog1} alt="Card image cap" style={{ maxWidth: "100%", height: "200px" }} />
-                                                <div class="card-body">
+                                            <div className="card" >
+                                                <img className="card-img-top kj7" src={blog1} alt="Card image cap" style={{ maxWidth: "100%", height: "200px" }} />
+                                                <div className="card-body">
 
-                                                    <p class="card-text">  The Importance of Digital
+                                                    <p className="card-text">  The Importance of Digital
                                                         Transformation in Modern
                                                         Business</p>
-                                                    <p><i class="fa fa-calendar"></i> 30th August 2023</p>
+                                                    <p><i className="fa fa-calendar"></i> 30th August 2023</p>
                                                 </div>
                                             </div>
                                         </div>
                                         <div className="col-4">
-                                            <div class="card" >
-                                                <img class="card-img-top kj7" src={blog2} alt="Card image cap" style={{ maxWidth: "100%", height: "200px" }} />
-                                                <div class="card-body">
+                                            <div className="card" >
+                                                <img className="card-img-top kj7" src={blog2} alt="Card image cap" style={{ maxWidth: "100%", height: "200px" }} />
+                                                <div className="card-body">
 
-                                                    <p class="card-text">The Pros and Cons of Outsourcing IT Services for Your Business.</p>
-                                                    <p><i class="fa fa-calendar"></i> 30th August 2023</p>
+                                                    <p className="card-text">The Pros and Cons of Outsourcing IT Services for Your Business.</p>
+                                                    <p><i className="fa fa-calendar"></i> 30th August 2023</p>
                                                 </div>
                                             </div>
                                         </div>
                                         <div className="col-4">
-                                            <div class="card" >
-                                                <img class="card-img-top kj7" src={blog3} alt="Card image cap" style={{ maxWidth: "100%", height: "200px" }} />
-                                                <div class="card-body">
+                                            <div className="card" >
+                                                <img className="card-img-top kj7" src={blog3} alt="Card image cap" style={{ maxWidth: "100%", height: "200px" }} />
+                                                <div className="card-body">
 
-                                                    <p class="card-text">How Your New Website Design Will Help Your Business Grow?</p><br />
-                                                    <p><i class="fa fa-calendar"></i> 30th August 2023</p>
+                                                    <p className="card-text">How Your New Website Design Will Help Your Business Grow?</p><br />
+                                                    <p><i className="fa fa-calendar"></i> 30th August 2023</p>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="item carousel-item">
-                                    <div class="row">
+                                <div className="item carousel-item">
+                                    <div className="row">
 
                                         <div className="col-4">
-                                            <div class="card" >
-                                                <img class="card-img-top kj7" src={blog3} alt="Card image cap" style={{ maxWidth: "100%", height: "200px" }} />
-                                                <div class="card-body">
+                                            <div className="card" >
+                                                <img className="card-img-top kj7" src={blog3} alt="Card image cap" style={{ maxWidth: "100%", height: "200px" }} />
+                                                <div className="card-body">
 
-                                                    <p class="card-text">How Your New Website Design Will Help Your Business Grow?</p><br />
-                                                    <p><i class="fa fa-calendar"></i> 30th August 2023</p>
+                                                    <p className="card-text">How Your New Website Design Will Help Your Business Grow?</p><br />
+                                                    <p><i className="fa fa-calendar"></i> 30th August 2023</p>
                                                 </div>
                                             </div>
                                         </div>
                                         <div className="col-4">
-                                            <div class="card" >
-                                                <img class="card-img-top kj7" src={blog4} alt="Card image cap" style={{ maxWidth: "100%", height: "200px" }} />
-                                                <div class="card-body">
+                                            <div className="card" >
+                                                <img className="card-img-top kj7" src={blog4} alt="Card image cap" style={{ maxWidth: "100%", height: "200px" }} />
+                                                <div className="card-body">
 
-                                                    <p class="card-text">How Ecommerce Website Development Is Necessary for a Business
+                                                    <p className="card-text">How Ecommerce Website Development Is Necessary for a Business
                                                         to Succeed?</p>
-                                                    <p><i class="fa fa-calendar"></i> 30th August 2023</p>
+                                                    <p><i className="fa fa-calendar"></i> 30th August 2023</p>
                                                 </div>
                                             </div>
                                         </div>
                                         <div className="col-4">
-                                            <div class="card" >
-                                                <img class="kj7" src={blog5} alt="Card image cap" style={{ maxWidth: "100%", height: "200px" }} />
-                                                <div class="card-body">
+                                            <div className="card" >
+                                                <img className="kj7" src={blog5} alt="Card image cap" style={{ maxWidth: "100%", height: "200px" }} />
+                                                <div className="card-body">
 
-                                                    <p class="card-text"> Top Reasons Why Strategies Fail</p><br /><br />
-                                                    <p><i class="fa fa-calendar"></i> 30th August 2023</p>
+                                                    <p className="card-text"> Top Reasons Why Strategies Fail</p><br /><br />
+                                                    <p><i className="fa fa-calendar"></i> 30th August 2023</p>
 
                                                 </div>
                                             </div>
@@ -607,15 +607,15 @@ console.log(formData)
 
                             </div>
 
-                            <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
-                                <i class="fa fa-angle-left" style={{ color: "darkgray" }}></i>
+                            <a className="carousel-control-prev" href="#myCarousel" data-slide="prev">
+                                <i className="fa fa-angle-left" style={{ color: "darkgray" }}></i>
                             </a>
-                            <a class="carousel-control-next" href="#myCarousel" data-slide="next">
-                                <i class="fa fa-angle-right" style={{ color: "darkgray", marginLeft: "50px" }}></i>
+                            <a className="carousel-control-next" href="#myCarousel" data-slide="next">
+                                <i className="fa fa-angle-right" style={{ color: "darkgray", marginLeft: "50px" }}></i>
                             </a>
                         </div>
-                        <ol class="carousel-indicators">
-                            <li data-target="#myCarousel" data-slide-to="0" class="active" style={{ marginTop: "140px" }}></li>
+                        <ol className="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" className="active" style={{ marginTop: "140px" }}></li>
                             <li data-target="#myCarousel" style={{ marginTop: "140px" }} data-slide-to="1"></li>
 
                         </ol>

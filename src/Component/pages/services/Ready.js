@@ -74,12 +74,12 @@ const Ready = () => {
     <div>
       {/* navbar */}
       <nav
-        class="navbar navbar-expand-md fixed-top navbar-dark py-lg-0 px-lg-5"
+        className="navbar navbar-expand-md fixed-top navbar-dark py-lg-0 px-lg-5"
         data-wow-delay="0.1s"
       >
         <a
           href="/"
-          class="navbar-brand ms-3 d-lg-none"
+          className="navbar-brand ms-3 d-lg-none"
           rel="noopener noreferrer"
         >
           <img
@@ -90,14 +90,14 @@ const Ready = () => {
         </a>
         <button
           type="button"
-          class="navbar-toggler me-3"
+          className="navbar-toggler me-3"
           data-bs-toggle="collapse"
           data-bs-target="#navbarCollapse"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <div class="navbar-nav me-auto p-3 p-lg-0">
+        <div className="collapse navbar-collapse" id="navbarCollapse">
+          <div className="navbar-nav me-auto p-3 p-lg-0">
             <a
               href="/"
               style={{
@@ -121,36 +121,36 @@ const Ready = () => {
             </a>
             <a
               href="/"
-              class="nav-item nav-link"
+              className="nav-item nav-link"
               id="homeleft"
               rel="noopener noreferrer"
             >
               Home
             </a>
             &nbsp;&nbsp;&nbsp;
-            <div class="nav-item dropdown">
+            <div className="nav-item dropdown">
               <a
                 href="#"
-                class="nav-link dropdown-toggle"
+                className="nav-link dropdown-toggle"
                 data-bs-toggle="dropdown"
                 rel="noopener noreferrer"
               >
                 About Us
               </a>
               <div
-                class="dropdown-menu border-0 rounded-0 rounded-bottom m-0"
+                className="dropdown-menu border-0 rounded-0 rounded-bottom m-0"
                 style={{ marginTop: "-20px" }}
               >
                 <a
                   href="/about-us"
-                  class="dropdown-item"
+                  className="dropdown-item"
                   rel="noopener noreferrer"
                 >
                   Our Company
                 </a>
                 <a
                   href="/Careers"
-                  class="dropdown-item"
+                  className="dropdown-item"
                   rel="noopener noreferrer"
                 >
                   Careers
@@ -158,71 +158,71 @@ const Ready = () => {
               </div>
             </div>
             &nbsp;&nbsp;&nbsp;
-            <div class="nav-item dropdown">
+            <div className="nav-item dropdown">
               <a
                 href="#"
-                class="nav-link dropdown-toggle active"
+                className="nav-link dropdown-toggle active"
                 data-bs-toggle="dropdown"
                 rel="noopener noreferrer"
               >
                 Services
               </a>
               <div
-                class="dropdown-menu border-0 rounded-0 rounded-bottom m-0"
+                className="dropdown-menu border-0 rounded-0 rounded-bottom m-0"
                 style={{ marginTop: "-20px" }}
               >
                 <a
                   href="/services/website-development"
-                  class="dropdown-item"
+                  className="dropdown-item"
                   rel="noopener noreferrer"
                 >
                   Website Development
                 </a>
                 <a
                   href="/services/mobile-app-development"
-                  class="dropdown-item "
+                  className="dropdown-item "
                   rel="noopener noreferrer"
                 >
                   Mobile App Development
                 </a>
                 <a
                   href="/Services/graphics-ui-ux"
-                  class="dropdown-item"
+                  className="dropdown-item"
                   rel="noopener noreferrer"
                 >
                   Graphics & UI/UX
                 </a>
                 <a
                   href="/services/social-media-marketing"
-                  class="dropdown-item"
+                  className="dropdown-item"
                   rel="noopener noreferrer"
                 >
                   Growth & Marketing
                 </a>
                 <a
                   href="/services/growth-marketing"
-                  class="dropdown-item"
+                  className="dropdown-item"
                   rel="noopener noreferrer"
                 >
                   Enterprise Software Solution
                 </a>
                 <a
                   href="/services/e-commerce-web-apps"
-                  class="dropdown-item"
+                  className="dropdown-item"
                   rel="noopener noreferrer"
                 >
                   E-Commerce Web & Apps
                 </a>
                 <a
                   href="/services/cms-design-development"
-                  class="dropdown-item"
+                  className="dropdown-item"
                   rel="noopener noreferrer"
                 >
                   CMS Design & Development
                 </a>
                 <a
                   href="/Services/ReadyMadeSolution"
-                  class="dropdown-item active"
+                  className="dropdown-item active"
                   rel="noopener noreferrer"
                 >
                   Ready Made Solution
@@ -232,13 +232,13 @@ const Ready = () => {
             &nbsp;&nbsp;&nbsp;
             <a
               href="/hire-resources"
-              class="nav-item nav-link"
+              className="nav-item nav-link"
               rel="noopener noreferrer"
             >
               Hire Resources
             </a>
             &nbsp;&nbsp;&nbsp;
-            <a href="/blog" class="nav-item nav-link" rel="noopener noreferrer">
+            <a href="/blog" className="nav-item nav-link" rel="noopener noreferrer">
               Blog
             </a>{" "}
             &nbsp;&nbsp;&nbsp;
@@ -253,17 +253,17 @@ const Ready = () => {
             >
               <button
                 type="button"
-                class="btn btn-primary rounded-pill"
+                className="btn btn-primary rounded-pill"
                 id="quote"
                 style={{ animation: "pulse 1.1s ease infinite" ,color:"white"}}
               >
                 Get Quote
               </button>
             </a>
-            <div class="flag-container">
-                            <img src='../india.png' class="flag-icon" alt ="india"></img><span style={{ color: "white" }}>|</span>&nbsp;&nbsp;
-                            <img src='../us.png' class="flag-icon" alt ="US"></img><span style={{ color: "white" }}>|</span>&nbsp;&nbsp;
-                            <img src='../canda.png' class="flag-icon" alt ="Canda"></img>
+            <div className="flag-container">
+                            <img src='../india.png' className="flag-icon" alt ="india"></img><span style={{ color: "white" }}>|</span>&nbsp;&nbsp;
+                            <img src='../us.png' className="flag-icon" alt ="US"></img><span style={{ color: "white" }}>|</span>&nbsp;&nbsp;
+                            <img src='../canda.png' className="flag-icon" alt ="Canda"></img>
                         </div>
                     <div className="row" id="gsss" >
 
@@ -279,22 +279,22 @@ const Ready = () => {
           </div>
         </div>
       </nav>
-      <div class="container-fluid page-header py-5 mb-5 " id="ReadyBanner">
-        <div class="container text-center py-5">
-          <h1 class="display-4 text-white animated slideInDown mb-3"></h1>
+      <div className="container-fluid page-header py-5 mb-5 " id="ReadyBanner">
+        <div className="container text-center py-5">
+          <h1 className="display-4 text-white animated slideInDown mb-3"></h1>
         </div>
       </div>
       <div style={{ marginTop: "-10px" }} id="GetFree">
         <h6 style={{ fontWeight: "bold", color: "black", textAlign: "center" }}>
-          GET FREE CONSULTATION{" "}
+          GET FREE CONSULTATION
         </h6>
 
         <br />
         <br />
-        <div class="position-relative mx-auto" id="getdiv">
+        <div className="position-relative mx-auto" id="getdiv">
           <center>
             <input
-              class="form-control form-rounded bg-transparent border-secondary w-100 py-3 ps-4 pe-5 text-center"
+              className="form-control form-rounded bg-transparent border-secondary w-100 py-3 ps-4 pe-5 text-center"
               type="text"
               value={Email1}
               id="inputbox"
@@ -308,7 +308,7 @@ const Ready = () => {
             <button
               type="button"
               id="homeB"
-              class="btn btn-primary rounded-pill"
+              className="btn btn-primary rounded-pill"
               onClick={submitNow1}
             >
               SUBMIT
@@ -318,22 +318,22 @@ const Ready = () => {
         </div>
       </div>
       {/* Aboutus */}
-      <div class="container-xxl py-5">
-        <div class="container">
-          <div class="row g-5">
-            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-              <div class="img-border">
-                <img class="img-fluid" src={p1} alt="ready made solution service" />
+      <div className="container-xxl py-5">
+        <div className="container">
+          <div className="row g-5">
+            <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+              <div className="img-border">
+                <img className="img-fluid" src={p1} alt="ready made solution service" />
               </div>
             </div>
-            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-              <div class="h-100">
-                <h6 class=" bg-white  text-primary" id="whoweare">
+            <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+              <div className="h-100">
+                <h6 className=" bg-white  text-primary" id="whoweare">
                   READY MADE SOLUTION
                 </h6>
-                <h1 class="display-6 mb-4" id="whoweare">
+                <h1 className="display-6 mb-4" id="whoweare">
                   Get your software in less{" "}
-                  <span class="text-primary" id="whoweare">
+                  <span className="text-primary" id="whoweare">
                     {" "}
                     Time and Cost{" "}
                   </span>
@@ -346,7 +346,7 @@ const Ready = () => {
                   it’s often a very time-consuming and expensive way to get your
                   solution delivered.
                 </p>
-                <p class="mb-4">
+                <p className="mb-4">
                   We have a number of pre-existing solutions which we have
                   custom developed for other clients which may already fit some
                   of your requirements. A custom software development process is
@@ -362,13 +362,13 @@ const Ready = () => {
 
       {/* service call */}
       <div
-        class="containe"
+        className="containe"
         id="homecall"
         style={{ backgroundColor: "#04165D", width: "100%" }}
       >
         <br />{" "}
         <h2
-          class="text-white animated zoomIn"
+          className="text-white animated zoomIn"
           style={{
             fontWeight: "bold",
             marginTop: "-8px",
@@ -380,7 +380,7 @@ const Ready = () => {
           <br />{" "}
           <h4
             id="homeh4"
-            class="text-white animated zoomIn"
+            className="text-white animated zoomIn"
             style={{
               textAlign: "center",
 
@@ -397,7 +397,7 @@ const Ready = () => {
             >
               <button
                 type="button"
-                class="btn btn-primary rounded-pill"
+                className="btn btn-primary rounded-pill"
                 id="buttonH1"
                 style={{ animation: "pulse 1.1s ease infinite" ,color:"white"}}
               >
@@ -408,31 +408,31 @@ const Ready = () => {
         </h2>
       </div>
       {/* services */}
-      <div class="container-xxl py-5">
-        <div class="container">
+      <div className="container-xxl py-5">
+        <div className="container">
           <div
-            class="text-center mx-auto mb-5 wow fadeInUp"
+            className="text-center mx-auto mb-5 wow fadeInUp"
             data-wow-delay="0.1s"
             style={{ maxWidth: "600px" }}
           >
-            <h6 class=" bg-white  text-primary" id="whoweare">
+            <h6 className=" bg-white  text-primary" id="whoweare">
               Process We Follow
             </h6>
-            <h1 class="display-6 mb-4" id="whoweare">
+            <h1 className="display-6 mb-4" id="whoweare">
               Let’s get you the best solution for
-              <span className="text-primary" id="whoweare">
+              <span classNameName="text-primary" id="whoweare">
                 {" "}
                 Your Business
               </span>
             </h1>
           </div>
-          <div class="row g-4">
-            <div class="container">
+          <div className="row g-4">
+            <div className="container">
               {/* 1 */}
-              <div class="row align-items-center connecting-lines d-flex">
-                <div class="col-2 text-center bottom d-inline-flex justify-content-center align-items-center">
-                  <div class="circle">
-                    <i class="fa fa-chec">
+              <div className="row align-items-center connecting-lines d-flex">
+                <div className="col-2 text-center bottom d-inline-flex justify-content-center align-items-center">
+                  <div className="circle">
+                    <i className="fa fa-chec">
                       {" "}
                       <img
                         src={req}
@@ -442,7 +442,7 @@ const Ready = () => {
                     </i>
                   </div>
                 </div>
-                <div class="col-6">
+                <div className="col-6">
                   <h4>Understanding Your Industry</h4>
                   <p>
                     We understand your industry requirement and provide you a
@@ -451,29 +451,29 @@ const Ready = () => {
                 </div>
               </div>
 
-              <div class="row timeline">
-                <div class="col-2">
-                  <div class="corner top-right"></div>
+              <div className="row timeline">
+                <div className="col-2">
+                  <div className="corner top-right"></div>
                 </div>
-                <div class="col-8">
+                <div className="col-8">
                   <hr />
                 </div>
-                <div class="col-2">
-                  <div class="corner left-bottom"></div>
+                <div className="col-2">
+                  <div className="corner left-bottom"></div>
                 </div>
               </div>
               {/* 2 */}
-              <div class="row align-items-center justify-content-end connecting-lines d-flex">
-                <div class="col-6 text-right">
+              <div className="row align-items-center justify-content-end connecting-lines d-flex">
+                <div className="col-6 text-right">
                   <h4>Demo Calls</h4>
                   <p style={{ textAlign: "right" }}>
                     We get on a call to show what we have and to discuss your
                     requirement in more detail.
                   </p>
                 </div>
-                <div class="col-2 text-center full d-inline-flex justify-content-center align-items-center">
-                  <div class="circle">
-                    <i class="fa fa-chec">
+                <div className="col-2 text-center full d-inline-flex justify-content-center align-items-center">
+                  <div className="circle">
+                    <i className="fa fa-chec">
                       <img
                         src={uiux}
                         style={{ marginLeft: "-3px" }}
@@ -484,22 +484,22 @@ const Ready = () => {
                 </div>
               </div>
 
-              <div class="row timeline">
-                <div class="col-2">
-                  <div class="corner right-bottom"></div>
+              <div className="row timeline">
+                <div className="col-2">
+                  <div className="corner right-bottom"></div>
                 </div>
-                <div class="col-8">
+                <div className="col-8">
                   <hr />
                 </div>
-                <div class="col-2">
-                  <div class="corner top-left"></div>
+                <div className="col-2">
+                  <div className="corner top-left"></div>
                 </div>
               </div>
               {/* 3 */}
-              <div class="row align-items-center connecting-lines d-flex">
-                <div class="col-2 text-center top d-inline-flex justify-content-center align-items-center">
-                  <div class="circle">
-                    <i class="fa fa-chec">
+              <div className="row align-items-center connecting-lines d-flex">
+                <div className="col-2 text-center top d-inline-flex justify-content-center align-items-center">
+                  <div className="circle">
+                    <i className="fa fa-chec">
                       {" "}
                       <img
                         src={proto}
@@ -509,7 +509,7 @@ const Ready = () => {
                     </i>
                   </div>
                 </div>
-                <div class="col-6">
+                <div className="col-6">
                   <h4> Doing Customizations</h4>
                   <p>
                     We make the customizations required in the portal which
@@ -517,29 +517,29 @@ const Ready = () => {
                   </p>
                 </div>
               </div>
-              <div class="row timeline">
-                <div class="col-2">
-                  <div class="corner top-right"></div>
+              <div className="row timeline">
+                <div className="col-2">
+                  <div className="corner top-right"></div>
                 </div>
-                <div class="col-8">
+                <div className="col-8">
                   <hr />
                 </div>
-                <div class="col-2">
-                  <div class="corner left-bottom"></div>
+                <div className="col-2">
+                  <div className="corner left-bottom"></div>
                 </div>
               </div>
               {/* 4 */}
-              <div class="row align-items-center justify-content-end connecting-lines d-flex">
-                <div class="col-6 text-right">
+              <div className="row align-items-center justify-content-end connecting-lines d-flex">
+                <div className="col-6 text-right">
                   <h4> Final Testing</h4>
                   <p style={{ textAlign: "right" }}>
                     A final testing and client call is done to make sure before
                     the deployment all is as per you.
                   </p>
                 </div>
-                <div class="col-2 text-center full d-inline-flex justify-content-center align-items-center">
-                  <div class="circle">
-                    <i class="fa fa-chec">
+                <div className="col-2 text-center full d-inline-flex justify-content-center align-items-center">
+                  <div className="circle">
+                    <i className="fa fa-chec">
                       {" "}
                       <img
                         src={app}
@@ -550,28 +550,28 @@ const Ready = () => {
                   </div>
                 </div>
               </div>
-              <div class="row timeline">
-                <div class="col-2">
-                  <div class="corner right-bottom"></div>
+              <div className="row timeline">
+                <div className="col-2">
+                  <div className="corner right-bottom"></div>
                 </div>
-                <div class="col-8">
+                <div className="col-8">
                   <hr />
                 </div>
-                <div class="col-2">
-                  <div class="corner top-left"></div>
+                <div className="col-2">
+                  <div className="corner top-left"></div>
                 </div>
               </div>
               {/* 5 */}
-              <div class="row align-items-center connecting-lines d-flex">
-                <div class="col-2 text-center top d-inline-flex justify-content-center align-items-center">
-                  <div class="circle">
-                    <i class="fa fa-chec">
+              <div className="row align-items-center connecting-lines d-flex">
+                <div className="col-2 text-center top d-inline-flex justify-content-center align-items-center">
+                  <div className="circle">
+                    <i className="fa fa-chec">
                       {" "}
                       <img src={test} alt="ready made solution service"></img>
                     </i>
                   </div>
                 </div>
-                <div class="col-6">
+                <div className="col-6">
                   <h4>Deployment </h4>
                   <p>
                     We then deploy the software to your server and make the
@@ -579,29 +579,29 @@ const Ready = () => {
                   </p>
                 </div>
               </div>
-              <div class="row timeline">
-                <div class="col-2">
-                  <div class="corner top-right"></div>
+              <div className="row timeline">
+                <div className="col-2">
+                  <div className="corner top-right"></div>
                 </div>
-                <div class="col-8">
+                <div className="col-8">
                   <hr />
                 </div>
-                <div class="col-2">
-                  <div class="corner left-bottom"></div>
+                <div className="col-2">
+                  <div className="corner left-bottom"></div>
                 </div>
               </div>
               {/* 6 */}
-              <div class="row align-items-center justify-content-end connecting-lines d-flex">
-                <div class="col-6 text-right">
+              <div className="row align-items-center justify-content-end connecting-lines d-flex">
+                <div className="col-6 text-right">
                   <h4> Support & Maintenance</h4>
                   <p style={{ textAlign: "right" }}>
                     We are available 24*7 for all the support and maintenance
                     needs.
                   </p>
                 </div>
-                <div class="col-2 text-center full d-inline-flex justify-content-center align-items-center">
-                  <div class="circle">
-                    <i class="fa fa-chec">
+                <div className="col-2 text-center full d-inline-flex justify-content-center align-items-center">
+                  <div className="circle">
+                    <i className="fa fa-chec">
                       {" "}
                       <img
                         src={dep}
@@ -619,34 +619,34 @@ const Ready = () => {
       <br />
       <br />
       {/* technology */}
-      <div class="container-xxl py-5">
-        <div class="container">
+      <div className="container-xxl py-5">
+        <div className="container">
           <div
-            class="text-center mx-auto mb-5 wow fadeInUp"
+            className="text-center mx-auto mb-5 wow fadeInUp"
             data-wow-delay="0.1s"
             style={{ maxWidth: "600px" }}
           >
-            <h6 class=" bg-white text-primary" id="whoweare">
+            <h6 className=" bg-white text-primary" id="whoweare">
               BENEFITS OF READY-MADE SOLUTIONS
             </h6>
-            <h1 class="display-6 mb-4" id="whoweare">
+            <h1 className="display-6 mb-4" id="whoweare">
               Choosing us to{" "}
-              <span class="text-primary" id="whoweare">
+              <span className="text-primary" id="whoweare">
                 Save Time And Money
               </span>{" "}
               is a best decision
             </h1>
           </div>
-          <div class="row g-4">
-            <div class="container-fluid">
-              <div class="row mb-5">
-                <div class="col-12 col-sm-6 col-md-3 m-auto" id="num">
+          <div className="row g-4">
+            <div className="container-fluid">
+              <div className="row mb-5">
+                <div className="col-12 col-sm-6 col-md-3 m-auto" id="num">
                   <div
-                    class=" car shadow"
+                    className=" car shadow"
                     style={{ border: "1px solid darkgrey" }}
                   >
-                    <img src={web} alt="ready made solution service" class="card-img-top" />
-                    <div class="card-body">
+                    <img src={web} alt="ready made solution service" className="card-img-top" />
+                    <div className="card-body">
                       <p style={{ textAlign: "center" }}>
                         Using an existing solution saves you a lot of time and
                         money
@@ -655,13 +655,13 @@ const Ready = () => {
                   </div>
                 </div>
 
-                <div class="col-12 col-sm-6 col-md-3 m-auto" id="num">
+                <div className="col-12 col-sm-6 col-md-3 m-auto" id="num">
                   <div
-                    class=" car shadow"
+                    className=" car shadow"
                     style={{ border: "1px solid darkgrey" }}
                   >
-                    <img src={mobile} alt="ready made solution service" class="card-img-top" />
-                    <div class="card-body">
+                    <img src={mobile} alt="ready made solution service" className="card-img-top" />
+                    <div className="card-body">
                       <p style={{ textAlign: "center" }}>
                         It gives a faster way to work out on what you want
                         rather than just visualizing it up.
@@ -670,13 +670,13 @@ const Ready = () => {
                   </div>
                 </div>
 
-                <div class="col-12 col-sm-6 col-md-3 m-auto" id="num">
+                <div className="col-12 col-sm-6 col-md-3 m-auto" id="num">
                   <div
-                    class=" car shadow"
+                    className=" car shadow"
                     style={{ border: "1px solid darkgrey" }}
                   >
-                    <img src={Marketing} alt="ready made solution service" class="card-img-top" />
-                    <div class="card-body">
+                    <img src={Marketing} alt="ready made solution service" className="card-img-top" />
+                    <div className="card-body">
                       <p style={{ textAlign: "center" }}>
                         You can delete any unwanted existing functions or put
                         them aside for future use..
@@ -685,13 +685,13 @@ const Ready = () => {
                   </div>
                 </div>
 
-                <div class="col-12 col-sm-6 col-md-3 m-auto" id="num">
+                <div className="col-12 col-sm-6 col-md-3 m-auto" id="num">
                   <div
-                    class=" car shadow"
+                    className=" car shadow"
                     style={{ border: "1px solid darkgrey" }}
                   >
-                    <img src={UI} alt="ready made solution service" class="card-img-top" />
-                    <div class="card-body">
+                    <img src={UI} alt="ready made solution service" className="card-img-top" />
+                    <div className="card-body">
                       <p style={{ textAlign: "center" }}>
                         If we have built it before, we can even add new
                         functions in no time for you.
@@ -705,27 +705,27 @@ const Ready = () => {
         </div>
       </div>
       {/* {why choose Us */}
-      <div class="container-xxl py-5" id="condiv1">
-        <div class="container">
-          <div class="row g-5">
-            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-              <div class="h-100">
-                <h6 class=" bg-white text-primary" id="whoweare">
+      <div className="container-xxl py-5" id="condiv1">
+        <div className="container">
+          <div className="row g-5">
+            <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+              <div className="h-100">
+                <h6 className=" bg-white text-primary" id="whoweare">
                   OUR SOLUTIONS INCLUDE
                 </h6>
-                <h1 class="display-6 mb-4" id="whoweare">
+                <h1 className="display-6 mb-4" id="whoweare">
                   Benefits you get while working with
-                  <span class="text-primary" id="whoweare">
+                  <span className="text-primary" id="whoweare">
                     {" "}
                     OMKA TECH
                   </span>
                 </h1>
-                <p class="mb-4"></p>
-                <div class="row g-4">
-                  <div class="col-12">
-                    <div class="skill">
-                      <div class="d-flex justify-content-between">
-                        {/* <p class="mb-2">Digital Marketing</p><br/><br/> */}
+                <p className="mb-4"></p>
+                <div className="row g-4">
+                  <div className="col-12">
+                    <div className="skill">
+                      <div className="d-flex justify-content-between">
+                        {/* <p className="mb-2">Digital Marketing</p><br/><br/> */}
                       </div>
 
                       <h6
@@ -766,26 +766,26 @@ const Ready = () => {
                       </h6>
                     </div>
                   </div>
-                  <div class="col-12">
-                    <div class="skill">
-                      <div class="d-flex justify-content-between">
-                        {/* <p class="mb-2">SEO & Backlinks</p> */}
+                  <div className="col-12">
+                    <div className="skill">
+                      <div className="d-flex justify-content-between">
+                        {/* <p className="mb-2">SEO & Backlinks</p> */}
                       </div>
                     </div>
                   </div>
-                  <div class="col-12">
-                    <div class="skill">
-                      <div class="d-flex justify-content-between">
-                        {/* <p class="mb-2">Design & Development</p> */}
+                  <div className="col-12">
+                    <div className="skill">
+                      <div className="d-flex justify-content-between">
+                        {/* <p className="mb-2">Design & Development</p> */}
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-              <div class="img-border">
-                <img class="img-fluid" src={hero} alt="ready made solution service" />
+            <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+              <div className="img-border">
+                <img className="img-fluid" src={hero} alt="ready made solution service" />
               </div>
             </div>
           </div>

@@ -82,22 +82,22 @@ const Tools = () => {
   });
   return (
     <div>
-      <div class="container-xxl py-5" id="toolstop">
-        <div class="container">
+      <div className="container-xxl py-5" id="toolstop">
+        <div className="container">
           <div
-            class="text-center mx-auto mb-5 wow fadeInUp"
+            className="text-center mx-auto mb-5 wow fadeInUp"
             data-wow-delay="0.1s"
             style={{ maxWidth: "600px" }}
           >
-            <h2 class="display-6 mb-4 homeclient1">Tools & Technology</h2>
+            <h2 className="display-6 mb-4 homeclient1">Tools & Technology</h2>
             <h5 id="toolsh6">We are experts in the following technologies.</h5>
           </div>
         </div>
       </div>
-      <div class="container3">
+      <div className="container3">
         <div id="toolsnav">
           <ul id="toolsul">
-            <li class="current">
+            <li className="current">
               <a href="#" rel="noopener noreferrer">All TOOLS</a>
             </li>
             <li>
@@ -121,206 +121,206 @@ const Tools = () => {
           <br />
           <ul id="gallery2">
             {/* -------------------design-------------------- */}
-            <li class="design">
+            <li className="design">
               <div id="tool1">
-                <img class="" src={ps}  alt ="text" />
+                <img className="" src={ps}  alt ="text" />
                 <h6>Photoshop</h6>
               </div>
             </li>
-            <li class="design">
+            <li className="design">
               <div id="tool1">
-                <img class="" src={figma}  alt ="text" />
+                <img className="" src={figma}  alt ="text" />
                 <h6>Figma</h6>
               </div>
             </li>
-            <li class="design">
+            <li className="design">
               <div id="tool1">
-                <img class="" src={sketch}  alt ="text" />
+                <img className="" src={sketch}  alt ="text" />
                 <h6>Sketch</h6>
               </div>
             </li>
-            <li class="design">
+            <li className="design">
               <div id="tool1">
-                <img class="" src={adobe}  alt ="text" />
+                <img className="" src={adobe}  alt ="text" />
                 <h6>Adobe XD</h6>
               </div>
             </li>
-            <li class="design">
+            <li className="design">
               <div id="tool1">
-                <img class="" src={illustrater}  alt ="text" />
+                <img className="" src={illustrater}  alt ="text" />
                 <h6>Illustrator</h6>
               </div>
             </li>
-            <li class="design">
+            <li className="design">
               <div id="tool1">
-                <img class="" src={invision}  alt ="text" />
+                <img className="" src={invision}  alt ="text" />
                 <h6>Invision</h6>
               </div>
             </li>
-            <li class="design">
+            <li className="design">
               <div id="tool1">
-                <img class="" src={flowmap}  alt ="text" />
+                <img className="" src={flowmap}  alt ="text" />
                 <h6>FlowMap</h6>
               </div>
             </li>
             {/* -----------------mobile----------------------- */}
-            <li class="mobile">
+            <li className="mobile">
               <div id="tool1">
-                <img class="" src={flutter}  alt ="text" />
+                <img className="" src={flutter}  alt ="text" />
                 <h6>Flutter</h6>
               </div>
             </li>
-            <li class="mobile">
+            <li className="mobile">
               <div id="tool1">
-                <img class="" src={swfit}  alt ="text" />
+                <img className="" src={swfit}  alt ="text" />
                 <h6>Swift</h6>
               </div>
             </li>
-            <li class="mobile">
+            <li className="mobile">
               <div id="tool1">
-                <img class="" src={Native}  alt ="text" />
+                <img className="" src={Native}  alt ="text" />
                 <h6>React Native</h6>
               </div>
             </li>
-            <li class="mobile">
+            <li className="mobile">
               <div id="tool1">
-                <img class="" src={Android}  alt ="text" />
+                <img className="" src={Android}  alt ="text" />
                 <h6>Android</h6>
               </div>
             </li>
-            <li class="mobile">
+            <li className="mobile">
               <div id="tool1">
-                <img class="" src={Iconic}  alt ="text" />
+                <img className="" src={Iconic}  alt ="text" />
                 <h6>Iconic</h6>
               </div>
             </li>
             {/* ---------------frontend---------------------- */}
-            <li class="front-end">
+            <li className="front-end">
               <div id="tool1">
-                <img class="" src={react}  alt ="text" />
+                <img className="" src={react}  alt ="text" />
                 <h6>React Js</h6>
               </div>
             </li>
-            <li class="front-end ">
+            <li className="front-end ">
               <div id="tool1">
-                <img class="" src={phph}  alt ="text" />
+                <img className="" src={phph}  alt ="text" />
                 <h6>PHP</h6>
               </div>
             </li>
-            <li class="front-end ">
+            <li className="front-end ">
               <div id="tool1">
-                <img class="" src={Shopify}  alt ="text" />
+                <img className="" src={Shopify}  alt ="text" />
                 <h6>Shopify</h6>
               </div>
             </li>
-            <li class="front-end ">
+            <li className="front-end ">
               <div id="tool1">
-                <img class="" src={Wordpress}  alt ="text" />
+                <img className="" src={Wordpress}  alt ="text" />
                 <h6>Wordpress</h6>
               </div>
             </li>
-            <li class="front-end ">
+            <li className="front-end ">
               <div id="tool1">
-                <img class="" src={Magento}  alt ="text" />
+                <img className="" src={Magento}  alt ="text" />
                 <h6>Magento</h6>
               </div>
             </li>
-            <li class="front-end ">
+            <li className="front-end ">
               <div id="tool1">
-                <img class="" src={Magento2}  alt ="text" />
+                <img className="" src={Magento2}  alt ="text" />
                 <h6>Magento 2</h6>
               </div>
             </li>
-            <li class="front-end ">
+            <li className="front-end ">
               <div id="tool1">
-                <img class="" src={Laravel1}  alt ="text" />
+                <img className="" src={Laravel1}  alt ="text" />
                 <h6>Laravel</h6>
               </div>
             </li>
-            <li class="front-end ">
+            <li className="front-end ">
               <div id="tool1">
-                <img class="" src={Codeigniter}  alt ="text" />
+                <img className="" src={Codeigniter}  alt ="text" />
                 <h6>Codeigniter</h6>
               </div>
             </li>
             {/* -------------------backend-------------------- */}
-            <li class="back-end">
+            <li className="back-end">
               <div id="tool1">
-                <img class="" src={node}  alt ="text" />
+                <img className="" src={node}  alt ="text" />
                 <h6>Node Js</h6>
               </div>
             </li>
-            <li class="back-end">
+            <li className="back-end">
               <div id="tool1">
-                <img class="" src={python}  alt ="text" />
+                <img className="" src={python}  alt ="text" />
                 <h6>Python</h6>
               </div>
             </li>
-            <li class="back-end">
+            <li className="back-end">
               <div id="tool1">
-                <img class="" src={php}  alt ="text" />
+                <img className="" src={php}  alt ="text" />
                 <h6>PHP</h6>
               </div>
             </li>
-            <li class="back-end">
+            <li className="back-end">
               <div id="tool1">
-                <img class="" src={laravel}  alt ="text" />
+                <img className="" src={laravel}  alt ="text" />
                 <h6> Laravel</h6>
               </div>
             </li>
-            <li class="back-end">
+            <li className="back-end">
               <div id="tool1">
-                <img class="" src={Java}  alt ="text" />
+                <img className="" src={Java}  alt ="text" />
                 <h6>Java</h6>
               </div>
             </li>
-            <li class="back-end">
+            <li className="back-end">
               <div id="tool1">
-                <img class="" src={Nginx}  alt ="text" />
+                <img className="" src={Nginx}  alt ="text" />
                 <h6>Nginx</h6>
               </div>
             </li>
             {/* --------------------database----------------------- */}
 
-            <li class="database">
+            <li className="database">
               <div id="tool1">
-                <img class="" src={mongo}  alt ="text" />
+                <img className="" src={mongo}  alt ="text" />
                 <h6>MongoDb</h6>
               </div>
             </li>
-            <li class="database">
+            <li className="database">
               <div id="tool1">
-                <img class="" src={mysql}  alt ="text" />
+                <img className="" src={mysql}  alt ="text" />
                 <h6>MySQL</h6>
               </div>
             </li>
-            <li class="database">
+            <li className="database">
               <div id="tool1">
-                <img class="" src={Firebase}  alt ="text" />
+                <img className="" src={Firebase}  alt ="text" />
                 <h6>Firebase</h6>
               </div>
             </li>
-            <li class="database">
+            <li className="database">
               <div id="tool1">
-                <img class="" src={SQL}  alt ="text" />
+                <img className="" src={SQL}  alt ="text" />
                 <h6>SQL</h6>
               </div>
             </li>
-            <li class="database">
+            <li className="database">
               <div id="tool1">
-                <img class="" src={PostgreSQL}  alt ="text" />
+                <img className="" src={PostgreSQL}  alt ="text" />
                 <h6>PostgreSQL</h6>
               </div>
             </li>
-            <li class="database">
+            <li className="database">
               <div id="tool1">
-                <img class="" src={AWS}  alt ="text" />
+                <img className="" src={AWS}  alt ="text" />
                 <h6>AWS</h6>
               </div>
             </li>
-            <li class="database">
+            <li className="database">
               <div id="tool1">
-                <img class="" src={GoogleCloud}  alt ="text" />
+                <img className="" src={GoogleCloud}  alt ="text" />
                 <h6>GoogleCloud</h6>
               </div>
             </li>

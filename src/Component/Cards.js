@@ -7,55 +7,55 @@ import s4 from '.././images/5counter/CLIENTS (1)-2.png'
 const Cards = () => {
   return (
     <div>
-      <div class="container-xxl py-5">
+      <div className="container-xxl py-5">
        
-          <div class="container" id='connecttop'>
+          <div className="container" id='connecttop'>
           
 
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5">
-              <div class="col mb-4">
-                <div class="card " id="counterss" >             
+            <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5">
+              <div className="col mb-4">
+                <div className="card " id="counterss" >             
                   <img src={s} alt='experience'></img>
              
-                  <div class="card-body">
-                    <h5 class="card-title">Experience</h5>
-                    <h4 class="card-title"> 5+</h4>
+                  <div className="card-body">
+                    <h5 className="card-title">Experience</h5>
+                    <h4 className="card-title"> 5+</h4>
                   </div>
                 </div>
               </div>
-              <div class="col mb-4">
-                <div class="card " id="counterss" >
+              <div className="col mb-4">
+                <div className="card " id="counterss" >
                 <img src={s1} alt='countries' ></img>
-                  <div class="card-body">
-                    <h5 class="card-title">Countries</h5>
-                    <h4 class="card-title"> 15+</h4>
+                  <div className="card-body">
+                    <h5 className="card-title">Countries</h5>
+                    <h4 className="card-title"> 15+</h4>
                   </div>
                 </div>
               </div>
-              <div class="col mb-4">
-                <div class="card " id="counterss" >
+              <div className="col mb-4">
+                <div className="card " id="counterss" >
                 <img src={s2}alt='employee' ></img>
-                  <div class="card-body">
-                    <h5 class="card-title"> Employee</h5>
-                    <h4 class="card-title"> 35+</h4>
+                  <div className="card-body">
+                    <h5 className="card-title"> Employee</h5>
+                    <h4 className="card-title"> 35+</h4>
                   </div>
                 </div>
               </div>
-              <div class="col mb-4">
-                <div class="card " id="counterss" >
+              <div className="col mb-4">
+                <div className="card " id="counterss" >
                 <img src={s3} alt='Projects' ></img>
-                  <div class="card-body">
-                    <h5 class="card-title">Projects</h5>
-                    <h4 class="card-title"> 100+</h4>
+                  <div className="card-body">
+                    <h5 className="card-title">Projects</h5>
+                    <h4 className="card-title"> 100+</h4>
                   </div>
                 </div>
               </div>
-              <div class="col mb-4">
-                <div class="card " id="counterss" >
+              <div className="col mb-4">
+                <div className="card " id="counterss" >
                 <img src={s4} alt='customers'></img>
-                  <div class="card-body">
-                    <h5 class="card-title"> Customers</h5>
-                    <h4 class="card-title"> 200+</h4>
+                  <div className="card-body">
+                    <h5 className="card-title"> Customers</h5>
+                    <h4 className="card-title"> 200+</h4>
                   
                   </div>
                 </div>

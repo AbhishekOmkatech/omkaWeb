@@ -6,13 +6,13 @@ import i4 from "../../images/4team.png";
 const Test = () => {
   return (
     <div>
-      <div class="container">
+      <div className="container">
         <div id="accordion">
-          <div class="car">
-            <div class="car-header" id="headingOne">
-              <h5 class="mb-0">
+          <div className="car">
+            <div className="car-header" id="headingOne">
+              <h5 className="mb-0">
                 <button
-                  class=""
+                  className=""
                   id="dropdowntabout"
                   data-toggle="collapse"
                   data-target="#collapseOne"
@@ -21,7 +21,7 @@ const Test = () => {
                 >
                   {" "}
                   <i
-                    class="fa"
+                    className="fa"
                     aria-hidden="true"
                     style={{ color: "#04165D", fontSize: "30px" }}
                   ></i>{" "}
@@ -34,11 +34,11 @@ const Test = () => {
 
             <div
               id="collapseOne"
-              class="collapse show"
+              className="collapse show"
               aria-labelledby="headingOne"
               data-parent="#accordion"
             >
-              <div class="card-body">
+              <div className="card-body">
                 <center>
                   <img
                     alt="text"
@@ -90,11 +90,11 @@ const Test = () => {
               </div>
             </div>
           </div>
-          <div class="car">
-            <div class="car-header" id="headingTwo">
-              <h5 class="mb-0">
+          <div className="car">
+            <div className="car-header" id="headingTwo">
+              <h5 className="mb-0">
                 <button
-                  class=" collapsed"
+                  className=" collapsed"
                   id="dropdowntabout"
                   data-toggle="collapse"
                   data-target="#collapseTwo"
@@ -102,7 +102,7 @@ const Test = () => {
                   aria-controls="collapseTwo"
                 >
                   <i
-                    class="fa"
+                    className="fa"
                     aria-hidden="true"
                     style={{ color: "#04165D", fontSize: "30px" }}
                   ></i>{" "}
@@ -113,11 +113,11 @@ const Test = () => {
             </div>
             <div
               id="collapseTwo"
-              class="collapse"
+              className="collapse"
               aria-labelledby="headingTwo"
               data-parent="#accordion"
             >
-              <div class="card-body">
+              <div className="card-body">
                 <center>
                   <img
                     alt="text"
@@ -161,11 +161,11 @@ const Test = () => {
               </div>
             </div>
           </div>
-          <div class="car">
-            <div class="car-header" id="headingThree">
-              <h5 class="mb-0">
+          <div className="car">
+            <div className="car-header" id="headingThree">
+              <h5 className="mb-0">
                 <button
-                  class=" collapsed"
+                  className=" collapsed"
                   id="dropdowntabout"
                   data-toggle="collapse"
                   data-target="#collapseThree"
@@ -173,7 +173,7 @@ const Test = () => {
                   aria-controls="collapseThree"
                 >
                   <i
-                    class="fa"
+                    className="fa"
                     aria-hidden="true"
                     style={{ color: "#04165D", fontSize: "30px" }}
                   ></i>{" "}
@@ -184,11 +184,11 @@ const Test = () => {
             </div>
             <div
               id="collapseThree"
-              class="collapse"
+              className="collapse"
               aria-labelledby="headingThree"
               data-parent="#accordion"
             >
-              <div class="card-body">
+              <div className="card-body">
                 <center>
                   <img
                     alt="text"
@@ -237,11 +237,11 @@ const Test = () => {
               </div>
             </div>
           </div>
-          <div class="car">
-            <div class="car-header" id="headingfour">
-              <h5 class="mb-0">
+          <div className="car">
+            <div className="car-header" id="headingfour">
+              <h5 className="mb-0">
                 <button
-                  class=" collapsed"
+                  className=" collapsed"
                   id="dropdowntabout"
                   data-toggle="collapse"
                   data-target="#collapsefour"
@@ -249,7 +249,7 @@ const Test = () => {
                   aria-controls="collapsefour"
                 >
                   <i
-                    class="fa"
+                    className="fa"
                     aria-hidden="true"
                     style={{ color: "#04165D", fontSize: "30px" }}
                     id="icontest"
@@ -262,11 +262,11 @@ const Test = () => {
             </div>
             <div
               id="collapsefour"
-              class="collapse"
+              className="collapse"
               aria-labelledby="headingfour"
               data-parent="#accordion"
             >
-              <div class="card-body">
+              <div className="card-body">
                 <center>
                   <img
                     alt="text"

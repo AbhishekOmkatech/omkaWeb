@@ -6,10 +6,10 @@ const GetInTounch = () => {
       {/* get in touch */}
       <a
         href="mailto: info@omkatech.com"
-        class="btn-whatsapp-pulse1 btn-whatsapp-pulse-border1"
+        className="btn-whatsapp-pulse1 btn-whatsapp-pulse-border1"
         id="a1" rel="noopener noreferrer"
       >
-        <i class="fa fa-envelope">{/* Get In Touch */}</i>
+        <i className="fa fa-envelope">{/* Get In Touch */}</i>
       </a>
       {/* whatsapp */}
       <a
@@ -17,9 +17,9 @@ const GetInTounch = () => {
         id="aa1"
         target="_blank"
         rel="noopener"
-        class="btn-whatsapp-pulse btn-whatsapp-pulse-border"
+        className="btn-whatsapp-pulse btn-whatsapp-pulse-border"
       >
-        <i class="fab fa-whatsapp"></i>
+        <i className="fab fa-whatsapp"></i>
       </a>
       {/* phone */}
       <a
@@ -27,9 +27,9 @@ const GetInTounch = () => {
         id="aaa1"
         target="_blank"
         rel="noopener"
-        class="btn-whatsapp-pulse2 btn-whatsapp-pulse-border2"
+        className="btn-whatsapp-pulse2 btn-whatsapp-pulse-border2"
       >
-        <i class="fab fa-skype"></i>
+        <i className="fab fa-skype"></i>
       </a>
     </div>
     

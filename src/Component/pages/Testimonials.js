@@ -9,10 +9,10 @@ import img6 from "../../images/7.png";
 const Testimonials = () => {
   return (
     <div>
-      <div class="containerT">
-        <div class="boxT overlayT">
-          <div class="row">
-            <div class="col-3">
+      <div className="containerT">
+        <div className="boxT overlayT">
+          <div className="row">
+            <div className="col-3">
               <img src={invert} id="invert" alt="text"></img>
 
               <h5 id="h3t">TESTIMONIALS</h5>
@@ -27,38 +27,38 @@ const Testimonials = () => {
                 >
                   {" "}
                   Connect now &nbsp;&nbsp;
-                  <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+                  <i className="fa fa-arrow-circle-right" aria-hidden="true"></i>
                 </a>
                 <br />
                 <br />
               </p>
             </div>
-            <div class="col-9">
-              <div class="container-xxl">
-                <div class="row" style={{ width: "100%" }}>
-                  <div class="col-md-12">
+            <div className="col-9">
+              <div className="container-xxl">
+                <div className="row" style={{ width: "100%" }}>
+                  <div className="col-md-12">
                     <div
                       id="myCarousel1"
-                      class="carousel slide"
+                      className="carousel slide"
                       data-ride="carousel"
                       data-interval="0"
                     >
-                      <ol class="carousel-indicators">
+                      <ol className="carousel-indicators">
                         <li
                           data-target="#myCarousel1"
                           data-slide-to="0"
-                          class="active"
+                          className="active"
                         ></li>
                         <li data-target="#myCarousel1" data-slide-to="1"></li>
                         <li data-target="#myCarousel1" data-slide-to="2"></li>
                       </ol>
 
-                      <div class="carousel-inner">
-                        <div class="item carousel-item active">
-                          <div class="row">
-                            <div class="col-sm-6">
-                              <div class="thumb-wrapper">
-                                <div class="img-box">
+                      <div className="carousel-inner">
+                        <div className="item carousel-item active">
+                          <div className="row">
+                            <div className="col-sm-6">
+                              <div className="thumb-wrapper">
+                                <div className="img-box">
                                   <img src={img3} alt="text" />
                                   <br />
                                   <p id="cardp">
@@ -78,9 +78,9 @@ const Testimonials = () => {
                                 </div>
                               </div>
                             </div>
-                            <div class="col-sm-6">
-                              <div class="thumb-wrapper">
-                                <div class="img-box">
+                            <div className="col-sm-6">
+                              <div className="thumb-wrapper">
+                                <div className="img-box">
                                   <img src={img1} alt="text" />
                                   <p id="cardp">
                                     Luckily, OMKA TECH rescued me/ my
@@ -106,11 +106,11 @@ const Testimonials = () => {
                           </div>
                         </div>
 
-                        <div class="item carousel-item">
-                          <div class="row">
-                            <div class="col-sm-6">
-                              <div class="thumb-wrapper">
-                                <div class="img-box">
+                        <div className="item carousel-item">
+                          <div className="row">
+                            <div className="col-sm-6">
+                              <div className="thumb-wrapper">
+                                <div className="img-box">
                                   <img
                                     src={img4}
                                     alt="text"
@@ -136,9 +136,9 @@ const Testimonials = () => {
                                 </div>
                               </div>
                             </div>
-                            <div class="col-sm-6">
-                              <div class="thumb-wrapper">
-                                <div class="img-box">
+                            <div className="col-sm-6">
+                              <div className="thumb-wrapper">
+                                <div className="img-box">
                                   <img
                                     src={img6}
                                     alt="text"
@@ -164,11 +164,11 @@ const Testimonials = () => {
                           </div>
                         </div>
 
-                        <div class="item carousel-item">
-                          <div class="row">
-                            <div class="col-sm-6">
-                              <div class="thumb-wrapper">
-                                <div class="img-box">
+                        <div className="item carousel-item">
+                          <div className="row">
+                            <div className="col-sm-6">
+                              <div className="thumb-wrapper">
+                                <div className="img-box">
                                   <img
                                     src={img5}
                                     alt="text"
@@ -191,9 +191,9 @@ const Testimonials = () => {
                                 </div>
                               </div>
                             </div>
-                            <div class="col-sm-6">
-                              <div class="thumb-wrapper">
-                                <div class="img-box">
+                            <div className="col-sm-6">
+                              <div className="thumb-wrapper">
+                                <div className="img-box">
                                   <img src={img2} alt="text" />
                                   <br />
 
@@ -221,20 +221,20 @@ const Testimonials = () => {
                       </div>
 
                       <a
-                        class="carousel-control-prev"
+                        className="carousel-control-prev"
                         href="#myCarousel1"
                         data-slide="prev"
                         rel="noopener noreferrer"
                       >
-                        <i class="fa fa-angle-left"></i>
+                        <i className="fa fa-angle-left"></i>
                       </a>
                       <a
-                        class="carousel-control-next"
+                        className="carousel-control-next"
                         href="#myCarousel1"
                         rel="noopener noreferrer"
                         data-slide="next"
                       >
-                        <i class="fa fa-angle-right"></i>
+                        <i className="fa fa-angle-right"></i>
                       </a>
                     </div>
                   </div>

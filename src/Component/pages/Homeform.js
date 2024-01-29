@@ -44,10 +44,11 @@ const Homeform = () => {
         setEmailP("");
         setPhoneP("");
         setMessage("");
+        alert("successfully submitted")
 };
   return (
     <div id="Homepageform">
-      <div class="containerHome">
+      <div className="containerHome">
         <form id="contactHome"onSubmit={submitNow1}>
           <h3>
             Ready to discuss your
@@ -63,9 +64,9 @@ const Homeform = () => {
                 setNameP(e.target.value);
               }}
               type="text"
-              tabindex="1"
+              tabIndex="1"
               required
-              autofocus
+              autoFocus
               id="nplace"
             />
           </fieldset>
@@ -79,7 +80,7 @@ const Homeform = () => {
                
               }}
               type="email"
-              tabindex="2"
+              tabIndex="2"
               required
             />
           </fieldset>

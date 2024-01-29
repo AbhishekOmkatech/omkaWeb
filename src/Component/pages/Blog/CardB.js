@@ -4,23 +4,23 @@ const CardB = () => {
   return (
     <div>
       {/*  */}
-      <div class="shell" id="blogcard">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-3" style={{ width: "30%" }}>
+      <div className="shell" id="blogcard">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-3" style={{ width: "30%" }}>
               <a href="/blog1" rel="noopener noreferrer">
-                <div class="wsk-cp-product">
-                  <div class="wsk-cp-img">
-                    <img src={img} alt="Product" class="img-responsive" />
+                <div className="wsk-cp-product">
+                  <div className="wsk-cp-img">
+                    <img src={img} alt="Product" className="img-responsive" />
                   </div>
-                  <div class="wsk-cp-text">
-                    <div class="category">
+                  <div className="wsk-cp-text">
+                    <div className="category">
                       <span>Ethnic</span>
                     </div>
-                    <div class="title-product">
+                    <div className="title-product">
                       <h3>My face not my heart</h3>
                     </div>
-                    <div class="description-prod">
+                    <div className="description-prod">
                       <p>
                         Description Product tell me how to change playlist
                         height size like 600px in html5 player. player good work
@@ -31,20 +31,20 @@ const CardB = () => {
                 </div>
               </a>
             </div>
-            <div class="col-md-3" style={{ width: "30%" }}>
+            <div className="col-md-3" style={{ width: "30%" }}>
               <a href="/blog1" rel="noopener noreferrer">
-                <div class="wsk-cp-product">
-                  <div class="wsk-cp-img">
-                    <img src={img} alt="Product" class="img-responsive" />
+                <div className="wsk-cp-product">
+                  <div className="wsk-cp-img">
+                    <img src={img} alt="Product" className="img-responsive" />
                   </div>
-                  <div class="wsk-cp-text">
-                    <div class="category">
+                  <div className="wsk-cp-text">
+                    <div className="category">
                       <span>Introvert</span>
                     </div>
-                    <div class="title-product">
+                    <div className="title-product">
                       <h3>My face not my heart</h3>
                     </div>
-                    <div class="description-prod">
+                    <div className="description-prod">
                       <p>
                         Description Product tell me how to change playlist
                         height size like 600px in html5 player. player good work

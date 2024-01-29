@@ -48,6 +48,7 @@ const Modal1 = () => {
       setEmailP("");
       setPhoneP("");
       setMessage("");
+      alert("successfully submitted");
 };
   return (
     <>

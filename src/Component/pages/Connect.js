@@ -8,10 +8,10 @@ const Connect = () => {
         <div>
             <div className='container' id='lk'>
                 <Cards />
-                <h2 class="text-white animated zoomIn" id="lk1" style={{ textAlign: "left"}}>
+                <h2 className="text-white animated zoomIn" id="lk1" style={{ textAlign: "left"}}>
                     SETUP A FREE CONSULTATION WITH US
                     <br />{" "}
-                    <h4  id='lk2' class="text-white animated zoomIn" style={{ textAlign: "left"}}>
+                    <h4  id='lk2' className="text-white animated zoomIn" style={{ textAlign: "left"}}>
                         We are dedicated to helping you transform your ideas into reality.
                         <br />
                         <br />
@@ -20,7 +20,7 @@ const Connect = () => {
                     <Link to='/contact-us'>
                     <button
                         type="button"
-                        class="btn btn-primary rounded-pill"
+                        className="btn btn-primary rounded-pill"
                         id="buttonhhh"
                         style={{ animation: "pulse 1.1s ease infinite", color: "white"}}
                     >

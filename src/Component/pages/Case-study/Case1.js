@@ -24,16 +24,16 @@ const Case1 = () => {
             {/* navbar */}
             <nav
         id="topNavbar"
-        class=""
+        className=""
         data-wow-delay="0.1s"
         style={{ height: "60px", backgroundColor: "white" }}
       >
-        <div class="container" >
+        <div className="container" >
         
-        <div class="flag-container">
-                            <img src='../india.png' class="flag-icon" alt ="india"></img><span style={{ color: "white" }}>|</span>&nbsp;&nbsp;
-                            <img src='../us.png' class="flag-icon" alt ="US"></img><span style={{ color: "white" }}>|</span>&nbsp;&nbsp;
-                            <img src='../canda.png' class="flag-icon" alt ="Canda"></img>
+        <div className="flag-container">
+                            <img src='../india.png' className="flag-icon" alt ="india"></img><span style={{ color: "white" }}>|</span>&nbsp;&nbsp;
+                            <img src='../us.png' className="flag-icon" alt ="US"></img><span style={{ color: "white" }}>|</span>&nbsp;&nbsp;
+                            <img src='../canda.png' className="flag-icon" alt ="Canda"></img>
                         </div>
                     <div className="row" id="gsss" >
 
@@ -50,12 +50,12 @@ const Case1 = () => {
       </nav>
       <nav
      
-     class="navbar navbar-expand-md  navbar-dark py-lg-0 px-lg-5"
+     className="navbar navbar-expand-md  navbar-dark py-lg-0 px-lg-5"
      data-wow-delay="0.1s"    id="bottomNavbar" style={{ backgroundColor: "#F2F2F2", height: "80px" }}
    >
      <a
        href="/"
-       class="navbar-brand ms-3 d-lg-none"
+       className="navbar-brand ms-3 d-lg-none"
        rel="noopener noreferrer"
      >
        <img
@@ -67,14 +67,14 @@ const Case1 = () => {
      </a>
      <button
        type="button"
-       class="navbar-toggler me-3"
+       className="navbar-toggler me-3"
        data-bs-toggle="collapse"
        data-bs-target="#navbarCollapse"
      >
-       <span class="navbar-toggler-icon"></span>
+       <span className="navbar-toggler-icon"></span>
      </button>
-     <div class="collapse navbar-collapse" id="navbarCollapse">
-       <div class="navbar-nav me-auto p-3 p-lg-0">
+     <div className="collapse navbar-collapse" id="navbarCollapse">
+       <div className="navbar-nav me-auto p-3 p-lg-0">
          <a
            href="/"
            style={{
@@ -99,36 +99,36 @@ const Case1 = () => {
          </a>
          <a
            href="/"
-           class="nav-item nav-link "
+           className="nav-item nav-link "
            id="homeleft"
            rel="noopener noreferrer"
          >
            Home
          </a>
          &nbsp;&nbsp;&nbsp;
-         <div class="nav-item dropdown">
+         <div className="nav-item dropdown">
            <a
              rel="noopener noreferrer"
              href="#"
-             class="nav-link dropdown-toggle"
+             className="nav-link dropdown-toggle"
              data-bs-toggle="dropdown"
            >
              About Us
            </a>
            <div
-             class="dropdown-menu border-0 rounded-0 rounded-bottom m-0"
+             className="dropdown-menu border-0 rounded-0 rounded-bottom m-0"
              style={{ marginTop: "-20px" }}
            >
              <a
                href="/about-us"
-               class="dropdown-item active"
+               className="dropdown-item active"
                rel="noopener noreferrer"
              >
                Our Company
              </a>
              <a
                href="/Careers"
-               class="dropdown-item"
+               className="dropdown-item"
                rel="noopener noreferrer"
              >
                Careers
@@ -136,69 +136,69 @@ const Case1 = () => {
            </div>
          </div>
          &nbsp;&nbsp;&nbsp;
-         <div class="nav-item dropdown">
+         <div className="nav-item dropdown">
            <a
              href="#"
-             class="nav-link dropdown-toggle"
+             className="nav-link dropdown-toggle"
              data-bs-toggle="dropdown"
              rel="noopener noreferrer"
            >
              Services
            </a>
            <div
-             class="dropdown-menu border-0 rounded-0 rounded-bottom m-0"
+             className="dropdown-menu border-0 rounded-0 rounded-bottom m-0"
              style={{ marginTop: "-20px" }}
            >
              <a
                href="/services/website-development"
-               class="dropdown-item"
+               className="dropdown-item"
                rel="noopener noreferrer"
              >
                Website Development
              </a>
              <a
                href="/services/mobile-app-development"
-               class="dropdown-item"
+               className="dropdown-item"
                rel="noopener noreferrer"
              >
                Mobile App Development
              </a>
              <a
                href="/services/designing"
-               class="dropdown-item"
+               className="dropdown-item"
                rel="noopener noreferrer"
              >
                Graphics & UI/UX
              </a>
              <a
                href="/services/growth-marketing"
-               class="dropdown-item"
+               className="dropdown-item"
                rel="noopener noreferrer"
              >
                Growth & Marketing
              </a>
              <a
                href="/services/enterprise-software-solution"
-               class="dropdown-item"
+               className="dropdown-item"
                rel="noopener noreferrer"
              >
                Enterprise Software Solution
              </a>
              <a
                href="/services/e-commerce-web-apps"
-               class="dropdown-item"
+               className="dropdown-item"
                rel="noopener noreferrer"
              >
                E-Commerce Web & Apps
              </a>
              <a
                href="/services/cms-design-development"
-               class="dropdown-item"
+               className="dropdown-item"
                rel="noopener noreferrer"
              >
                CMS Design & Development
              </a>
-             {/* <a href="/Services/ReadyMadeSolution" class="dropdown-item">
+             {/* <a href="/Services/ReadyMadeSolution" className="dropdown-item">
                Ready Made Solution
              </a> */}
            </div>
@@ -206,13 +206,13 @@ const Case1 = () => {
          &nbsp;&nbsp;&nbsp;
          <a
            href="/hire-resources"
-           class="nav-item nav-link"
+           className="nav-item nav-link"
            rel="noopener noreferrer"
          >
            Hire Resources
          </a>
          &nbsp;&nbsp;&nbsp;
-         <a href="/blog" class="nav-item nav-link" rel="noopener noreferrer">
+         <a href="/blog" className="nav-item nav-link" rel="noopener noreferrer">
            Blog
          </a>{" "}
          &nbsp;&nbsp;&nbsp;
@@ -227,7 +227,7 @@ const Case1 = () => {
          >
            <button
              type="button"
-             class="btn btn-primary rounded-pill"
+             className="btn btn-primary rounded-pill"
              id="quote"
              style={{ animation: "pulse 1.1s ease infinite", color: "white" }}
            >
@@ -240,48 +240,48 @@ const Case1 = () => {
      </div>
    </nav>
             <br />
-            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img class="d-block w-100" src="https://www.code-brew.com/wp-content/uploads/2020/09/WhatsApp-Image-2020-09-14-at-14.18.02-1.jpeg" alt="First slide" />
+            <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
+                <div className="carousel-inner">
+                    <div className="carousel-item active">
+                        <img className="d-block w-100" src="https://www.code-brew.com/wp-content/uploads/2020/09/WhatsApp-Image-2020-09-14-at-14.18.02-1.jpeg" alt="First slide" />
                     </div>
-                    <div class="carousel-item">
-                        <img class="d-block w-100" src="https://www.code-brew.com/wp-content/uploads/2020/01/sml.png" alt="Second slide" />
+                    <div className="carousel-item">
+                        <img className="d-block w-100" src="https://www.code-brew.com/wp-content/uploads/2020/01/sml.png" alt="Second slide" />
                     </div>
-                    <div class="carousel-item">
-                        <img class="d-block w-100" src="https://www.code-brew.com/wp-content/uploads/2020/01/bharat.png" alt="Third slide" />
+                    <div className="carousel-item">
+                        <img className="d-block w-100" src="https://www.code-brew.com/wp-content/uploads/2020/01/bharat.png" alt="Third slide" />
                     </div>
                 </div>
-                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
+                <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span className="sr-only">Previous</span>
                 </a>
-                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
+                <a className="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span className="sr-only">Next</span>
                 </a>
             </div>
 
 
             <br />
-            <div class="container-xxl py-5" style={{ marginTop: "1150px" }}>
-                <div class="container">
+            <div className="container-xxl py-5" style={{ marginTop: "1150px" }}>
+                <div className="container">
                     <div
-                        class="text-center mx-auto mb-5 wow fadeInUp"
+                        className="text-center mx-auto mb-5 wow fadeInUp"
                         data-wow-delay="0.1s"
                         style={{ maxWidth: "600px" }}
                     >
-                        <h4 class="display mb-4">
+                        <h4 className="display mb-4">
                             Re-TV Industry:{" "}
                             <span style={{ color: "#04165D" }}>  Online Streaming Platform (Mobile App)</span>
                         </h4>
                     </div>
-                    <div class="row g-4" >
+                    <div className="row g-4" >
                         <p style={{ lineHeight: "30px" }}>
                             Re-TV, a popular online streaming platform with a mobile app, partnered with Omka Tech to enhance user engagement and retention by implementing an AI-powered recommendation system. The goal was to provide personalized content suggestions to users, enriching their viewing experience and encouraging increased content consumption on the mobile app.<br />
                             Solution: Omka Tech designed and developed a sophisticated AI-based recommendation engine tailored specifically for Re-TV’s mobile app. The solution involved leveraging machine learning algorithms and data analytics to deliver personalized content recommendations to each user.
                         </p>
-                        <h3 class=" bg-white  text-primary ">Implementation</h3>
+                        <h3 className=" bg-white  text-primary ">Implementation</h3>
 
                         <li id="whoweare1"><span style={{ fontSize: "18px", color: "black", fontWeight: "bold" }}>User Behavior Tracking </span>: The mobile app integrated data collection mechanisms to track user behavior, including watching patterns, content preferences, and interactions within the app</li>
 
@@ -291,7 +291,7 @@ const Case1 = () => {
 
                         <li id="whoweare1"><span style={{ fontSize: "18px", color: "black", fontWeight: "bold" }}>User Interface Enhancements</span>: The app’s user interface was optimized to showcase personalized content recommendations prominently, making it easy for users to discover new content aligned with their interests.</li>
 
-                        <h3 class=" bg-white  text-primary ">Results</h3>
+                        <h3 className=" bg-white  text-primary ">Results</h3>
 
                         <li id="whoweare1"><span style={{ fontSize: "18px", color: "black", fontWeight: "bold" }}>Enhanced User Engagement</span>: The AI-powered recommendation system significantly improved user engagement by providing tailored content suggestions, keeping users immersed in the app for longer durations.</li>
 
@@ -302,7 +302,7 @@ const Case1 = () => {
                         <li id="whoweare1"><span style={{ fontSize: "18px", color: "black", fontWeight: "bold" }}>Data-Driven Insights</span>: The AI recommendation system generated valuable insights into user behavior and content performance, enabling Re-TV to make data-driven decisions to optimize the app’s content offerings.</li>
 
                         <li id="whoweare1"><span style={{ fontSize: "18px", color: "black", fontWeight: "bold" }}>Improved User Satisfaction</span>: With a personalized viewing experience, users reported higher satisfaction levels, leading to positive app reviews and recommendations among their social circles.</li>
-                        <h3 class=" bg-white  text-primary ">Conclusion</h3>
+                        <h3 className=" bg-white  text-primary ">Conclusion</h3>
                         <p>
                             The successful integration of an AI-powered recommendation system within Re-TV’s mobile app resulted in improved user engagement, increased content consumption, and reduced churn rate. By leveraging cutting-edge machine learning technology, Omka Tech empowered Re-TV to provide a highly personalized and enjoyable streaming experience for its users, solidifying its position as a leading online streaming platform in the mobile app market.
                         </p>

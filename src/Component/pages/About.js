@@ -104,16 +104,16 @@ window.onscroll = () => {
       {/* navbar */}
       <nav
         id="topNavbar"
-        class=""
+        className=""
         data-wow-delay="0.1s"
         style={{ height: "60px", backgroundColor: "white" }}
       >
-        <div class="container" >
+        <div className="container" >
         
-        <div class="flag-container">
-                            <img src='../india.png' class="flag-icon" alt ="india"></img><span style={{ color: "white" }}>|</span>&nbsp;&nbsp;
-                            <img src='../us.png' class="flag-icon" alt ="US"></img><span style={{ color: "white" }}>|</span>&nbsp;&nbsp;
-                            <img src='../canda.png' class="flag-icon" alt ="Canda"></img>
+        <div className="flag-container">
+                            <img src='../india.png' className="flag-icon" alt ="india"></img><span style={{ color: "white" }}>|</span>&nbsp;&nbsp;
+                            <img src='../us.png' className="flag-icon" alt ="US"></img><span style={{ color: "white" }}>|</span>&nbsp;&nbsp;
+                            <img src='../canda.png' className="flag-icon" alt ="Canda"></img>
                         </div>
                     <div className="row" id="gsss" >
 
@@ -130,12 +130,12 @@ window.onscroll = () => {
       </nav>
       <nav
      
-     class="navbar navbar-expand-md  navbar-dark py-lg-0 px-lg-5"
+     className="navbar navbar-expand-md  navbar-dark py-lg-0 px-lg-5"
      data-wow-delay="0.1s"    id="bottomNavbar" style={{ backgroundColor: "#F2F2F2", height: "80px" }}
    >
      <a
        href="/"
-       class="navbar-brand ms-3 d-lg-none"
+       className="navbar-brand ms-3 d-lg-none"
        rel="noopener noreferrer"
      >
        <img
@@ -147,14 +147,14 @@ window.onscroll = () => {
      </a>
      <button
        type="button"
-       class="navbar-toggler me-3"
+       className="navbar-toggler me-3"
        data-bs-toggle="collapse"
        data-bs-target="#navbarCollapse"
      >
-       <span class="navbar-toggler-icon"></span>
+       <span className="navbar-toggler-icon"></span>
      </button>
-     <div class="collapse navbar-collapse" id="navbarCollapse">
-       <div class="navbar-nav me-auto p-3 p-lg-0">
+     <div className="collapse navbar-collapse" id="navbarCollapse">
+       <div className="navbar-nav me-auto p-3 p-lg-0">
          <a
            href="/"
            style={{
@@ -179,36 +179,36 @@ window.onscroll = () => {
          </a>
          <a
            href="/"
-           class="nav-item nav-link "
+           className="nav-item nav-link "
            id="homeleft"
            rel="noopener noreferrer"
          >
            Home
          </a>
          &nbsp;&nbsp;&nbsp;
-         <div class="nav-item dropdown">
+         <div className="nav-item dropdown">
            <a
              rel="noopener noreferrer"
              href="#"
-             class="nav-link dropdown-toggle"
+             className="nav-link dropdown-toggle"
              data-bs-toggle="dropdown"
            >
              About Us
            </a>
            <div
-             class="dropdown-menu border-0 rounded-0 rounded-bottom m-0"
+             className="dropdown-menu border-0 rounded-0 rounded-bottom m-0"
              style={{ marginTop: "-20px" }}
            >
              <a
                href="/about-us"
-               class="dropdown-item active"
+               className="dropdown-item active"
                rel="noopener noreferrer"
              >
                Our Company
              </a>
              <a
                href="/Careers"
-               class="dropdown-item"
+               className="dropdown-item"
                rel="noopener noreferrer"
              >
                Careers
@@ -216,69 +216,69 @@ window.onscroll = () => {
            </div>
          </div>
          &nbsp;&nbsp;&nbsp;
-         <div class="nav-item dropdown">
+         <div className="nav-item dropdown">
            <a
              href="#"
-             class="nav-link dropdown-toggle"
+             className="nav-link dropdown-toggle"
              data-bs-toggle="dropdown"
              rel="noopener noreferrer"
            >
              Services
            </a>
            <div
-             class="dropdown-menu border-0 rounded-0 rounded-bottom m-0"
+             className="dropdown-menu border-0 rounded-0 rounded-bottom m-0"
              style={{ marginTop: "-20px" }}
            >
              <a
                href="/services/website-development"
-               class="dropdown-item"
+               className="dropdown-item"
                rel="noopener noreferrer"
              >
                Website Development
              </a>
              <a
                href="/services/mobile-app-development"
-               class="dropdown-item"
+               className="dropdown-item"
                rel="noopener noreferrer"
              >
                Mobile App Development
              </a>
              <a
                href="/services/graphics-ui-ux"
-               class="dropdown-item"
+               className="dropdown-item"
                rel="noopener noreferrer"
              >
                Graphics & UI/UX
              </a>
              <a
                href="/services/growth-marketing"
-               class="dropdown-item"
+               className="dropdown-item"
                rel="noopener noreferrer"
              >
                Growth & Marketing
              </a>
              <a
                href="/services/enterprise-software-solution"
-               class="dropdown-item"
+               className="dropdown-item"
                rel="noopener noreferrer"
              >
                Enterprise Software Solution
              </a>
              <a
                href="/services/e-commerce-web-apps"
-               class="dropdown-item"
+               className="dropdown-item"
                rel="noopener noreferrer"
              >
                E-Commerce Web & Apps
              </a>
              <a
                href="/services/cms-design-development"
-               class="dropdown-item"
+               className="dropdown-item"
                rel="noopener noreferrer"
              >
                CMS Design & Development
              </a>
-             {/* <a href="/Services/ReadyMadeSolution" class="dropdown-item">
+             {/* <a href="/Services/ReadyMadeSolution" className="dropdown-item">
                Ready Made Solution
              </a> */}
            </div>
@@ -286,13 +286,13 @@ window.onscroll = () => {
          &nbsp;&nbsp;&nbsp;
          <a
            href="/hire-resources"
-           class="nav-item nav-link"
+           className="nav-item nav-link"
            rel="noopener noreferrer"
          >
            Hire Resources
          </a>
          &nbsp;&nbsp;&nbsp;
-         <a href="/blog" class="nav-item nav-link" rel="noopener noreferrer">
+         <a href="/blog" className="nav-item nav-link" rel="noopener noreferrer">
            Blog
          </a>{" "}
          &nbsp;&nbsp;&nbsp;
@@ -307,7 +307,7 @@ window.onscroll = () => {
          >
            <button
              type="button"
-             class="btn btn-primary rounded-pill"
+             className="btn btn-primary rounded-pill"
              id="quote"
              style={{ animation: "pulse 1.1s ease infinite", color: "white" }}
            >
@@ -320,7 +320,7 @@ window.onscroll = () => {
      </div>
    </nav>
       <div
-        class="container-fluid page-header py-5 mb-5 fadeIn "
+        className="container-fluid page-header py-5 mb-5 fadeIn "
         id="AboutusBanner"
       >
         <h1 id="ah">
@@ -333,22 +333,22 @@ window.onscroll = () => {
       <EmailForm />
       <br />
       {/* Aboutus */}
-      <div class="container-xxl py-5">
-        <div class="container">
-          <div class="row g-5">
-            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-              <div class="img-border">
-                <img class="img-fluid" ref={targetDivRef} src={p1} alt="benefits you get while working with Omka Tech" />
+      <div className="container-xxl py-5">
+        <div className="container">
+          <div className="row g-5">
+            <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+              <div className="img-border">
+                <img className="img-fluid" ref={targetDivRef} src={p1} alt="benefits you get while working with Omka Tech" />
               </div>
             </div>
-            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-              <div class="h-100">
-                <h6 class=" bg-white  text-primary " id="whoweare">
+            <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+              <div className="h-100">
+                <h6 className=" bg-white  text-primary " id="whoweare">
                   ABOUT US
                 </h6>
-                <h1 class="display-6 mb-4" id="whoweare">
+                <h1 className="display-6 mb-4" id="whoweare">
                   OMKA TECH BELIEVES THAT THE WORLD{" "}
-                  <span class="text-primary" id="whoweare">
+                  <span className="text-primary" id="whoweare">
                     REVOLVES AROUND TECHNOLOGY{" "}
                   </span>
                 </h1>
@@ -357,7 +357,7 @@ window.onscroll = () => {
                   clients. We help our clients convert their REQUIREMENT
                   DOCUMENT TO THE FUNCTIONAL TECHNOLOGY.
                 </p>
-                <p class="mb-4">
+                <p className="mb-4">
                   From start to finish, we take full responsibility for the
                   development of each project, ensuring that it meets the
                   client’s specific needs and preferences. We work closely with
@@ -372,39 +372,39 @@ window.onscroll = () => {
       </div>
       {/*our expertise */}
 
-      <div class="container-xxl py-5">
-        <div class="container">
+      <div className="container-xxl py-5">
+        <div className="container">
           <div
-            class="text-center mx-auto mb-5 wow fadeInUp"
+            className="text-center mx-auto mb-5 wow fadeInUp"
             data-wow-delay="0.1s"
             style={{ maxWidth: "600px" }}
           >
-            <h6 class=" bg-white  text-primary" id="whoweare">
+            <h6 className=" bg-white  text-primary" id="whoweare">
               OUR CORE EXPERTISE
             </h6>
-            <h2 class="display-6 mb-4" id="whoweare">
+            <h2 className="display-6 mb-4" id="whoweare">
               Reasons why you should&nbsp;
               <span style={{ color: "#04165D" }}>Trust Us</span>
             </h2>
           </div>
-          <div class="row g-4">
+          <div className="row g-4">
             <Test />
           </div>
         </div>
       </div>
       {/* technology */}
-      <div class="container-xxl py-5">
-        <div class="container">
+      <div className="container-xxl py-5">
+        <div className="container">
           <div
-            class="text-center mx-auto mb-5 wow fadeInUp"
+            className="text-center mx-auto mb-5 wow fadeInUp"
             data-wow-delay="0.1s"
             style={{ maxWidth: "600px" }}
           >
-            <h6 class=" bg-white text-primary" id="whoweare">
+            <h6 className=" bg-white text-primary" id="whoweare">
               Why Choose OMKA TECH
             </h6>
-            <h2 class="display-6 mb-4" id="whoweare">
-              Experience a World Class
+            <h2 className="display-6 mb-4" id="whoweare">
+              Experience a World className
               <br />
               <span style={{ color: "#04165D" }} id="whoweare">
                 {" "}
@@ -412,11 +412,11 @@ window.onscroll = () => {
               </span>
             </h2>
           </div>
-          <div class="row g-4">
-            <div class="wrapper">
-              <div class="team" id="teamm">
-                <div class="team_member" id="g5">
-                  <div class="team_img">
+          <div className="row g-4">
+            <div className="wrapper">
+              <div className="team" id="teamm">
+                <div className="team_member" id="g5">
+                  <div className="team_img">
                     <img src={one} alt="Team_image" />
                   </div>
                   <h3 id="g3">Free Cost- Analysis</h3>
@@ -427,8 +427,8 @@ window.onscroll = () => {
                     success and that too for free.
                   </p>
                 </div>
-                <div class="team_member" id="g5">
-                  <div class="team_img">
+                <div className="team_member" id="g5">
+                  <div className="team_img">
                     <img src={two} alt="Team_image" />
                   </div>
                   <h3 style={{ color: "black", fontWeight: "bold" }}>
@@ -440,9 +440,9 @@ window.onscroll = () => {
                     code to the client.
                   </p>
                 </div>
-                <div class="team_member" id="g5">
+                <div className="team_member" id="g5">
                   <br />
-                  <div class="team_img">
+                  <div className="team_img">
                     <img src={three} alt="Team_image" />
                   </div>
                   <h3 style={{ color: "black", fontWeight: "bold" }}>User-Friendly Designs</h3>
@@ -451,8 +451,8 @@ window.onscroll = () => {
                     in such a way so that it can be used effortlessly
                   </p>
                 </div>
-                <div class="team_member" id="g5">
-                  <div class="team_img">
+                <div className="team_member" id="g5">
+                  <div className="team_img">
                     <img src={four} alt="Team_image" />
                   </div>
                   <h3 style={{ color: "black", fontWeight: "bold" }}>
@@ -464,8 +464,8 @@ window.onscroll = () => {
                     easy for anyone to understand the code.
                   </p>
                 </div>
-                <div class="team_member" id="g5">
-                  <div class="team_img">
+                <div className="team_member" id="g5">
+                  <div className="team_img">
                     <img src={five} alt="Team_image" />
                   </div>
                   <h3 style={{ color: "black", fontWeight: "bold" }}>
@@ -477,8 +477,8 @@ window.onscroll = () => {
                     suited to the client and their business need.
                   </p>
                 </div>
-                <div class="team_member" id="g5">
-                  <div class="team_img">
+                <div className="team_member" id="g5">
+                  <div className="team_img">
                     <img src={six} alt="Team_image" />
                   </div>
                   <h3 style={{ color: "black", fontWeight: "bold" }}>
@@ -490,8 +490,8 @@ window.onscroll = () => {
                     our clients so that we can help each other grow
                   </p>
                 </div>
-                <div class="team_member" id="g5">
-                  <div class="team_img">
+                <div className="team_member" id="g5">
+                  <div className="team_img">
                     <img src={seven} alt="Team_image" />
                   </div>
                   <h3 style={{ color: "black", fontWeight: "bold" }}>
@@ -501,8 +501,8 @@ window.onscroll = () => {
                     We just develop/produce, you can re-brand the project
                   </p>
                 </div>
-                <div class="team_member" id="g5">
-                  <div class="team_img">
+                <div className="team_member" id="g5">
+                  <div className="team_img">
                     <img src={eight} alt="Team_image" />
                   </div>
                   <h3 style={{ color: "black", fontWeight: "bold" }}>

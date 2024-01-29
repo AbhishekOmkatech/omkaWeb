@@ -147,20 +147,20 @@ web-apps"></link>
       {/* navbar */}
       <nav
         id="topNavbar"
-        class=""
+        className=""
         data-wow-delay="0.1s"
         style={{ height: "60px", backgroundColor: "white" }}
       >
-        <div class="container" >
-        <div class="flag-container">
-                            <img src='../india.png' class="flag-icon" alt ="india"></img><span style={{ color: "white" }}>|</span>&nbsp;&nbsp;
-                            <img src='../us.png' class="flag-icon" alt ="US"></img><span style={{ color: "white" }}>|</span>&nbsp;&nbsp;
-                            <img src='../canda.png' class="flag-icon" alt ="Canda"></img>
+        <div className="container" >
+        <div className="flag-container">
+                            <img src='../india.png' className="flag-icon" alt ="india"></img><span style={{ color: "white" }}>|</span>&nbsp;&nbsp;
+                            <img src='../us.png' className="flag-icon" alt ="US"></img><span style={{ color: "white" }}>|</span>&nbsp;&nbsp;
+                            <img src='../canda.png' className="flag-icon" alt ="Canda"></img>
                         </div>
-                    <div className="row" id="gsss" >
+                    <div classNameName="row" id="gsss" >
 
-                        <div className="col-5"></div>
-                        <div className="col-7">
+                        <div classNameName="col-5"></div>
+                        <div classNameName="col-7">
                             <a href="tel:+1 (786)648-29107"> <img src='../c.jpg' id="flag" alt="canda"></img>&nbsp;+1(786) 648-2910</a>&nbsp; |&nbsp;&nbsp;
                             <a href="tel:+1 (437) 979-1504"><img src='../po.jpg' id="flag" alt="US"></img> &nbsp;+1 (437) 979-1504</a>&nbsp; |&nbsp;&nbsp;
 
@@ -171,12 +171,12 @@ web-apps"></link>
         </div>
       </nav>
       <nav
-        class="navbar navbar-expand-md fixed-top navbar-dark py-lg-0 px-lg-5"
+        className="navbar navbar-expand-md fixed-top navbar-dark py-lg-0 px-lg-5"
         data-wow-delay="0.1s" id="bottomNavbar" style={{ backgroundColor: "#F2F2F2", height: "80px" }}
       >
         <a
           href="/"
-          class="navbar-brand ms-3 d-lg-none"
+          className="navbar-brand ms-3 d-lg-none"
           rel="noopener noreferrer"
         >
           <img
@@ -187,14 +187,14 @@ web-apps"></link>
         </a>
         <button
           type="button"
-          class="navbar-toggler me-3"
+          className="navbar-toggler me-3"
           data-bs-toggle="collapse"
           data-bs-target="#navbarCollapse"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <div class="navbar-nav me-auto p-3 p-lg-0" >
+        <div className="collapse navbar-collapse" id="navbarCollapse">
+          <div className="navbar-nav me-auto p-3 p-lg-0" >
             <a
               href="/"
               style={{
@@ -218,43 +218,43 @@ web-apps"></link>
             </a>
             <a
               href="/"
-              class="nav-item nav-link"
+              className="nav-item nav-link"
               id="homeleft"
               rel="noopener noreferrer"
             >
               Home
             </a>
             &nbsp;&nbsp;&nbsp;
-            <div class="nav-item dropdown">
+            <div className="nav-item dropdown">
               <a
                 href="#"
-                class="nav-link dropdown-toggle"
+                className="nav-link dropdown-toggle"
                 data-bs-toggle="dropdown"
                 rel="noopener noreferrer"
               >
                 About Us
               </a>
               <div
-                class="dropdown-menu border-0 rounded-0 rounded-bottom m-0"
+                className="dropdown-menu border-0 rounded-0 rounded-bottom m-0"
                 style={{ marginTop: "-20px" }}
               >
                 <a
                   href="/about-us"
-                  class="dropdown-item"
+                  className="dropdown-item"
                   rel="noopener noreferrer"
                 >
                   Our Company
                 </a>
                 <a
                   href="/Careers"
-                  class="dropdown-item"
+                  className="dropdown-item"
                   rel="noopener noreferrer"
                 >
                   Careers
                 </a>
                 {/* <a
                   href="/Main"
-                  class="dropdown-item"
+                  className="dropdown-item"
                   rel="noopener noreferrer"
                 >
                   CaseStudy
@@ -262,69 +262,69 @@ web-apps"></link>
               </div>
             </div>
             &nbsp;&nbsp;&nbsp;
-            <div class="nav-item dropdown">
+            <div className="nav-item dropdown">
               <a
                 href="#"
-                class="nav-link dropdown-toggle active"
+                className="nav-link dropdown-toggle active"
                 data-bs-toggle="dropdown"
                 rel="noopener noreferrer"
               >
                 Services
               </a>
               <div
-                class="dropdown-menu border-0 rounded-0 rounded-bottom m-0"
+                className="dropdown-menu border-0 rounded-0 rounded-bottom m-0"
                 style={{ marginTop: "-20px" }}
               >
                 <a
                   href="/services/website-development"
-                  class="dropdown-item"
+                  className="dropdown-item"
                   rel="noopener noreferrer"
                 >
                   Website Development
                 </a>
                 <a
                   href="/services/mobile-app-development"
-                  class="dropdown-item "
+                  className="dropdown-item "
                   rel="noopener noreferrer"
                 >
                   Mobile App Development
                 </a>
                 <a
                   href="/Services/graphics-ui-ux"
-                  class="dropdown-item"
+                  className="dropdown-item"
                   rel="noopener noreferrer"
                 >
                   Graphics & UI/UX
                 </a>
                 <a
                   href="/services/growth-marketing"
-                  class="dropdown-item"
+                  className="dropdown-item"
                   rel="noopener noreferrer"
                 >
                   Growth & Marketing
                 </a>
                 <a
                   href="/services/enterprise-software-solution"
-                  class="dropdown-item"
+                  className="dropdown-item"
                   rel="noopener noreferrer"
                 >
                   Enterprise Software Solution
                 </a>
                 <a
                   href="/services/e-commerce-web-apps"
-                  class="dropdown-item active"
+                  className="dropdown-item active"
                   rel="noopener noreferrer"
                 >
                   E-Commerce Web & Apps
                 </a>
                 <a
                   href="/services/cms-design-development"
-                  class="dropdown-item"
+                  className="dropdown-item"
                   rel="noopener noreferrer"
                 >
                   CMS Design & Development
                 </a>
-                {/* <a href="/Services/ReadyMadeSolution" class="dropdown-item">
+                {/* <a href="/Services/ReadyMadeSolution" className="dropdown-item">
                   Ready Made Solution
                 </a> */}
               </div>
@@ -332,13 +332,13 @@ web-apps"></link>
             &nbsp;&nbsp;&nbsp;
             <a
               href="/hire-resources"
-              class="nav-item nav-link"
+              className="nav-item nav-link"
               rel="noopener noreferrer"
             >
               Hire Resources
             </a>
             &nbsp;&nbsp;&nbsp;
-            <a href="/blog" class="nav-item nav-link" rel="noopener noreferrer">
+            <a href="/blog" className="nav-item nav-link" rel="noopener noreferrer">
               Blog
             </a>{" "}
             &nbsp;&nbsp;&nbsp;
@@ -353,7 +353,7 @@ web-apps"></link>
             >
               <button
                 type="button"
-                class="btn btn-primary rounded-pill"
+                className="btn btn-primary rounded-pill"
                 id="quote"
                 style={{ animation: "pulse 1.1s ease infinite", color: "white" }}
               >
@@ -365,7 +365,7 @@ web-apps"></link>
           </div>
         </div>
       </nav>
-      <div class="container-fluid page-header py-5 mb-5 fadeIn" id="EcomBanner">
+      <div className="container-fluid page-header py-5 mb-5 fadeIn" id="EcomBanner">
         <h1 id="ah1">
           E-COMMERCE
           WEBSITE &<br />APPS DEVELPMENT
@@ -375,7 +375,7 @@ web-apps"></link>
           E-Commerce Web And Mobile Apps As <br />
           Per Your Business Requirements{" "}
         </p>
-        <div id="bannericon" className="text-left">
+        <div id="bannericon" classNameName="text-left">
           <li>
             <img src={Magento} id="e1" alt="e-commerce web and app service"></img>
           </li>
@@ -403,29 +403,29 @@ web-apps"></link>
       <EmailForm />
       <br />
       {/* Aboutus */}
-      <div class="container-xxl py-5">
-        <div class="container">
-          <div class="row g-5">
-            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-              <div class="img-border">
-                <img class="img-fluid" ref={targetDivRef} src={p1} alt="ecommerce web apps development company" />
+      <div className="container-xxl py-5">
+        <div className="container">
+          <div className="row g-5">
+            <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+              <div className="img-border">
+                <img className="img-fluid" ref={targetDivRef} src={p1} alt="ecommerce web apps development company" />
               </div>
             </div>
-            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-              <div class="h-100">
-                <h5 class="bg-white  text-primary" id="whoweare">
+            <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+              <div className="h-100">
+                <h5 className="bg-white  text-primary" id="whoweare">
                   WEBSITE DEVELOPMENT
                 </h5>
-                <h2 class="display-6 mb-4" id="whoweare">
+                <h2 className="display-6 mb-4" id="whoweare">
                   Build Your Online Store Now With{" "}
-                  <span class="text-primary" id="whoweare">
+                  <span className="text-primary" id="whoweare">
                     {" "}
                     Our Custom E-Commerce Service{" "}
                   </span>
                 </h2>
                 <p>To create a successful online store that attracts a large audience and drives conversions, it is crucial to have a strong online presence that aligns with your audience’s expectations. This requires expert knowledge in eCommerce website and mobile app development, with a laser focus on user experience (UX).
                 </p>
-                <p class="mb-4">
+                <p className="mb-4">
                   In order to capture the attention of your desired audience, your e-commerce store should adhere to industry standards and incorporate the latest design trends, resulting in a visually stunning and conversion-oriented platform.
                 </p>
               </div>
@@ -436,13 +436,13 @@ web-apps"></link>
       <br />
       {/* service call */}
       <div
-        class="containe"
+        className="containe"
         id="homecall"
         style={{ backgroundColor: "#04165D", width: "100%" }}
       >
         <br /> <br />
         <h2
-          class="text-white animated zoomIn"
+          className="text-white animated zoomIn"
           style={{
             fontWeight: "bold",
             marginTop: "-11px",
@@ -455,7 +455,7 @@ web-apps"></link>
           <br />{" "}
           <h4
             id="homeh4"
-            class="text-white animated zoomIn"
+            className="text-white animated zoomIn"
             style={{
               textAlign: "center",
 
@@ -472,7 +472,7 @@ web-apps"></link>
             >
               <button
                 type="button"
-                class="btn btn-primary rounded-pill"
+                className="btn btn-primary rounded-pill"
                 id="buttonH1"
                 style={{ animation: "pulse 1.1s ease infinite", color: "white" }}
               >
@@ -485,111 +485,111 @@ web-apps"></link>
 
       <br />
       {/* services */}
-      <div class="container-xxl py-5">
-        <div class="container">
+      <div className="container-xxl py-5">
+        <div className="container">
           <div
-            class="text-center mx-auto mb-5 wow fadeInUp"
+            className="text-center mx-auto mb-5 wow fadeInUp"
             data-wow-delay="0.1s"
             style={{ maxWidth: "600px" }}
           >
-            <h6 class=" bg-white  text-primary" id="whoweare">
+            <h6 className=" bg-white  text-primary" id="whoweare">
               Process We Follow
             </h6>
-            <h2 class="display-6 mb-4" id="whoweare">
+            <h2 className="display-6 mb-4" id="whoweare">
               How We Create An Amazing <br />
-              <span class="text-primary">E-Commerce Store for You</span>
+              <span className="text-primary">E-Commerce Store for You</span>
             </h2>
           </div>
-          <div class="row g-4" id="ecomrow">
-            <div class="container-fluid">
-              <div class="row mb-5">
-                <div class="col-12 col-sm-6 col-md-3 m-auto" id="team3">
+          <div className="row g-4" id="ecomrow">
+            <div className="container-fluid">
+              <div className="row mb-5">
+                <div className="col-12 col-sm-6 col-md-3 m-auto" id="team3">
                   <div
-                    class="car shadow ecomcardh"
+                    className="car shadow ecomcardh"
                     style={{ border: "1px solid darkgrey", borderRadius: "5%" }}
                   >
                     <div id="teamimgE">
-                      <img src={i1} alt="e-commerce web and app service" class="card-img-top1" />
+                      <img src={i1} alt="e-commerce web and app service" className="card-img-top1" />
                     </div><br /><br />
-                    <div class="card-body">
+                    <div className="card-body">
                       <h3
-                        class="text-center"
+                        className="text-center"
                         style={{ fontSize: "1.4rem", color: "white" }}
                       >
                         Planning
                       </h3>
                       <br />
                       <div id="ecomcard">
-                        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                        <i className="fa fa-chevron-right" aria-hidden="true"></i>
                         &nbsp; Understand your audience
                         <br />
-                        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                        <i className="fa fa-chevron-right" aria-hidden="true"></i>
                         &nbsp; Build a well-defined buyer persona
                         <br />
-                        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                        <i className="fa fa-chevron-right" aria-hidden="true"></i>
                         &nbsp; Choose the right development platform
                       </div>
                     </div>
                   </div>
                 </div>
 
-                <div class="col-12 col-sm-6 col-md-3 m-auto" id="team3">
+                <div className="col-12 col-sm-6 col-md-3 m-auto" id="team3">
                   <div
-                    class="car shadow ecomcardh"
+                    className="car shadow ecomcardh"
                     style={{ border: "1px solid darkgrey", borderRadius: "5%" }}
                   >
                     {" "}
                     <div id="teamimgE">
-                      <img src={i2} alt="e-commerce web and app service" class="card-img-top1" />
+                      <img src={i2} alt="e-commerce web and app service" className="card-img-top1" />
                     </div><br /><br />
-                    <div class="card-body">
+                    <div className="card-body">
                       <h3
-                        class="text-center"
+                        className="text-center"
                         style={{ fontSize: "1.4rem", color: "white" }}
                       >
                         Implementation
                       </h3>
                       <br />
                       <div id="ecomcard">
-                        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                        <i className="fa fa-chevron-right" aria-hidden="true"></i>
                         &nbsp; Draw a development roadmap
                         <br />
-                        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                        <i className="fa fa-chevron-right" aria-hidden="true"></i>
                         &nbsp; Implement the right themes
                         <br />
-                        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                        <i className="fa fa-chevron-right" aria-hidden="true"></i>
                         &nbsp; Develop, enhance, and deploy the store
                       </div>
                     </div>
                   </div>
                 </div>
 
-                <div class="col-12 col-sm-6 col-md-3 m-auto" id="team3">
+                <div className="col-12 col-sm-6 col-md-3 m-auto" id="team3">
                   <div
-                    class="car shadow ecomcardh "
+                    className="car shadow ecomcardh "
                     style={{ border: "1px solid darkgrey", borderRadius: "5%" }}
                   >
                     <div id="teamimgE">
                       {" "}
-                      <img src={i3} alt="e-commerce web and app service" class="card-img-top1" />
+                      <img src={i3} alt="e-commerce web and app service" className="card-img-top1" />
                     </div>
                     <br /><br />
-                    <div class="card-body">
+                    <div className="card-body">
                       <h3
-                        class="text-center"
+                        className="text-center"
                         style={{ fontSize: "1.4rem", color: "white" }}
                       >
                         Post-Deployement Support
                       </h3>
                       <br />
                       <div id="ecomcard">
-                        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                        <i className="fa fa-chevron-right" aria-hidden="true"></i>
                         &nbsp; Optimization of e-commerce store
                         <br />
-                        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                        <i className="fa fa-chevron-right" aria-hidden="true"></i>
                         &nbsp; Monitoring and maintenance
                         <br />
-                        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                        <i className="fa fa-chevron-right" aria-hidden="true"></i>
                         &nbsp; Troubleshooting and support
                       </div>
                     </div>
@@ -601,19 +601,19 @@ web-apps"></link>
         </div>
       </div>
       {/* technology */}
-      <div class="container-xxl py-5" style={{ marginTop: "-40px" }}>
-        <div class="container">
+      <div className="container-xxl py-5" style={{ marginTop: "-40px" }}>
+        <div className="container">
           <div
-            class="text-center mx-auto mb-5 wow fadeInUp"
+            className="text-center mx-auto mb-5 wow fadeInUp"
             data-wow-delay="0.1s"
             style={{ maxWidth: "800px" }}
           >
-            <h6 class=" bg-white  text-primary " id="whoweare">
+            <h6 className=" bg-white  text-primary " id="whoweare">
               Technologies We Work
             </h6>
-            <h2 class="display-6 mb-4" id="whoweare">
+            <h2 className="display-6 mb-4" id="whoweare">
               E-Commerce Development Platforms <br />
-              <span class="text-primary" id="whoweare">
+              <span className="text-primary" id="whoweare">
                 We Use
               </span>
             </h2>
@@ -628,46 +628,46 @@ web-apps"></link>
             </p>
           </div>
           <br />
-          <div class="row g-4">
-            <div class="wrapper2">
+          <div className="row g-4">
+            <div className="wrapper2">
               <h2> </h2>
-              <div class="team">
-                <div class="team_member" id="team1">
-                  <div class="team_imgE">
+              <div className="team">
+                <div className="team_member" id="team1">
+                  <div className="team_imgE">
                     <img src={one} alt="magento development service" />
                   </div>
                 </div>
-                <div class="team_member" id="team1">
-                  <div class="team_imgE">
+                <div className="team_member" id="team1">
+                  <div className="team_imgE">
                     <img src={two} alt="shopify development" />
                   </div>
                 </div>
-                <div class="team_member" id="team1">
-                  <div class="team_imgE">
+                <div className="team_member" id="team1">
+                  <div className="team_imgE">
                     <img src={three} alt="woo commerce development service" />
                   </div>
                 </div>
-                <div class="team_member" id="team1">
-                  <div class="team_imgE">
+                <div className="team_member" id="team1">
+                  <div className="team_imgE">
                     <img src={four} alt="wix development service" />
                   </div>
                 </div>
               </div>
               <br />
 
-              <div class="team">
-                <div class="team_member" id="team1">
-                  <div class="team_imgE">
+              <div className="team">
+                <div className="team_member" id="team1">
+                  <div className="team_imgE">
                     <img src={five} alt="php development service" />
                   </div>
                 </div>
-                <div class="team_member" id="team1">
-                  <div class="team_imgE">
+                <div className="team_member" id="team1">
+                  <div className="team_imgE">
                     <img src={six} alt="react js development service" />
                   </div>
                 </div>
-                <div class="team_member" id="team1">
-                  <div class="team_imgE">
+                <div className="team_member" id="team1">
+                  <div className="team_imgE">
                     <img src={seven} alt="node js development service" />
                   </div>
                 </div>
@@ -677,26 +677,26 @@ web-apps"></link>
         </div>
       </div>
       {/* {why choose Us */}
-      <div class="container-xxl py-5" id="chooseEcom">
-        <div class="container">
-          <div class="row g-5">
-            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-              <div class="h-100">
-                <h6 class=" bg-white  text-primary " id="whoweare">
+      <div className="container-xxl py-5" id="chooseEcom">
+        <div className="container">
+          <div className="row g-5">
+            <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+              <div className="h-100">
+                <h6 className=" bg-white  text-primary " id="whoweare">
                   Why Choose Us
                 </h6>
-                <h2 class="display-6 mb-4" id="whoweare">
+                <h2 className="display-6 mb-4" id="whoweare">
                   Benefits you get while working with Omka Tech
                 </h2>
-                <p class="mb-4">Omka Tech team is proud to offer ecommerce website
+                <p className="mb-4">Omka Tech team is proud to offer ecommerce website
                   development services to meet your needs. Our team will work with you
                   to develop a design solution for your e-commerce web and apps that
                   speaks to your business purpose</p>
-                <div class="row g-4">
-                  <div class="col-12">
-                    <div class="skill">
-                      <div class="d-flex justify-content-between">
-                        {/* <p class="mb-2">Digital Marketing</p><br/><br/> */}
+                <div className="row g-4">
+                  <div className="col-12">
+                    <div className="skill">
+                      <div className="d-flex justify-content-between">
+                        {/* <p className="mb-2">Digital Marketing</p><br/><br/> */}
                       </div>
 
                       <h6
@@ -737,26 +737,26 @@ web-apps"></link>
                       </h6>
                     </div>
                   </div>
-                  <div class="col-12">
-                    <div class="skill">
-                      <div class="d-flex justify-content-between">
-                        {/* <p class="mb-2">SEO & Backlinks</p> */}
+                  <div className="col-12">
+                    <div className="skill">
+                      <div className="d-flex justify-content-between">
+                        {/* <p className="mb-2">SEO & Backlinks</p> */}
                       </div>
                     </div>
                   </div>
-                  <div class="col-12">
-                    <div class="skill">
-                      <div class="d-flex justify-content-between">
-                        {/* <p class="mb-2">Design & Development</p> */}
+                  <div className="col-12">
+                    <div className="skill">
+                      <div className="d-flex justify-content-between">
+                        {/* <p className="mb-2">Design & Development</p> */}
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-              <div class="img-border">
-                <img class="img-fluid" ref={targetDivRef1} src={hero} alt="e-commerce web apps development Services" />
+            <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+              <div className="img-border">
+                <img className="img-fluid" ref={targetDivRef1} src={hero} alt="e-commerce web apps development Services" />
               </div>
             </div>
           </div>

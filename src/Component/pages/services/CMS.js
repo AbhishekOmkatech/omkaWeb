@@ -143,21 +143,21 @@ development"></link>
       {/* navbar */}
       <nav
         id="topNavbar"
-        class=""
+        className=""
         data-wow-delay="0.1s"
         style={{ height: "60px", backgroundColor: "white" }}
       >
-        <div class="container" >
+        <div className="container" >
 
-        <div class="flag-container">
-                            <img src='../india.png' class="flag-icon" alt ="india"></img><span style={{ color: "white" }}>|</span>&nbsp;&nbsp;
-                            <img src='../us.png' class="flag-icon" alt ="US"></img><span style={{ color: "white" }}>|</span>&nbsp;&nbsp;
-                            <img src='../canda.png' class="flag-icon" alt ="Canda"></img>
+        <div className="flag-container">
+                            <img src='../india.png' className="flag-icon" alt ="india"></img><span style={{ color: "white" }}>|</span>&nbsp;&nbsp;
+                            <img src='../us.png' className="flag-icon" alt ="US"></img><span style={{ color: "white" }}>|</span>&nbsp;&nbsp;
+                            <img src='../canda.png' className="flag-icon" alt ="Canda"></img>
                         </div>
-                    <div className="row" id="gsss" >
+                    <div classNameName="row" id="gsss" >
 
-                        <div className="col-5"></div>
-                        <div className="col-7">
+                        <div classNameName="col-5"></div>
+                        <div classNameName="col-7">
                             <a href="tel:+1 (786)648-29107"> <img src='../c.jpg' id="flag" alt="canda"></img>&nbsp;+1(786) 648-2910</a>&nbsp; |&nbsp;&nbsp;
                             <a href="tel:+1 (437) 979-1504"><img src='../po.jpg' id="flag" alt="US"></img> &nbsp;+1 (437) 979-1504</a>&nbsp; |&nbsp;&nbsp;
 
@@ -168,12 +168,12 @@ development"></link>
         </div>
       </nav>
       <nav
-        class="navbar navbar-expand-md fixed-top navbar-dark py-lg-0 px-lg-5"
+        className="navbar navbar-expand-md fixed-top navbar-dark py-lg-0 px-lg-5"
         data-wow-delay="0.1s" id="bottomNavbar" style={{ backgroundColor: "#F2F2F2", height: "80px" }}
       >
         <a
           href="/"
-          class="navbar-brand ms-3 d-lg-none"
+          className="navbar-brand ms-3 d-lg-none"
           rel="noopener noreferrer"
         >
           <img
@@ -185,14 +185,14 @@ development"></link>
         </a>
         <button
           type="button"
-          class="navbar-toggler me-3"
+          className="navbar-toggler me-3"
           data-bs-toggle="collapse"
           data-bs-target="#navbarCollapse"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <div class="navbar-nav me-auto p-3 p-lg-0" >
+        <div className="collapse navbar-collapse" id="navbarCollapse">
+          <div className="navbar-nav me-auto p-3 p-lg-0" >
             <a
               href="/"
               style={{
@@ -216,43 +216,43 @@ development"></link>
             </a>
             <a
               href="/"
-              class="nav-item nav-link"
+              className="nav-item nav-link"
               id="homeleft"
               rel="noopener noreferrer"
             >
               Home
             </a>
             &nbsp;&nbsp;&nbsp;
-            <div class="nav-item dropdown">
+            <div className="nav-item dropdown">
               <a
                 href="#"
-                class="nav-link dropdown-toggle"
+                className="nav-link dropdown-toggle"
                 data-bs-toggle="dropdown"
                 rel="noopener noreferrer"
               >
                 About Us
               </a>
               <div
-                class="dropdown-menu border-0 rounded-0 rounded-bottom m-0"
+                className="dropdown-menu border-0 rounded-0 rounded-bottom m-0"
                 style={{ marginTop: "-20px" }}
               >
                 <a
                   href="/about-us"
-                  class="dropdown-item"
+                  className="dropdown-item"
                   rel="noopener noreferrer"
                 >
                   Our Company
                 </a>
                 <a
                   href="/Careers"
-                  class="dropdown-item"
+                  className="dropdown-item"
                   rel="noopener noreferrer"
                 >
                   Careers
                 </a>
                 {/* <a
                   href="/Main"
-                  class="dropdown-item"
+                  className="dropdown-item"
                   rel="noopener noreferrer"
                 >
                   CaseStudy
@@ -260,64 +260,64 @@ development"></link>
               </div>
             </div>
             &nbsp;&nbsp;&nbsp;
-            <div class="nav-item dropdown">
+            <div className="nav-item dropdown">
               <a
                 href="#"
-                class="nav-link dropdown-toggle active"
+                className="nav-link dropdown-toggle active"
                 data-bs-toggle="dropdown"
                 rel="noopener noreferrer"
               >
                 Services
               </a>
               <div
-                class="dropdown-menu border-0 rounded-0 rounded-bottom m-0"
+                className="dropdown-menu border-0 rounded-0 rounded-bottom m-0"
                 style={{ marginTop: "-20px" }}
               >
                 <a
                   href="/services/website-development"
-                  class="dropdown-item"
+                  className="dropdown-item"
                   rel="noopener noreferrer"
                 >
                   Website Development
                 </a>
                 <a
                   href="/services/mobile-app-development"
-                  class="dropdown-item"
+                  className="dropdown-item"
                   rel="noopener noreferrer"
                 >
                   Mobile App Development
                 </a>
                 <a
                   href="/Services/graphics-ui-ux"
-                  class="dropdown-item"
+                  className="dropdown-item"
                   rel="noopener noreferrer"
                 >
                   Graphics & UI/UX
                 </a>
                 <a
                   href="/services/growth-marketing"
-                  class="dropdown-item"
+                  className="dropdown-item"
                   rel="noopener noreferrer"
                 >
                   Growth & Marketing
                 </a>
                 <a
                   href="/services/enterprise-software-solution"
-                  class="dropdown-item"
+                  className="dropdown-item"
                   rel="noopener noreferrer"
                 >
                   Enterprise Software Solution
                 </a>
                 <a
                   href="/services/e-commerce-web-apps"
-                  class="dropdown-item"
+                  className="dropdown-item"
                   rel="noopener noreferrer"
                 >
                   E-Commerce Web & Apps
                 </a>
                 <a
                   href="/services/cms-design-development"
-                  class="dropdown-item active"
+                  className="dropdown-item active"
                   rel="noopener noreferrer"
                 >
                   CMS Design & Development
@@ -325,11 +325,11 @@ development"></link>
               </div>
             </div>
             &nbsp;&nbsp;&nbsp;
-            <a href="/Hire-Resources" class="nav-item nav-link">
+            <a href="/Hire-Resources" className="nav-item nav-link">
               Hire Resources
             </a>
             &nbsp;&nbsp;&nbsp;
-            <a href="/blog" class="nav-item nav-link">
+            <a href="/blog" className="nav-item nav-link">
               Blog
             </a>{" "}
             &nbsp;&nbsp;&nbsp;
@@ -344,7 +344,7 @@ development"></link>
             >
               <button
                 type="button"
-                class="btn btn-primary rounded-pill"
+                className="btn btn-primary rounded-pill"
                 id="quote"
                 style={{ animation: "pulse 1.1s ease infinite", color: "white" }}
               >
@@ -356,7 +356,7 @@ development"></link>
           </div>
         </div>
       </nav>
-      <div class="container-fluid page-header py-5 mb-5 fadeIn" id="cmsBanner">
+      <div className="container-fluid page-header py-5 mb-5 fadeIn" id="cmsBanner">
         <h1 id="ah1">
           CMS Design &
           <br />
@@ -372,22 +372,22 @@ development"></link>
       <EmailForm />
       <br />
       {/* Aboutus */}
-      <div class="container-xxl py-5">
-        <div class="container">
-          <div class="row g-5">
-            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-              <div class="img-border">
-                <img class="img-fluid" ref={targetDivRef} src={p1} alt="cms design and development service" />
+      <div className="container-xxl py-5">
+        <div className="container">
+          <div className="row g-5">
+            <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+              <div className="img-border">
+                <img className="img-fluid" ref={targetDivRef} src={p1} alt="cms design and development service" />
               </div>
             </div>
-            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-              <div class="h-100">
-                <h5 class="bg-white  text-primary" id="whoweare">
+            <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+              <div className="h-100">
+                <h5 className="bg-white  text-primary" id="whoweare">
                   CMS WEB DEVELOPMENT
                 </h5>
-                <h2 class="display-6 mb-4" id="whoweare">
+                <h2 className="display-6 mb-4" id="whoweare">
                   Empower and streamline your{" "}
-                  <span class="text-primary" id="whoweare">
+                  <span className="text-primary" id="whoweare">
                     {" "}
                     workflow with CMS
                   </span>
@@ -417,13 +417,13 @@ development"></link>
       <br />
       {/* service call */}
       <div
-        class="containe"
+        className="containe"
         id="homecall1"
         style={{ backgroundColor: "#04165D", width: "100%" }}
       >
         <br /> <br />
         <h2
-          class="text-white animated zoomIn"
+          className="text-white animated zoomIn"
           style={{
             fontWeight: "bold",
             marginTop: "-11px",
@@ -437,7 +437,7 @@ development"></link>
           <br />{" "}
           <h4
             id="homeh4"
-            class="text-white animated zoomIn"
+            className="text-white animated zoomIn"
             style={{
               textAlign: "center",
               marginTop: "10px",
@@ -454,7 +454,7 @@ development"></link>
             >
               <button
                 type="button"
-                class="btn btn-primary rounded-pill"
+                className="btn btn-primary rounded-pill"
                 id="buttonH1"
                 style={{ animation: "pulse 1.1s ease infinite", color: "white" }}
               >
@@ -467,29 +467,29 @@ development"></link>
 
       <br />
       {/* process */}
-      <div class="container-xxl py-5">
-        <div class="container">
+      <div className="container-xxl py-5">
+        <div className="container">
           <div
-            class="text-center mx-auto mb-5 wow fadeInUp"
+            className="text-center mx-auto mb-5 wow fadeInUp"
             data-wow-delay="0.1s"
             style={{ maxWidth: "600px" }}
           >
-            <h6 class=" bg-white  text-primary" id="whoweare">
+            <h6 className=" bg-white  text-primary" id="whoweare">
               Process We Follow
             </h6>
-            <h2 class="display-6 mb-4" id="whoweare">
+            <h2 className="display-6 mb-4" id="whoweare">
               We ensure that the CMS application meets your{" "}
-              <span class="text-primary"> needs and expectations</span>
+              <span className="text-primary"> needs and expectations</span>
             </h2>
           </div>
-          <div class="row g-4">
+          <div className="row g-4">
             {" "}
-            <div class="container">
+            <div className="container">
               {/* 1 */}
-              <div class="row align-items-center connecting-lines d-flex">
-                <div class="col-2 text-center bottom d-inline-flex justify-content-center align-items-center">
-                  <div class="circle">
-                    <i class="fa fa-chec">
+              <div className="row align-items-center connecting-lines d-flex">
+                <div className="col-2 text-center bottom d-inline-flex justify-content-center align-items-center">
+                  <div className="circle">
+                    <i className="fa fa-chec">
                       {" "}
                       <img
                         src={req}
@@ -499,7 +499,7 @@ development"></link>
                     </i>
                   </div>
                 </div>
-                <div class="col-6 text-left">
+                <div className="col-6 text-left">
                   <h4>Define the Project Requirements</h4>
                   <p>
                     This involves identifying the features and functionality
@@ -509,29 +509,29 @@ development"></link>
                 </div>
               </div>
 
-              <div class="row timeline">
-                <div class="col-2">
-                  <div class="corner top-right"></div>
+              <div className="row timeline">
+                <div className="col-2">
+                  <div className="corner top-right"></div>
                 </div>
-                <div class="col-8">
+                <div className="col-8">
                   <hr />
                 </div>
-                <div class="col-2">
-                  <div class="corner left-bottom"></div>
+                <div className="col-2">
+                  <div className="corner left-bottom"></div>
                 </div>
               </div>
               {/* 2 */}
-              <div class="row align-items-center justify-content-end connecting-lines d-flex">
-                <div class="col-6 text-right">
+              <div className="row align-items-center justify-content-end connecting-lines d-flex">
+                <div className="col-6 text-right">
                   <h4> Choose a Technology Stack</h4>
                   <p style={{ textAlign: "right" }}>
                     Select a programming language, database, and framework that
                     best meets the project requirements.
                   </p>
                 </div>
-                <div class="col-2 text-center full d-inline-flex justify-content-center align-items-center">
-                  <div class="circle">
-                    <i class="fa fa-chec">
+                <div className="col-2 text-center full d-inline-flex justify-content-center align-items-center">
+                  <div className="circle">
+                    <i className="fa fa-chec">
                       <img
                         src={uiux}
                         alt="cms design and development service"
@@ -542,22 +542,22 @@ development"></link>
                 </div>
               </div>
 
-              <div class="row timeline">
-                <div class="col-2">
-                  <div class="corner right-bottom"></div>
+              <div className="row timeline">
+                <div className="col-2">
+                  <div className="corner right-bottom"></div>
                 </div>
-                <div class="col-8">
+                <div className="col-8">
                   <hr />
                 </div>
-                <div class="col-2">
-                  <div class="corner top-left"></div>
+                <div className="col-2">
+                  <div className="corner top-left"></div>
                 </div>
               </div>
               {/* 3 */}
-              <div class="row align-items-center connecting-lines d-flex">
-                <div class="col-2 text-center top d-inline-flex justify-content-center align-items-center">
-                  <div class="circle">
-                    <i class="fa fa-chec">
+              <div className="row align-items-center connecting-lines d-flex">
+                <div className="col-2 text-center top d-inline-flex justify-content-center align-items-center">
+                  <div className="circle">
+                    <i className="fa fa-chec">
                       {" "}
                       <img
                         src={proto}
@@ -567,7 +567,7 @@ development"></link>
                     </i>
                   </div>
                 </div>
-                <div class="col-6 text-left">
+                <div className="col-6 text-left">
                   <h4>Design the Database Schema</h4>
                   <p>
                     Develop a database schema that captures the data model of
@@ -576,20 +576,20 @@ development"></link>
                   </p>
                 </div>
               </div>
-              <div class="row timeline">
-                <div class="col-2">
-                  <div class="corner top-right"></div>
+              <div className="row timeline">
+                <div className="col-2">
+                  <div className="corner top-right"></div>
                 </div>
-                <div class="col-8">
+                <div className="col-8">
                   <hr />
                 </div>
-                <div class="col-2">
-                  <div class="corner left-bottom"></div>
+                <div className="col-2">
+                  <div className="corner left-bottom"></div>
                 </div>
               </div>
               {/* 4 */}
-              <div class="row align-items-center justify-content-end connecting-lines d-flex">
-                <div class="col-6 text-right">
+              <div className="row align-items-center justify-content-end connecting-lines d-flex">
+                <div className="col-6 text-right">
                   <h4>Create the User Interface</h4>
                   <p>
                     Design and develop a user interface that allows users to
@@ -597,9 +597,9 @@ development"></link>
                     prototyping, and UI design.
                   </p>
                 </div>
-                <div class="col-2 text-center full d-inline-flex justify-content-center align-items-center">
-                  <div class="circle">
-                    <i class="fa fa-chec">
+                <div className="col-2 text-center full d-inline-flex justify-content-center align-items-center">
+                  <div className="circle">
+                    <i className="fa fa-chec">
                       {" "}
                       <img
                         src={app}
@@ -610,28 +610,28 @@ development"></link>
                   </div>
                 </div>
               </div>
-              <div class="row timeline">
-                <div class="col-2">
-                  <div class="corner right-bottom"></div>
+              <div className="row timeline">
+                <div className="col-2">
+                  <div className="corner right-bottom"></div>
                 </div>
-                <div class="col-8">
+                <div className="col-8">
                   <hr />
                 </div>
-                <div class="col-2">
-                  <div class="corner top-left"></div>
+                <div className="col-2">
+                  <div className="corner top-left"></div>
                 </div>
               </div>
               {/* 5 */}
-              <div class="row align-items-center connecting-lines d-flex">
-                <div class="col-2 text-center top d-inline-flex justify-content-center align-items-center">
-                  <div class="circle">
-                    <i class="fa fa-chec">
+              <div className="row align-items-center connecting-lines d-flex">
+                <div className="col-2 text-center top d-inline-flex justify-content-center align-items-center">
+                  <div className="circle">
+                    <i className="fa fa-chec">
                       {" "}
                       <img src={test} alt="cms design and development service"></img>
                     </i>
                   </div>
                 </div>
-                <div class="col-6 text-left">
+                <div className="col-6 text-left">
                   <h4>Develop the Backend</h4>
                   <p>
                     Build the backend of the CMS application that interacts with
@@ -640,29 +640,29 @@ development"></link>
                   </p>
                 </div>
               </div>
-              <div class="row timeline">
-                <div class="col-2">
-                  <div class="corner top-right"></div>
+              <div className="row timeline">
+                <div className="col-2">
+                  <div className="corner top-right"></div>
                 </div>
-                <div class="col-8">
+                <div className="col-8">
                   <hr />
                 </div>
-                <div class="col-2">
-                  <div class="corner left-bottom"></div>
+                <div className="col-2">
+                  <div className="corner left-bottom"></div>
                 </div>
               </div>
               {/* 6 */}
-              <div class="row align-items-center justify-content-end connecting-lines d-flex">
-                <div class="col-6 text-right">
+              <div className="row align-items-center justify-content-end connecting-lines d-flex">
+                <div className="col-6 text-right">
                   <h4>Test and Debug</h4>
                   <p style={{ textAlign: "right" }}>
                     Conduct comprehensive testing of the CMS application to
                     identify and fix any bugs or issues.
                   </p>
                 </div>
-                <div class="col-2 text-center full d-inline-flex justify-content-center align-items-center">
-                  <div class="circle">
-                    <i class="fa fa-chec">
+                <div className="col-2 text-center full d-inline-flex justify-content-center align-items-center">
+                  <div className="circle">
+                    <i className="fa fa-chec">
                       {" "}
                       <img
                         src={dep}
@@ -673,28 +673,28 @@ development"></link>
                   </div>
                 </div>
               </div>
-              <div class="row timeline">
-                <div class="col-2">
-                  <div class="corner right-bottom"></div>
+              <div className="row timeline">
+                <div className="col-2">
+                  <div className="corner right-bottom"></div>
                 </div>
-                <div class="col-8">
+                <div className="col-8">
                   <hr />
                 </div>
-                <div class="col-2">
-                  <div class="corner top-left"></div>
+                <div className="col-2">
+                  <div className="corner top-left"></div>
                 </div>
               </div>
               {/* 7 */}
-              <div class="row align-items-center connecting-lines d-flex">
-                <div class="col-2 text-center top d-inline-flex justify-content-center align-items-center">
-                  <div class="circle">
-                    <i class="fa fa-chec">
+              <div className="row align-items-center connecting-lines d-flex">
+                <div className="col-2 text-center top d-inline-flex justify-content-center align-items-center">
+                  <div className="circle">
+                    <i className="fa fa-chec">
                       {" "}
                       <img src={test} alt="cms design and development service"></img>
                     </i>
                   </div>
                 </div>
-                <div class="col-6 text-left">
+                <div className="col-6 text-left">
                   <h4>Deploy the Application</h4>
                   <p>
                     Deploy the CMS application to a web server or cloud
@@ -703,20 +703,20 @@ development"></link>
                   </p>
                 </div>
               </div>
-              <div class="row timeline">
-                <div class="col-2">
-                  <div class="corner top-right"></div>
+              <div className="row timeline">
+                <div className="col-2">
+                  <div className="corner top-right"></div>
                 </div>
-                <div class="col-8">
+                <div className="col-8">
                   <hr />
                 </div>
-                <div class="col-2">
-                  <div class="corner left-bottom"></div>
+                <div className="col-2">
+                  <div className="corner left-bottom"></div>
                 </div>
               </div>
               {/* 8 */}
-              <div class="row align-items-center justify-content-end connecting-lines d-flex">
-                <div class="col-6 text-right">
+              <div className="row align-items-center justify-content-end connecting-lines d-flex">
+                <div className="col-6 text-right">
                   <h4>Maintain and Update the CMS</h4>
                   <p style={{ textAlign: "right" }}>
                     Regularly maintain and update the CMS application to ensure
@@ -724,9 +724,9 @@ development"></link>
                     technologies.
                   </p>
                 </div>
-                <div class="col-2 text-center full d-inline-flex justify-content-center align-items-center">
-                  <div class="circle">
-                    <i class="fa fa-chec">
+                <div className="col-2 text-center full d-inline-flex justify-content-center align-items-center">
+                  <div className="circle">
+                    <i className="fa fa-chec">
                       {" "}
                       <img
                         src={dep}
@@ -744,185 +744,185 @@ development"></link>
       <br />
 
       {/* technology */}
-      <div class="container-xxl py-5">
-        <div class="container">
+      <div className="container-xxl py-5">
+        <div className="container">
           <div
-            class="text-center mx-auto mb-5 wow fadeInUp"
+            className="text-center mx-auto mb-5 wow fadeInUp"
             data-wow-delay="0.1s"
             style={{ maxWidth: "800px" }}
           >
-            <h6 class=" bg-white  text-primary " id="whoweare">
+            <h6 className=" bg-white  text-primary " id="whoweare">
               Technologies We Work
             </h6>
-            <h2 class="display-6 mb-4" id="whoweare">
+            <h2 className="display-6 mb-4" id="whoweare">
               Take a peek at some of our{" "}
-              <span class="text-primary" id="whoweare">
+              <span className="text-primary" id="whoweare">
                 {" "}
                 Core Technologies
               </span>
             </h2>
           </div>
-          <div class="row g-4" id="coretech">
+          <div className="row g-4" id="coretech">
             <div
-              class="col-lg-4 col-md-6 wow fadeInUp"
+              className="col-lg-4 col-md-6 wow fadeInUp"
               id="webcard"
               data-wow-delay="0.1s"
             >
               <a
-                class="service-item d-block rounded text-center h-100 p-4"
+                className="service-item d-block rounded text-center h-100 p-4"
                 href=""
                 rel="noopener noreferrer"
               >
-                <img class="img-fluid rounded mb-4" src={php} alt="cms design and development service" />
-                <h4 class="mb-0" id="h4hover">
+                <img className="img-fluid rounded mb-4" src={php} alt="cms design and development service" />
+                <h4 className="mb-0" id="h4hover">
                   Core PHP
                 </h4>
               </a>
             </div>
             <div
-              class="col-lg-4 col-md-6 wow fadeInUp"
+              className="col-lg-4 col-md-6 wow fadeInUp"
               id="webcard"
               data-wow-delay="0.3s"
             >
               <a
-                class="service-item d-block rounded text-center h-100 p-4"
+                className="service-item d-block rounded text-center h-100 p-4"
                 href=""
                 rel="noopener noreferrer"
               >
-                <img class="img-fluid rounded mb-4" src={laravel} alt="cms design and development service" />
-                <h4 class="mb-0" id="h4hover">
+                <img className="img-fluid rounded mb-4" src={laravel} alt="cms design and development service" />
+                <h4 className="mb-0" id="h4hover">
                   Laravel
                 </h4>
               </a>
             </div>
             <div
-              class="col-lg-4 col-md-6 wow fadeInUp"
+              className="col-lg-4 col-md-6 wow fadeInUp"
               id="webcard"
               data-wow-delay="0.5s"
             >
               <a
-                class="service-item d-block rounded text-center h-100 p-4"
+                className="service-item d-block rounded text-center h-100 p-4"
                 href=""
                 rel="noopener noreferrer"
               >
-                <img class="img-fluid rounded mb-4" src={code} alt="cms design and development service" />
-                <h4 class="mb-0" id="h4hover">
+                <img className="img-fluid rounded mb-4" src={code} alt="cms design and development service" />
+                <h4 className="mb-0" id="h4hover">
                   Codeigniter
                 </h4>
               </a>
             </div>
             <div
-              class="col-lg-4 col-md-6 wow fadeInUp"
+              className="col-lg-4 col-md-6 wow fadeInUp"
               id="webcard"
               data-wow-delay="0.1s"
             >
               <a
-                class="service-item d-block rounded text-center h-100 p-4"
+                className="service-item d-block rounded text-center h-100 p-4"
                 href=""
                 rel="noopener noreferrer"
               >
-                <img class="img-fluid rounded mb-4" src={react} alt="cms design and development service" />
-                <h4 class="mb-0" id="h4hover">
+                <img className="img-fluid rounded mb-4" src={react} alt="cms design and development service" />
+                <h4 className="mb-0" id="h4hover">
                   React JS
                 </h4>
               </a>
             </div>
             <div
-              class="col-lg-4 col-md-6 wow fadeInUp"
+              className="col-lg-4 col-md-6 wow fadeInUp"
               id="webcard"
               data-wow-delay="0.3s"
             >
               <a
-                class="service-item d-block rounded text-center h-100 p-4"
+                className="service-item d-block rounded text-center h-100 p-4"
                 href=""
                 rel="noopener noreferrer"
               >
-                <img class="img-fluid rounded mb-4" src={node} alt="cms design and development service" />
-                <h4 class="mb-0" id="h4hover">
+                <img className="img-fluid rounded mb-4" src={node} alt="cms design and development service" />
+                <h4 className="mb-0" id="h4hover">
                   Node JS
                 </h4>
               </a>
             </div>
             <div
-              class="col-lg-4 col-md-6 wow fadeInUp"
+              className="col-lg-4 col-md-6 wow fadeInUp"
               id="webcard"
               data-wow-delay="0.5s"
             >
               <a
-                class="service-item d-block rounded text-center h-100 p-4"
+                className="service-item d-block rounded text-center h-100 p-4"
                 href=""
                 rel="noopener noreferrer"
               >
-                <img class="img-fluid rounded mb-4" src={python} alt="cms design and development service" />
-                <h4 class="mb-0" id="h4hover">
+                <img className="img-fluid rounded mb-4" src={python} alt="cms design and development service" />
+                <h4 className="mb-0" id="h4hover">
                   Python
                 </h4>
               </a>
             </div>
             <div
-              class="col-lg-4 col-md-6 wow fadeInUp"
+              className="col-lg-4 col-md-6 wow fadeInUp"
               id="webcard"
               data-wow-delay="0.1s"
             >
               <a
-                class="service-item d-block rounded text-center h-100 p-4"
+                className="service-item d-block rounded text-center h-100 p-4"
                 href=""
                 rel="noopener noreferrer"
               >
-                <img class="img-fluid rounded mb-4" src={Shopify} alt="cms design and development service" />
-                <h4 class="mb-0" id="h4hover">
+                <img className="img-fluid rounded mb-4" src={Shopify} alt="cms design and development service" />
+                <h4 className="mb-0" id="h4hover">
                   Shopify
                 </h4>
               </a>
             </div>
             <div
-              class="col-lg-4 col-md-6 wow fadeInUp"
+              className="col-lg-4 col-md-6 wow fadeInUp"
               id="webcard"
               data-wow-delay="0.3s"
             >
               <a
-                class="service-item d-block rounded text-center h-100 p-4"
+                className="service-item d-block rounded text-center h-100 p-4"
                 href=""
                 rel="noopener noreferrer"
               >
                 <img
-                  class="img-fluid rounded mb-4"
+                  className="img-fluid rounded mb-4"
                   src={Wordpress}
                   alt="cms design and development service"
                 />
-                <h4 class="mb-0" id="h4hover">
+                <h4 className="mb-0" id="h4hover">
                   Wordpress
                 </h4>
               </a>
             </div>
             <div
-              class="col-lg-4 col-md-6 wow fadeInUp"
+              className="col-lg-4 col-md-6 wow fadeInUp"
               id="webcard"
               data-wow-delay="0.5s"
             >
               <a
-                class="service-item d-block rounded text-center h-100 p-4"
+                className="service-item d-block rounded text-center h-100 p-4"
                 href=""
                 rel="noopener noreferrer"
               >
-                <img class="img-fluid rounded mb-4" src={Angular} alt="cms design and development service" />
-                <h4 class="mb-0" id="h4hover">
+                <img className="img-fluid rounded mb-4" src={Angular} alt="cms design and development service" />
+                <h4 className="mb-0" id="h4hover">
                   Angular
                 </h4>
               </a>
             </div>
             <div
-              class="col-lg-4 col-md-6 wow fadeInUp"
+              className="col-lg-4 col-md-6 wow fadeInUp"
               id="webcard"
               data-wow-delay="0.5s"
             >
               <a
-                class="service-item d-block rounded text-center h-100 p-4"
+                className="service-item d-block rounded text-center h-100 p-4"
                 href=""
                 rel="noopener noreferrer"
               >
-                <img class="img-fluid rounded mb-4" src={Magento} alt="cms design and development service" />
-                <h4 class="mb-0" id="h4hover">
+                <img className="img-fluid rounded mb-4" src={Magento} alt="cms design and development service" />
+                <h4 className="mb-0" id="h4hover">
                   Magento
                 </h4>
               </a>
@@ -932,22 +932,22 @@ development"></link>
       </div>
       <br />
       {/* {why choose Us */}
-      <div class="container-xxl py-5">
-        <div class="container">
-          <div class="row g-5">
-            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-              <div class="h-100">
-                <h6 class=" bg-white  text-primary " id="whoweare">
+      <div className="container-xxl py-5">
+        <div className="container">
+          <div className="row g-5">
+            <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+              <div className="h-100">
+                <h6 className=" bg-white  text-primary " id="whoweare">
                   Why Choose Us
                 </h6>
-                <h2 class="display-6 mb-4" id="whoweare">
+                <h2 className="display-6 mb-4" id="whoweare">
                   Benefits of getting
                   <span className="text-primary" id="whoweare">
                     {" "}
                     CMS development
                   </span>
                 </h2>
-                <p class="mb-4"> Omka Tech is the best CMS development company that can help you to
+                <p className="mb-4"> Omka Tech is the best CMS development company that can help you to
                   create websites, mobile apps and more. Whether you're looking to
                   create a fully functional website or need just a simple landing page, we
                   can help.  Our team is experienced in building custom websites that
@@ -955,10 +955,10 @@ development"></link>
                   quickly. We take pride in maintaining a high level of customer
                   satisfaction, delivering multiple updates per week on time and under
                   budget</p>
-                <div class="row g-4">
-                  <div class="col-12">
-                    <div class="skill">
-                      <div class="d-flex justify-content-between">
+                <div className="row g-4">
+                  <div className="col-12">
+                    <div className="skill">
+                      <div className="d-flex justify-content-between">
                         {/* <p class="mb-2">Digital Marketing</p><br/><br/> */}
                       </div>
 
@@ -1000,26 +1000,26 @@ development"></link>
                       </h6>
                     </div>
                   </div>
-                  <div class="col-12">
-                    <div class="skill">
-                      <div class="d-flex justify-content-between">
-                        {/* <p class="mb-2">SEO & Backlinks</p> */}
+                  <div className="col-12">
+                    <div className="skill">
+                      <div className="d-flex justify-content-between">
+                        {/* <p className="mb-2">SEO & Backlinks</p> */}
                       </div>
                     </div>
                   </div>
-                  <div class="col-12">
-                    <div class="skill">
-                      <div class="d-flex justify-content-between">
-                        {/* <p class="mb-2">Design & Development</p> */}
+                  <div className="col-12">
+                    <div className="skill">
+                      <div className="d-flex justify-content-between">
+                        {/* <p className="mb-2">Design & Development</p> */}
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-              <div class="img-border">
-                <img class="img-fluid"  ref={targetDivRef1} src={hero} alt="benefits of getting cms development" />
+            <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+              <div className="img-border">
+                <img className="img-fluid"  ref={targetDivRef1} src={hero} alt="benefits of getting cms development" />
               </div>
             </div>
           </div>

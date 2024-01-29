@@ -139,21 +139,21 @@ software-solution"></link>
       {/* navbar */}
       <nav
         id="topNavbar"
-        class=""
+        className=""
         data-wow-delay="0.1s"
         style={{ height: "60px", backgroundColor: "white" }}
       >
-        <div class="container" >
+        <div className="container" >
         
-        <div class="flag-container">
-                            <img src='../india.png' class="flag-icon" alt ="india"></img><span style={{ color: "white" }}>|</span>&nbsp;&nbsp;
-                            <img src='../us.png' class="flag-icon" alt ="US"></img><span style={{ color: "white" }}>|</span>&nbsp;&nbsp;
-                            <img src='../canda.png' class="flag-icon" alt ="Canda"></img>
+        <div className="flag-container">
+                            <img src='../india.png' className="flag-icon" alt ="india"></img><span style={{ color: "white" }}>|</span>&nbsp;&nbsp;
+                            <img src='../us.png' className="flag-icon" alt ="US"></img><span style={{ color: "white" }}>|</span>&nbsp;&nbsp;
+                            <img src='../canda.png' className="flag-icon" alt ="Canda"></img>
                         </div>
-                    <div className="row" id="gsss" >
+                    <div classNameName="row" id="gsss" >
 
-                        <div className="col-5"></div>
-                        <div className="col-7">
+                        <div classNameName="col-5"></div>
+                        <div classNameName="col-7">
                             <a href="tel:+1 (786)648-29107"> <img src='../c.jpg' id="flag" alt="canda"></img>&nbsp;+1(786) 648-2910</a>&nbsp; |&nbsp;&nbsp;
                             <a href="tel:+1 (437) 979-1504"><img src='../po.jpg' id="flag" alt="US"></img> &nbsp;+1 (437) 979-1504</a>&nbsp; |&nbsp;&nbsp;
 
@@ -165,12 +165,12 @@ software-solution"></link>
       </nav>
 
       <nav
-        class="navbar navbar-expand-md fixed-top navbar-dark py-lg-0 px-lg-5"
+        className="navbar navbar-expand-md fixed-top navbar-dark py-lg-0 px-lg-5"
         data-wow-delay="0.1s" id="bottomNavbar" style={{ backgroundColor: "#F2F2F2", height: "80px" }}
       >
         <a
           href="/"
-          class="navbar-brand ms-3 d-lg-none"
+          className="navbar-brand ms-3 d-lg-none"
           rel="noopener noreferrer"
         >
           <img
@@ -181,14 +181,14 @@ software-solution"></link>
         </a>
         <button
           type="button"
-          class="navbar-toggler me-3"
+          className="navbar-toggler me-3"
           data-bs-toggle="collapse"
           data-bs-target="#navbarCollapse"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <div class="navbar-nav me-auto p-3 p-lg-0" >
+        <div className="collapse navbar-collapse" id="navbarCollapse">
+          <div className="navbar-nav me-auto p-3 p-lg-0" >
             <a
               href="/"
               style={{
@@ -212,43 +212,43 @@ software-solution"></link>
             </a>
             <a
               href="/"
-              class="nav-item nav-link"
+              className="nav-item nav-link"
               id="homeleft"
               rel="noopener noreferrer"
             >
               Home
             </a>
             &nbsp;&nbsp;&nbsp;
-            <div class="nav-item dropdown">
+            <div className="nav-item dropdown">
               <a
                 href="#"
-                class="nav-link dropdown-toggle"
+                className="nav-link dropdown-toggle"
                 data-bs-toggle="dropdown"
                 rel="noopener noreferrer"
               >
                 About Us
               </a>
               <div
-                class="dropdown-menu border-0 rounded-0 rounded-bottom m-0"
+                className="dropdown-menu border-0 rounded-0 rounded-bottom m-0"
                 style={{ marginTop: "-20px" }}
               >
                 <a
                   href="/about-us"
-                  class="dropdown-item"
+                  className="dropdown-item"
                   rel="noopener noreferrer"
                 >
                   Our Company
                 </a>
                 <a
                   href="/Careers"
-                  class="dropdown-item"
+                  className="dropdown-item"
                   rel="noopener noreferrer"
                 >
                   Careers
                 </a>
                 {/* <a
                   href="/Main"
-                  class="dropdown-item"
+                  className="dropdown-item"
                   rel="noopener noreferrer"
                 >
                   CaseStudy
@@ -256,64 +256,64 @@ software-solution"></link>
               </div>
             </div>
             &nbsp;&nbsp;&nbsp;
-            <div class="nav-item dropdown">
+            <div className="nav-item dropdown">
               <a
                 href="#"
-                class="nav-link dropdown-toggle active"
+                className="nav-link dropdown-toggle active"
                 data-bs-toggle="dropdown"
                 rel="noopener noreferrer"
               >
                 Services
               </a>
               <div
-                class="dropdown-menu border-0 rounded-0 rounded-bottom m-0"
+                className="dropdown-menu border-0 rounded-0 rounded-bottom m-0"
                 style={{ marginTop: "-20px" }}
               >
                 <a
                   href="/services/website-development"
-                  class="dropdown-item"
+                  className="dropdown-item"
                   rel="noopener noreferrer"
                 >
                   Website Development
                 </a>
                 <a
                   href="/services/mobile-app-development"
-                  class="dropdown-item "
+                  className="dropdown-item "
                   rel="noopener noreferrer"
                 >
                   Mobile App Development
                 </a>
                 <a
                   href="/Services/graphics-ui-ux"
-                  class="dropdown-item"
+                  className="dropdown-item"
                   rel="noopener noreferrer"
                 >
                   Graphics & UI/UX
                 </a>
                 <a
                   href="/services/growth-marketing"
-                  class="dropdown-item"
+                  className="dropdown-item"
                   rel="noopener noreferrer"
                 >
                   Growth & Marketing
                 </a>
                 <a
                   href="/services/enterprise-software-solution"
-                  class="dropdown-item active"
+                  className="dropdown-item active"
                   rel="noopener noreferrer"
                 >
                   Enterprise Software Solution
                 </a>
                 <a
                   href="/services/e-commerce-web-apps"
-                  class="dropdown-item"
+                  className="dropdown-item"
                   rel="noopener noreferrer"
                 >
                   E-Commerce Web & Apps
                 </a>
                 <a
                   href="/services/cms-design-development"
-                  class="dropdown-item"
+                  className="dropdown-item"
                   rel="noopener noreferrer"
                 >
                   CMS Design & Development
@@ -323,13 +323,13 @@ software-solution"></link>
             &nbsp;&nbsp;&nbsp;
             <a
               href="/hire-resources"
-              class="nav-item nav-link"
+              className="nav-item nav-link"
               rel="noopener noreferrer"
             >
               Hire Resources
             </a>
             &nbsp;&nbsp;&nbsp;
-            <a href="/blog" class="nav-item nav-link" rel="noopener noreferrer">
+            <a href="/blog" className="nav-item nav-link" rel="noopener noreferrer">
               Blog
             </a>{" "}
             &nbsp;&nbsp;&nbsp;
@@ -344,7 +344,7 @@ software-solution"></link>
             >
               <button
                 type="button"
-                class="btn btn-primary rounded-pill"
+                className="btn btn-primary rounded-pill"
                 id="quote"
                 style={{ animation: "pulse 1.1s ease infinite", color: "white" }}
               >
@@ -355,7 +355,7 @@ software-solution"></link>
           </div>
         </div>
       </nav>
-      <div class="container-fluid page-header py-5 mb-5 fadeIn" id="SoftBanner">
+      <div className="container-fluid page-header py-5 mb-5 fadeIn" id="SoftBanner">
         <h1 id="sh">
           enterprise software
           <br /> solution
@@ -371,22 +371,22 @@ software-solution"></link>
       <EmailForm />
       <br />
       {/* Aboutus */}
-      <div class="container-xxl py-5">
-        <div class="container">
-          <div class="row g-5">
-            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-              <div class="img-border">
-                <img class="img-fluid" ref={targetDivRef} src={p1} alt="enterprise software solutions company in usa" />
+      <div className="container-xxl py-5">
+        <div className="container">
+          <div className="row g-5">
+            <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+              <div className="img-border">
+                <img className="img-fluid" ref={targetDivRef} src={p1} alt="enterprise software solutions company in usa" />
               </div>
             </div>
-            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-              <div class="h-100">
-                <h5 class=" bg-white  text-primary" id="whoweare">
+            <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+              <div className="h-100">
+                <h5 className=" bg-white  text-primary" id="whoweare">
                   Software Development
                 </h5>
-                <h2 class="display-6 mb-4" id="whoweare">
+                <h2 className="display-6 mb-4" id="whoweare">
                   Custom Software Solutions for your{" "}
-                  <span class="text-primary" id="whoweare">
+                  <span className="text-primary" id="whoweare">
                     {" "}
                     Enterprise Business{" "}
                   </span>
@@ -402,7 +402,7 @@ software-solution"></link>
                   with scalable software that improves key facts of your
                   organization.
                 </p>
-                <p class="mb-4">
+                <p className="mb-4">
                   We have been in this industry for a very long time and
                   therefore we have the expertise of handling software
                   development projects of diverse complexity levels, making us
@@ -416,13 +416,13 @@ software-solution"></link>
       <br />
       {/* service call */}
       <div
-        class="containe"
+        className="containe"
         id="homecall"
         style={{ backgroundColor: "#04165D", width: "100%" }}
       >
         <br /> <br />
         <h2
-          class="text-white animated zoomIn"
+          className="text-white animated zoomIn"
           style={{
             fontWeight: "bold",
             marginTop: "-11px",
@@ -433,7 +433,7 @@ software-solution"></link>
           <br />{" "}
           <h4
             id="homeh4"
-            class="text-white animated zoomIn"
+            className="text-white animated zoomIn"
             style={{
               textAlign: "center",
 
@@ -450,7 +450,7 @@ software-solution"></link>
             >
               <button
                 type="button"
-                class="btn btn-primary rounded-pill"
+                className="btn btn-primary rounded-pill"
                 id="buttonH1"
                 style={{ animation: "pulse 1.1s ease infinite", color: "white" }}
               >
@@ -463,17 +463,17 @@ software-solution"></link>
 
       <br />
       {/* services */}
-      <div class="container-xxl py-5">
-        <div class="container">
+      <div className="container-xxl py-5">
+        <div className="container">
           <div
-            class="text-center mx-auto mb-5 wow fadeInUp"
+            className="text-center mx-auto mb-5 wow fadeInUp"
             data-wow-delay="0.1s"
             style={{ maxWidth: "600px" }}
           >
-            <h6 class=" bg-white text-primary" id="whoweare">
+            <h6 className=" bg-white text-primary" id="whoweare">
               Process We Follow
             </h6>
-            <h2 class="display-6 mb-4" id="whoweare">
+            <h2 className="display-6 mb-4" id="whoweare">
               Get a product As Unique As
               <span className="text-primary" id="whoweare">
                 {" "}
@@ -481,13 +481,13 @@ software-solution"></link>
               </span>
             </h2>
           </div>
-          <div class="row g-4">
-            <div class="container">
+          <div className="row g-4">
+            <div className="container">
               {/* 1 */}
-              <div class="row align-items-center connecting-lines d-flex">
-                <div class="col-2 text-center bottom d-inline-flex justify-content-center align-items-center">
-                  <div class="circle">
-                    <i class="fa fa-chec">
+              <div className="row align-items-center connecting-lines d-flex">
+                <div className="col-2 text-center bottom d-inline-flex justify-content-center align-items-center">
+                  <div className="circle">
+                    <i className="fa fa-chec">
                       {" "}
                       <img
                         src={req}
@@ -497,7 +497,7 @@ software-solution"></link>
                     </i>
                   </div>
                 </div>
-                <div class="col-6 text-left">
+                <div className="col-6 text-left">
                   <h4>Product market fit analysis</h4>
                   <p>
                     We gather your requirement and do some market analysis to
@@ -507,29 +507,29 @@ software-solution"></link>
                 </div>
               </div>
 
-              <div class="row timeline">
-                <div class="col-2">
-                  <div class="corner top-right"></div>
+              <div className="row timeline">
+                <div className="col-2">
+                  <div className="corner top-right"></div>
                 </div>
-                <div class="col-8">
+                <div className="col-8">
                   <hr />
                 </div>
-                <div class="col-2">
-                  <div class="corner left-bottom"></div>
+                <div className="col-2">
+                  <div className="corner left-bottom"></div>
                 </div>
               </div>
               {/* 2 */}
-              <div class="row align-items-center justify-content-end connecting-lines d-flex">
-                <div class="col-6 text-right">
+              <div className="row align-items-center justify-content-end connecting-lines d-flex">
+                <div className="col-6 text-right">
                   <h4> Software design system</h4>
                   <p style={{ textAlign: "right" }}>
                     We use the latest technologies and tools for designing the
                     software
                   </p>
                 </div>
-                <div class="col-2 text-center full d-inline-flex justify-content-center align-items-center">
-                  <div class="circle">
-                    <i class="fa fa-chec">
+                <div className="col-2 text-center full d-inline-flex justify-content-center align-items-center">
+                  <div className="circle">
+                    <i className="fa fa-chec">
                       <img
                         src={uiux}
                         style={{ marginLeft: "-3px" }}
@@ -540,22 +540,22 @@ software-solution"></link>
                 </div>
               </div>
 
-              <div class="row timeline">
-                <div class="col-2">
-                  <div class="corner right-bottom"></div>
+              <div className="row timeline">
+                <div className="col-2">
+                  <div className="corner right-bottom"></div>
                 </div>
-                <div class="col-8">
+                <div className="col-8">
                   <hr />
                 </div>
-                <div class="col-2">
-                  <div class="corner top-left"></div>
+                <div className="col-2">
+                  <div className="corner top-left"></div>
                 </div>
               </div>
               {/* 3 */}
-              <div class="row align-items-center connecting-lines d-flex">
-                <div class="col-2 text-center top d-inline-flex justify-content-center align-items-center">
-                  <div class="circle">
-                    <i class="fa fa-chec">
+              <div className="row align-items-center connecting-lines d-flex">
+                <div className="col-2 text-center top d-inline-flex justify-content-center align-items-center">
+                  <div className="circle">
+                    <i className="fa fa-chec">
                       {" "}
                       <img
                         src={proto}
@@ -565,7 +565,7 @@ software-solution"></link>
                     </i>
                   </div>
                 </div>
-                <div class="col-6 text-left">
+                <div className="col-6 text-left">
                   <h4>Custom Software development</h4>
                   <p>
                     Once the development mode starts we make sure that
@@ -574,20 +574,20 @@ software-solution"></link>
                   </p>
                 </div>
               </div>
-              <div class="row timeline">
-                <div class="col-2">
-                  <div class="corner top-right"></div>
+              <div className="row timeline">
+                <div className="col-2">
+                  <div className="corner top-right"></div>
                 </div>
-                <div class="col-8">
+                <div className="col-8">
                   <hr />
                 </div>
-                <div class="col-2">
-                  <div class="corner left-bottom"></div>
+                <div className="col-2">
+                  <div className="corner left-bottom"></div>
                 </div>
               </div>
               {/* 4 */}
-              <div class="row align-items-center justify-content-end connecting-lines d-flex">
-                <div class="col-6 text-right">
+              <div className="row align-items-center justify-content-end connecting-lines d-flex">
+                <div className="col-6 text-right">
                   <h4>Software Testing & Deployment</h4>
                   <p style={{ textAlign: "right" }}>
                     The product is tested by our expert team from scratch and
@@ -595,9 +595,9 @@ software-solution"></link>
                     server.
                   </p>
                 </div>
-                <div class="col-2 text-center full d-inline-flex justify-content-center align-items-center">
-                  <div class="circle">
-                    <i class="fa fa-chec">
+                <div className="col-2 text-center full d-inline-flex justify-content-center align-items-center">
+                  <div className="circle">
+                    <i className="fa fa-chec">
                       {" "}
                       <img
                         src={app}
@@ -608,28 +608,28 @@ software-solution"></link>
                   </div>
                 </div>
               </div>
-              <div class="row timeline">
-                <div class="col-2">
-                  <div class="corner right-bottom"></div>
+              <div className="row timeline">
+                <div className="col-2">
+                  <div className="corner right-bottom"></div>
                 </div>
-                <div class="col-8">
+                <div className="col-8">
                   <hr />
                 </div>
-                <div class="col-2">
-                  <div class="corner top-left"></div>
+                <div className="col-2">
+                  <div className="corner top-left"></div>
                 </div>
               </div>
               {/* 5 */}
-              <div class="row align-items-center connecting-lines d-flex">
-                <div class="col-2 text-center top d-inline-flex justify-content-center align-items-center">
-                  <div class="circle">
-                    <i class="fa fa-chec">
+              <div className="row align-items-center connecting-lines d-flex">
+                <div className="col-2 text-center top d-inline-flex justify-content-center align-items-center">
+                  <div className="circle">
+                    <i className="fa fa-chec">
                       {" "}
                       <img src={test} alt="enterprise solution service"></img>
                     </i>
                   </div>
                 </div>
-                <div class="col-6 text-left">
+                <div className="col-6 text-left">
                   <h4> Maintenance</h4>
                   <p>
                     All big things need maintenance and so does a website or
@@ -645,29 +645,29 @@ software-solution"></link>
 
       {/* ------------------------------------------------------------- */}
       {/* technology */}
-      <div class="container-xxl py-5">
-        <div class="container">
+      <div className="container-xxl py-5">
+        <div className="container">
           <div
-            class="text-center mx-auto mb-5 wow fadeInUp"
+            className="text-center mx-auto mb-5 wow fadeInUp"
             data-wow-delay="0.1s"
             style={{ maxWidth: "600px" }}
           >
-            <h6 class=" bg-white text-primary" id="whoweare">
+            <h6 className=" bg-white text-primary" id="whoweare">
               Our Industry Capabilities
             </h6>
-            <h2 class="display-6 mb-4" id="whoweare">
+            <h2 className="display-6 mb-4" id="whoweare">
               We build custom technology solutions for{" "}
-              <span className="text-primary" id="whoweare">
+              <span classNameName="text-primary" id="whoweare">
                 All Industries
               </span>
             </h2>
           </div>
-          <div class="row g-4">
-            <div class="container-fluid">
-              <div class="row mb-5">
-                <div class="col-12 col-sm-6 col-md-3 m-auto" id="num">
+          <div className="row g-4">
+            <div className="container-fluid">
+              <div className="row mb-5">
+                <div className="col-12 col-sm-6 col-md-3 m-auto" id="num">
                   <div
-                    class="car shadow"
+                    className="car shadow"
                     style={{
                       border: "1px solid darkgrey",
                       borderRadius: "5px",
@@ -676,7 +676,7 @@ software-solution"></link>
                     <img
                       src={one}
                       alt="School Management System"
-                      class="card-img-top"
+                      className="card-img-top"
                       style={{
                         marginLeft: "0px",
                         marginTop: "10px",
@@ -684,8 +684,8 @@ software-solution"></link>
                         width: "54px",
                       }}
                     /><br></br><br/>
-                    <div class="card-body">
-                      <h3 class="text-center" style={{ fontSize: "1rem" }}>
+                    <div className="card-body">
+                      <h3 className="text-center" style={{ fontSize: "1rem" }}>
                         School Management <br />
                         System
                       </h3>
@@ -693,9 +693,9 @@ software-solution"></link>
                   </div>
                 </div>
 
-                <div class="col-12 col-sm-6 col-md-3 m-auto" id="num">
+                <div className="col-12 col-sm-6 col-md-3 m-auto" id="num">
                   <div
-                    class="car shadow"
+                    className="car shadow"
                     style={{
                       border: "1px solid darkgrey",
                       borderRadius: "5px",
@@ -704,7 +704,7 @@ software-solution"></link>
                     <img
                       src={two}
                       alt="healthcare management software"
-                      class="card-img-top"
+                      className="card-img-top"
                       style={{
                         marginLeft: "0px",
                         marginTop: "10px",
@@ -712,17 +712,17 @@ software-solution"></link>
                         width: "54px",
                       }}
                     /><br/><br/>
-                    <div class="card-body">
-                      <h3 class="text-center" style={{ fontSize: "1rem" }}>
+                    <div className="card-body">
+                      <h3 className="text-center" style={{ fontSize: "1rem" }}>
                         Healthcare Management Software
                       </h3>
                     </div>
                   </div>
                 </div>
 
-                <div class="col-12 col-sm-6 col-md-3 m-auto" id="num">
+                <div className="col-12 col-sm-6 col-md-3 m-auto" id="num">
                   <div
-                    class="car shadow"
+                    className="car shadow"
                     style={{
                       border: "1px solid darkgrey",
                       borderRadius: "5px",
@@ -731,7 +731,7 @@ software-solution"></link>
                     <img
                       src={three}
                       alt="online teaching portal"
-                      class="card-img-top"
+                      className="card-img-top"
                       style={{
                         marginLeft: "0px",
                         marginTop: "10px",
@@ -739,8 +739,8 @@ software-solution"></link>
                         width: "54px",
                       }}
                     /><br/><br/>
-                    <div class="card-body">
-                      <h3 class="text-center" style={{ fontSize: "1rem" }}>
+                    <div className="card-body">
+                      <h3 className="text-center" style={{ fontSize: "1rem" }}>
                         Online Teaching
                         <br /> Portal
                       </h3>
@@ -748,10 +748,10 @@ software-solution"></link>
                   </div>
                 </div>
               </div>
-              <div class="row mb-5">
-                <div class="col-12 col-sm-6 col-md-3 m-auto" id="num">
+              <div className="row mb-5">
+                <div className="col-12 col-sm-6 col-md-3 m-auto" id="num">
                   <div
-                    class="car shadow"
+                    className="car shadow"
                     style={{
                       border: "1px solid darkgrey",
                       borderRadius: "5px",
@@ -760,7 +760,7 @@ software-solution"></link>
                     <img
                       src={four}
                       alt="banking & insurance software"
-                      class="card-img-top"
+                      className="card-img-top"
                       style={{
                         marginLeft: "0px",
                         marginTop: "10px",
@@ -768,17 +768,17 @@ software-solution"></link>
                         width: "54px",
                       }}
                     /><br/><br/>
-                    <div class="card-body">
-                      <h3 class="text-center" style={{ fontSize: "1rem" }}>
+                    <div className="card-body">
+                      <h3 className="text-center" style={{ fontSize: "1rem" }}>
                         Banking & Insurance Software
                       </h3>
                     </div>
                   </div>
                 </div>
 
-                <div class="col-12 col-sm-6 col-md-3 m-auto" id="num">
+                <div className="col-12 col-sm-6 col-md-3 m-auto" id="num">
                   <div
-                    class="car shadow"
+                    className="car shadow"
                     style={{
                       border: "1px solid darkgrey",
                       borderRadius: "5px",
@@ -787,7 +787,7 @@ software-solution"></link>
                     <img
                       src={five}
                       alt="employee management portal"
-                      class="card-img-top"
+                      className="card-img-top"
                       style={{
                         marginLeft: "0px",
                         marginTop: "10px",
@@ -795,17 +795,17 @@ software-solution"></link>
                         width: "54px",
                       }}
                     /><br/><br/>
-                    <div class="card-body">
-                      <h3 class="text-center" style={{ fontSize: "1rem" }}>
+                    <div className="card-body">
+                      <h3 className="text-center" style={{ fontSize: "1rem" }}>
                         Employee Management Portal (HRMS)
                       </h3>
                     </div>
                   </div>
                 </div>
 
-                <div class="col-12 col-sm-6 col-md-3 m-auto" id="num">
+                <div className="col-12 col-sm-6 col-md-3 m-auto" id="num">
                   <div
-                    class="car shadow"
+                    className="car shadow"
                     style={{
                       border: "1px solid darkgrey",
                       borderRadius: "5px",
@@ -814,7 +814,7 @@ software-solution"></link>
                     <img
                       src={six}
                       alt="product data & inventory management"
-                      class="card-img-top"
+                      className="card-img-top"
                       style={{
                         marginLeft: "0px",
                         marginTop: "10px",
@@ -822,8 +822,8 @@ software-solution"></link>
                         width: "54px",
                       }}
                     /><br/><br/>
-                    <div class="card-body">
-                      <h3 class="text-center" style={{ fontSize: "1rem" }}>
+                    <div className="card-body">
+                      <h3 className="text-center" style={{ fontSize: "1rem" }}>
                         Product Data & Inventory Management (SEM)
                       </h3>
                     </div>
@@ -835,30 +835,30 @@ software-solution"></link>
         </div>
       </div>
       {/* {why choose Us */}
-      <div class="container-xxl py-5">
-        <div class="container">
-          <div class="row g-5">
-            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-              <div class="h-100">
-                <h6 class="bg-white text-primary" id="whoweare">
+      <div className="container-xxl py-5">
+        <div className="container">
+          <div className="row g-5">
+            <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+              <div className="h-100">
+                <h6 className="bg-white text-primary" id="whoweare">
                   Why Choose Us
                 </h6>
-                <h2 class="display-6 mb-4" id="whoweare">
+                <h2 className="display-6 mb-4" id="whoweare">
                   We are the most trusted{" "}
-                  <span className="text-primary" id="whoweare">
+                  <span classNameName="text-primary" id="whoweare">
                     Development Company{" "}
                   </span>
                 </h2>
-                <p class="mb-4">Omka Tech is the best enterprise software solution company that
+                <p className="mb-4">Omka Tech is the best enterprise software solution company that
                   creates high quality software. We work with our clients to understand
                   their business and brand, then create tailored solutions that speak for
                   themselves. Our team of developers knows how to bring clarity and
                   meaning to your ideas in the website or mobile application</p>
-                <div class="row g-4">
-                  <div class="col-12">
-                    <div class="skill">
-                      <div class="d-flex justify-content-between">
-                        {/* <p class="mb-2">Digital Marketing</p><br/><br/> */}
+                <div className="row g-4">
+                  <div className="col-12">
+                    <div className="skill">
+                      <div className="d-flex justify-content-between">
+                        {/* <p className="mb-2">Digital Marketing</p><br/><br/> */}
                       </div>
 
                       <h6
@@ -899,26 +899,26 @@ software-solution"></link>
                       </h6>
                     </div>
                   </div>
-                  <div class="col-12">
-                    <div class="skill">
-                      <div class="d-flex justify-content-between">
-                        {/* <p class="mb-2">SEO & Backlinks</p> */}
+                  <div className="col-12">
+                    <div className="skill">
+                      <div className="d-flex justify-content-between">
+                        {/* <p className="mb-2">SEO & Backlinks</p> */}
                       </div>
                     </div>
                   </div>
-                  <div class="col-12">
-                    <div class="skill">
-                      <div class="d-flex justify-content-between">
-                        {/* <p class="mb-2">Design & Development</p> */}
+                  <div className="col-12">
+                    <div className="skill">
+                      <div className="d-flex justify-content-between">
+                        {/* <p className="mb-2">Design & Development</p> */}
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-              <div class="img-border">
-                <img class="img-fluid"ref={targetDivRef1} src={hero} alt="most trusted development company" />
+            <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+              <div className="img-border">
+                <img className="img-fluid"ref={targetDivRef1} src={hero} alt="most trusted development company" />
               </div>
             </div>
           </div>

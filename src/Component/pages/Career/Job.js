@@ -135,16 +135,16 @@ window.onscroll = () => {
       {/* navbar */}
       <nav
         id="topNavbar"
-        class=""
+        className=""
         data-wow-delay="0.1s"
         style={{ height: "60px", backgroundColor: "white" }}
       >
-        <div class="container" >
+        <div className="container" >
          
-        <div class="flag-container">
-                            <img src='../india.png' class="flag-icon" alt ="india"></img><span style={{ color: "white" }}>|</span>&nbsp;&nbsp;
-                            <img src='../us.png' class="flag-icon" alt ="US"></img><span style={{ color: "white" }}>|</span>&nbsp;&nbsp;
-                            <img src='../canda.png' class="flag-icon" alt ="Canda"></img>
+        <div className="flag-container">
+                            <img src='../india.png' className="flag-icon" alt ="india"></img><span style={{ color: "white" }}>|</span>&nbsp;&nbsp;
+                            <img src='../us.png' className="flag-icon" alt ="US"></img><span style={{ color: "white" }}>|</span>&nbsp;&nbsp;
+                            <img src='../canda.png' className="flag-icon" alt ="Canda"></img>
                         </div>
                     <div className="row" id="gsss" >
 
@@ -161,12 +161,12 @@ window.onscroll = () => {
       </nav>
       <nav
         id="bottomNavbar"
-        class="navbar navbar-expand-md fixed-top navbar-dark py-lg-0 px-lg-5"
+        className="navbar navbar-expand-md fixed-top navbar-dark py-lg-0 px-lg-5"
         data-wow-delay="0.1s" style={{ backgroundColor: "#F2F2F2", height: "80px" }}
       >
         <a
           href="/"
-          class="navbar-brand ms-3 d-lg-none"
+          className="navbar-brand ms-3 d-lg-none"
           rel="noopener noreferrer"
         >
           <img
@@ -178,14 +178,14 @@ window.onscroll = () => {
         </a>
         <button
           type="button"
-          class="navbar-toggler me-3"
+          className="navbar-toggler me-3"
           data-bs-toggle="collapse"
           data-bs-target="#navbarCollapse"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <div class="navbar-nav me-auto p-3 p-lg-0" >
+        <div className="collapse navbar-collapse" id="navbarCollapse">
+          <div className="navbar-nav me-auto p-3 p-lg-0" >
             <a
               href="/"
               style={{
@@ -209,43 +209,43 @@ window.onscroll = () => {
             </a>
             <a
               href="/"
-              class="nav-item nav-link"
+              className="nav-item nav-link"
               id="homeleft"
               rel="noopener noreferrer"
             >
               Home
             </a>
             &nbsp;&nbsp;&nbsp;
-            <div class="nav-item dropdown">
+            <div className="nav-item dropdown">
               <a
                 rel="noopener noreferrer"
                 href="#"
-                class="nav-link dropdown-toggle active"
+                className="nav-link dropdown-toggle active"
                 data-bs-toggle="dropdown"
               >
                 About Us
               </a>
               <div
-                class="dropdown-menu border-0 rounded-0 rounded-bottom m-0"
+                className="dropdown-menu border-0 rounded-0 rounded-bottom m-0"
                 style={{ marginTop: "-20px" }}
               >
                 <a
                   href="/about-us"
-                  class="dropdown-item"
+                  className="dropdown-item"
                   rel="noopener noreferrer"
                 >
                   Our Company
                 </a>
                 <a
                   href="/Careers"
-                  class="dropdown-item active"
+                  className="dropdown-item active"
                   rel="noopener noreferrer"
                 >
                   Careers
                 </a>
                 {/* <a
                   href="/Main"
-                  class="dropdown-item"
+                  className="dropdown-item"
                   rel="noopener noreferrer"
                 >
                   CaseStudy
@@ -253,69 +253,69 @@ window.onscroll = () => {
               </div>
             </div>
             &nbsp;&nbsp;&nbsp;
-            <div class="nav-item dropdown">
+            <div className="nav-item dropdown">
               <a
                 href="#"
-                class="nav-link dropdown-toggle"
+                className="nav-link dropdown-toggle"
                 data-bs-toggle="dropdown"
                 rel="noopener noreferrer"
               >
                 Services
               </a>
               <div
-                class="dropdown-menu border-0 rounded-0 rounded-bottom m-0"
+                className="dropdown-menu border-0 rounded-0 rounded-bottom m-0"
                 style={{ marginTop: "-20px" }}
               >
                 <a
                   href="/services/website-development"
-                  class="dropdown-item"
+                  className="dropdown-item"
                   rel="noopener noreferrer"
                 >
                   Website Development
                 </a>
                 <a
                   href="/services/mobile-app-development"
-                  class="dropdown-item "
+                  className="dropdown-item "
                   rel="noopener noreferrer"
                 >
                   Mobile App Development
                 </a>
                 <a
                   href="/services/graphics-ui-ux"
-                  class="dropdown-item"
+                  className="dropdown-item"
                   rel="noopener noreferrer"
                 >
                   Graphics & UI/UX
                 </a>
                 <a
                   href="/services/growth-marketing"
-                  class="dropdown-item"
+                  className="dropdown-item"
                   rel="noopener noreferrer"
                 >
                   Growth & Marketing
                 </a>
                 <a
                   href="/services/enterprise-software-solution"
-                  class="dropdown-item"
+                  className="dropdown-item"
                   rel="noopener noreferrer"
                 >
                   Enterprise Software Solution
                 </a>
                 <a
                   href="/services/e-commerce-web-apps"
-                  class="dropdown-item"
+                  className="dropdown-item"
                   rel="noopener noreferrer"
                 >
                   E-Commerce Web & Apps
                 </a>
                 <a
                   href="/services/cms-design-development"
-                  class="dropdown-item"
+                  className="dropdown-item"
                   rel="noopener noreferrer"
                 >
                   CMS Design & Development
                 </a>
-                {/* <a href="/Services/ReadyMadeSolution" class="dropdown-item">
+                {/* <a href="/Services/ReadyMadeSolution" className="dropdown-item">
                   Ready Made Solution
                 </a> */}
               </div>
@@ -323,13 +323,13 @@ window.onscroll = () => {
             &nbsp;&nbsp;&nbsp;
             <a
               href="/hire-resources"
-              class="nav-item nav-link"
+              className="nav-item nav-link"
               rel="noopener noreferrer"
             >
               Hire Resources
             </a>
             &nbsp;&nbsp;&nbsp;
-            <a href="/blog" class="nav-item nav-link" rel="noopener noreferrer">
+            <a href="/blog" className="nav-item nav-link" rel="noopener noreferrer">
               Blog
             </a>{" "}
             &nbsp;&nbsp;&nbsp;
@@ -344,7 +344,7 @@ window.onscroll = () => {
             >
               <button
                 type="button"
-                class="btn btn-primary rounded-pill"
+                className="btn btn-primary rounded-pill"
                 id="quote"
                 style={{ animation: "pulse 1.1s ease infinite", color: "white" }}
               >
@@ -356,7 +356,7 @@ window.onscroll = () => {
         </div>
       </nav>
       <div
-        class="container-fluid page-header py-5 mb-5 fadeIn "
+        className="container-fluid page-header py-5 mb-5 fadeIn "
         id="careerBanner"
       >
         <h1 id="ahblog">
@@ -374,10 +374,10 @@ window.onscroll = () => {
       <br />
        {/* job list*/}
        {product.map((item, index) => (
-      <div class="container-xxl py-5" key={index}>
+      <div className="container-xxl py-5" key={index}>
        
-        <div class="container" >
-          <div class="row g-5">
+        <div className="container" >
+          <div className="row g-5">
             <div id="careerJobb">
               <div id="careerJob1">
                 <h2 className="text-light" id="careerh1">
@@ -437,7 +437,7 @@ Skills Required:
                 <h5 id="position">Positions: {item.Position}| Experience: {item.Experience}</h5>
                 <br />
                 <button
-                  class="btn btn-primary rounded-pill"
+                  className="btn btn-primary rounded-pill"
                   style={{ height: "45px", color: "white" }}
                   data-target="#myModal"
                   role="button"
@@ -454,16 +454,16 @@ Skills Required:
        ))}
       
 {/* 
-          <div class="container-xxl py-5">
-        <div class="container">
-          <div class="row g-5">
+          <div className="container-xxl py-5">
+        <div className="container">
+          <div className="row g-5">
             <div id="careerJobb">
               <div id="careerJob1">
-                <h2 className="text-light" id="careerh1">
+                <h2 classNameName="text-light" id="careerh1">
                Social Media Executive (On- Site)
                 </h2>
               </div>
-<h4 className="" id="skillshead">
+<h4 classNameName="" id="skillshead">
 Requirement Responsibilities:
               </h4>
               <ul id="skillUl">
@@ -496,7 +496,7 @@ Requirement Responsibilities:
                 <h5 id="position">Positions: 01 | Experience: 3+ year</h5>
                 <br />
                 <button
-                  class="btn btn-primary rounded-pill"
+                  className="btn btn-primary rounded-pill"
                   style={{ height: "45px", color: "white" }}
                   data-target="#myModal"
                   role="button"
@@ -509,21 +509,21 @@ Requirement Responsibilities:
           </div>
         </div>
       </div>
-      <div class="container-xxl py-5">
-        <div class="container">
-          <div class="row g-5">
+      <div className="container-xxl py-5">
+        <div className="container">
+          <div className="row g-5">
             <div id="careerJobb">
               <div id="careerJob1">
-                <h2 className="text-light" id="careerh1">
+                <h2 classNameName="text-light" id="careerh1">
                   Business Development Executive (On- Site)
                 </h2>
               </div>
-              <h4 className="" id="skillshead">
+              <h4 classNameName="" id="skillshead">
                 Role Description:
               </h4>
 
 <p style={{padding:"10px",margin:"20px"}}>This is a full-time on-site role for a Business Development Executive. The Business Development Executive will be responsible for new business development and effective business communication, establishing and maintaining a strong network of client relationships, creating and developing sales strategies, and collaborating with other teams to drive growth and achieve sales targets.</p>
-<h4 className="" id="skillshead">
+<h4 classNameName="" id="skillshead">
 Job Description :
               </h4>
               <ul id="skillUl">
@@ -537,7 +537,7 @@ Job Description :
                 <li>➜ Interacting and maintaining good relationships with new and existing clients and generating business from both.
                 </li>
               </ul>
-              <h4 className="" id="skillshead">
+              <h4 classNameName="" id="skillshead">
                 Required Candidate profile:
               </h4>
               <ul id="skillUl">
@@ -676,33 +676,33 @@ Skills Required:
         <div
           class="modal fade"
           id="myModal"
-          tabindex="-1"
+          tabIndex="-1"
           role="dialog"
           aria-labelledby="myModalLabel"
           aria-hidden="true"
         >
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-body">
+          <div className="modal-dialog">
+            <div className="modal-content">
+              <div className="modal-body">
                 <div
-                  class="contact-page-form"
+                  className="contact-page-form"
                   method="post"
                   style={{ marginTop: "-20px" }}
                 >
                   <form onSubmit={submitNow1}>
-                    <div class="containerB" style={{backgroundColor:"white"}}>
+                    <div className="containerB" style={{backgroundColor:"white"}}>
                       {" "}
                       <button
                         type="button"
-                        class="close"
+                        className="close"
                         data-dismiss="modal"
                         aria-hidden="true"
                       >
                         ×
                       </button>
-                      <div class="brand-logoB"> <img src={po}></img></div>
-                      <div class="brand-titleB">Apply Now!!</div>
-                      <div class="inputsB">
+                      <div className="brand-logoB"> <img src={po}></img></div>
+                      <div className="brand-titleB">Apply Now!!</div>
+                      <div className="inputsB">
                         <label id="Booklabel">Name</label> :&nbsp;
                         <input
                           type="text"
