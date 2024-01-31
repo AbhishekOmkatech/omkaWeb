@@ -69,7 +69,8 @@
 }
 #knowmore4{
     width: 28%;
-    height: 35px;
+    height: 41px;
     animation: pulse 1.1s ease infinite;
     align-items: center;
+    background-color: #04165D;
 }

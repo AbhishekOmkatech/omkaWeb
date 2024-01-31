@@ -183,7 +183,7 @@ const Header1 = () => {
                   Experience World Class IT Services and
 
                   <h1 className="text-primary" id="whoweare" style={{ fontSize: "30px" }}>
-                    {" "}
+                   
                     Custom Website
                     Development
                   </h1>
@@ -232,7 +232,7 @@ const Header1 = () => {
               SERVICES
             </h5>
             <h3 className="display-6 mb-4" id="whoweare">
-              The World Revolves around{" "}
+              The World Revolves around
               <span style={{ color: "#04165D" }} id="whoweare">
                 Technology
               </span>
@@ -346,7 +346,7 @@ const Header1 = () => {
                   WHY OMKA TECH
                 </h6>
                 <h2 className="display-6 mb-4" id="whoweare">
-                  Why People Trust Us?{" "}
+                  Why People Trust Us?
                   <span style={{ color: "#04165D" }} id="whoweare">
                     Learn About Us!
                   </span>
@@ -440,7 +440,7 @@ solutions to his clients" />
             style={{ maxWidth: "600px" }}
           >
             <h2 className="display-6 mb-4" id="whoweare">
-              Our Work{" "}
+              Our Work
               <span style={{ color: "#04165D" }} id="whoweare">
                 Process
               </span>
@@ -462,7 +462,7 @@ solutions to his clients" />
             style={{ maxWidth: "600px" }}
           >
             <h2 className="display-6 mb-4 homeclient1" id="whoweare">
-              What Our Client Say{" "}
+              What Our Client Say
               <span style={{ color: "#04165D" }} id="whoweare">
                 About Us
               </span>

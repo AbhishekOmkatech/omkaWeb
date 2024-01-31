@@ -140,10 +140,10 @@ const Contact = () => {
                             <img src='../us.png' className="flag-icon" alt ="US"></img><span style={{ color: "white" }}>|</span>&nbsp;&nbsp;
                             <img src='../canda.png' className="flag-icon" alt ="Canda"></img>
                         </div>
-                    <div classNameName="row" id="gsss" >
+                    <div className="row" id="gsss" >
 
-                        <div classNameName="col-5"></div>
-                        <div classNameName="col-7">
+                        <div className="col-5"></div>
+                        <div className="col-7">
                             <a href="tel:+1 (786)648-29107"> <img src='../c.jpg' id="flag" alt="canda"></img>&nbsp;+1(786) 648-2910</a>&nbsp; |&nbsp;&nbsp;
                             <a href="tel:+1 (437) 979-1504"><img src='../po.jpg' id="flag" alt="US"></img> &nbsp;+1 (437) 979-1504</a>&nbsp; |&nbsp;&nbsp;
 
@@ -336,7 +336,7 @@ const Contact = () => {
                 id="quote"
                 style={{ animation: "pulse 1.1s ease infinite", color: "white" }}
               >
-                Get Quote
+                Free 30-Min Consultation
               </button>
             </a>
 
@@ -440,26 +440,26 @@ const Contact = () => {
                                   Select Service
                                 </option>
                                 <option value=" Web Development">
-                                  {" "}
+                                  
                                   Website Development
                                 </option>
                                 <option value=" Mobile App Development">
-                                  {" "}
+                                
                                   Mobile App Development
                                 </option>
                                 <option value=" Designing">
                                   Graphics & UI/UX
                                 </option>
                                 <option value="  Social Media Marketing">
-                                  {" "}
+                                 
                                   Growth & Marketing
                                 </option>
                                 <option value=" Software Development">
-                                  {" "}
+                                 
                                   Enterprise Software Solution
                                 </option>
                                 <option value="E-Commerce Web & App">
-                                  {" "}
+                                  
                                   E-Commerce Web & App
                                 </option>
                               </select>
@@ -506,14 +506,14 @@ const Contact = () => {
                           <br />
                           <br />
                           <center>
-                            {" "}
+                            
                             <button
                               className="btn btn-primary rounded-pill py-3 px-5"
                               id="knowmore4"
                            type="submit"
                             >
 
-                              {" "}
+                             
                               <center id="homeKnow3" style={{ color: "white" }}>Submit Now</center>
 
                             </button>

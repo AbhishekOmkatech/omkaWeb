@@ -651,7 +651,7 @@ const Blog6 = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div classNameName="col-4">
+                                        <div className="col-4">
                                             <div className="card" >
                                                 <img className="card-img-top kj7" src={blog3} alt="Card image cap" style={{ maxWidth: "100%", height: "200px" }} />
                                                 <div className="card-body">

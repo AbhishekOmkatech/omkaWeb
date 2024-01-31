@@ -85,7 +85,7 @@ const Case1 = () => {
            }}
            rel="noopener noreferrer"
          >
-           {" "}
+        
            <img
              alt="Omka Tech logo"
              src={Flogo}

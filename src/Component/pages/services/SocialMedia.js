@@ -196,10 +196,10 @@ marketing"></link>
                             <img src='../us.png' className="flag-icon" alt ="US"></img><span style={{ color: "white" }}>|</span>&nbsp;&nbsp;
                             <img src='../canda.png' className="flag-icon" alt ="Canda"></img>
                         </div>
-                    <div classNameName="row" id="gsss" >
+                    <div className="row" id="gsss" >
 
-                        <div classNameName="col-5"></div>
-                        <div classNameName="col-7">
+                        <div className="col-5"></div>
+                        <div className="col-7">
                             <a href="tel:+1 (786)648-29107"> <img src='../c.jpg' id="flag" alt="canda"></img>&nbsp;+1(786) 648-2910</a>&nbsp; |&nbsp;&nbsp;
                             <a href="tel:+1 (437) 979-1504"><img src='../po.jpg' id="flag" alt="US"></img> &nbsp;+1 (437) 979-1504</a>&nbsp; |&nbsp;&nbsp;
 
@@ -526,7 +526,7 @@ marketing"></link>
             </h6>
             <h2 className="display-6 mb-4" id="whoweare">
               No one visits the{" "}
-              <span id="whoweare" classNameName="text-primary">
+              <span id="whoweare" className="text-primary">
                 Website
               </span>{" "}
               if they are not aware.
@@ -676,7 +676,7 @@ marketing"></link>
                 </h6>
                 <h2 className="display-6 mb-4" id="whoweare">
                   We create Strategies to reach
-                  <span classNameName="text-primary" id="whoweare">
+                  <span className="text-primary" id="whoweare">
                     {" "}
                     Target Audiences
                   </span>

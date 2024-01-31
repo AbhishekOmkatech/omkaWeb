@@ -420,7 +420,7 @@ const Ready = () => {
             </h6>
             <h1 className="display-6 mb-4" id="whoweare">
               Let’s get you the best solution for
-              <span classNameName="text-primary" id="whoweare">
+              <span className="text-primary" id="whoweare">
                 {" "}
                 Your Business
               </span>

@@ -347,9 +347,9 @@ window.onscroll = () => {
                   ABOUT US
                 </h6>
                 <h1 className="display-6 mb-4" id="whoweare">
-                  OMKA TECH BELIEVES THAT THE WORLD{" "}
+                  OMKA TECH BELIEVES THAT THE WORLD
                   <span className="text-primary" id="whoweare">
-                    REVOLVES AROUND TECHNOLOGY{" "}
+                    REVOLVES AROUND TECHNOLOGY
                   </span>
                 </h1>
                 <p>
@@ -407,7 +407,7 @@ window.onscroll = () => {
               Experience a World className
               <br />
               <span style={{ color: "#04165D" }} id="whoweare">
-                {" "}
+              
                 IT Service
               </span>
             </h2>

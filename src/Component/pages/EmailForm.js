@@ -68,7 +68,7 @@ console.log(Email1);
                 id="homeB"
                 className="btn btn-primary rounded-pill"
                
-                style={{color:"white"}}
+                style={{color:"white",backgroundColor:"#04165D"}}
               >
                 SUBMIT
               </button>
