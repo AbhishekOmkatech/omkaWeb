@@ -252,7 +252,7 @@ window.onscroll = () => {
             &nbsp;&nbsp;&nbsp;
             <a href="/blog" className="nav-item nav-link" rel="noopener noreferrer">
               Blog
-            </a>{" "}
+            </a>
             &nbsp;&nbsp;&nbsp;
             <a
               href="/contact-us"

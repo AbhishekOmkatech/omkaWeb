@@ -213,6 +213,13 @@ window.onscroll = () => {
              >
                Careers
              </a>
+             <a
+               href="/Main"
+               className="dropdown-item"
+               rel="noopener noreferrer"
+             >
+               Case Study
+             </a>
            </div>
          </div>
          &nbsp;&nbsp;&nbsp;

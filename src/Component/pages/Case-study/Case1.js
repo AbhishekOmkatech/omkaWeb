@@ -133,6 +133,13 @@ const Case1 = () => {
              >
                Careers
              </a>
+               <a
+                  href="/Case1"
+                  className="dropdown-item"
+                  rel="noopener noreferrer"
+                >
+                  Case Study
+                </a>
            </div>
          </div>
          &nbsp;&nbsp;&nbsp;

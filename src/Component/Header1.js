@@ -140,7 +140,7 @@ const Header1 = () => {
         <meta
           property="og:image:type"
           content="image/jpeg"
-        />{" "}
+        />
       </Helmet>
 <HeadNav/>
       {/* <HeadNav /> */}
@@ -179,15 +179,15 @@ const Header1 = () => {
                   WHO WE ARE
                 </h6>
 
-                <h2 className="display-6 mb-4" id="whoweare" style={{ fontSize: "30px" }}>
+                <h1 className="display-6 mb-4" id="whoweare" style={{ fontSize: "30px" }}>
                   Experience World Class IT Services and
 
-                  <h1 className="text-primary" id="whoweare" style={{ fontSize: "30px" }}>
+                  <h2 className="text-primary" id="whoweare" style={{ fontSize: "30px" }}>
                    
                     Custom Website
                     Development
-                  </h1>
-                </h2>
+                  </h2>
+                </h1>
                 <p className="mb-4">
                   We offer a complete suite of integrated IT services , custom website
                   development, encompassing website and mobile application design and
@@ -210,7 +210,7 @@ const Header1 = () => {
                   rel="noopener noreferrer"
                 >
                   <a href="/about-us" rel="noopener noreferrer" style={{ color: "white" }}>
-                    {" "}
+                    
                     <center id="homeKnow">Know More</center>
                   </a>
                 </button>
@@ -558,7 +558,7 @@ solutions to his clients" />
           fontSize: "13px",
         }}
       >
-        {" "}
+        
         <h6 style={{ color: "white", fontWeight: "lighter" }}>
           We use cookies on our website to give you the most relevant experience
           by remembering your preferences and repeat visits. By clicking “Accept

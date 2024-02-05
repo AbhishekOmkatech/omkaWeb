@@ -106,7 +106,7 @@ const Footer = () => {
               <a href='//www.dmca.com/Protection/Status.aspx?ID=ff7c6219-80ff-4146-b2cb-04374246c28d' target="__blank" title='DMCA.com Protection Status' className='dmca-badge'> <img src ='https://images.dmca.com/Badges/dmca-badge-w100-2x1-02.png?ID=ff7c6219-80ff-4146-b2cb-04374246c28d'  alt='DMCA.com Protection Status'  style={{width:"100px",height:"50px"}}/></a> 
             </div>
             <div className="col-lg-3 col-md-6">
-              <h5 className="text-light mb-4">Quick Links</h5>
+              <h5 className="text-light mb-4 text-start">Quick Links</h5>
               <a
                 className="btn btn-link"
                 href="/about-us"
@@ -142,7 +142,7 @@ const Footer = () => {
               </a>
             </div>
             <div className="col-lg-3 col-md-6">
-              <h5 className="text-light mb-4">Services</h5>
+              <h5 className="text-light mb-4 text-start">Services</h5>
               <div className="row g-2">
                 <a
                   href="/Services/Website-Development"

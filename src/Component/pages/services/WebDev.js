@@ -115,6 +115,14 @@ useEffect(() => {
 
     prevScrollPos = currentScrollPos;
   };
+  
+    const handleClick = (event) => {
+      // Prevent the default behavior of the anchor link
+      event.preventDefault();
+  
+      // Your custom logic or actions can go here
+     
+    };
 
 
   return (
@@ -654,7 +662,7 @@ in usa" />
                 <div className="col-2 text-center full d-inline-flex justify-content-center align-items-center">
                   <div className="circle">
                     <i className="fa fa-chec">
-                      {" "}
+                      
                       <img
                         src={dep}
                         style={{ marginLeft: "-3px" }}
@@ -682,7 +690,7 @@ in usa" />
               Technologies We Work
             </h6>
             <h2 className="display-6 mb-4" id="whoweare">
-              Take a peek at some of our{" "}
+              Take a peek at some of our
               <span className="text-primary" id="whoweare">
                 {" "}
                 Core Technologies
@@ -699,6 +707,7 @@ in usa" />
                 className="service-item d-block rounded text-center h-100 p-4"
                 href=""
                 rel="noopener noreferrer"
+                onClick={handleClick}
               >
                 <img className="img-fluid rounded mb-4" src={php} alt="core php service" />
                 <h4 className="mb-0" id="h4hover">
@@ -715,6 +724,7 @@ in usa" />
                 className="service-item d-block rounded text-center h-100 p-4"
                 href=""
                 rel="noopener noreferrer"
+                onClick={handleClick}
               >
                 <img className="img-fluid rounded mb-4" src={laravel} alt="laravel service" />
                 <h4 className="mb-0" id="h4hover">
@@ -731,6 +741,7 @@ in usa" />
                 className="service-item d-block rounded text-center h-100 p-4"
                 href=""
                 rel="noopener noreferrer"
+                onClick={handleClick}
               >
                 <img className="img-fluid rounded mb-4" src={code} alt="codeigniter service" />
                 <h4 className="mb-0" id="h4hover">
@@ -747,6 +758,7 @@ in usa" />
                 className="service-item d-block rounded text-center h-100 p-4"
                 href=""
                 rel="noopener noreferrer"
+                onClick={handleClick}
               >
                 <img className="img-fluid rounded mb-4" src={react} alt="reactjs service" />
                 <h4 className="mb-0" id="h4hover">
@@ -763,6 +775,7 @@ in usa" />
                 className="service-item d-block rounded text-center h-100 p-4"
                 href=""
                 rel="noopener noreferrer"
+                onClick={handleClick}
               >
                 <img className="img-fluid rounded mb-4" src={node} alt="nodejs service" />
                 <h4 className="mb-0" id="h4hover">
@@ -779,6 +792,7 @@ in usa" />
                 className="service-item d-block rounded text-center h-100 p-4"
                 href=""
                 rel="noopener noreferrer"
+                onClick={handleClick}
               >
                 <img className="img-fluid rounded mb-4" src={python} alt="python service" />
                 <h4 className="mb-0" id="h4hover">
@@ -795,6 +809,7 @@ in usa" />
                 className="service-item d-block rounded text-center h-100 p-4"
                 href=""
                 rel="noopener noreferrer"
+                onClick={handleClick}
               >
                 <img className="img-fluid rounded mb-4" src={Shopify} alt="shopify service" />
                 <h4 className="mb-0" id="h4hover">
@@ -811,6 +826,7 @@ in usa" />
                 className="service-item d-block rounded text-center h-100 p-4"
                 href=""
                 rel="noopener noreferrer"
+                onClick={handleClick}
               >
                 <img
                   className="img-fluid rounded mb-4"
@@ -831,6 +847,7 @@ in usa" />
                 className="service-item d-block rounded text-center h-100 p-4"
                 href=""
                 rel="noopener noreferrer"
+                onClick={handleClick}
               >
                 <img className="img-fluid rounded mb-4" src={Angular} alt="angular service" />
                 <h4 className="mb-0" id="h4hover">
@@ -847,6 +864,7 @@ in usa" />
                 className="service-item d-block rounded text-center h-100 p-4"
                 href=""
                 rel="noopener noreferrer"
+                onClick={handleClick}
               >
                 <img className="img-fluid rounded mb-4" src={Magento} alt="magento service" />
                 <h4 className="mb-0" id="h4hover">

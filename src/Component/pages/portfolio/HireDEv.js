@@ -239,7 +239,7 @@ window.onscroll = () => {
               }}
               rel="noopener noreferrer"
             >
-              {" "}
+              
               <img
                 alt="Omka Tech logo"
                 src={Flogo}
@@ -375,7 +375,7 @@ window.onscroll = () => {
             &nbsp;&nbsp;&nbsp;
             <a href="/blog" className="nav-item nav-link" rel="noopener noreferrer">
               Blog
-            </a>{" "}
+            </a>
             &nbsp;&nbsp;&nbsp;
             <a
               href="/contact-us"
@@ -484,7 +484,7 @@ window.onscroll = () => {
             <h2 className="display-6 mb-4" id="whoweare">
               What Makes Us The Best Destination To Hire
               <span className="text-primary" id="whoweare">
-                {" "}
+               
                 Full Stack Developers
               </span>
             </h2>

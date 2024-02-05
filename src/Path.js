@@ -29,7 +29,7 @@ import ContactForm from "./Component/pages/ContactForm";
 import GetInTounch from "./Component/pages/GetInTounch";
 import EmailForm from "./Component/pages/EmailForm";
 import TestiMonials from "./components/TestiMonials/TestiMonials";
-import Header from "./Component/Header";
+import Header from "./Component/Header1";
 import CardB from "./Component/pages/Blog/CardB";
 import Blog from "./Component/pages/Blog";
 import Blog1 from "./Component/pages/Blog/Blog1";

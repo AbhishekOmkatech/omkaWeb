@@ -25,7 +25,7 @@ const Testimonials = () => {
                   rel="noopener noreferrer"
                   style={{ textDecoration: "none", color: "white" }}
                 >
-                  {" "}
+                  
                   Connect now &nbsp;&nbsp;
                   <i className="fa fa-arrow-circle-right" aria-hidden="true"></i>
                 </a>

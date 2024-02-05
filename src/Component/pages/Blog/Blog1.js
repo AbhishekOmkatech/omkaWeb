@@ -332,7 +332,7 @@ const Blog1 = () => {
                                     className="container"
 
                                 >
-                                    <h1></h1>
+                                    
                                     <p id="sg3">
                                         In today’s rapidly changing world, digital transformation has become
                                         a buzzword among businesses. It refers to the process of integrating
@@ -356,7 +356,7 @@ const Blog1 = () => {
                                 <div className="container">
                                     <p id="sg3" idstyle={{ lineHeight: "30px" }}>
                                         <span>
-                                            {" "}
+                                          
                                             <b>• Improved Efficiency and Agility </b>{" "}
                                         </span>
                                         <br /> Digital transformation enables companies to automate their
@@ -381,7 +381,7 @@ const Blog1 = () => {
                                     </p>
                                     <p id="sg3">
                                         <span>
-                                            {" "}
+                                           
                                             <b>• Increased Productivity and Collaboration</b>{" "}
                                         </span>
                                         <br /> Digital transformation can also help companies increase
@@ -403,8 +403,8 @@ const Blog1 = () => {
                                 <div className="container">
                                     <p id="sg3">
                                         <span>
-                                            <b> • Competitive Advantage</b>{" "}
-                                        </span>{" "}
+                                            <b> • Competitive Advantage</b>
+                                        </span>
                                         <br /> Digital transformation can provide companies with a
                                         competitive advantage. By leveraging digital technology, companies
                                         can create new business models, enter new markets, and differentiate
@@ -414,7 +414,7 @@ const Blog1 = () => {
                                     </p>
                                     <p id="sg3">
                                         <span>
-                                            <b> • Business Continuity </b>{" "}
+                                            <b> • Business Continuity </b>
                                         </span>
                                         <br /> Digital transformation can also help companies ensure
                                         business continuity in times of crisis. For example, companies that
@@ -499,7 +499,7 @@ const Blog1 = () => {
 
                                         >
 
-                                            {" "}
+                                            
                                             <center id="ds" style={{ color: "white" }}>Submit</center>
 
                                         </button>

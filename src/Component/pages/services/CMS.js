@@ -117,6 +117,13 @@ const CMS = () => {
 
     prevScrollPos = currentScrollPos;
   };
+  const handleClick = (event) => {
+    // Prevent the default behavior of the anchor link
+    event.preventDefault();
+
+    // Your custom logic or actions can go here
+   
+  };
 
   return (
     <div>
@@ -430,11 +437,11 @@ development"></link>
           }}
           id="homeh2"
         >
-          {" "}
+          
           Are you looking for bespoke CMS website to digitally brand your
           website and
           <br /> bring incredible opportunities?
-          <br />{" "}
+          <br />
           <h4
             id="homeh4"
             className="text-white animated zoomIn"
@@ -553,12 +560,12 @@ development"></link>
                   <div className="corner top-left"></div>
                 </div>
               </div>
-              {/* 3 */}
+              
               <div className="row align-items-center connecting-lines d-flex">
                 <div className="col-2 text-center top d-inline-flex justify-content-center align-items-center">
                   <div className="circle">
                     <i className="fa fa-chec">
-                      {" "}
+                      
                       <img
                         src={proto}
                         alt="cms design and development service"
@@ -757,7 +764,7 @@ development"></link>
             <h2 className="display-6 mb-4" id="whoweare">
               Take a peek at some of our{" "}
               <span className="text-primary" id="whoweare">
-                {" "}
+               
                 Core Technologies
               </span>
             </h2>
@@ -772,6 +779,7 @@ development"></link>
                 className="service-item d-block rounded text-center h-100 p-4"
                 href=""
                 rel="noopener noreferrer"
+                onClick={handleClick}
               >
                 <img className="img-fluid rounded mb-4" src={php} alt="cms design and development service" />
                 <h4 className="mb-0" id="h4hover">
@@ -788,6 +796,7 @@ development"></link>
                 className="service-item d-block rounded text-center h-100 p-4"
                 href=""
                 rel="noopener noreferrer"
+                onClick={handleClick}
               >
                 <img className="img-fluid rounded mb-4" src={laravel} alt="cms design and development service" />
                 <h4 className="mb-0" id="h4hover">
@@ -804,6 +813,7 @@ development"></link>
                 className="service-item d-block rounded text-center h-100 p-4"
                 href=""
                 rel="noopener noreferrer"
+                onClick={handleClick}
               >
                 <img className="img-fluid rounded mb-4" src={code} alt="cms design and development service" />
                 <h4 className="mb-0" id="h4hover">
@@ -820,6 +830,7 @@ development"></link>
                 className="service-item d-block rounded text-center h-100 p-4"
                 href=""
                 rel="noopener noreferrer"
+                onClick={handleClick}
               >
                 <img className="img-fluid rounded mb-4" src={react} alt="cms design and development service" />
                 <h4 className="mb-0" id="h4hover">
@@ -836,6 +847,7 @@ development"></link>
                 className="service-item d-block rounded text-center h-100 p-4"
                 href=""
                 rel="noopener noreferrer"
+                onClick={handleClick}
               >
                 <img className="img-fluid rounded mb-4" src={node} alt="cms design and development service" />
                 <h4 className="mb-0" id="h4hover">
@@ -852,6 +864,7 @@ development"></link>
                 className="service-item d-block rounded text-center h-100 p-4"
                 href=""
                 rel="noopener noreferrer"
+                onClick={handleClick}
               >
                 <img className="img-fluid rounded mb-4" src={python} alt="cms design and development service" />
                 <h4 className="mb-0" id="h4hover">
@@ -868,6 +881,7 @@ development"></link>
                 className="service-item d-block rounded text-center h-100 p-4"
                 href=""
                 rel="noopener noreferrer"
+                onClick={handleClick}
               >
                 <img className="img-fluid rounded mb-4" src={Shopify} alt="cms design and development service" />
                 <h4 className="mb-0" id="h4hover">
@@ -884,6 +898,7 @@ development"></link>
                 className="service-item d-block rounded text-center h-100 p-4"
                 href=""
                 rel="noopener noreferrer"
+                onClick={handleClick}
               >
                 <img
                   className="img-fluid rounded mb-4"
@@ -904,6 +919,7 @@ development"></link>
                 className="service-item d-block rounded text-center h-100 p-4"
                 href=""
                 rel="noopener noreferrer"
+                onClick={handleClick}
               >
                 <img className="img-fluid rounded mb-4" src={Angular} alt="cms design and development service" />
                 <h4 className="mb-0" id="h4hover">
@@ -920,6 +936,7 @@ development"></link>
                 className="service-item d-block rounded text-center h-100 p-4"
                 href=""
                 rel="noopener noreferrer"
+                onClick={handleClick}
               >
                 <img className="img-fluid rounded mb-4" src={Magento} alt="cms design and development service" />
                 <h4 className="mb-0" id="h4hover">
@@ -943,7 +960,7 @@ development"></link>
                 <h2 className="display-6 mb-4" id="whoweare">
                   Benefits of getting
                   <span className="text-primary" id="whoweare">
-                    {" "}
+                   
                     CMS development
                   </span>
                 </h2>
