@@ -133,11 +133,10 @@
 #HBanner {
   margin-top: 80px;
   height: 650px;
-  /* background: url(../../images/Home\ page\ banner\ final\ copy.png) center
-    center no-repeat; */
+  background: url(../../images/01\ Home\ page\ banner\ \(2\).jpg) center center no-repeat;
     
-  background: url(../../images/WebpImg/Home\ page\ banner\ final\ copy.webp) center
-  center no-repeat;
+  /* background: url(../../images/WebpImg/Home\ page\ banner\ final\ copy.webp) center
+  center no-repeat; */
   background-size: cover;
 }
 #AboutusBanner {

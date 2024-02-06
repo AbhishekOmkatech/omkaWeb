@@ -53,7 +53,8 @@ const Homeform = () => {
           <h3>
             Ready to discuss your
             <br />
-            business idea ?
+            <span id="contactHomeHeading">business idea ?</span>
+            
           </h3>
           <br />
           <fieldset>
@@ -98,7 +99,7 @@ const Homeform = () => {
           </fieldset>
           <br />
           <fieldset>
-            <textarea
+            <input
               placeholder="Project Description"
               type="text"
               value={Message}

@@ -1,6 +1,7 @@
 import React from 'react'
 import $ from "jquery";
 import Flogo from "../images/01 logo.png";
+import { useEffect } from 'react';
 const HeadNav = () => {
 
 
@@ -31,23 +32,23 @@ const HeadNav = () => {
 
   // JavaScript to handle the scrolling effect
 
-let prevScrollPos = window.pageYOffset;
-const topNavbar = document.getElementById("topNavbar");
-const bottomNavbar = document.getElementById("bottomNavbar");
+// let prevScrollPos = window.pageYOffset;
+// const topNavbar = document.getElementById("topNavbar");
+// const bottomNavbar = document.getElementById("bottomNavbar");
 
-window.onscroll = () => {
-    const currentScrollPos = window.pageYOffset;
+// window.onscroll = () => {
+//     const currentScrollPos = window.pageYOffset;
 
-    if (prevScrollPos > currentScrollPos) {
-        topNavbar.style.transform = "translateY(0)";
-        topNavbar.style.opacity = "1";
-    } else {
-        topNavbar.style.transform = "translateY(-100%)";
-        topNavbar.style.opacity = "0";
-    }
+//     if (prevScrollPos > currentScrollPos) {
+//         topNavbar.style.transform = "translateY(0)";
+//         topNavbar.style.opacity = "1";
+//     } else {
+//         topNavbar.style.transform = "translateY(-100%)";
+//         topNavbar.style.opacity = "0";
+//     }
 
-    prevScrollPos = currentScrollPos;
-};
+//     prevScrollPos = currentScrollPos;
+// };
 
   return (
     <div>

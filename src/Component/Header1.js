@@ -15,7 +15,7 @@ import { Helmet } from 'react-helmet';
 import CookieConsent from "react-cookie-consent";
 import FlowChart from "./FlowChart";
 import Homeform from "./pages/Homeform";
-import homea from "../images/WebpImg/homea.webp";
+// import homea from "../images/WebpImg/homea.webp";
 import Footer from "./pages/Footer";
 import ContactForm from "./pages/ContactForm";
 import GetInTouch from "./pages/GetInTounch";
@@ -147,20 +147,20 @@ const Header1 = () => {
       <div className="container-fluid page-header py-3 mb-5 fadeIn " id="HBanner">
         <div className="container text-center py-5" id="dummyHead">
           <div className="dummyHead">
-            <h3 id="headh2">DREAM IT.BUILD IT.LAUNCH IT.GROW IT.</h3>
-            <br /><br />
-            <p id="headpara">
-              We offer comprehensive business solutions that address all your
-              needs in one place.
-              <br /> Our specialized services include custom web and mobile
-              application development ,<br /> designed specifically to meet the
-              unique requirements of your business.
-            </p>
-            <img src={homea} id="homea" alt="web design and development company in usa"></img>
+          <h3 id="headpara">
+            Driving digital growth for businesses like
+                 yours with Tech, Expertise, and Innovation.
+            </h3>
+           
+                 
+            <br/><br />
+            
+            <img src="" id="homea" ></img>
             <Modal1 />
           </div>
+          <h3></h3>
         </div>
-        <h4 id="ahh">The World Revolves around technology</h4>
+        {/* <h4 id="ahh">The World Revolves around technology</h4> */}
       </div>
       <Homeform></Homeform>
       <br />

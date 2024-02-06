@@ -278,20 +278,28 @@
 }
 #contactHome {
   padding: 25px;
-  margin: 50px 0;
+  margin: 43px 0;
   border-radius: 20px;
-  height:460px;
-  box-shadow: 2px 2px 15px 3px rgba(255, 255, 255, 0.52);
+  height:438px;
+  box-shadow: 2px 2px 13px 0px rgba(255, 255, 255, 0.52);
     transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-    background: transparent;
-    border-radius: 20px;
+    background: #010C2E;
+    border-radius: 10px;
+    line-height: 0.5;
 }
 
 #contactHome h3 {
   color: white;
   display: block;
-  font-size: 22px;
+  font-size: 26px;
   font-weight: bold;
+  margin-bottom: 23px;
+  text-align: left;
+  line-height: 2.5rem;
+  margin-top: 5px;
+}
+#contactHomeHeading{
+  color: #fd7702;
 }
 
 fieldset {
@@ -311,19 +319,21 @@ fieldset {
   color: white;
   border: 1px solid #f9f9f9;
   border-bottom-color: darkgray;
-border-radius: 3px;
+border-radius: 2px;
   line-height: 19px;
-  padding: 10px;
+  padding: 5px;
   margin: 2px;
-  height: 30px;
+  height: 36px;
   background: transparent;
    
 }
 
-#contactHome textarea {
-  height: 60px;
+#contactHome #projectplace {
+  height: 50px;
   max-width: 100%;
   resize: none;
+  height: 60px;
+  
 }
 
 #contactsubmit {
@@ -332,11 +342,13 @@ border-radius: 3px;
   border: none;
   background: #fd7702;
   color: #fff;
-  margin: 0 0 5px;
-  padding: 10px;
+  margin: 0 2px 5px;
+  padding: 15px;
   font-size: 15px;
   font-weight: bold;
   border-radius: 5px;
+  height: 36px;
+  border-radius: 2px;
 }
 
 #homeformcall {

@@ -78,10 +78,10 @@ const Modal1 = () => {
                                 setNameP(e.target.value);
                               }}
                               required
-                            />{" "}
+                            />
                             <label id="Booklabel">
                               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Email Id
-                            </label>{" "}
+                            </label>
                             :&nbsp;
                             <input
                               type="email"
@@ -92,7 +92,7 @@ const Modal1 = () => {
                                 setEmailP(e.target.value);
                               }}
                               required
-                            />{" "}
+                            />
                             <label id="Booklabel">Phone</label> :&nbsp;
                             <input
                               type="number"
@@ -106,7 +106,7 @@ const Modal1 = () => {
                             />
                             <label id="Booklabel">
                               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Message
-                            </label>{" "}
+                            </label>
                             :&nbsp;
                             <input
                               type="text"
