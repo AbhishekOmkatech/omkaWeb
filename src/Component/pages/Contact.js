@@ -238,6 +238,13 @@ const Contact = () => {
                 >
                   Careers
                 </a>
+                <a
+                  href="/Main"
+                  className="dropdown-item"
+                  rel="noopener noreferrer"
+                >
+                  CaseStudy
+                </a>
               </div>
             </div>
             &nbsp;&nbsp;&nbsp;
@@ -332,9 +339,9 @@ const Contact = () => {
             >
               <button
                 type="button"
-                className="btn btn-primary rounded-pill active"
+                className="btn btn-primary active"
                 id="quote"
-                style={{ animation: "pulse 1.1s ease infinite", color: "white" }}
+                style={{ animation: "pulse 1.1s ease infinite", color: "white",borderRadius:"2px" }}
               >
                 Free 30-Min Consultation
               </button>

@@ -62,7 +62,7 @@ const Testimonials = () => {
                                   <img src={img3} alt="text" />
                                   <br />
                                   <p id="cardp">
-                                    {" "}
+                                    
                                     Omka Tech built out a website for me and I
                                     am SUPER happy with the results! Their
                                     follow up on changes and little things like

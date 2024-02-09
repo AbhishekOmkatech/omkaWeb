@@ -126,7 +126,7 @@
 }
 #quote{
   /* margin-top: 3px; */
-  margin-left: 20px;
+  margin-left: 172px;
   background-color:#04165d;
   border: #04165d;
 }
@@ -606,10 +606,7 @@ textarea:hover {
   margin-top: -40px;
   margin-left: -10px;
 }
-#homeKnow {
-  margin-left: -13px;
-  margin-top: -10px;
-}
+
 #homeKnow3 {
   margin-left: -13px;
   margin-top: -10px;
@@ -780,9 +777,7 @@ textarea:hover {
     margin-top: 15px;
     margin-left: -10px;
   }
-  #whoweare {
-    text-align: left;
-  }
+  
   #knowmore {
     font-size: 14px;
     text-align: left;
@@ -1185,10 +1180,13 @@ textarea:hover {
   }
 
   #whoweare3 {
-    text-align: center;
+    text-align: left;
   }
   body {
     text-align: center;
+  }
+  #whoweare {
+    text-align: left;
   }
   [type="radio"] {
     display: none;
@@ -1348,8 +1346,9 @@ textarea:hover {
 }
 
 .dummyHead {
-  margin-top: 180px;
+  margin-top: 132px;
   text-align: center;
+  margin-left: 120px;
 }
 
 #webTechCard {
@@ -2421,11 +2420,31 @@ textarea:hover {
   margin-top: -150px;
 }
 #headpara {
-  font-size: 16px;
-  color: lightgrey;
+  font-size: 32px;
+  color: white;
   font-style: normal;
   margin-top: -50px;
-  font-weight: normal;
+  font-weight:600;
+  line-height: 49.19px;
+  margin-left: -785px;
+}
+#headpara1{
+  font-size: 32px;
+  color: white;
+  font-style: normal;
+  margin-top: -50px;
+  font-weight:600;
+  line-height: 49.19px;
+  margin-left: 27px;
+}
+#headpara2{
+  font-size: 32px;
+  color: #fd7702;
+  font-style: normal;
+  margin-top: -50px;
+  font-weight:600;
+  line-height: 49.19px;
+  
 }
 #homea {
   margin-left: -450px;
@@ -2780,4 +2799,9 @@ width: 2rem;
       #quote{
         margin-top: -20px;
       }
+  }
+
+  #homeKnow {
+    
+    margin-top: -10px;
   }

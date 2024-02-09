@@ -292,13 +292,13 @@ marketing"></link>
                 >
                   Careers
                 </a>
-                {/* <a
+                <a
                   href="/Main"
                   className="dropdown-item"
                   rel="noopener noreferrer"
                 >
                   CaseStudy
-                </a> */}
+                </a>
               </div>
             </div>
             &nbsp;&nbsp;&nbsp;
@@ -390,9 +390,9 @@ marketing"></link>
             >
               <button
                 type="button"
-                className="btn btn-primary rounded-pill"
+                className="btn btn-primary "
                 id="quote"
-                style={{ animation: "pulse 1.1s ease infinite", color: "white" }}
+                style={{ animation: "pulse 1.1s ease infinite", color: "white",borderRadius:"2px" }}
               >
                 Free 30-Min Consultation
               </button>

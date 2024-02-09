@@ -221,13 +221,13 @@ const bottomNavbar = document.getElementById("bottomNavbar");
                 >
                   Careers
                 </a>
-                {/* <a
+                <a
                   href="/Main"
                   className="dropdown-item"
                   rel="noopener noreferrer"
                 >
                   CaseStudy
-                </a> */}
+                </a>
               </div>
             </div>
             &nbsp;&nbsp;&nbsp;

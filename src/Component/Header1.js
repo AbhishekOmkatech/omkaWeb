@@ -2,6 +2,7 @@ import React, { useEffect, useState ,useRef} from "react";
 import "../Component/css/bootstrap.min.css";
 import "../Component/css/style.css";
 import i4 from "../images/about.jpg";
+import AboutImage from "../images/newAboutImage.png"
 import web from "../images/02-1.webp";
 import mobile from "../images/03-mobile-app.webp";
 import Marketing from "../images/05-growth-and-marketing.webp";
@@ -147,10 +148,10 @@ const Header1 = () => {
       <div className="container-fluid page-header py-3 mb-5 fadeIn " id="HBanner">
         <div className="container text-center py-5" id="dummyHead">
           <div className="dummyHead">
-          <h3 id="headpara">
-            Driving digital growth for businesses like
-                 yours with Tech, Expertise, and Innovation.
-            </h3>
+          <pre id="headpara" >
+            Driving digital growth for businesses like <br />
+            <span id="headpara1">yours with </span><span id="headpara2">Tech, Expertise, and Innovation.</span>  
+            </pre>
            
                  
             <br/><br />
@@ -170,32 +171,32 @@ const Header1 = () => {
           <div className="row g-5">
             <div className="col-lg-5 wow fadeInUp" data-wow-delay="0.1s">
               <div className="img-border">
-                <img className="img-fluid" ref={targetDivRef} src={i4} alt="web design and development company in usa" />
+                <img className="img-fluid" ref={targetDivRef} src={AboutImage} alt="web design and development company in usa" />
               </div>
             </div>
             <div className="col-lg-7 wow fadeInUp" data-wow-delay="0.5s">
               <div className="h-100">
-                <h6 className="bg-white  text-primary " id="whoweare">
+                <h6 className="bg-white" id="whowearee">
                   WHO WE ARE
                 </h6>
 
-                <h1 className="display-6 mb-4" id="whoweare" style={{ fontSize: "30px" }}>
+                <h1 className="display-6 mb-4 whoWeAreBody" id="whoweare" style={{ fontSize: "30px",color: "##5EFF33" }}>
                   Experience World Class IT Services and
 
-                  <h2 className="text-primary" id="whoweare" style={{ fontSize: "30px" }}>
+                  <h2 className="whoWeAreBody" id="whoweare" style={{ fontSize: "30px",color: "#2D2D2D" }}>
                    
                     Custom Website
                     Development
                   </h2>
                 </h1>
-                <p className="mb-4">
+                <p className="mb-4 whoWeAreContent">
                   We offer a complete suite of integrated IT services , custom website
                   development, encompassing website and mobile application design and
                   development. Our team utilizes cutting-edge technology to
                   develop and implement mission-critical business applications
                   for clients across the globe.
                 </p>
-                <p className="mb-4">
+                <p className="mb-4 whoWeAreContent">
                   At Omka Tech, our priority is to deliver high-quality
                   solutions on time, every time. We value client satisfaction
                   above all else, recognizing that our success is directly
@@ -204,14 +205,14 @@ const Header1 = () => {
 
 
                 <button
-                  className="btn btn-primary rounded-pill py-3 px-5"
+                  className="btn btn-primary  py-2 px-3 "
                   href=""
                   id="knowmore"
                   rel="noopener noreferrer"
                 >
                   <a href="/about-us" rel="noopener noreferrer" style={{ color: "white" }}>
                     
-                    <center id="homeKnow">Know More</center>
+                   Know More
                   </a>
                 </button>
               </div>

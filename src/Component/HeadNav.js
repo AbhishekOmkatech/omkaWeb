@@ -123,7 +123,7 @@ const HeadNav = () => {
                 style={{
                   height: "55px",
                   marginTop: "12px",
-                  marginLeft: "-40px",
+                  marginLeft: "-60px",
                 }}
                 id="hidelogo"
               ></img>
@@ -266,9 +266,9 @@ const HeadNav = () => {
             >
               <button
                 type="button"
-                className="btn btn-primary rounded-pill"
+                className="btn btn-primary "
                 id="quote"
-                style={{ animation: "pulse 1.1s ease infinite", color: "white" }}
+                style={{ animation: "pulse 1.1s ease infinite", color: "white",borderRadius:"4px" }}
               >
                 Free 30-Min Consultation
               </button>

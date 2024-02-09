@@ -87,6 +87,7 @@ h6,
   line-height: 1.2;
   color: #111;
 }
+
 h1,
 .h1 {
   font-size: calc(1.375rem + 1.5vw);
@@ -530,7 +531,7 @@ progress {
   --bs-gutter-y: 0;
   display: flex;
   flex-wrap: wrap;
-  margin-top: calc(var(--bs-gutter-y) * -1);
+  margin-top: calc(var(--bs-gutter-y) * 0.5);
   margin-right: calc(var(--bs-gutter-x) / -2);
   margin-left: calc(var(--bs-gutter-x) / -2);
 }
@@ -604,6 +605,7 @@ progress {
 .col-7 {
   flex: 0 0 auto;
   width: 58.33333%;
+  margin-left: 45.5%;
 }
 .col-8 {
   flex: 0 0 auto;
@@ -6113,7 +6115,7 @@ fieldset:disabled .btn {
   margin-bottom: 1rem !important;
 }
 .mb-4 {
-  margin-bottom: 1.5rem !important;
+  margin-bottom: 0.2rem !important;
 }
 .mb-5 {
   margin-bottom: 3rem !important;
@@ -9731,3 +9733,24 @@ fieldset:disabled .btn {
     display: none !important;
   }
 }
+#whowearee {
+  text-align: left;
+  color: #fd7702;
+  margin-top: 4.5%;
+}
+#homeKnoww{
+  width: 142px;
+height: 48px;
+top: 419px;
+left: 594px;
+border-radius: 4px;
+text-align: left;
+
+}
+
+.dropdown-item.active, .dropdown-item:active {
+  background-color: transparent !important;
+  color: #fd7702;
+  text-decoration: none;
+}
+
