@@ -37,6 +37,7 @@ const Youtube = () => {
                 display: flex;
                 justify-content: center;
                 object-fit: cover;
+                 overflow: hidden; 
             }
         </style>
         <a
@@ -76,6 +77,7 @@ const Youtube = () => {
                 display: flex;
                 justify-content: center;
                 object-fit: cover;
+                overflow: hidden; 
             }
         </style>
         <a
@@ -114,6 +116,7 @@ const Youtube = () => {
                 display: flex;
                 justify-content: center;
                 object-fit: cover;
+                overflow: hidden; 
             }
         </style>
         <a
@@ -158,6 +161,7 @@ const Youtube = () => {
                 display: flex;
                 justify-content: center;
                 object-fit: cover;
+                overflow: hidden; 
             }
         </style>
         <a
@@ -197,6 +201,7 @@ position: absolute;
 display: flex;
 justify-content: center;
 object-fit: cover;
+overflow: hidden; 
 }
 </style>
 <a
@@ -236,6 +241,7 @@ position: absolute;
 display: flex;
 justify-content: center;
 object-fit: cover;
+overflow: hidden; 
 }
 </style>
 <a

@@ -229,7 +229,7 @@ const Header1 = () => {
             data-wow-delay="0.1s"
             style={{ maxWidth: "600px" }}
           >
-            <h5 className=" bg-white text-primary" id="whoweare">
+            <h5 className=" bg-white" id="whoweareServices" >
               SERVICES
             </h5>
             <h3 className="display-6 mb-4" id="whoweare">
@@ -343,65 +343,65 @@ const Header1 = () => {
           <div className="row g-5">
             <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
               <div className="h-100">
-                <h6 className=" bg-white  text-primary " id="whoweare">
+                <h6 className=" bg-white  text-left TrustUsSection" id="TrustUsSection" style={{ color: "#fd7702" }}>
                   WHY OMKA TECH
                 </h6>
-                <h2 className="display-6 mb-4" id="whoweare">
-                  Why People Trust Us?
-                  <span style={{ color: "#04165D" }} id="whoweare">
+                <h2 className="display-6 mb-4 text-left lh-sm TrustUsSectiontextColor" id="TrustUsSection">
+                  Why People Trust Us?<br />
+                  <span style={{ color: "#2D2D2D" }} id="TrustUsSection" className="text-left TrustUsSectiontextColor">
                     Learn About Us!
                   </span>
                 </h2>
-                <p className="mb-4">
+                <p className="mb-4 whoWeAreContent">
                 At OMKA TECH, we specialize in delivering comprehensive business solutions to our clients. Our process involves converting their requirement documents into functional technologies, ensuring that their needs are met effectively. Here are the key aspects of our services:
                 </p>
-                <div className="row g-4">
+                <div className="row g-4 lh-sm">
                   <div className="col-12">
                     <div className="skill">
                       <div className="d-flex justify-content-between">
                         {/* <p class="mb-2">Digital Marketing</p><br/><br/> */}
                       </div>
                       <h6
-                        style={{ color: "#6F7378", textAlign: "left" }}
-                        id="whoweare"
+                        style={{  textAlign: "left" }}
+                        className="TickOptions"
                       >
-                        ✓  Contractual Agreement
+                        ✓&nbsp;&nbsp;&nbsp;Contractual Agreement
 
                       </h6>
                       <h6
-                        style={{ color: "#6F7378", textAlign: "left" }}
-                        id="whoweare"
+                        style={{  textAlign: "left" }}
+                        className="TickOptions"
                       >
-                        ✓ Business Advisory and Adaptive Development
+                        ✓&nbsp;&nbsp;&nbsp;Business Advisory and Adaptive Development
 
                       </h6>
                     
                       <h6
-                        style={{ color: "#6F7378", textAlign: "left" }}
-                        id="whoweare"
+                        style={{  textAlign: "left" }}
+                        className="TickOptions"
                       >
-                        ✓ Comprehensive Cyber Defense
+                        ✓&nbsp;&nbsp;&nbsp;Comprehensive Cyber Defense
 
                       </h6>
                       <h6
-                        style={{ color: "#6F7378", textAlign: "left" }}
-                        id="whoweare"
+                        style={{  textAlign: "left" }}
+                        className="TickOptions"
                       >
-                        ✓ Competent and Enthusiastic Team
+                        ✓&nbsp;&nbsp;&nbsp;Competent and Enthusiastic Team
 
                       </h6>
                      
                       <h6
-                        style={{ color: "#6F7378", textAlign: "left" }}
-                        id="whoweare"
+                        style={{  textAlign: "left" }}
+                        className="TickOptions"
                       >
-                        ✓ Full Accountability, and Complete Ownership
+                        ✓&nbsp;&nbsp;&nbsp;Full Accountability, and Complete Ownership
                       </h6>
                       <h6
-                        style={{ color: "#6F7378", textAlign: "left" }}
-                        id="whoweare"
+                        style={{  textAlign: "left" }}
+                        className="TickOptions"
                       >
-                        ✓ Post-Implementation Assistance & Support
+                        ✓&nbsp;&nbsp;&nbsp;Post-Implementation Assistance & Support
                       </h6>
                     </div>
                   </div>

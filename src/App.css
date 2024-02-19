@@ -1,3 +1,5 @@
+
+
 .context {
   width: 100%;
   position: absolute;
@@ -326,6 +328,29 @@ border-radius: 2px;
   height: 36px;
   background: transparent;
    
+}
+@media(max-width:390px){
+  #contactHome input[type="number"]{
+    font-size: 12px;
+  }
+}
+  @media(max-width:430px){
+    #contactHome input[type="number"]{
+      font-size: 12px;
+    }
+    @media(max-width:412px){
+      #contactHome input[type="number"]{
+        font-size: 12px;
+      }
+    }
+  #contactHome input[type="text"],
+#contactHome input[type="email"],
+#contactHome input[type="tel"],
+#contactHome input[type="number"],
+#contactHome textarea{
+  color:black
+}
+
 }
 
 #contactHome #projectplace {
@@ -955,6 +980,24 @@ textarea[type="text"]::placeholder {
     font-size: small;
   }
 }
+@media(max-width:390px){
+  #lk{
+    height:654px;
+    padding: 58px 0px;
+  }
+  #lk1{
+    margin-top: -50px;
+  }
+}
+@media(max-width:430px){
+  #lk{
+    height:654px;
+    padding: 58px 0px;
+  }
+  #lk1{
+    margin-top: -50px;
+  }
+}
 .feedback {
   background-color : #04165d;
   color: white;
@@ -1026,6 +1069,67 @@ height: 100px;
 margin: 20px;
 padding: 20px;
 }
+.marqReverse{
+  width: auto;
+height: 120px;
+margin: 20px;
+padding: 20px;
+}
+.marqCosmax{
+  width: auto;
+height: 120px;
+margin: 20px;
+padding: 20px;
+}
+.marqExpansive{
+  width: auto;
+height: 120px;
+margin: 20px;
+padding: 20px;
+}
+.marqGEC{
+  width: auto;
+height: 120px;
+margin: 20px;
+padding: 20px;
+}
+.marqChannies{
+  width: auto;
+height: 120px;
+margin: 20px;
+padding: 20px;
+}
+.marqStrategicSolutions{
+  width: auto;
+height: 120px;
+margin: 20px;
+padding: 20px;
+}
+.marqThelashSupply{
+  width: auto;
+height: 120px;
+margin: 20px;
+padding: 20px;
+}
+.marqThelashSupply{
+  width: auto;
+height: 120px;
+margin: 20px;
+padding: 20px;
+}
+.marqIndigenous{
+  width: auto;
+  height: 120px;
+  margin: 20px;
+  padding: 20px;
+}
+.marqAnnakiki{
+  width: auto;
+  height: 120px;
+  margin: 20px;
+  padding: 20px;
+}
+
 #arrow{
   margin-top: -150px;
 }
@@ -1062,6 +1166,26 @@ padding: 20px;
   left: 0;
   width: 100%;
   z-index: 1000; /* Adjust the z-index as needed */
+}
+@media(max-width:430px){
+  #topNavbar {
+    position: fixed;
+  top: 0;
+  left: 145px;
+  width: 100%;
+  z-index: 1000;
+    
+  }
+}
+@media(max-width:390px){
+  #topNavbar {
+    position: fixed;
+  top: 0;
+  left: 128px;
+  width: 100%;
+  z-index: 1000;
+    
+  }
 }
 
 #bottomNavbar {

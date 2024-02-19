@@ -15,6 +15,8 @@ import node from "../images/tools Icon/02 BACKEND/03 Node JS.png";
 import laravel from "../images/tools Icon/02 BACKEND/04 Laravel.png";
 import Nginx from "../images/tools Icon/02 BACKEND/05 Nginx.png";
 import Java from "../images/tools Icon/02 BACKEND/06 Java.png";
+import springboot from "../images/tools Icon/02 BACKEND/springboot.png";
+import csharp from "../images/tools Icon/02 BACKEND/cSharp.png";
 // ------------------------database------------------------
 import mongo from "../images/tools Icon/03 DATABASE/01 Mongodb.png";
 import mysql from "../images/tools Icon/03 DATABASE/02 MySql.png";
@@ -244,6 +246,18 @@ const Tools = () => {
               </div>
             </li>
             {/* -------------------backend-------------------- */}
+            <li className="back-end">
+              <div id="tool1">
+                <img className="" src={csharp}  alt ="text" />
+                <h6>C#</h6>
+              </div>
+            </li>
+            <li className="back-end">
+              <div id="tool1">
+                <img className="" src={springboot}  alt ="text" />
+                <h6>Springboot</h6>
+              </div>
+            </li>
             <li className="back-end">
               <div id="tool1">
                 <img className="" src={node}  alt ="text" />

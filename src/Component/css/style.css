@@ -133,7 +133,7 @@
 #HBanner {
   margin-top: 80px;
   height: 650px;
-  background: url(../../images/01\ Home\ page\ banner\ \(2\).jpg) center center no-repeat;
+  background: url(../../images/homePageBanner.jpg) center center no-repeat;
     
   /* background: url(../../images/WebpImg/Home\ page\ banner\ final\ copy.webp) center
   center no-repeat; */
@@ -675,11 +675,20 @@ textarea:hover {
     margin-left: -20px;
   }
 
-  #HBanner {
+   #HBanner {
     height: 450px;
     background: url(../../images/mobllescreen/01\ home.jpg) center center
       no-repeat;
     background-size: cover;
+  } 
+  @media(max-width:390px){
+    #HBanner{
+      background: url(../../images/homePageBanner.jpg);
+      background-position: center;
+      height: 450px;
+      background-size: cover;
+    }
+    
   }
   #AboutusBanner {
     height: 450px;
@@ -2481,6 +2490,26 @@ textarea:hover {
     height: 540px;
     width: 320px;
   }
+  @media(max-width:390px){
+     #contactHome{
+      background: #f9f9f9;
+      padding: 25px;
+      margin: -42px 19px;
+      border-radius: 20px;
+      height: 430px;
+      width: 320px;
+     }
+  }
+  @media(max-width:430px){
+    #contactHome{
+     background: #f9f9f9;
+     padding: 25px;
+     margin: -42px 19px;
+     border-radius: 20px;
+     height: 430px;
+     width: 320px;
+    }
+ }
 
   #contactHome h3 {
     color: #04165d;
@@ -2511,6 +2540,7 @@ textarea:hover {
     padding: 1px;
     margin: 2px;
   }
+  
 
   #contactHome textarea {
     height: 60px;
@@ -2800,6 +2830,17 @@ width: 2rem;
         margin-top: -20px;
       }
   }
+  @media(max-width: 430px){
+    #quote {
+        margin-left:0px;
+    }
+      }
+  @media(max-width: 390px){
+#quote {
+    margin-left:0px;
+}
+  }
+  
 
   #homeKnow {
     

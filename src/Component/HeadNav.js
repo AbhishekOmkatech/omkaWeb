@@ -93,7 +93,7 @@ const HeadNav = () => {
             alt="Omka Tech logo"
             src={Flogo}
             id="hidelogo1"
-            style={{ height: "40px", marginLeft: "-20px" }}
+            style={{ height: "40px"}}
           ></img>
         </a>
         <button
@@ -109,7 +109,7 @@ const HeadNav = () => {
             <a
               href="/"
               style={{
-                height: "56px",
+                // height: "56px",
                 // marginTop: "4px",
                 backgroundColor: "transparent",
                 border: "none",
