@@ -28,6 +28,8 @@ import Youtube from "./Youtube";
 import Connect from "./pages/Connect";
 import Modal1 from "../Modal";
 import Marquee from "./pages/Marquee";
+// import YoutubeSlider from "./YoutubeSlider";
+import YoutubeSlider from "./YoutubeSlider";
 
 
 const Header1 = () => {
@@ -455,7 +457,7 @@ solutions to his clients" />
       <br /><br />
       <Tools />
       {/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */}
-      <div className="container-xxl py-5" id="homeclient">
+      <div className="container-xxl py-5" id="homeclient" style={{marginBottom:"-100px"}}>
         <div className="container">
           <div
             className="text-center mx-auto mb-5 wow fadeInUp"
@@ -471,7 +473,7 @@ solutions to his clients" />
           </div>
         </div>
       </div>
-      <Youtube />
+      <Youtube/>
       <div className="container-xxl" id="elfsight">
         <div className="container">
           <div className="row g-5">
