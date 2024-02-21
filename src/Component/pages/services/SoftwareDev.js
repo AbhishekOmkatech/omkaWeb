@@ -385,10 +385,10 @@ software-solution"></link>
                   Software Development
                 </h5>
                 <h2 className="display-6 mb-4" id="whoweare">
-                  Custom Software Solutions for your{" "}
+                  Custom Software Solutions for your
                   <span className="text-primary" id="whoweare">
-                    {" "}
-                    Enterprise Business{" "}
+                   
+                    Enterprise Business
                   </span>
                 </h2>
                 <p>
@@ -476,7 +476,7 @@ software-solution"></link>
             <h2 className="display-6 mb-4" id="whoweare">
               Get a product As Unique As
               <span className="text-primary" id="whoweare">
-                {" "}
+                
                 Your Idea
               </span>
             </h2>
@@ -488,7 +488,7 @@ software-solution"></link>
                 <div className="col-2 text-center bottom d-inline-flex justify-content-center align-items-center">
                   <div className="circle">
                     <i className="fa fa-chec">
-                      {" "}
+                      
                       <img
                         src={req}
                         style={{ marginLeft: "-3px" }}
@@ -598,7 +598,7 @@ software-solution"></link>
                 <div className="col-2 text-center full d-inline-flex justify-content-center align-items-center">
                   <div className="circle">
                     <i className="fa fa-chec">
-                      {" "}
+                     
                       <img
                         src={app}
                         style={{ marginLeft: "-3px" }}
@@ -624,7 +624,7 @@ software-solution"></link>
                 <div className="col-2 text-center top d-inline-flex justify-content-center align-items-center">
                   <div className="circle">
                     <i className="fa fa-chec">
-                      {" "}
+                     
                       <img src={test} alt="enterprise solution service"></img>
                     </i>
                   </div>
@@ -844,9 +844,9 @@ software-solution"></link>
                   Why Choose Us
                 </h6>
                 <h2 className="display-6 mb-4" id="whoweare">
-                  We are the most trusted{" "}
+                  We are the most trusted
                   <span className="text-primary" id="whoweare">
-                    Development Company{" "}
+                    Development Company
                   </span>
                 </h2>
                 <p className="mb-4">Omka Tech is the best enterprise software solution company that
@@ -883,7 +883,7 @@ software-solution"></link>
                         style={{ color: "#6F7378", textAlign: "left" }}
                         id="whoweare"
                       >
-                        ✓ Complete transparency{" "}
+                        ✓ Complete transparency
                       </h6>
                       <h6
                         style={{ color: "#6F7378", textAlign: "left" }}

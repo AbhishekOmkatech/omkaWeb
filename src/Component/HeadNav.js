@@ -32,23 +32,23 @@ const HeadNav = () => {
 
   // JavaScript to handle the scrolling effect
 
-// let prevScrollPos = window.pageYOffset;
-// const topNavbar = document.getElementById("topNavbar");
-// const bottomNavbar = document.getElementById("bottomNavbar");
+  // let prevScrollPos = window.pageYOffset;
+  // const topNavbar = document.getElementById("topNavbar");
+  // const bottomNavbar = document.getElementById("bottomNavbar");
 
-// window.onscroll = () => {
-//     const currentScrollPos = window.pageYOffset;
+  // window.onscroll = () => {
+  //     const currentScrollPos = window.pageYOffset;
 
-//     if (prevScrollPos > currentScrollPos) {
-//         topNavbar.style.transform = "translateY(0)";
-//         topNavbar.style.opacity = "1";
-//     } else {
-//         topNavbar.style.transform = "translateY(-100%)";
-//         topNavbar.style.opacity = "0";
-//     }
+  //     if (prevScrollPos > currentScrollPos) {
+  //         topNavbar.style.transform = "translateY(0)";
+  //         topNavbar.style.opacity = "1";
+  //     } else {
+  //         topNavbar.style.transform = "translateY(-100%)";
+  //         topNavbar.style.opacity = "0";
+  //     }
 
-//     prevScrollPos = currentScrollPos;
-// };
+  //     prevScrollPos = currentScrollPos;
+  // };
 
   return (
     <div>
@@ -58,31 +58,31 @@ const HeadNav = () => {
         data-wow-delay="0.1s"
         style={{ height: "60px", backgroundColor: "white" }}
       >
-        
-        <div className="container" style={{height:"10px"}} >
-        
-        <div className="flag-container">
-                            <img src='../india.png' className="flag-icon" alt ="india"></img><span style={{ color: "white" }}>|</span>&nbsp;&nbsp;
-                            <img src='../us.png' className="flag-icon" alt ="US"></img><span style={{ color: "white" }}>|</span>&nbsp;&nbsp;
-                            <img src='../canda.png' className="flag-icon" alt ="Canda"></img>
-                        </div>
-                    <div className="row" id="gsss" >
 
-                        <div className="col-5"></div>
-                        <div className="col-7">
-                            <a href="tel:+1 (786)648-29107"> <img src='../c.jpg' id="flag" alt="canda"></img>&nbsp;+1(786) 648-2910</a>&nbsp; |&nbsp;&nbsp;
-                            <a href="tel:+1 (437) 979-1504"><img src='../po.jpg' id="flag" alt="US"></img> &nbsp;+1 (437) 979-1504</a>&nbsp; |&nbsp;&nbsp;
+        <div className="container" style={{ height: "10px" }} >
 
-                            <a href="tel:+91 9717511913"><img src='../in.jpg' id="flag" alt="india" ></img>&nbsp; +91 9717511913</a>
-                        </div>
+          <div className="flag-container">
+            <img src='../india.png' className="flag-icon" alt="india"></img><span style={{ color: "white" }}>|</span>&nbsp;&nbsp;
+            <img src='../us.png' className="flag-icon" alt="US"></img><span style={{ color: "white" }}>|</span>&nbsp;&nbsp;
+            <img src='../canda.png' className="flag-icon" alt="Canda"></img>
+          </div>
+          <div className="row" id="gsss" >
 
-                    </div>
+            <div className="col-5"></div>
+            <div className="col-7">
+              <a href="tel:+1 (786)648-29107"> <img src='../c.jpg' id="flag" alt="canda"></img>&nbsp;+1(786) 648-2910</a>&nbsp; |&nbsp;&nbsp;
+              <a href="tel:+1 (437) 979-1504"><img src='../po.jpg' id="flag" alt="US"></img> &nbsp;+1 (437) 979-1504</a>&nbsp; |&nbsp;&nbsp;
+
+              <a href="tel:+91 9717511913"><img src='../in.jpg' id="flag" alt="india" ></img>&nbsp; +91 9717511913</a>
+            </div>
+
+          </div>
         </div>
       </nav>
       <nav
-     
+
         className="navbar navbar-expand-md  navbar-dark py-lg-0 px-lg-5"
-        data-wow-delay="0.1s"    id="bottomNavbar" style={{ backgroundColor: "#F2F2F2", height: "80px" }}
+        data-wow-delay="0.1s" id="bottomNavbar" style={{ backgroundColor: "#F2F2F2", height: "80px" }}
       >
         <a
           href="/"
@@ -93,19 +93,16 @@ const HeadNav = () => {
             alt="Omka Tech logo"
             src={Flogo}
             id="hidelogo1"
-            style={{ height: "40px"}}
+            style={{ height: "40px" }}
           ></img>
         </a>
-        <button
-          type="button"
-          className="navbar-toggler me-3"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarCollapse"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
+        <button type="button" class="navbar-toggler me-3 collapsed" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-expanded="false">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+       
         <div className="collapse navbar-collapse" id="navbarCollapse">
-          <div className="navbar-nav me-auto p-3 p-lg-0">
+          <div className="navbar-nav  p-lg-0">
+
             <a
               href="/"
               style={{
@@ -116,7 +113,7 @@ const HeadNav = () => {
               }}
               rel="noopener noreferrer"
             >
-             
+
               <img
                 alt="Omka Tech logo"
                 src={Flogo}
@@ -157,7 +154,7 @@ const HeadNav = () => {
                 >
                   Our Company
                 </a>
-                
+
                 <a
                   href="/Careers"
                   className="dropdown-item"
@@ -268,7 +265,7 @@ const HeadNav = () => {
                 type="button"
                 className="btn btn-primary "
                 id="quote"
-                style={{ animation: "pulse 1.1s ease infinite", color: "white",borderRadius:"4px" }}
+                style={{ animation: "pulse 1.1s ease infinite", color: "white", borderRadius: "4px" }}
               >
                 Free 30-Min Consultation
               </button>

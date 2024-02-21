@@ -1722,6 +1722,7 @@ label {
   @media(max-width:430px){
     .c1{
       padding: 0.5rem 2rem;
+      padding: 37px;
     }
   }
   .c1::before,

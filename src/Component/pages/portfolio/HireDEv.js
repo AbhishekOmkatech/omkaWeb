@@ -388,11 +388,11 @@ window.onscroll = () => {
             >
               <button
                 type="button"
-                className="btn btn-primary rounded-pill"
+                className="btn btn-primary "
                 id="quote"
-                style={{ animation: "pulse 1.1s ease infinite" ,color:"white"}}
+                style={{ animation: "pulse 1.1s ease infinite" ,color:"white",borderRadius:"4px"}}
               >
-                Get Quote
+                Free 30-Min Consultation
               </button>
             </a>
             
@@ -420,7 +420,7 @@ window.onscroll = () => {
           <div className="row g-5">
             <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
               <div className="h-100">
-                <h4 className="display-6 mb-4" style={{ textAlign: "left" }}>
+                <h4 className="display-6 mb-4" style={{ textAlign: "left",marginTop:"-50px" }}>
                   Hire Expert Developers,
                   <span style={{ color: "#04165D" }} id="whoweare">
                     Don’t Just Outsource
@@ -453,7 +453,7 @@ window.onscroll = () => {
           <div
             className="text-center mx-auto mb-5 wow fadeInUp"
             data-wow-delay="0.1s"
-            style={{ maxWidth: "600px" }}
+            style={{ maxWidth: "600px",marginTop:"22px" }}
           >
             <h2 className="display-6 mb-4">
               Why Hire Developers{" "}

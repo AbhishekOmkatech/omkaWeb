@@ -301,7 +301,7 @@ window.onscroll = () => {
          &nbsp;&nbsp;&nbsp;
          <a href="/blog" className="nav-item nav-link" rel="noopener noreferrer">
            Blog
-         </a>{" "}
+         </a>
          &nbsp;&nbsp;&nbsp;
          <a
            href="/contact-us"
@@ -314,11 +314,11 @@ window.onscroll = () => {
          >
            <button
              type="button"
-             className="btn btn-primary rounded-pill"
+             className="btn btn-primary"
              id="quote"
-             style={{ animation: "pulse 1.1s ease infinite", color: "white" }}
+             style={{ animation: "pulse 1.1s ease infinite", color: "white",borderRadius:"4px" }}
            >
-             Get Quote
+             Free 30-Min Consultation
            </button>
          </a>
 

@@ -192,7 +192,8 @@ development"></link>
         </a>
         <button
           type="button"
-          className="navbar-toggler me-3"
+          className="
+          "
           data-bs-toggle="collapse"
           data-bs-target="#navbarCollapse"
         >
