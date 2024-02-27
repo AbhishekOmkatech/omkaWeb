@@ -34,7 +34,10 @@ import ContactForm from "../ContactForm";
 import { Helmet } from "react-helmet";
 import GetInTounch from "../GetInTounch";
 import EmailForm from "../EmailForm";
+import ReCAPTCHA from 'react-google-recaptcha';
+import "../../css/style.css"
 const { REACT_APP_API_ENDPOINT } = process.env;
+
 
 const HireDEv = () => {
 
@@ -115,7 +118,8 @@ window.onscroll = () => {
   const [EmailP, setEmailP] = useState("");
   const [ProjectP, setProjectP] = useState("");
   const [show, setShow] = useState(true);
-  
+  const [captchaValue, setCaptchaValue] = useState(null);
+  const [showPopup, setShowPopup] = useState(false);
  
   const submitNow1 = (e) => {
    
@@ -148,15 +152,21 @@ window.onscroll = () => {
         .catch((error) => {
             // Handle network or other errors
         });
-  
+        setShowPopup(true);
         setNameP("");
         setEmailP("");
         setPhoneP("");
         setProjectP("");
+        setCaptchaValue('');
       
   };
-
-
+  const handleCaptchaChange = (value) => {
+    console.log("Captcha value:", value);
+    setCaptchaValue(value);
+  }
+  const handlePopupClose = () => {
+    setShowPopup(false);
+  };
 
 
   return (
@@ -1075,7 +1085,7 @@ window.onscroll = () => {
                 >
                   <form onSubmit={submitNow1}>
                     <div className="containerB" style={{backgroundColor:"white"}}>
-                      {" "}
+                     
                       <button
                         type="button"
                         className="close"
@@ -1097,8 +1107,8 @@ window.onscroll = () => {
                             setNameP(e.target.value);
                           }}
                           required
-                        />{" "}
-                        <label id="Booklabel">&nbsp;Email</label>{" "}
+                        />
+                        <label id="Booklabel">&nbsp;Email</label>
                         :&nbsp;&nbsp;&nbsp;&nbsp;
                         <input
                           type="email"
@@ -1134,9 +1144,24 @@ window.onscroll = () => {
                           }}
                           required
                         />
-                        <button type="submit" id="bookNow" >
+                         <div className="arrange " style={ {textAlign: "-webkitCenter",width:"100%"
+}} >
+                              <div style={{ width:"100%", height: "78px"   }} ><ReCAPTCHA
+                                sitekey="6Le5RX0pAAAAAPssR7cQeJT_xtjaqVxycMQ89cWc"
+                                onChange={handleCaptchaChange}
+                              /></div>
+                            </div>
+
+                        <button type="submit" id="bookNow" disabled={!captchaValue}>
                           Submit
                         </button>
+                        {showPopup && (
+            <div className="thank-you-page">
+              <h1 className="thank-you-text">Thank You!</h1>
+              <span className="main-text modal-sub-heading">Your details have been successfully submitted.</span>
+              <button className="thank-you-btn" onClick={handlePopupClose}>OK</button>
+            </div>
+          )}
                       </div>
                     </div>
                   </form>

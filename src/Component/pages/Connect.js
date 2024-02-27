@@ -10,7 +10,7 @@ const Connect = () => {
                 <Cards />
                 <h2 className="text-white animated zoomIn" id="lk1" style={{ textAlign: "left"}}>
                     SETUP A FREE CONSULTATION WITH US
-                    <br />{" "}
+                    <br />
                     <h4  id='lk2' className="text-white animated zoomIn" style={{ textAlign: "left"}}>
                         We are dedicated to helping you transform your ideas into reality.
                         <br />

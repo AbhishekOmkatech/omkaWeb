@@ -1,10 +1,18 @@
 /********** Template CSS **********/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 :root {
   --primary: #04165d;
   --secondary: #777777;
   --light: #f8f8f8;
   --dark: #fd7702;
 }
+.arrange {
+  width: 100%;
+  margin-left: 215px;
+  position: unset;
+  left: 57px;
+}
+
 
 /*** Button ***/
 .btn {
@@ -550,7 +558,9 @@ section {
 .contact-page-form form {
   padding: 20px 15px 0;
 }
-
+.modal-sub-heading{
+  padding: 25px 0;
+}
 p {
   text-align: justify;
   font-family: sans-serif;
@@ -1530,7 +1540,7 @@ textarea:hover {
 .containerB {
   position: relative;
   width: 800px;
-  height: 480px;
+  height: 530px;
   border-radius: 30px;
   padding: 40px;
   box-sizing: border-box;
@@ -1656,6 +1666,28 @@ textarea:hover {
     margin-left: -10px;
     margin-top: 50px;
     /* box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white; */
+  }
+  @media(max-width:430px){
+    .containerB {
+      
+      width: 106%;
+      padding: 20px;
+      height: 630px;
+      margin-left: -10px;
+     
+      /* box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white; */
+    }
+  }
+  @media(max-width:390px){
+    .containerB {
+      
+      width: 122%;
+      padding: 20px;
+      height: 630px;
+      margin-left: -28px;
+     
+      /* box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white; */
+    }
   }
   .containerB1 {
     position: relative;
@@ -2537,10 +2569,10 @@ textarea:hover {
     #contactHome{
      background: #f9f9f9;
      padding: 25px;
-     margin: -42px 19px;
+     margin: -42px 7px;
      border-radius: 20px;
      height: 430px;
-     width: 320px;
+     width: 354px;
     }
  }
 
@@ -2867,10 +2899,25 @@ width: 2rem;
     #quote {
         margin-left:0px;
     }
+    form#contactHome {
+      height: 490px !important;
+    }
+    .arrange {
+      width: 100%;
+      margin-left: 1px;
+      position: unset;
+      left: 5px;
+    }
       }
   @media(max-width: 390px){
 #quote {
     margin-left:0px;
+}
+.arrange {
+  width: 100%;
+  margin-left: 3px;
+  position: unset;
+  left: 1px;
 }
   }
   
@@ -2878,4 +2925,40 @@ width: 2rem;
   #homeKnow {
     
     margin-top: -10px;
+  }
+  .thank-you-page {
+    width: 419px;
+    height: 198px;
+    top: 99px;
+    left: -407px;
+    border-radius: 5px;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Roboto;
+    position: absolute;
+}
+  .thank-you-text{
+   line-height: 1rem;
+   font-size: 2rem;
+  }
+ 
+  .thank-you-btn{
+   width: 142px;
+  height: 38px;
+  top: 341px;
+  left: 625px;
+  border-radius: 4px;
+  background: #FD7702;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 600;
+ 
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FFFFFF;
+  text-align: center;
+  
   }

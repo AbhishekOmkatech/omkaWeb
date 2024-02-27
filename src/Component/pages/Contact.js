@@ -12,6 +12,8 @@ import Helmet from "react-helmet";
 import Footer from "./Footer";
 import GetInTounch from "./GetInTounch";
 import "../css/Inline.css";
+import ReCAPTCHA from 'react-google-recaptcha';
+
 const { REACT_APP_API_ENDPOINT } = process.env;
 const Contact = () => {
   $(document).ready(function () {
@@ -68,6 +70,7 @@ const Contact = () => {
   const [Price, setPrice] = useState("");
   const [Project, setProject] = useState("");
   const [Document, setDocument] = useState("");
+  const [captchaValue, setCaptchaValue] = useState(null);
 
 
 
@@ -112,6 +115,10 @@ const Contact = () => {
     setDocument("");
     setProject("");
   };
+  const handleCaptchaChange = (value) => {
+    console.log("Captcha value:", value);
+    setCaptchaValue(value);
+  }
 
 
   return (
@@ -135,22 +142,22 @@ const Contact = () => {
       >
         <div className="container" >
 
-        <div className="flag-container">
-                            <img src='../india.png' className="flag-icon" alt ="india"></img><span style={{ color: "white" }}>|</span>&nbsp;&nbsp;
-                            <img src='../us.png' className="flag-icon" alt ="US"></img><span style={{ color: "white" }}>|</span>&nbsp;&nbsp;
-                            <img src='../canda.png' className="flag-icon" alt ="Canda"></img>
-                        </div>
-                    <div className="row" id="gsss" >
+          <div className="flag-container">
+            <img src='../india.png' className="flag-icon" alt="india"></img><span style={{ color: "white" }}>|</span>&nbsp;&nbsp;
+            <img src='../us.png' className="flag-icon" alt="US"></img><span style={{ color: "white" }}>|</span>&nbsp;&nbsp;
+            <img src='../canda.png' className="flag-icon" alt="Canda"></img>
+          </div>
+          <div className="row" id="gsss" >
 
-                        <div className="col-5"></div>
-                        <div className="col-7">
-                            <a href="tel:+1 (786)648-29107"> <img src='../c.jpg' id="flag" alt="canda"></img>&nbsp;+1(786) 648-2910</a>&nbsp; |&nbsp;&nbsp;
-                            <a href="tel:+1 (437) 979-1504"><img src='../po.jpg' id="flag" alt="US"></img> &nbsp;+1 (437) 979-1504</a>&nbsp; |&nbsp;&nbsp;
+            <div className="col-5"></div>
+            <div className="col-7">
+              <a href="tel:+1 (786)648-29107"> <img src='../c.jpg' id="flag" alt="canda"></img>&nbsp;+1(786) 648-2910</a>&nbsp; |&nbsp;&nbsp;
+              <a href="tel:+1 (437) 979-1504"><img src='../po.jpg' id="flag" alt="US"></img> &nbsp;+1 (437) 979-1504</a>&nbsp; |&nbsp;&nbsp;
 
-                            <a href="tel:+91 9717511913"><img src='../in.jpg' id="flag" alt="india" ></img>&nbsp; +91 9717511913</a>
-                        </div>
+              <a href="tel:+91 9717511913"><img src='../in.jpg' id="flag" alt="india" ></img>&nbsp; +91 9717511913</a>
+            </div>
 
-                    </div>
+          </div>
         </div>
       </nav>
       <nav
@@ -190,7 +197,7 @@ const Contact = () => {
               }}
               rel="noopener noreferrer"
             >
-              {" "}
+
               <img
                 alt="Omka Tech logo"
                 src={Flogo}
@@ -326,7 +333,7 @@ const Contact = () => {
             &nbsp;&nbsp;&nbsp;
             <a href="/blog" className="nav-item nav-link" rel="noopener noreferrer">
               Blog
-            </a>{" "}
+            </a>
             &nbsp;&nbsp;&nbsp;
             <a
               href="/contact-us"
@@ -341,7 +348,7 @@ const Contact = () => {
                 type="button"
                 className="btn btn-primary active"
                 id="quote"
-                style={{ animation: "pulse 1.1s ease infinite", color: "white",borderRadius:"2px" }}
+                style={{ animation: "pulse 1.1s ease infinite", color: "white", borderRadius: "2px" }}
               >
                 Free 30-Min Consultation
               </button>
@@ -447,26 +454,26 @@ const Contact = () => {
                                   Select Service
                                 </option>
                                 <option value=" Web Development">
-                                  
+
                                   Website Development
                                 </option>
                                 <option value=" Mobile App Development">
-                                
+
                                   Mobile App Development
                                 </option>
                                 <option value=" Designing">
                                   Graphics & UI/UX
                                 </option>
                                 <option value="  Social Media Marketing">
-                                 
+
                                   Growth & Marketing
                                 </option>
                                 <option value=" Software Development">
-                                 
+
                                   Enterprise Software Solution
                                 </option>
                                 <option value="E-Commerce Web & App">
-                                  
+
                                   E-Commerce Web & App
                                 </option>
                               </select>
@@ -512,15 +519,23 @@ const Contact = () => {
                           <br />
                           <br />
                           <br />
+                          <div className="arrange " style={ {textAlign: "-webkitCenter",width:"100%"
+}} >
+                              <div style={{ width:"100%", height: "78px"   }} ><ReCAPTCHA
+                                sitekey="6Le5RX0pAAAAAPssR7cQeJT_xtjaqVxycMQ89cWc"
+                                onChange={handleCaptchaChange}
+                              /></div>
+                            </div>
+
                           <center>
-                            
+
                             <button
                               className="btn btn-primary rounded-pill py-3 px-5"
                               id="knowmore4"
-                           type="submit"
+                              type="submit"
                             >
 
-                             
+
                               <center id="homeKnow3" style={{ color: "white" }}>Submit Now</center>
 
                             </button>

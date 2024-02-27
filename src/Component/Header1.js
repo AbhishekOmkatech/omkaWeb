@@ -339,7 +339,7 @@ const Header1 = () => {
       <br />
       <Connect />
       <br />
-      {/* {why choose Us */}
+      {/* {why choose Us */}  
       <div className="container-xxl py-5">
         <div className="container">
           <div className="row g-5">

@@ -179,7 +179,8 @@ development"></link>
         className="navbar navbar-expand-md fixed-top navbar-dark py-lg-0 px-lg-5"
         data-wow-delay="0.1s" id="bottomNavbar" style={{ backgroundColor: "#F2F2F2", height: "80px" }}
       >
-        <a
+       
+       <a
           href="/"
           className="navbar-brand ms-3 d-lg-none"
           rel="noopener noreferrer"
@@ -190,15 +191,7 @@ development"></link>
             style={{ height: "40px", marginLeft: "-20px" }}
           ></img>
         </a>
-        <button
-          type="button"
-          className="
-          "
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarCollapse"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
+        
         <div className="collapse navbar-collapse" id="navbarCollapse">
           <div className="navbar-nav me-auto p-3 p-lg-0" >
             <a
@@ -491,14 +484,14 @@ in usa" />
             </h3>
           </div>
           <div className="row g-4">
-            {" "}
+            
             <div className="container">
               {/* 1 */}
               <div className="row align-items-center connecting-lines d-flex">
                 <div className="col-2 text-center bottom d-inline-flex justify-content-center align-items-center">
                   <div className="circle">
                     <i className="fa fa-chec">
-                      {" "}
+                     
                       <img src={req} alt="text"></img>
                     </i>
                   </div>

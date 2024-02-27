@@ -1,4 +1,5 @@
 import React, { useRef, useState } from "react";
+import ReCAPTCHA from 'react-google-recaptcha';
 import p11 from "../../images/i1.gif";
 import p2 from "../../images/i2.gif";
 import p3 from "../../images/i3.gif";
@@ -6,7 +7,7 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 const { REACT_APP_API_ENDPOINT } = process.env;
 const ContactForm = () => {
-  const navigate = useNavigate();
+  
   const selectedFile = useRef();
   const [Name, setName] = useState("");
   const [Email, setEmail] = useState("");
@@ -15,7 +16,12 @@ const ContactForm = () => {
   const [Service, setService] = useState("");
   const [Project, setProject] = useState("");
   const [Document, setDocument] = useState("");
+  const [captchaValue, setCaptchaValue] = useState(null);
+  const [showPopup, setShowPopup] = useState(false);
  
+ 
+
+
   
   const submitNow1 = (e) => {
     e.preventDefault(); // Prevent the form from submitting the traditional way.
@@ -49,7 +55,7 @@ const ContactForm = () => {
       .catch((error) => {
         // Handle network or other errors
       });
-
+      setShowPopup(true);
     setCode("");
     setName("");
     setEmail("");
@@ -58,15 +64,23 @@ const ContactForm = () => {
     setDocument("");
     setProject("");
     // alert("Thank you for reaching out. Our team will be in touch with you within 24 hours.");
-    alert("successfully submitted")
+    setCaptchaValue('');
+   
+  };
+  const handleCaptchaChange = (value) => {
+    console.log("Captcha value:", value);
+    setCaptchaValue(value);
+  }
+  
+  const handlePopupClose = () => {
+    setShowPopup(false);
   };
 
-
-
+ 
 
 
   return (
-    <div>
+    
       <div className="container-xxl py-5" style={{ marginTop: "-180px" }}>
         <div className="container">
           <div
@@ -162,30 +176,30 @@ const ContactForm = () => {
                                   Select Service
                                 </option>
                                 <option value="Web Development">
-                                  {" "}
+                                 
                                   Website Development
                                 </option>
                                 <option value="Mobile App Development">
-                                  {" "}
+                                  
                                   Mobile App Development
                                 </option>
                                 <option value="Designing">
                                   Graphics & UI/UX
                                 </option>
                                 <option value=" Social Media Marketing">
-                                  {" "}
+                                 
                                   Growth & Marketing
                                 </option>
                                 <option value="Software Development">
-                                  {" "}
+                                  
                                   Enterprise Software Solution
                                 </option>
                                 <option value="E-Commerce Web & App">
-                                  {" "}
+                                  
                                   E-Commerce Web & App
                                 </option>
                                 <option value="CMS DESIGN & DEVELOPMENT">
-                                  {" "}
+                                 
                                   CMS DESIGN & DEVELOPMENT
                                 </option>
                               </select>
@@ -222,9 +236,14 @@ const ContactForm = () => {
                               ></textarea>
                             </div>
                           </div>
-                        
                           <center>
-                            {" "}
+                          <ReCAPTCHA
+        sitekey="6Le5RX0pAAAAAPssR7cQeJT_xtjaqVxycMQ89cWc"
+        onChange={handleCaptchaChange}
+      />
+      </center>
+                          <center>
+                           
                             <button
                               className="btn btn-primary rounded-pill py-3 px-5"
                          type="submit"
@@ -235,19 +254,31 @@ const ContactForm = () => {
                               }}
                               rel="noopener noreferrer"
                               id="knowmore4"
-                            
+                              disabled={!captchaValue}
                             >
+
                               
-                                {" "}
-                                <center id="homeKnow3" style={{color:"white"}}>Submit Now</center>
-                            
+                                <center id="homeKnow3" style={{color:"white"}} >Submit Now</center>
+                                
                             </button>
                           </center>
+                          {showPopup && (
+           <div className="thank-you-page">
+           <h1 className="thank-you-text">Thank You!</h1>
+           <span className="main-text modal-sub-heading">Your details have been successfully submitted.</span>
+           <button className="thank-you-btn" onClick={handlePopupClose}>OK</button>
+         </div>
+         
+          )}
                         </div>
+                        
                       </div>
+                      
                     </div>
+                    
                   </div>
                   <br />
+                  
              
                   <div className="row">
                     <div className="col-md-4" id="conrow">
@@ -330,7 +361,7 @@ const ContactForm = () => {
           </form>
         </div>
       </div>
-    </div>
+ 
   );
 };
 
