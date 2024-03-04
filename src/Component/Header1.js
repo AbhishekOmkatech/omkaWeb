@@ -22,7 +22,7 @@ import ContactForm from "./pages/ContactForm";
 import GetInTouch from "./pages/GetInTounch";
 import "./css/Inline.css";
 import Tools from "./Tools";
-import HeadBlog from "./pages/Blog/HeadBlog";
+// import HeadBlog from "./pages/Blog/HeadBlog";
 import HeadNav from "./HeadNav";
 import Youtube from "./Youtube";
 import Connect from "./pages/Connect";
@@ -485,7 +485,7 @@ solutions to his clients" />
       </div>
       <br />
       <br />
-      <HeadBlog />
+      {/* <HeadBlog /> */}
       <br />
       <br />
       {/* conatct */}

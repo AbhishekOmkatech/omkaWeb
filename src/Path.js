@@ -37,7 +37,7 @@ import Blog2 from "./Component/pages/Blog/Blog2";
 
 import Tools from "./Component/Tools";
 import CMS from "./Component/pages/services/CMS";
-import HeadBlog from "./Component/pages/Blog/HeadBlog";
+// import HeadBlog from "./Component/pages/Blog/HeadBlog";
 import Job from "./Component/pages/Career/Job";
 import Thankyou from "./Component/pages/Thankyou";
 import Page404 from "./Component/pages/404Page";
@@ -143,7 +143,7 @@ function Path() {
           <Route exact path="/blog/top-reasons-why-strategies-fail" element={<Blog5 />}></Route>
           <Route exact path="/blog/the-art-of-branding:-understanding-the-7-types-of-Logos" element={<Blog6/>}></Route>
           <Route exact path="/tools" element={<Tools />}></Route>
-          <Route exact path="/headBlog" element={<HeadBlog />}></Route>
+          {/* <Route exact path="/headBlog" element={<HeadBlog />}></Route> */}
           <Route exact path="/careers" element={<Job />}></Route>
           <Route exact path="/thankyou" element={<Thankyou />}></Route>
           <Route exact path="/HeadNav" element={<HeadNav/>}></Route>

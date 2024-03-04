@@ -162,13 +162,13 @@ const HeadNav = () => {
                 >
                   Careers
                 </a>
-                <a
+                {/* <a
                   href="/Main"
                   className="dropdown-item"
                   rel="noopener noreferrer"
                 >
                   Case Study
-                </a>
+                </a> */}
               </div>
             </div>
             &nbsp;&nbsp;&nbsp;
@@ -248,9 +248,9 @@ const HeadNav = () => {
               Hire Resources
             </a>
             &nbsp;&nbsp;&nbsp;
-            <a href="/blog" className="nav-item nav-link" rel="noopener noreferrer">
+            {/* <a href="/blog" className="nav-item nav-link" rel="noopener noreferrer">
               Blog
-            </a>
+            </a> */}
             &nbsp;&nbsp;&nbsp;
             <a
               href="/contact-us"
