@@ -169,6 +169,7 @@ const HeadNav = () => {
                 >
                   Case Study
                 </a>
+                
               </div>
             </div>
             &nbsp;&nbsp;&nbsp;
