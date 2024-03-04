@@ -162,13 +162,13 @@ const HeadNav = () => {
                 >
                   Careers
                 </a>
-                {/* <a
+                <a
                   href="/Main"
                   className="dropdown-item"
                   rel="noopener noreferrer"
                 >
                   Case Study
-                </a> */}
+                </a>
               </div>
             </div>
             &nbsp;&nbsp;&nbsp;
