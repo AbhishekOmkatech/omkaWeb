@@ -269,7 +269,7 @@ const handlePopupClose = () => {
     //           OR CALL US AT - <br />
     //           <a href="tel:+91 9717511913"><img src='./india.png' id="flag" ></img> (IN)&nbsp; : +91 9717511913</a> <br/>
     //           <a href="tel:+1 (786) 648-29107"> <img src='./us.png' id="flag" ></img> (US) : +1 (786) 648-2910</a><br/>
-    //           <a href="tel:+1 (437) 979-1504"><img src='./canda.png' id="flag" ></img> (CA) : +1 (437) 979-1504</a><br/>
+    //           <a href="tel:+1 (437) 255-9950"><img src='./canda.png' id="flag" ></img> (CA) : +1 (437) 255-9950</a><br/>
     //         </h6> */}
     //       </fieldset>
     //     </form>

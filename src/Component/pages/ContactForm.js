@@ -296,7 +296,7 @@ const ContactForm = () => {
                             <span>INDIA &nbsp;&nbsp;: +91 (971) 7511 913</span>
                             <br />
                             <span>
-                              Canada : +1 (437) 979-1504
+                              Canada : +1 (437) 255-9950
                             </span><br/>
                             <span>
                               USA &nbsp; &nbsp;&nbsp;: &nbsp;+1 (786) 648-2910
